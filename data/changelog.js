@@ -1,5 +1,6 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
+{date:"2026-09-24",type:"dados",title:"CNES e SIDRA auditados",detail:"CNES e entradas do SIDRA receberam metadados metodológicos; títulos das bases agora abrem a ficha detalhada dentro do Radar."},
 {date:"2026-09-24",type:"dados",title:"Auditoria de continuidade elétrica",detail:"Interrupções de Energia e DEC/FEC da ANEEL receberam URLs específicas, cobertura temporal, granularidade, frequência, documentação, limitações e última checagem oficiais."},
 {date:"2026-09-24",type:"dados",title:"Primeira auditoria de metadados",detail:"OuvidorSUS, SISAGUA Pontos de Captação e Ocorrências Emergenciais da ANEEL receberam período, granularidade, documentação, limitações e última checagem confirmados em fontes oficiais."},
 {date:"2026-09-24",type:"arquitetura",title:"Dados modularizados",detail:"Oportunidades, pautas, bases e fontes foram separados em módulos independentes."},
