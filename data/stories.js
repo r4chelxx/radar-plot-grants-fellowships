@@ -1,0 +1,9 @@
+window.RADAR_PARTS=window.RADAR_PARTS||{};
+window.RADAR_PARTS.stories=[
+{id:"data-centers",title:"Data centers no semiárido baiano",status:"Apuração avançada",themes:["Clima","Energia","Água","IA/tech","Infraestrutura","Governança"],summary:"Investigação sobre expansão de data centers no semiárido baiano, infraestrutura, recursos e governança."},
+{id:"violencia-obstetrica",title:"Violência obstétrica na Bahia",status:"Apuração",themes:["Saúde","Gênero","Direitos humanos","Transparência","Dados"],summary:"Investigação sobre violência obstétrica, mortalidade, responsabilização e desigualdade na Bahia."},
+{id:"futebol",title:"Futebol feminino — Seleção",status:"Submetida ao Play the Game · execução",themes:["Esporte","Gênero","Dados","Visualização"],summary:"Projeto submetido ao Play the Game. Base própria, linha do tempo e narrativa visual sobre origem territorial e trajetória de convocadas da Seleção."},
+{id:"educacao",title:"Educação — CEP e oportunidades",status:"Rejeitada pela Jeduca · reanalisar destino",themes:["Educação","Desigualdade","Dados","Políticas públicas"],summary:"Projeto sobre desigualdade territorial e oportunidades educacionais. Rejeitado pela Jeduca; agora volta ao radar para identificar veículo, grant ou parceria compatível."},
+{id:"laudemio",title:"Laudêmio — Salvador",status:"Projeto multimídia em desenvolvimento",themes:["Território","Propriedade","Transparência","História","Dados","Visualização"],summary:"Projeto de visualização de dados multimídia sobre enfiteuse, laudêmio e transformação territorial em Salvador, com publicação prevista no PLOT."},
+{id:"evore",title:"Evore SAJ / médicos e processos",status:"Hipótese futura",themes:["Saúde","Justiça","Dados"],summary:"Hipótese de investigação. A existência de padrão de má conduta não está estabelecida e precisa ser testada documentalmente."}
+];
