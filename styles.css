@@ -7,3 +7,6 @@
 
 .datametrics{margin-top:28px}.sourcecoverage{display:grid;grid-template-columns:repeat(3,1fr);border:1px solid var(--line);background:var(--white)}.sourcecoverage div{padding:16px;border-right:1px solid var(--line)}.sourcecoverage div:last-child{border-right:0}.sourcecoverage b{display:block;font-size:30px}.sourcecoverage span{font-size:11px;text-transform:uppercase;color:var(--muted)}
 @media(max-width:800px){.sourcecoverage{grid-template-columns:1fr}.sourcecoverage div{border-right:0;border-bottom:1px solid var(--line)}.datametrics{grid-template-columns:1fr 1fr}.row h3 a{text-decoration-thickness:1px}}
+
+.qualitylist{margin-top:22px}.qualitymetrics{margin-bottom:22px}.warning.ok{border-left-color:var(--green)}.warning.danger{border-left-color:var(--pink)}.qualitylist .row{grid-template-columns:1fr .6fr 1.5fr .1fr}
+@media(max-width:800px){.qualitylist .row{grid-template-columns:1fr}.qualitylist .row>div:empty{display:none}}
