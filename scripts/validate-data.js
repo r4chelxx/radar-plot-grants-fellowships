@@ -30,9 +30,10 @@ for(const o of opps){
 const sourceNames=new Set();
 for(const s of D.sources||[]){
   if(!s.name) errors.push("source: missing name"); else if(sourceNames.has(s.name)) errors.push("source "+s.name+": duplicate name"); else sourceNames.add(s.name);
-  for(const k of ["type","scope","priority","cadence","category"]) if(!s[k]) errors.push("source "+(s.name||"?")+": missing "+k);
+  for(const k of ["type","scope","priority","cadence","category","lastChecked"]) if(!s[k]) errors.push("source "+(s.name||"?")+": missing "+k);
   if(s.url&&!/^https?:\/\//.test(s.url)) errors.push("source "+s.name+": invalid URL");
   if(!["diária","semanal","quinzenal","mensal"].includes(s.cadence)) errors.push("source "+s.name+": invalid cadence "+s.cadence);
+  if(s.lastChecked&&!dateRx.test(s.lastChecked)) errors.push("source "+s.name+": invalid lastChecked");
 }
 const dseen=new Set();
 for(const d of datasets){
@@ -42,7 +43,7 @@ for(const d of datasets){
   for(const k of ["period","granularity","geoUnit","docs","lastChecked"]) if(!d[k]) warnings.push("dataset "+d.id+": pending "+k);
 }
 console.log("Radar PLOT validation");
-console.log("Checked:",opps.length,"opportunities,",stories.length,"stories,",datasets.length,"data records");
+console.log("Checked:",opps.length,"opportunities,",stories.length,"stories,",datasets.length,"data records,",(D.sources||[]).length,"sources");
 console.log("Errors:",errors.length,"Warnings:",warnings.length);
 if(warnings.length) console.log("\nWARNINGS\n"+warnings.map(x=>" - "+x).join("\n"));
 if(errors.length){console.error("\nERRORS\n"+errors.map(x=>" - "+x).join("\n"));process.exit(1)}
