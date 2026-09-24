@@ -1,5 +1,6 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
+{date:"2026-09-24",type:"fontes",title:"Checagem de fontes separada das oportunidades",detail:"Cada fonte passou a ter estado e data próprios de monitoramento. O painel agora identifica fontes cuja checagem venceu pela cadência definida, sem confundir isso com a data de verificação de uma oportunidade."},
 {date:"2026-09-24",type:"fontes",title:"Fontes ganham cadência e eixo de cobertura",detail:"As fontes monitoradas foram convertidas para registros estruturados com prioridade, frequência recomendada e categoria de cobertura; o validador agora checa também esse módulo."},
 {date:"2026-09-24",type:"produto",title:"Inteligência de fontes restaurada",detail:"Metodologia agora mostra cobertura das fontes, prioridades, fontes com oportunidades associadas e data da última verificação relacionada; uma regressão de sintaxe na ficha de bases também foi corrigida."},
 {date:"2026-09-24",type:"dados",title:"ONS: constrained-off solar incorporado",detail:"O Radar passou a acompanhar separadamente os conjuntos de restrição de operação fotovoltaica do ONS, incluindo a versão detalhada por usina, com documentação e ressalva de revisão recorrente dos dados."},
