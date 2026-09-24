@@ -37,10 +37,13 @@ for(const s of D.sources||[]){
 }
 const dseen=new Set();
 for(const d of datasets){
+  const kinds=["dataset","portal","catalog","system","curated-source"];
   if(!d.id) errors.push("dataset: missing id"); else if(dseen.has(d.id)) errors.push("dataset "+d.id+": duplicate id"); else dseen.add(d.id);
+  if(!d.kind||!kinds.includes(d.kind)) errors.push("dataset "+d.id+": invalid or missing kind");
   if(!d.url||!/^https?:\/\//.test(d.url)) errors.push("dataset "+d.id+": invalid URL");
   for(const s of d.story||[]) if(!storyIds.has(s)) errors.push("dataset "+d.id+": unknown story "+s);
-  for(const k of ["period","granularity","geoUnit","docs","lastChecked"]) if(!d[k]) warnings.push("dataset "+d.id+": pending "+k);
+  const required=d.kind==="dataset"?["period","granularity","geoUnit","docs","lastChecked"]:d.kind==="system"?["docs","lastChecked"]:["docs","limitations","lastChecked"];
+  for(const k of required) if(!d[k]) warnings.push("dataset "+d.id+": pending "+k);
 }
 console.log("Radar PLOT validation");
 console.log("Checked:",opps.length,"opportunities,",stories.length,"stories,",datasets.length,"data records,",(D.sources||[]).length,"sources");
