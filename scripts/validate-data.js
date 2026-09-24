@@ -27,6 +27,13 @@ for(const o of opps){
   for(const s of o.story||[]) if(!storyIds.has(s)) errors.push("opportunity "+o.id+": unknown story "+s);
   if(!o.summary) warnings.push("opportunity "+o.id+": missing editorial summary");
 }
+const sourceNames=new Set();
+for(const s of D.sources||[]){
+  if(!s.name) errors.push("source: missing name"); else if(sourceNames.has(s.name)) errors.push("source "+s.name+": duplicate name"); else sourceNames.add(s.name);
+  for(const k of ["type","scope","priority","cadence","category"]) if(!s[k]) errors.push("source "+(s.name||"?")+": missing "+k);
+  if(s.url&&!/^https?:\/\//.test(s.url)) errors.push("source "+s.name+": invalid URL");
+  if(!["diária","semanal","quinzenal","mensal"].includes(s.cadence)) errors.push("source "+s.name+": invalid cadence "+s.cadence);
+}
 const dseen=new Set();
 for(const d of datasets){
   if(!d.id) errors.push("dataset: missing id"); else if(dseen.has(d.id)) errors.push("dataset "+d.id+": duplicate id"); else dseen.add(d.id);
