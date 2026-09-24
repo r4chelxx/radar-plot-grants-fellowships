@@ -1,5 +1,6 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
+{date:"2026-09-24",type:"dados",title:"Auditoria de continuidade elétrica",detail:"Interrupções de Energia e DEC/FEC da ANEEL receberam URLs específicas, cobertura temporal, granularidade, frequência, documentação, limitações e última checagem oficiais."},
 {date:"2026-09-24",type:"dados",title:"Primeira auditoria de metadados",detail:"OuvidorSUS, SISAGUA Pontos de Captação e Ocorrências Emergenciais da ANEEL receberam período, granularidade, documentação, limitações e última checagem confirmados em fontes oficiais."},
 {date:"2026-09-24",type:"arquitetura",title:"Dados modularizados",detail:"Oportunidades, pautas, bases e fontes foram separados em módulos independentes."},
 {date:"2026-09-24",type:"produto",title:"Controle de qualidade",detail:"Validação estrutural passou a checar IDs, datas, URLs, relações entre registros e metadados pendentes."},
