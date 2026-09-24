@@ -1,5 +1,6 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
+{date:"2026-09-24",type:"produto",title:"Inteligência de fontes restaurada",detail:"Metodologia agora mostra cobertura das fontes, prioridades, fontes com oportunidades associadas e data da última verificação relacionada; uma regressão de sintaxe na ficha de bases também foi corrigida."},
 {date:"2026-09-24",type:"dados",title:"ONS: constrained-off solar incorporado",detail:"O Radar passou a acompanhar separadamente os conjuntos de restrição de operação fotovoltaica do ONS, incluindo a versão detalhada por usina, com documentação e ressalva de revisão recorrente dos dados."},
 {date:"2026-09-24",type:"qualidade",title:"Validação antes da publicação",detail:"O repositório ganhou um validador executável e GitHub Actions: erros estruturais, IDs, relações, URLs, datas e chaves duplicadas passam a ser checados automaticamente em alterações de dados."},
 {date:"2026-09-24",type:"dados",title:"CNES e SIDRA auditados",detail:"CNES e entradas do SIDRA receberam metadados metodológicos; títulos das bases agora abrem a ficha detalhada dentro do Radar."},
