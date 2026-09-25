@@ -33,3 +33,8 @@
 @media(max-width:800px){.submissionform{grid-template-columns:1fr}.submissionrow{align-items:flex-start;flex-direction:column}}
 
 .storymetrics{margin-bottom:18px}.storytoolbar{margin-bottom:8px}.storyhistorymini{font-size:11px;color:var(--muted);border-top:1px solid var(--line);padding-top:8px;margin:10px 0}.storycard .estate{margin-left:4px}
+
+.pipelineintro{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:18px 0 26px}.executionpipeline{grid-template-columns:repeat(4,1fr)}
+.calgroup h2{font-size:22px;margin-top:32px}.calgroup:first-of-type h2{margin-top:20px}
+.storysummarystrip{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin:24px 0}.storysummarystrip span{padding:12px;border-right:1px solid var(--line);font-size:11px;text-transform:uppercase;color:var(--muted)}.storysummarystrip span:last-child{border-right:0}.storysummarystrip b{font-size:22px;color:var(--ink);display:block}
+@media(max-width:800px){.executionpipeline{grid-template-columns:1fr}.storysummarystrip{grid-template-columns:1fr}.storysummarystrip span{border-right:0;border-bottom:1px solid var(--line)}}
