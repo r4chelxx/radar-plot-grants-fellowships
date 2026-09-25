@@ -11,8 +11,8 @@ window.RADAR_PARTS.investigations={
    {id:"comite",label:"Comitê e vigilância da mortalidade",status:"em_apuracao",evidence:["Frentes DIVEP/CEPOIF e pedidos de informação ainda têm lacunas"],sources:[]}
   ],
   sources:[
-   {id:"vo-sesab-respostas",name:"SESAB — dados recebidos na apuração",type:"LAI / planilhas oficiais",status:"usada",detail:"Óbitos maternos, fetais e neonatais recebidos no curso da apuração. Não confundir com obtenção direta de SIM/SINASC."},
-   {id:"vo-mpba-cesau",name:"MP-BA / CESAU — resposta institucional",type:"Resposta oficial",status:"usada",detail:"Resposta sobre procedimentos e limites de centralização do MP-BA."},
+   {id:"vo-sesab-respostas",dataset:"plot-vo-sesab-recebidos",name:"SESAB — dados recebidos na apuração",type:"LAI / planilhas oficiais",status:"usada",detail:"Óbitos maternos, fetais e neonatais recebidos no curso da apuração. Não confundir com obtenção direta de SIM/SINASC."},
+   {id:"vo-mpba-cesau",dataset:"plot-vo-mpba-cesau",name:"MP-BA / CESAU — resposta institucional",type:"Resposta oficial",status:"usada",detail:"Resposta sobre procedimentos e limites de centralização do MP-BA."},
    {id:"vo-sim-sinasc",name:"SIM / SINASC",type:"Bases públicas",status:"nao_obtida",detail:"Levantadas como fontes possíveis, mas não registrar como dados obtidos nesta investigação."}
   ]
  },
@@ -29,11 +29,11 @@ window.RADAR_PARTS.investigations={
    {id:"trabalho",label:"Empregos e efeitos econômicos",status:"em_apuracao",evidence:["Empregos permanentes e cadeia econômica são hipóteses de verificação, não conclusão fechada"],sources:["dc-delano"]}
   ],
   sources:[
-   {id:"dc-base-propria",name:"PLOT. — base própria de data centers no semiárido baiano",type:"Base própria",status:"usada",detail:"Empreendimentos, empresas, municípios, atos e variáveis documentais consolidados durante a apuração."},
-   {id:"dc-aneel-atos",name:"ANEEL/MME — atos e registros regulatórios",type:"Documentos e sistemas oficiais",status:"usada",detail:"Inclui atos usados na verificação de geração, conexão e infraestrutura; preservar divergências entre documentos."},
-   {id:"dc-ana",name:"ANA / SNIRH",type:"Sistemas oficiais",status:"usada",detail:"Fontes hídricas incorporadas à frente de água; cada extração deve preservar produto e variável utilizados."},
-   {id:"dc-inema",name:"INEMA / SEIA",type:"Processos, atos e sistemas oficiais",status:"usada",detail:"Licenciamento, outorga e documentação ambiental consultados como frente ativa."},
-   {id:"dc-delano",name:"Entrevista com Delano — energia e sistema elétrico",type:"Entrevista técnica",status:"usada",detail:"Fonte técnica para geração renovável, transmissão, grandes cargas e curtailment; orienta documentos a buscar e não prova fatos específicos dos projetos."}
+   {id:"dc-base-propria",dataset:"plot-datacenters-base",name:"PLOT. — base própria de data centers no semiárido baiano",type:"Base própria",status:"usada",detail:"Empreendimentos, empresas, municípios, atos e variáveis documentais consolidados durante a apuração."},
+   {id:"dc-aneel-atos",dataset:"datacenters-aneel-mme-atos",name:"ANEEL/MME — atos e registros regulatórios",type:"Documentos e sistemas oficiais",status:"usada",detail:"Inclui atos usados na verificação de geração, conexão e infraestrutura; preservar divergências entre documentos."},
+   {id:"dc-ana",dataset:"ana-snirh-usos-agua",name:"ANA / SNIRH",type:"Sistemas oficiais",status:"usada",detail:"Fontes hídricas incorporadas à frente de água; cada extração deve preservar produto e variável utilizados."},
+   {id:"dc-inema",dataset:"seia-bahia",name:"INEMA / SEIA",type:"Processos, atos e sistemas oficiais",status:"usada",detail:"Licenciamento, outorga e documentação ambiental consultados como frente ativa."},
+   {id:"dc-delano",dataset:"plot-datacenters-delano",name:"Entrevista com Delano — energia e sistema elétrico",type:"Entrevista técnica",status:"usada",detail:"Fonte técnica para geração renovável, transmissão, grandes cargas e curtailment; orienta documentos a buscar e não prova fatos específicos dos projetos."}
   ]
  },
  "futebol":{
@@ -47,8 +47,8 @@ window.RADAR_PARTS.investigations={
    {id:"estrutura",label:"Estrutura, investimento e desigualdades",status:"em_apuracao",evidence:["Cruzar circulação de atletas, clubes, competições, calendário, audiência e investimento permanece como frente investigativa"],sources:["fut-base-propria"]}
   ],
   sources:[
-   {id:"fut-base-propria",name:"PLOT. — base própria do futebol feminino",type:"Base própria",status:"usada",detail:"Convocações, atletas, carreiras, clubes, competições, linha do tempo, fontes e controle de verificação."},
-   {id:"fut-cbf",name:"CBF — convocações oficiais da Seleção Brasileira Feminina",type:"Fonte primária",status:"usada",detail:"Fonte primária para auditoria das convocações e composição dos eventos no recorte 2020–22/08/2026."}
+   {id:"fut-base-propria",dataset:"plot-futebol-base",name:"PLOT. — base própria do futebol feminino",type:"Base própria",status:"usada",detail:"Convocações, atletas, carreiras, clubes, competições, linha do tempo, fontes e controle de verificação."},
+   {id:"fut-cbf",dataset:"cbf-convocacoes-feminina",name:"CBF — convocações oficiais da Seleção Brasileira Feminina",type:"Fonte primária",status:"usada",detail:"Fonte primária para auditoria das convocações e composição dos eventos no recorte 2020–22/08/2026."}
   ]
  },
  "educacao":{
@@ -61,7 +61,7 @@ window.RADAR_PARTS.investigations={
    {id:"indicadores",label:"Indicadores de infraestrutura e oportunidades",status:"planejado",evidence:["IDEB, docentes, biblioteca, laboratório, internet, quadra, climatização, integral e AEE foram variáveis cogitadas"],sources:[]}
   ],
   sources:[
-   {id:"edu-pitch",name:"PLOT. — pauta CEP-escola / submissão Jeduca",type:"Documento editorial",status:"usada",detail:"Define recorte, hipótese e método proposto; não equivale a base de dados já analisada."}
+   {id:"edu-pitch",dataset:"plot-educacao-cep-escola",name:"PLOT. — pauta CEP-escola / submissão Jeduca",type:"Documento editorial",status:"usada",detail:"Define recorte, hipótese e método proposto; não equivale a base de dados já analisada."}
   ]
  },
  "laudemio":{
@@ -75,8 +75,8 @@ window.RADAR_PARTS.investigations={
    {id:"temporal",label:"Transformação temporal observável",status:"planejado",evidence:["Comparação temporal por cartografia/imagens históricas foi definida como próxima versão; ferramentas cogitadas não devem ser marcadas como usadas sem comprovação"],sources:[]}
   ],
   sources:[
-   {id:"lau-matriculas",name:"Registros de imóveis — matrículas já incorporadas à apuração",type:"Documentos registrais",status:"usada",detail:"Inclui 16.511, 16.505, 2.887, 49.294, 42.177, 36.058, 27.165, 23.991 e 19.258 (matrícula-mãe a investigar)."},
-   {id:"lau-apeb",name:"APEB — códices de aforamentos",type:"Fonte arquivística",status:"usada",detail:"Referências registradas: Códice 158, fls. 11 e 24; Códice 165, f. 64; Códice 347 com páginas ainda a identificar."}
+   {id:"lau-matriculas",dataset:"plot-laudemio-matriculas",name:"Registros de imóveis — matrículas já incorporadas à apuração",type:"Documentos registrais",status:"usada",detail:"Inclui 16.511, 16.505, 2.887, 49.294, 42.177, 36.058, 27.165, 23.991 e 19.258 (matrícula-mãe a investigar)."},
+   {id:"lau-apeb",dataset:"apeb-aforamentos-codices",name:"APEB — códices de aforamentos",type:"Fonte arquivística",status:"usada",detail:"Referências registradas: Códice 158, fls. 11 e 24; Códice 165, f. 64; Códice 347 com páginas ainda a identificar."}
   ]
  }
 };
