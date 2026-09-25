@@ -1,4 +1,4 @@
-const D=window.RADAR,app=document.querySelector("#app"),TODAY=new Date("2026-09-24T12:00:00-03:00");
+const D=window.RADAR,app=document.querySelector("#app"),TODAY=new Date();
 const fmt=d=>d?new Intl.DateTimeFormat("pt-BR").format(new Date(d+"T12:00:00")):"—",opp=id=>D.opportunities.find(x=>x.id===id),story=id=>D.stories.find(x=>x.id===id),route=()=>location.hash.slice(1)||"visao";
 const days=(a,b=TODAY)=>Math.round((new Date(a+"T12:00:00")-b)/864e5),age=o=>o.verified?Math.max(0,-days(o.verified)):null;
 function action(o){if(["encerrada","descartada"].includes(o.status)||o.eligibility==="inelegível")return"nenhuma ação";if(o.eligibility==="parcial")return"buscar parceria";if(o.eligibility==="verificar")return"pendente de confirmação";if(o.status==="preparar")return"preparar";if(o.status==="monitorar")return"monitorar";if(o.deadlineStatus?.includes("futura")||o.deadlineStatus?.includes("abre_"))return"aguardar abertura";return"avaliar/aplicar"}
