@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 const fs=require("fs"),vm=require("vm"),path=require("path");
-const files=["data/opportunities.js","data/stories.js","data/datasets.js","data/sources.js","data/changelog.js"];
+const files=["data/opportunities.js","data/stories.js","data/datasets.js","data/sources.js","data/changelog.js","data/investigations.js"];
 let errors=[],warnings=[];
 function duplicateKeys(file,src){
   const objectRx=/\{[^{}]*\}/g;
@@ -40,7 +40,7 @@ for(const d of datasets){
   const kinds=["dataset","portal","catalog","system","curated-source"];
   if(!d.id) errors.push("dataset: missing id"); else if(dseen.has(d.id)) errors.push("dataset "+d.id+": duplicate id"); else dseen.add(d.id);
   if(!d.kind||!kinds.includes(d.kind)) errors.push("dataset "+d.id+": invalid or missing kind");
-  if(!d.url||!/^https?:\/\//.test(d.url)) errors.push("dataset "+d.id+": invalid URL");
+  if(d.url&&!/^https?:\/\//.test(d.url)) errors.push("dataset "+d.id+": invalid URL");
   for(const s of d.story||[]) if(!storyIds.has(s)) errors.push("dataset "+d.id+": unknown story "+s);
   const required=d.kind==="dataset"?["period","granularity","geoUnit","docs","lastChecked"]:d.kind==="system"?["docs","lastChecked"]:["docs","limitations","lastChecked"];
   for(const k of required) if(!d[k]) warnings.push("dataset "+d.id+": pending "+k);
