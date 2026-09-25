@@ -10,3 +10,5 @@
 
 .qualitylist{margin-top:22px}.qualitymetrics{margin-bottom:22px}.warning.ok{border-left-color:var(--green)}.warning.danger{border-left-color:var(--pink)}.qualitylist .row{grid-template-columns:1fr .6fr 1.5fr .1fr}
 @media(max-width:800px){.qualitylist .row{grid-template-columns:1fr}.qualitylist .row>div:empty{display:none}}
+
+.datatoolbar{margin-top:26px}.datatoolbar select{max-width:230px}.dataresultcount{margin:-8px 0 16px;text-align:right}.datatoolbar input{min-width:300px}@media(max-width:800px){.datatoolbar{display:grid;grid-template-columns:1fr 1fr}.datatoolbar input{grid-column:1/-1;min-width:0}.datatoolbar select{max-width:none;width:100%}.dataresultcount{text-align:left}}
