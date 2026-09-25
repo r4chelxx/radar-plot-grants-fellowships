@@ -1,5 +1,8 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
+{date:"2026-09-25",type:"nova-oportunidade",title:"CTRL+J Research Hub 2026",detail:"Nova oportunidade verificada: programa para pesquisadores e profissionais da América Latina sobre jornalismo, tecnologia e políticas públicas; prazo 30/09 e honorário de US$1.000."},
+{date:"2026-09-25",type:"oportunidade",title:"Atualização diária de prazos",detail:"Chamadas com prazo em 24/09 foram movidas para encerradas. CTRL+J Microgrants entrou em monitoramento."},
+
 {date:"2026-09-25",type:"oportunidade",title:"Fila de elegibilidade pendente zerada",detail:"Os últimos registros em “pendente de confirmação” foram resolvidos. Allard Pierson 2027 foi arquivada pelo requisito de mestrado concluído; registros já descartados/encerrados também tiveram a elegibilidade normalizada."},
 {date:"2026-09-25",type:"oportunidade",title:"Auditoria de elegibilidade reduz pendências",detail:"FAPESP CEPID BRIDGE JC-IV foi arquivada por requisitos incompatíveis com o perfil atual; USC Data Fellowship 2026 também saiu do pipeline acionável. O estágio genérico “verificar elegibilidade” foi substituído por “pendente de confirmação”."},
 {date:"2026-09-25",type:"dados",title:"Salvador e cartografia baiana entram no catálogo",detail:"Dados & Bases ganhou Transparência Salvador, Geo Negócios e serviços geoespaciais da SEI, incluindo regionalizações, localidades e divisão político-administrativa. As entradas preservam limitações e diferenciam portais, sistemas e datasets."},
