@@ -10,7 +10,7 @@ on:
       - "scripts/check-links.js"
       - ".github/workflows/audit-links.yml"
 permissions:
-  contents: read
+  contents: write
 jobs:
   audit-links:
     runs-on: ubuntu-latest
@@ -20,7 +20,21 @@ jobs:
         with:
           node-version: "22"
       - name: Audit URLs
+        id: audit
+        continue-on-error: true
         run: node scripts/check-links.js
+      - name: Publish latest audit report
+        if: always()
+        run: |
+          mkdir -p audit
+          cp link-audit.json audit/link-audit-latest.json
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add audit/link-audit-latest.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Audit: refresh link report [skip ci]"
+            git push
+          fi
       - name: Upload audit report
         if: always()
         uses: actions/upload-artifact@v4
@@ -28,3 +42,6 @@ jobs:
           name: radar-link-audit
           path: link-audit.json
           if-no-files-found: ignore
+      - name: Fail on confirmed broken links
+        if: steps.audit.outcome == 'failure'
+        run: exit 1
