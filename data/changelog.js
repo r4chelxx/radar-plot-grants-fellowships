@@ -1,5 +1,6 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
+{date:"2026-09-25",type:"dados",title:"Salvador e cartografia baiana entram no catálogo",detail:"Dados & Bases ganhou Transparência Salvador, Geo Negócios e serviços geoespaciais da SEI, incluindo regionalizações, localidades e divisão político-administrativa. As entradas preservam limitações e diferenciam portais, sistemas e datasets."},
 {date:"2026-09-24",type:"produto",title:"Visão Geral passa a priorizar decisões editoriais",detail:"Sinais internos de manutenção saíram da home. Novidades só aparecem ali quando forem registradas como mudanças de oportunidade; Qualidade e Mudanças técnicas foram incorporadas à Metodologia, que ganhou uma seção dedicada ao uso de IA."},
 {date:"2026-09-24",type:"produto",title:"Fila de monitoramento de fontes",detail:"Fontes com checagem vencida agora formam uma fila automática, ordenada pelo atraso relativo à cadência e pela prioridade editorial, com acesso direto à fonte ou indicação de checagem via Gmail."},
 {date:"2026-09-24",type:"fontes",title:"Checagem de fontes separada das oportunidades",detail:"Cada fonte passou a ter estado e data próprios de monitoramento. O painel agora identifica fontes cuja checagem venceu pela cadência definida, sem confundir isso com a data de verificação de uma oportunidade."},
