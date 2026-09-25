@@ -17,7 +17,14 @@ for(const file of files){
   try{vm.runInContext(src,ctx,{filename:file})}catch(e){errors.push(file+": JavaScript parse/runtime error: "+e.message)}
 }
 const D=ctx.window.RADAR_PARTS, opps=D.opportunities||[], stories=D.stories||[], datasets=D.datasets||[];
-const storyIds=new Set(stories.map(x=>x.id)), seen=new Set(), dateRx=/^\d{4}-\d{2}-\d{2}$/;
+const storyIds=new Set(), seenStory=new Set(), dateRx=/^\d{4}-\d{2}-\d{2}$/;
+for(const [si,s] of stories.entries()){
+  if(!s){errors.push("stories array: empty item at index "+si);continue}
+  if(!s.id) errors.push("story: missing id"); else if(seenStory.has(s.id)) errors.push("story "+s.id+": duplicate id"); else {seenStory.add(s.id);storyIds.add(s.id)}
+  for(const k of ["title","summary","status"]) if(!s[k]) warnings.push("story "+(s.id||"?")+": missing "+k);
+  if(!Array.isArray(s.themes)||!s.themes.length) warnings.push("story "+(s.id||"?")+": missing themes");
+}
+const seen=new Set();
 for(const o of opps){
   if(!o.id) errors.push("opportunity: missing id"); else if(seen.has(o.id)) errors.push("opportunity "+o.id+": duplicate id"); else seen.add(o.id);
   for(const k of ["title","org","type","scope","status","eligibility"]) if(!o[k]) errors.push("opportunity "+(o.id||"?")+": missing "+k);
@@ -45,6 +52,26 @@ for(const [di,d] of datasets.entries()){
   for(const s of d.story||[]) if(!storyIds.has(s)) errors.push("dataset "+d.id+": unknown story "+s);
   const required=d.kind==="dataset"?["period","granularity","geoUnit","docs","lastChecked"]:d.kind==="system"?["docs","lastChecked"]:["docs","limitations","lastChecked"];
   for(const k of required) if(!d[k]) warnings.push("dataset "+d.id+": pending "+k);
+}
+const changes=D.changelog||[], changeSeen=new Set();
+for(const [ci,x] of changes.entries()){
+  if(!x){errors.push("changelog array: empty item at index "+ci);continue}
+  for(const k of ["date","type","title","detail"]) if(!x[k]) warnings.push("changelog item "+ci+": missing "+k);
+  if(x.date&&!dateRx.test(x.date)) errors.push("changelog item "+ci+": invalid date");
+  const key=[x.date,x.type,x.title,x.detail].join("|");
+  if(changeSeen.has(key)) errors.push("changelog: exact duplicate "+(x.title||ci)); else changeSeen.add(key);
+}
+const investigations=D.investigations||{};
+for(const [storyId,inv] of Object.entries(investigations)){
+  if(!storyIds.has(storyId)) errors.push("investigation "+storyId+": unknown story");
+  const sourceIds=new Set();
+  for(const src of inv.sources||[]){
+    if(!src.id) errors.push("investigation "+storyId+": source missing id");
+    else if(sourceIds.has(src.id)) errors.push("investigation "+storyId+": duplicate source "+src.id);
+    else sourceIds.add(src.id);
+    if(src.dataset&&!dseen.has(src.dataset)) errors.push("investigation "+storyId+": unknown dataset "+src.dataset);
+  }
+  for(const stage of inv.stages||[]) for(const sid of stage.sources||[]) if(!sourceIds.has(sid)) errors.push("investigation "+storyId+": stage references unknown source "+sid);
 }
 console.log("Radar PLOT validation");
 console.log("Checked:",opps.length,"opportunities,",stories.length,"stories,",datasets.length,"data records,",(D.sources||[]).length,"sources");
