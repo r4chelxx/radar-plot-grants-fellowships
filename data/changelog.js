@@ -1,5 +1,6 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
+{date:"2026-09-25",type:"arquitetura",title:"Origem e classificação dos achados",detail:"Fontes monitoradas, itens descobertos e ferramentas passam a ser tratados separadamente. Associação de itens às fontes exige proveniência explícita; newsletter não entra como base de dados."},
 {date:"2026-09-25",type:"nova-oportunidade",title:"CTRL+J Research Hub 2026",detail:"Nova oportunidade verificada: programa para pesquisadores e profissionais da América Latina sobre jornalismo, tecnologia e políticas públicas; prazo 30/09 e honorário de US$1.000."},
 {date:"2026-09-25",type:"oportunidade",title:"Atualização diária de prazos",detail:"Chamadas com prazo em 24/09 foram movidas para encerradas. CTRL+J Microgrants entrou em monitoramento."},
 

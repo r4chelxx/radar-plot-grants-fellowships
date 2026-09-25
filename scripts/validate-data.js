@@ -42,6 +42,13 @@ for(const s of D.sources||[]){
   if(!["diária","semanal","quinzenal","mensal"].includes(s.cadence)) errors.push("source "+s.name+": invalid cadence "+s.cadence);
   if(s.lastChecked&&!dateRx.test(s.lastChecked)) errors.push("source "+s.name+": invalid lastChecked");
 }
+// Discovery provenance is explicit. A publisher name or newsletter mention does not prove origin.
+for(const item of [...opps,...datasets]){
+  if(item.discoveredVia!==undefined && (!Array.isArray(item.discoveredVia)||item.discoveredVia.some(name=>!sourceNames.has(name)))) errors.push((item.id||"item")+": discoveredVia must reference monitored source names");
+}
+for(const d of datasets){
+  if(/quantum of sollazzo|datawrapper/i.test(d.name||"")) errors.push("dataset "+d.id+": newsletter or tool cannot be catalogued as data");
+}
 const dseen=new Set();
 for(const [di,d] of datasets.entries()){
   if(!d){errors.push("dataset array: empty item at index "+di);continue}
