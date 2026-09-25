@@ -5,6 +5,10 @@ on:
     branches: [main]
     paths:
       - "data/**"
+      - "app.js"
+      - "data.js"
+      - "app.js"
+      - "data.js"
       - "scripts/validate-data.js"
       - ".github/workflows/validate-data.yml"
   pull_request:
@@ -23,5 +27,10 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: "22"
+      - name: Check JavaScript syntax
+        run: |
+          node --check app.js
+          node --check data.js
+          for file in data/*.js; do node --check "$file"; done
       - name: Validate Radar records
         run: node scripts/validate-data.js
