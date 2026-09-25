@@ -1,5 +1,6 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
+{date:"2026-09-25",type:"oportunidade",title:"Auditoria de elegibilidade reduz pendências",detail:"FAPESP CEPID BRIDGE JC-IV foi arquivada por requisitos incompatíveis com o perfil atual; USC Data Fellowship 2026 também saiu do pipeline acionável. O estágio genérico “verificar elegibilidade” foi substituído por “pendente de confirmação”."},
 {date:"2026-09-25",type:"dados",title:"Salvador e cartografia baiana entram no catálogo",detail:"Dados & Bases ganhou Transparência Salvador, Geo Negócios e serviços geoespaciais da SEI, incluindo regionalizações, localidades e divisão político-administrativa. As entradas preservam limitações e diferenciam portais, sistemas e datasets."},
 {date:"2026-09-24",type:"produto",title:"Visão Geral passa a priorizar decisões editoriais",detail:"Sinais internos de manutenção saíram da home. Novidades só aparecem ali quando forem registradas como mudanças de oportunidade; Qualidade e Mudanças técnicas foram incorporadas à Metodologia, que ganhou uma seção dedicada ao uso de IA."},
 {date:"2026-09-24",type:"produto",title:"Fila de monitoramento de fontes",detail:"Fontes com checagem vencida agora formam uma fila automática, ordenada pelo atraso relativo à cadência e pela prioridade editorial, com acesso direto à fonte ou indicação de checagem via Gmail."},
