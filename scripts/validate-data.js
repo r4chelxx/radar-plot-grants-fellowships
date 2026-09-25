@@ -48,6 +48,7 @@ for(const [di,d] of datasets.entries()){
   const kinds=["dataset","portal","catalog","system","curated-source"];
   if(!d.id) errors.push("dataset: missing id"); else if(dseen.has(d.id)) errors.push("dataset "+d.id+": duplicate id"); else dseen.add(d.id);
   if(!d.kind||!kinds.includes(d.kind)) errors.push("dataset "+d.id+": invalid or missing kind");
+  if(!["Salvador","Bahia","Brasil","Outros"].includes(d.territoryTier)) errors.push("dataset "+d.id+": invalid or missing territoryTier");
   if(d.url&&!/^https?:\/\//.test(d.url)) errors.push("dataset "+d.id+": invalid URL");
   for(const s of d.story||[]) if(!storyIds.has(s)) errors.push("dataset "+d.id+": unknown story "+s);
   const required=d.kind==="dataset"?["period","granularity","geoUnit","docs","lastChecked"]:d.kind==="system"?["docs","lastChecked"]:["docs","limitations","lastChecked"];
