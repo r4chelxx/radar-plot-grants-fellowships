@@ -1,0 +1,30 @@
+name: Audit Radar links
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "data/opportunities.js"
+      - "data/datasets.js"
+      - "data/sources.js"
+      - "scripts/check-links.js"
+      - ".github/workflows/audit-links.yml"
+permissions:
+  contents: read
+jobs:
+  audit-links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Audit URLs
+        run: node scripts/check-links.js
+      - name: Upload audit report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: radar-link-audit
+          path: link-audit.json
+          if-no-files-found: ignore
