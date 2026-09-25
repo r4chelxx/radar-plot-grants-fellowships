@@ -41,3 +41,7 @@
 
 .intelligence{margin:32px 0;border-top:2px solid var(--ink);padding-top:14px}.intelligence>h2{margin-top:5px}.intelgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.intelpanel{border:1px solid var(--line);padding:14px;min-width:0}.intelpanel h3{font-size:16px;margin:0 0 10px}.intelitem{display:block;padding:10px 0;border-top:1px solid var(--line);text-decoration:none}.intelitem:first-of-type{border-top:0}.intelitem b{display:block;font-size:13px}.intelitem span{display:block;color:var(--muted);font-size:10px;margin-top:3px}.intelitem.gap{color:var(--ink)}.intelrule{margin-top:10px;max-width:900px}
 @media(max-width:900px){.intelgrid{grid-template-columns:1fr}}
+
+.gapstatus{font-style:normal;font-size:9px;text-transform:uppercase;padding:2px 5px;margin-left:5px;border:1px solid currentColor}.gapstatus.actionable,.gaplabels .actionable{color:var(--green)}.gapstatus.missing,.gaplabels .missing{color:var(--pink)}.gapcandidates{margin-top:5px!important}.gapcandidates a{text-decoration:underline}
+.gapoverview{margin:28px 0 34px;border-top:2px solid var(--ink);padding-top:14px}.gapstorygrid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.gapstory{border:1px solid var(--line);padding:14px;text-decoration:none}.gapstory h3{margin:0 0 8px;font-size:16px}.gapnumbers{font-size:11px;color:var(--muted)}.gaplabels{display:flex;gap:5px;flex-wrap:wrap;margin-top:10px}.gaplabels span{font-size:9px;text-transform:uppercase;border:1px solid currentColor;padding:3px 5px}
+@media(max-width:800px){.gapstorygrid{grid-template-columns:1fr}}
