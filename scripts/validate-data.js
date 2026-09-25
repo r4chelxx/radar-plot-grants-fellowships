@@ -36,7 +36,8 @@ for(const s of D.sources||[]){
   if(s.lastChecked&&!dateRx.test(s.lastChecked)) errors.push("source "+s.name+": invalid lastChecked");
 }
 const dseen=new Set();
-for(const d of datasets){
+for(const [di,d] of datasets.entries()){
+  if(!d){errors.push("dataset array: empty item at index "+di);continue}
   const kinds=["dataset","portal","catalog","system","curated-source"];
   if(!d.id) errors.push("dataset: missing id"); else if(dseen.has(d.id)) errors.push("dataset "+d.id+": duplicate id"); else dseen.add(d.id);
   if(!d.kind||!kinds.includes(d.kind)) errors.push("dataset "+d.id+": invalid or missing kind");
