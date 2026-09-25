@@ -56,12 +56,12 @@ window.RADAR_PARTS.investigations={
   note:"Pauta CEP-escola foi submetida ao Jeduca e rejeitada; segue disponível para desenvolvimento. Fontes propostas no pitch não são automaticamente tratadas como já utilizadas.",
   stages:[
    {id:"hipotese",label:"Hipótese territorial",status:"estruturado",evidence:["Recorte definido: escolas públicas municipais de ensino fundamental em Salvador","Pergunta central relaciona território e oportunidades educacionais"],sources:["edu-pitch"]},
-   {id:"escolas",label:"Base georreferenciada de escolas",status:"planejado",evidence:["Censo Escolar/Inep foi definido como caminho de dados, mas o histórico recuperado não comprova ainda extração/análise efetiva"],sources:[]},
-   {id:"territorio",label:"Setores censitários e território",status:"planejado",evidence:["Cruzamento com setores censitários do IBGE foi definido metodologicamente; não marcar como concluído sem evidência de execução"],sources:[]},
+   {id:"escolas",label:"Base georreferenciada de escolas",status:"planejado",evidence:["Censo Escolar/Inep foi definido como caminho de dados, mas o histórico recuperado não comprova ainda extração/análise efetiva"],sources:["edu-censo-escolar"]},
+   {id:"territorio",label:"Setores censitários e território",status:"planejado",evidence:["Cruzamento com setores censitários do IBGE foi definido metodologicamente; não marcar como concluído sem evidência de execução","Malha definitiva e agregados por setor do Censo 2022 foram catalogados como fontes complementares"],sources:["edu-setores","edu-agregados"]},
    {id:"indicadores",label:"Indicadores de infraestrutura e oportunidades",status:"planejado",evidence:["IDEB, docentes, biblioteca, laboratório, internet, quadra, climatização, integral e AEE foram variáveis cogitadas"],sources:[]}
   ],
   sources:[
-   {id:"edu-pitch",dataset:"plot-educacao-cep-escola",name:"PLOT. — pauta CEP-escola / submissão Jeduca",type:"Documento editorial",status:"usada",detail:"Define recorte, hipótese e método proposto; não equivale a base de dados já analisada."}
+   {id:"edu-pitch",dataset:"plot-educacao-cep-escola",name:"PLOT. — pauta CEP-escola / submissão Jeduca",type:"Documento editorial",status:"usada",detail:"Define recorte, hipótese e método proposto; não equivale a base de dados já analisada."},{id:"edu-censo-escolar",dataset:"inep-censo-escolar",name:"INEP — Microdados do Censo Escolar",type:"Base pública complementar",status:"planejada",detail:"Fonte prevista para identificar e caracterizar escolas; permanece planejada até haver extração/análise efetiva no projeto."},{id:"edu-setores",dataset:"ibge-setores-2022",name:"IBGE — Malha de Setores Censitários 2022",type:"Base territorial complementar",status:"planejada",detail:"Geometria definitiva dos setores para territorialização e junções espaciais."},{id:"edu-agregados",dataset:"ibge-agregados-setores-2022",name:"IBGE — Agregados por Setores Censitários 2022",type:"Base territorial complementar",status:"planejada",detail:"Indicadores do universo por setor para contextualizar território e desigualdades; preservar versão/data dos arquivos."}
   ]
  },
  "laudemio":{
