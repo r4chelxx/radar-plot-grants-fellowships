@@ -52,3 +52,5 @@
 
 .personalunavailable{margin:20px 0}.homesubmitted{margin:-30px 0 36px;text-align:right;font-size:12px}.homesubmitted a{text-decoration:none;border-bottom:1px solid var(--purple)}
 .matchmain{display:block;text-decoration:none}.relationactions{display:flex;gap:6px;align-items:center;margin-top:10px;padding-top:8px;border-top:1px solid var(--line)}.relationactions button{background:transparent;border:1px solid var(--line);padding:5px 7px;font-size:9px;text-transform:uppercase;cursor:pointer}.relationactions button:hover,.relationactions button.selected{border-color:var(--green);color:var(--green)}.relationactions span{font-size:9px;color:var(--muted);margin-left:auto}
+
+.gapfind{display:block;margin-top:7px;font-size:10px;font-weight:700}.statehelper{width:100%;font-size:10px;color:var(--muted);border-top:1px solid var(--line);padding-top:8px}
