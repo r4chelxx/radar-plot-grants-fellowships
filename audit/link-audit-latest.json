@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-09-26T01:13:53.328Z",
+  "checkedAt": "2026-09-26T01:24:09.812Z",
   "counts": {
     "ok": 152,
     "blocked": 23,
-    "network": 23
+    "network": 25
   },
   "results": [
     {
@@ -444,17 +444,19 @@
       "type": "dataset",
       "id": "sei-localidades",
       "url": "https://map.geo.sei.ba.gov.br/arcgis/rest/services/servicos_sei/LOCALIDADE_BAHIA/MapServer",
-      "status": 200,
-      "finalUrl": "https://map.geo.sei.ba.gov.br/arcgis/rest/services/servicos_sei/LOCALIDADE_BAHIA/MapServer",
-      "class": "ok"
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed"
     },
     {
       "type": "dataset",
       "id": "sei-divisao-municipal",
       "url": "https://map.geo.sei.ba.gov.br/arcgis/rest/services/servicos_sei/DPA_A_100K_VIGENTE_GCS_SIR_SEI/FeatureServer/0",
-      "status": 200,
-      "finalUrl": "https://map.geo.sei.ba.gov.br/arcgis/rest/services/servicos_sei/DPA_A_100K_VIGENTE_GCS_SIR_SEI/FeatureServer/0",
-      "class": "ok"
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed"
     },
     {
       "type": "dataset",
@@ -607,6 +609,22 @@
       "url": "https://basedosdados.org/",
       "status": 200,
       "finalUrl": "https://basedosdados.org/",
+      "class": "ok"
+    },
+    {
+      "type": "dataset",
+      "id": "bd-inep-censo-escolar",
+      "url": "https://basedosdados.org/dataset/dae21af4-4b6a-42f4-b94a-4c2061ea9de5",
+      "status": 200,
+      "finalUrl": "https://basedosdados.org/dataset/dae21af4-4b6a-42f4-b94a-4c2061ea9de5",
+      "class": "ok"
+    },
+    {
+      "type": "dataset",
+      "id": "bd-inep-catalogo-escolas",
+      "url": "https://basedosdados.org/dataset/c320e0ad-7551-4c01-8bbd-39a59b1c4914",
+      "status": 200,
+      "finalUrl": "https://basedosdados.org/dataset/c320e0ad-7551-4c01-8bbd-39a59b1c4914",
       "class": "ok"
     },
     {
