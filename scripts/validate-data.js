@@ -18,6 +18,8 @@ for(const file of files){
 }
 const D=ctx.window.RADAR_PARTS, opps=D.opportunities||[], stories=D.stories||[], datasets=D.datasets||[];
 const storyIds=new Set(), seenStory=new Set(), dateRx=/^\d{4}-\d{2}-\d{2}$/;
+const todayInBahia=new Intl.DateTimeFormat("en-CA",{timeZone:"America/Bahia",year:"numeric",month:"2-digit",day:"2-digit"}).format(new Date());
+function checkPastDate(label,value){if(value&&value>todayInBahia)errors.push(label+": future verification date "+value)}
 for(const [si,s] of stories.entries()){
   if(!s){errors.push("stories array: empty item at index "+si);continue}
   if(!s.id) errors.push("story: missing id"); else if(seenStory.has(s.id)) errors.push("story "+s.id+": duplicate id"); else {seenStory.add(s.id);storyIds.add(s.id)}
@@ -31,6 +33,7 @@ for(const o of opps){
   if(typeof o.fit!=="number"||o.fit<0||o.fit>10) errors.push("opportunity "+o.id+": fit outside 0–10");
   if(!o.rules||!/^https?:\/\//.test(o.rules)) errors.push("opportunity "+o.id+": invalid official source");
   for(const k of ["deadline","opens","verified"]) if(o[k]&&!dateRx.test(o[k])) errors.push("opportunity "+o.id+": invalid "+k);
+  checkPastDate("opportunity "+o.id+" verified",o.verified);
   for(const s of o.story||[]) if(!storyIds.has(s)) errors.push("opportunity "+o.id+": unknown story "+s);
   if(!o.summary) warnings.push("opportunity "+o.id+": missing editorial summary");
 }
@@ -41,6 +44,7 @@ for(const s of D.sources||[]){
   if(s.url&&!/^https?:\/\//.test(s.url)) errors.push("source "+s.name+": invalid URL");
   if(!["diária","semanal","quinzenal","mensal"].includes(s.cadence)) errors.push("source "+s.name+": invalid cadence "+s.cadence);
   if(s.lastChecked&&!dateRx.test(s.lastChecked)) errors.push("source "+s.name+": invalid lastChecked");
+  checkPastDate("source "+s.name+" lastChecked",s.lastChecked);
 }
 // Discovery provenance is explicit. A publisher name or newsletter mention does not prove origin.
 for(const item of [...opps,...datasets]){
@@ -58,6 +62,7 @@ for(const [di,d] of datasets.entries()){
   if(!d.kind||!kinds.includes(d.kind)) errors.push("dataset "+d.id+": invalid or missing kind");
   if(!["Salvador","Bahia","Brasil","Outros"].includes(d.territoryTier)) errors.push("dataset "+d.id+": invalid or missing territoryTier");
   if(d.url&&!/^https?:\/\//.test(d.url)) errors.push("dataset "+d.id+": invalid URL");
+  checkPastDate("dataset "+d.id+" lastChecked",d.lastChecked);
   for(const s of d.story||[]) if(!storyIds.has(s)) errors.push("dataset "+d.id+": unknown story "+s);
   const required=d.kind==="dataset"?["period","granularity","geoUnit","docs","lastChecked"]:d.kind==="system"?["docs","lastChecked"]:["docs","limitations","lastChecked"];
   for(const k of required) if(!d[k]) warnings.push("dataset "+d.id+": pending "+k);
@@ -73,6 +78,7 @@ for(const [ci,x] of changes.entries()){
 const investigations=D.investigations||{};
 for(const [storyId,inv] of Object.entries(investigations)){
   if(!storyIds.has(storyId)) errors.push("investigation "+storyId+": unknown story");
+  checkPastDate("investigation "+storyId+" updated",inv.updated);
   const sourceIds=new Set();
   for(const src of inv.sources||[]){
     if(!src.id) errors.push("investigation "+storyId+": source missing id");
