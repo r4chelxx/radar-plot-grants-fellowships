@@ -1,5 +1,6 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
+{date:"2026-09-25",type:"qualidade",title:"Sessão editorial protegida contra respostas antigas",detail:"Carregamentos de estado pessoal passaram a ser associados à conta e à sequência de sincronização; notas e destinos digitados são exibidos como texto seguro."},
 {date:"2026-09-25",type:"qualidade",title:"Pistas automáticas separadas do mapa de apuração",detail:"Frentes abertas exibem apenas fontes explicitamente vinculadas. Sugestões por tema foram rotuladas como pistas; vínculos pessoais confirmados aparecem também na ficha da oportunidade."},
 {date:"2026-09-25",type:"produto",title:"Matriz e ferramentas voltam à navegação",detail:"Matriz Pautas × oportunidades e Ferramentas ganharam acesso direto no menu. Vínculos confirmados na matriz aparecem na ficha da pauta; estados pessoais só são usados após sincronização."},
 {date:"2026-09-25",type:"dados",title:"Primeiros achados rastreados de newsletter",detail:"A edição 676 do Quantum of Sollazzo levou ao catálogo HDX (portal de dados) e ao React Simple Maps (ferramenta). Cada registro preserva o link da edição e aponta para o recurso original."},
