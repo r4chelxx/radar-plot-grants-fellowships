@@ -13,6 +13,8 @@ A matriz de Pautas × oportunidades está em `#matriz` (menu “Matriz”) e o c
 
 Uma etapa do mapa só lista fontes explicitamente ligadas em `data/investigations.js`. Sugestões por metadados são pistas de busca e não comprovam uso, obtenção ou cobertura da etapa. Pautas sem mapa cadastrado permanecem sem mapa, sem inferência automática.
 
+O validador também verifica os estados permitidos de oportunidades, elegibilidade, etapas e fontes; IDs únicos no mapa; metadados mínimos; e referências válidas entre pauta, base e apuração. Uma fonte marcada `nao_obtida` não pode aparecer vinculada a uma etapa. Essas regras rodam localmente com `node scripts/validate-data.js` e na integração contínua.
+
 ## Estado pessoal
 
 O carregamento de `editorial_state` é filtrado pelo usuário autenticado. Respostas de uma sessão anterior são descartadas após troca de conta ou saída; controles de escrita aguardam a sincronização. Textos pessoais são escapados ao renderizar.
