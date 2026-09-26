@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-09-26T00:07:07.937Z",
+  "checkedAt": "2026-09-26T00:10:14.818Z",
   "counts": {
-    "ok": 148,
+    "ok": 151,
     "blocked": 23,
     "network": 22
   },
@@ -389,6 +389,14 @@
       "status": 200,
       "finalUrl": "https://mediaparty.org/2026/05/14/journalism-micro-grants-media-party-world-bank/",
       "class": "ok"
+    },
+    {
+      "type": "dataset",
+      "id": "hdx-humanitarian-data",
+      "url": "https://data.humdata.org/",
+      "status": 406,
+      "finalUrl": "https://data.humdata.org/",
+      "class": "blocked"
     },
     {
       "type": "dataset",
@@ -1120,9 +1128,9 @@
       "type": "source",
       "id": "Agência Tatu",
       "url": "https://www.agenciatatu.com.br/",
-      "status": 403,
+      "status": 200,
       "finalUrl": "https://www.agenciatatu.com.br/",
-      "class": "blocked"
+      "class": "ok"
     },
     {
       "type": "source",
@@ -1570,6 +1578,22 @@
       "url": "https://radionovelo.com.br/",
       "status": 200,
       "finalUrl": "https://radionovelo.com.br/",
+      "class": "ok"
+    },
+    {
+      "type": "tool",
+      "id": "datawrapper",
+      "url": "https://www.datawrapper.de/",
+      "status": 200,
+      "finalUrl": "https://www.datawrapper.de/",
+      "class": "ok"
+    },
+    {
+      "type": "tool",
+      "id": "react-simple-maps",
+      "url": "https://www.react-simple-maps.io/",
+      "status": 200,
+      "finalUrl": "https://www.react-simple-maps.io/",
       "class": "ok"
     }
   ]
