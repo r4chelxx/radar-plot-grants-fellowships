@@ -18,6 +18,10 @@ for(const file of files){
 }
 const D=ctx.window.RADAR_PARTS, opps=D.opportunities||[], stories=D.stories||[], datasets=D.datasets||[], tools=D.tools||[];
 const storyIds=new Set(), seenStory=new Set(), dateRx=/^\d{4}-\d{2}-\d{2}$/;
+const opportunityStatuses=new Set(["aberta","monitorar","preparar","encerrada","descartada"]);
+const eligibilityStatuses=new Set(["elegível","parcial","inelegível"]);
+const investigationStageStatuses=new Set(["estruturado","em_apuracao","parcial","planejado"]);
+const investigationSourceStatuses=new Set(["usada","planejada","nao_obtida"]);
 const todayInBahia=new Intl.DateTimeFormat("en-CA",{timeZone:"America/Bahia",year:"numeric",month:"2-digit",day:"2-digit"}).format(new Date());
 function checkPastDate(label,value){if(value&&value>todayInBahia)errors.push(label+": future verification date "+value)}
 for(const [si,s] of stories.entries()){
@@ -31,10 +35,13 @@ for(const o of opps){
   if(!o.id) errors.push("opportunity: missing id"); else if(seen.has(o.id)) errors.push("opportunity "+o.id+": duplicate id"); else seen.add(o.id);
   for(const k of ["title","org","type","scope","status","eligibility"]) if(!o[k]) errors.push("opportunity "+(o.id||"?")+": missing "+k);
   if(typeof o.fit!=="number"||o.fit<0||o.fit>10) errors.push("opportunity "+o.id+": fit outside 0–10");
+  if(!opportunityStatuses.has(o.status)) errors.push("opportunity "+o.id+": invalid status "+o.status);
+  if(!eligibilityStatuses.has(o.eligibility)) errors.push("opportunity "+o.id+": invalid eligibility "+o.eligibility);
   if(!o.rules||!/^https?:\/\//.test(o.rules)) errors.push("opportunity "+o.id+": invalid official source");
   for(const k of ["deadline","opens","verified"]) if(o[k]&&!dateRx.test(o[k])) errors.push("opportunity "+o.id+": invalid "+k);
   checkPastDate("opportunity "+o.id+" verified",o.verified);
-  for(const s of o.story||[]) if(!storyIds.has(s)) errors.push("opportunity "+o.id+": unknown story "+s);
+  if(o.story!==undefined&&!Array.isArray(o.story)) errors.push("opportunity "+o.id+": story must be an array of story ids");
+  for(const s of Array.isArray(o.story)?o.story:[]) if(!storyIds.has(s)) errors.push("opportunity "+o.id+": unknown story "+s);
   if(!o.summary) warnings.push("opportunity "+o.id+": missing editorial summary");
 }
 const sourceNames=new Set();
@@ -68,7 +75,8 @@ for(const [di,d] of datasets.entries()){
   if(!["Salvador","Bahia","Brasil","Outros"].includes(d.territoryTier)) errors.push("dataset "+d.id+": invalid or missing territoryTier");
   if(d.url&&!/^https?:\/\//.test(d.url)) errors.push("dataset "+d.id+": invalid URL");
   checkPastDate("dataset "+d.id+" lastChecked",d.lastChecked);
-  for(const s of d.story||[]) if(!storyIds.has(s)) errors.push("dataset "+d.id+": unknown story "+s);
+  if(d.story!==undefined&&!Array.isArray(d.story)) errors.push("dataset "+d.id+": story must be an array of story ids");
+  for(const s of Array.isArray(d.story)?d.story:[]) if(!storyIds.has(s)) errors.push("dataset "+d.id+": unknown story "+s);
   const required=d.kind==="dataset"?["period","granularity","geoUnit","docs","lastChecked"]:d.kind==="system"?["docs","lastChecked"]:["docs","limitations","lastChecked"];
   for(const k of required) if(!d[k]) warnings.push("dataset "+d.id+": pending "+k);
 }
@@ -83,15 +91,35 @@ for(const [ci,x] of changes.entries()){
 const investigations=D.investigations||{};
 for(const [storyId,inv] of Object.entries(investigations)){
   if(!storyIds.has(storyId)) errors.push("investigation "+storyId+": unknown story");
+  if(!inv||typeof inv!=="object"||Array.isArray(inv)){errors.push("investigation "+storyId+": record must be an object");continue}
+  if(inv.updated&&!dateRx.test(inv.updated)) errors.push("investigation "+storyId+": invalid updated date");
   checkPastDate("investigation "+storyId+" updated",inv.updated);
-  const sourceIds=new Set();
-  for(const src of inv.sources||[]){
+  if(inv.sources!==undefined&&!Array.isArray(inv.sources)) errors.push("investigation "+storyId+": sources must be an array");
+  if(inv.stages!==undefined&&!Array.isArray(inv.stages)) errors.push("investigation "+storyId+": stages must be an array");
+  const sourceIds=new Set(), sourceStatusById=new Map();
+  for(const src of Array.isArray(inv.sources)?inv.sources:[]){
+    if(!src||typeof src!=="object"||Array.isArray(src)){errors.push("investigation "+storyId+": source record must be an object");continue}
     if(!src.id) errors.push("investigation "+storyId+": source missing id");
     else if(sourceIds.has(src.id)) errors.push("investigation "+storyId+": duplicate source "+src.id);
-    else sourceIds.add(src.id);
+    else {sourceIds.add(src.id);sourceStatusById.set(src.id,src.status)}
+    if(!src.name||!src.type||!src.status||!src.detail) errors.push("investigation "+storyId+": source "+(src.id||"?")+" missing required metadata");
+    if(!investigationSourceStatuses.has(src.status)) errors.push("investigation "+storyId+": source "+(src.id||"?")+" has invalid status "+src.status);
     if(src.dataset&&!dseen.has(src.dataset)) errors.push("investigation "+storyId+": unknown dataset "+src.dataset);
   }
-  for(const stage of inv.stages||[]) for(const sid of stage.sources||[]) if(!sourceIds.has(sid)) errors.push("investigation "+storyId+": stage references unknown source "+sid);
+  const stageIds=new Set();
+  for(const stage of Array.isArray(inv.stages)?inv.stages:[]){
+    if(!stage||typeof stage!=="object"||Array.isArray(stage)){errors.push("investigation "+storyId+": stage record must be an object");continue}
+    if(!stage.id) errors.push("investigation "+storyId+": stage missing id");
+    else if(stageIds.has(stage.id)) errors.push("investigation "+storyId+": duplicate stage "+stage.id);
+    else stageIds.add(stage.id);
+    if(!stage.label||!Array.isArray(stage.evidence)||!stage.evidence.length) errors.push("investigation "+storyId+": stage "+(stage.id||"?")+" needs a label and evidence list");
+    if(!investigationStageStatuses.has(stage.status)) errors.push("investigation "+storyId+": stage "+(stage.id||"?")+" has invalid status "+stage.status);
+    if(stage.sources!==undefined&&!Array.isArray(stage.sources)) errors.push("investigation "+storyId+": stage "+(stage.id||"?")+" sources must be an array");
+    for(const sid of Array.isArray(stage.sources)?stage.sources:[]){
+      if(!sourceIds.has(sid)) errors.push("investigation "+storyId+": stage references unknown source "+sid);
+      else if(sourceStatusById.get(sid)==="nao_obtida") errors.push("investigation "+storyId+": stage "+stage.id+" references source marked nao_obtida: "+sid);
+    }
+  }
 }
 console.log("Radar PLOT validation");
 console.log("Checked:",opps.length,"opportunities,",stories.length,"stories,",datasets.length,"data records,",(D.sources||[]).length,"sources,",tools.length,"tools");
