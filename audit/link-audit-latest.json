@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-09-26T00:10:14.818Z",
+  "checkedAt": "2026-09-26T01:13:53.328Z",
   "counts": {
-    "ok": 151,
+    "ok": 152,
     "blocked": 23,
-    "network": 22
+    "network": 23
   },
   "results": [
     {
@@ -408,6 +408,15 @@
     },
     {
       "type": "dataset",
+      "id": "salvador-educacao-numeros",
+      "url": "https://sistemas.educacao.salvador.ba.gov.br/relatorios/inicio",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed"
+    },
+    {
+      "type": "dataset",
       "id": "salvador-geo-negocios",
       "url": "https://www2.sefaz.salvador.ba.gov.br/servico/geo-negocios",
       "status": null,
@@ -714,6 +723,14 @@
       "url": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/censo-escolar",
       "status": 200,
       "finalUrl": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/censo-escolar",
+      "class": "ok"
+    },
+    {
+      "type": "dataset",
+      "id": "sigeduc-escolas-ba",
+      "url": "https://sigeduc.educacao.ba.gov.br/sigeduc/public/transparencia/pages/consulta/relatorio_escolas/relEscolasEtapaModalidadeAnalitico.jsf",
+      "status": 200,
+      "finalUrl": "https://sigeduc.educacao.ba.gov.br/sigeduc/public/transparencia/pages/consulta/relatorio_escolas/relEscolasEtapaModalidadeAnalitico.jsf",
       "class": "ok"
     },
     {
