@@ -1,7 +1,7 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.investigations={
  "violencia-obstetrica":{
-  updated:"2026-09-26",
+  updated:"2026-09-25",
   note:"Mapa reconstruído a partir do histórico de apuração do PLOT. SIM/SINASC não constam como dados obtidos.",
   stages:[
    {id:"mortalidade",label:"Mortalidade materna, fetal e neonatal",status:"parcial",evidence:["Dados recebidos da SESAB por respostas/retornos da apuração","Há campos incompletos e tipo de parto não informado/ignorado"],sources:["vo-sesab-respostas"]},
@@ -17,7 +17,7 @@ window.RADAR_PARTS.investigations={
   ]
  },
  "data-centers":{
-  updated:"2026-09-26",
+  updated:"2026-09-25",
   note:"Investigação avançada, com base própria e Gentio do Ouro como caso-piloto.",
   stages:[
    {id:"empreendimentos",label:"Empreendimentos, empresas e estrutura societária",status:"estruturado",evidence:["Base própria de empreendimentos em construção e validação","Gentio do Ouro usado como caso-piloto"],sources:["dc-base-propria","dc-aneel-atos"]},
@@ -37,7 +37,7 @@ window.RADAR_PARTS.investigations={
   ]
  },
  "futebol":{
-  updated:"2026-09-26",
+  updated:"2026-09-25",
   note:"Base própria cobre convocações entre 01/01/2020 e 22/08/2026 e é auditada por evento.",
   stages:[
    {id:"convocacoes",label:"Convocações e eventos",status:"estruturado",evidence:["Eventos individualizados e jogadoras separadas por convocação","Duplicidade entre eventos não é tratada como erro"],sources:["fut-cbf","fut-base-propria"]},
@@ -52,7 +52,7 @@ window.RADAR_PARTS.investigations={
   ]
  },
  "educacao":{
-  updated:"2026-09-26",
+  updated:"2026-09-25",
   note:"Pauta CEP-escola foi submetida ao Jeduca e rejeitada; segue disponível para desenvolvimento. Fontes propostas no pitch não são automaticamente tratadas como já utilizadas.",
   stages:[
    {id:"hipotese",label:"Hipótese territorial",status:"estruturado",evidence:["Recorte definido: escolas públicas municipais de ensino fundamental em Salvador","Pergunta central relaciona território e oportunidades educacionais"],sources:["edu-pitch"]},
@@ -65,7 +65,7 @@ window.RADAR_PARTS.investigations={
   ]
  },
  "laudemio":{
-  updated:"2026-09-26",
+  updated:"2026-09-25",
   note:"Projeto multimídia/data visualization em expansão; já há matrículas e referências arquivísticas concretas.",
   stages:[
    {id:"matriculas",label:"Matrículas e imóveis",status:"em_apuracao",evidence:["Conjunto inicial de matrículas já analisado; matrícula de apartamento não deve ser tratada como perímetro integral do edifício"],sources:["lau-matriculas"]},
