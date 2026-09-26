@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 const fs=require("fs"),vm=require("vm"),path=require("path");
-const files=["data/opportunities.js","data/stories.js","data/datasets.js","data/sources.js","data/changelog.js","data/investigations.js"];
+const files=["data/opportunities.js","data/stories.js","data/datasets.js","data/sources.js","data/tools.js","data/changelog.js","data/investigations.js"];
 let errors=[],warnings=[];
 function duplicateKeys(file,src){
   const objectRx=/\{[^{}]*\}/g;
@@ -16,7 +16,7 @@ for(const file of files){
   duplicateKeys(file,src);
   try{vm.runInContext(src,ctx,{filename:file})}catch(e){errors.push(file+": JavaScript parse/runtime error: "+e.message)}
 }
-const D=ctx.window.RADAR_PARTS, opps=D.opportunities||[], stories=D.stories||[], datasets=D.datasets||[];
+const D=ctx.window.RADAR_PARTS, opps=D.opportunities||[], stories=D.stories||[], datasets=D.datasets||[], tools=D.tools||[];
 const storyIds=new Set(), seenStory=new Set(), dateRx=/^\d{4}-\d{2}-\d{2}$/;
 const todayInBahia=new Intl.DateTimeFormat("en-CA",{timeZone:"America/Bahia",year:"numeric",month:"2-digit",day:"2-digit"}).format(new Date());
 function checkPastDate(label,value){if(value&&value>todayInBahia)errors.push(label+": future verification date "+value)}
@@ -47,12 +47,17 @@ for(const s of D.sources||[]){
   checkPastDate("source "+s.name+" lastChecked",s.lastChecked);
 }
 // Discovery provenance is explicit. A publisher name or newsletter mention does not prove origin.
-for(const item of [...opps,...datasets]){
+for(const item of [...opps,...datasets,...tools]){
   if(item.discoveryUrl&&!/^https?:\/\//.test(item.discoveryUrl)) errors.push((item.id||"item")+": invalid discoveryUrl");
   if(item.discoveredVia!==undefined && (!Array.isArray(item.discoveredVia)||item.discoveredVia.some(name=>!sourceNames.has(name)))) errors.push((item.id||"item")+": discoveredVia must reference monitored source names");
 }
 for(const d of datasets){
   if((D.sources||[]).some(s=>s.name.toLowerCase()===String(d.name||"").toLowerCase()&&s.role==="curadoria")||/quantum of sollazzo|datawrapper/i.test(d.name||"")) errors.push("dataset "+d.id+": newsletter or tool cannot be catalogued as data");
+}
+const toolIds=new Set();
+for(const t of tools){
+  if(!t.id||toolIds.has(t.id)) errors.push("tool: missing or duplicate id "+t.id); else toolIds.add(t.id);
+  if(!t.name||!t.kind||!t.url||!/^https?:\/\//.test(t.url)) errors.push("tool "+t.id+": missing metadata or invalid URL");
 }
 const dseen=new Set();
 for(const [di,d] of datasets.entries()){
@@ -89,7 +94,7 @@ for(const [storyId,inv] of Object.entries(investigations)){
   for(const stage of inv.stages||[]) for(const sid of stage.sources||[]) if(!sourceIds.has(sid)) errors.push("investigation "+storyId+": stage references unknown source "+sid);
 }
 console.log("Radar PLOT validation");
-console.log("Checked:",opps.length,"opportunities,",stories.length,"stories,",datasets.length,"data records,",(D.sources||[]).length,"sources");
+console.log("Checked:",opps.length,"opportunities,",stories.length,"stories,",datasets.length,"data records,",(D.sources||[]).length,"sources,",tools.length,"tools");
 console.log("Errors:",errors.length,"Warnings:",warnings.length);
 if(warnings.length) console.log("\nWARNINGS\n"+warnings.map(x=>" - "+x).join("\n"));
 if(errors.length){console.error("\nERRORS\n"+errors.map(x=>" - "+x).join("\n"));process.exit(1)}
