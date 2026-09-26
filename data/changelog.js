@@ -1,5 +1,6 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
+{date:"2026-09-25",type:"produto",title:"Matriz e ferramentas voltam à navegação",detail:"Matriz Pautas × oportunidades e Ferramentas ganharam acesso direto no menu. Vínculos confirmados na matriz aparecem na ficha da pauta; estados pessoais só são usados após sincronização."},
 {date:"2026-09-25",type:"dados",title:"Primeiros achados rastreados de newsletter",detail:"A edição 676 do Quantum of Sollazzo levou ao catálogo HDX (portal de dados) e ao React Simple Maps (ferramenta). Cada registro preserva o link da edição e aponta para o recurso original."},
 {date:"2026-09-25",type:"qualidade",title:"Links e rastreabilidade revisados",detail:"Corrigidos três endereços oficiais com 404; arquivos internos sem URL deixaram de oferecer botões quebrados. Proveniência documentada passa a aparecer nas fichas e listagens."},
 {date:"2026-09-25",type:"arquitetura",title:"Origem e classificação dos achados",detail:"Fontes monitoradas, itens descobertos e ferramentas passam a ser tratados separadamente. Associação de itens às fontes exige proveniência explícita; newsletter não entra como base de dados."},
