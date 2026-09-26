@@ -1,5 +1,6 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
+{date:"2026-09-25",type:"dados",title:"Fontes educacionais locais e estaduais catalogadas",detail:"Educação em Números de Salvador e relatórios do SIGEduc Bahia foram adicionados como sistemas de consulta planejados, com limites de cobertura e extração explicitados; não são tratados como bases já analisadas."},
 {date:"2026-09-25",type:"qualidade",title:"Validação editorial reforçada",detail:"A checagem automática agora bloqueia estados inválidos, IDs repetidos nas etapas do mapa, metadados incompletos e etapas ligadas a fontes marcadas como não obtidas."},
 {date:"2026-09-25",type:"qualidade",title:"Sessão editorial protegida contra respostas antigas",detail:"Carregamentos de estado pessoal passaram a ser associados à conta e à sequência de sincronização; notas e destinos digitados são exibidos como texto seguro."},
 {date:"2026-09-25",type:"qualidade",title:"Pistas automáticas separadas do mapa de apuração",detail:"Frentes abertas exibem apenas fontes explicitamente vinculadas. Sugestões por tema foram rotuladas como pistas; vínculos pessoais confirmados aparecem também na ficha da oportunidade."},
