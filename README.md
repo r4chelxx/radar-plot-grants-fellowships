@@ -12,3 +12,7 @@ A matriz de Pautas × oportunidades está em `#matriz` (menu “Matriz”) e o c
 ## Mapa de apuração
 
 Uma etapa do mapa só lista fontes explicitamente ligadas em `data/investigations.js`. Sugestões por metadados são pistas de busca e não comprovam uso, obtenção ou cobertura da etapa. Pautas sem mapa cadastrado permanecem sem mapa, sem inferência automática.
+
+## Estado pessoal
+
+O carregamento de `editorial_state` é filtrado pelo usuário autenticado. Respostas de uma sessão anterior são descartadas após troca de conta ou saída; controles de escrita aguardam a sincronização. Textos pessoais são escapados ao renderizar.
