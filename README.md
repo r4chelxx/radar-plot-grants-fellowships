@@ -8,3 +8,7 @@ Quando uma chamada ou recurso for de fato encontrado em um canal monitorado, adi
 ## Navegação editorial
 
 A matriz de Pautas × oportunidades está em `#matriz` (menu “Matriz”) e o catálogo de ferramentas em `#ferramentas` (menu “Ferramentas”). Vínculos pessoais confirmados na matriz aparecem também na ficha da pauta quando a sessão está sincronizada.
+
+## Mapa de apuração
+
+Uma etapa do mapa só lista fontes explicitamente ligadas em `data/investigations.js`. Sugestões por metadados são pistas de busca e não comprovam uso, obtenção ou cobertura da etapa. Pautas sem mapa cadastrado permanecem sem mapa, sem inferência automática.
