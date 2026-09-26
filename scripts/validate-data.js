@@ -44,10 +44,11 @@ for(const s of D.sources||[]){
 }
 // Discovery provenance is explicit. A publisher name or newsletter mention does not prove origin.
 for(const item of [...opps,...datasets]){
+  if(item.discoveryUrl&&!/^https?:\/\//.test(item.discoveryUrl)) errors.push((item.id||"item")+": invalid discoveryUrl");
   if(item.discoveredVia!==undefined && (!Array.isArray(item.discoveredVia)||item.discoveredVia.some(name=>!sourceNames.has(name)))) errors.push((item.id||"item")+": discoveredVia must reference monitored source names");
 }
 for(const d of datasets){
-  if(/quantum of sollazzo|datawrapper/i.test(d.name||"")) errors.push("dataset "+d.id+": newsletter or tool cannot be catalogued as data");
+  if((D.sources||[]).some(s=>s.name.toLowerCase()===String(d.name||"").toLowerCase()&&s.role==="curadoria")||/quantum of sollazzo|datawrapper/i.test(d.name||"")) errors.push("dataset "+d.id+": newsletter or tool cannot be catalogued as data");
 }
 const dseen=new Set();
 for(const [di,d] of datasets.entries()){
