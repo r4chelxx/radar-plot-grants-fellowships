@@ -1,5 +1,6 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
+{date:"2026-09-25",type:"dados",title:"Censo Escolar ampliado com acesso via Base dos Dados",detail:"Entraram as tabelas tratadas do Censo Escolar e o Catálogo de Escolas do Inep pela Base dos Dados, com período, possibilidades de exportação, custos potenciais de consulta e distinção da fonte original documentados."},
 {date:"2026-09-25",type:"dados",title:"Fontes educacionais locais e estaduais catalogadas",detail:"Educação em Números de Salvador e relatórios do SIGEduc Bahia foram adicionados como sistemas de consulta planejados, com limites de cobertura e extração explicitados; não são tratados como bases já analisadas."},
 {date:"2026-09-25",type:"qualidade",title:"Validação editorial reforçada",detail:"A checagem automática agora bloqueia estados inválidos, IDs repetidos nas etapas do mapa, metadados incompletos e etapas ligadas a fontes marcadas como não obtidas."},
 {date:"2026-09-25",type:"qualidade",title:"Sessão editorial protegida contra respostas antigas",detail:"Carregamentos de estado pessoal passaram a ser associados à conta e à sequência de sincronização; notas e destinos digitados são exibidos como texto seguro."},
