@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-09-28T18:40:19.389Z",
+  "checkedAt": "2026-09-28T18:54:32.845Z",
   "counts": {
-    "ok": 145,
+    "ok": 162,
     "blocked": 23,
-    "network": 39
+    "network": 25
   },
   "results": [
     {
@@ -402,10 +402,9 @@
       "type": "dataset",
       "id": "salvador-compras",
       "url": "https://transparencia.salvador.ba.gov.br/",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed"
+      "status": 200,
+      "finalUrl": "https://transparencia.salvador.ba.gov.br/",
+      "class": "ok"
     },
     {
       "type": "dataset",
@@ -429,37 +428,33 @@
       "type": "dataset",
       "id": "sei-geoportal-rest",
       "url": "https://map.geo.sei.ba.gov.br/arcgis/rest/services",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed"
+      "status": 200,
+      "finalUrl": "https://map.geo.sei.ba.gov.br/arcgis/rest/services",
+      "class": "ok"
     },
     {
       "type": "dataset",
       "id": "sei-regionalizacao",
       "url": "https://map.geo.sei.ba.gov.br/arcgis/rest/services/servicos_sei/REGIONALIZACAO_VIGENTE/FeatureServer",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed"
+      "status": 200,
+      "finalUrl": "https://map.geo.sei.ba.gov.br/arcgis/rest/services/servicos_sei/REGIONALIZACAO_VIGENTE/FeatureServer",
+      "class": "ok"
     },
     {
       "type": "dataset",
       "id": "sei-localidades",
       "url": "https://map.geo.sei.ba.gov.br/arcgis/rest/services/servicos_sei/LOCALIDADE_BAHIA/MapServer",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed"
+      "status": 200,
+      "finalUrl": "https://map.geo.sei.ba.gov.br/arcgis/rest/services/servicos_sei/LOCALIDADE_BAHIA/MapServer",
+      "class": "ok"
     },
     {
       "type": "dataset",
       "id": "sei-divisao-municipal",
       "url": "https://map.geo.sei.ba.gov.br/arcgis/rest/services/servicos_sei/DPA_A_100K_VIGENTE_GCS_SIR_SEI/FeatureServer/0",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed"
+      "status": 200,
+      "finalUrl": "https://map.geo.sei.ba.gov.br/arcgis/rest/services/servicos_sei/DPA_A_100K_VIGENTE_GCS_SIR_SEI/FeatureServer/0",
+      "class": "ok"
     },
     {
       "type": "dataset",
@@ -474,64 +469,57 @@
       "type": "dataset",
       "id": "bahia-transparencia",
       "url": "https://www.transparencia.ba.gov.br/Portal",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed"
+      "status": 200,
+      "finalUrl": "https://www.transparencia.ba.gov.br/Portal",
+      "class": "ok"
     },
     {
       "type": "dataset",
       "id": "sspba-estatisticas",
       "url": "https://www.ba.gov.br/ssp/publicacoes",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed"
+      "status": 200,
+      "finalUrl": "https://www.ba.gov.br/ssp/publicacoes",
+      "class": "ok"
     },
     {
       "type": "dataset",
       "id": "sspba-dados-abertos",
       "url": "https://www.ba.gov.br/ssp/dados-abertos",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed"
+      "status": 200,
+      "finalUrl": "https://www.ba.gov.br/ssp/dados-abertos",
+      "class": "ok"
     },
     {
       "type": "dataset",
       "id": "aneel",
       "url": "https://dadosabertos.aneel.gov.br/",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed"
+      "status": 200,
+      "finalUrl": "https://dadosabertos.aneel.gov.br/",
+      "class": "ok"
     },
     {
       "type": "dataset",
       "id": "ons",
       "url": "https://dados.ons.org.br/",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed"
+      "status": 200,
+      "finalUrl": "https://dados.ons.org.br/",
+      "class": "ok"
     },
     {
       "type": "dataset",
-      "id": "ons-coff-solar",
+      "id": "ons-constrained-off-fotovoltaica",
       "url": "https://dados.ons.org.br/dataset/restricao_coff_fotovoltaica",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed"
+      "status": 200,
+      "finalUrl": "https://dados.ons.org.br/dataset/restricao_coff_fotovoltaica",
+      "class": "ok"
     },
     {
       "type": "dataset",
       "id": "ons-coff-solar-detail",
       "url": "https://dados.ons.org.br/dataset/restricao_coff_fotovoltaica_detail",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed"
+      "status": 200,
+      "finalUrl": "https://dados.ons.org.br/dataset/restricao_coff_fotovoltaica_detail",
+      "class": "ok"
     },
     {
       "type": "dataset",
@@ -577,10 +565,9 @@
       "type": "dataset",
       "id": "cnes",
       "url": "https://dadosabertos.saude.gov.br/dataset/cnes-cadastro-nacional-de-estabelecimentos-de-saude",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed"
+      "status": 200,
+      "finalUrl": "https://dadosabertos.saude.gov.br/dataset/cnes-cadastro-nacional-de-estabelecimentos-de-saude",
+      "class": "ok"
     },
     {
       "type": "dataset",
@@ -929,10 +916,9 @@
       "type": "dataset",
       "id": "sesab-mortalidade-materna",
       "url": "https://biobr.saude.ba.gov.br/static/obitomaterno.php",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed"
+      "status": 200,
+      "finalUrl": "https://biobr.saude.ba.gov.br/static/obitomaterno.php",
+      "class": "ok"
     },
     {
       "type": "dataset",
@@ -1156,6 +1142,30 @@
       "status": 403,
       "finalUrl": "https://bndigital.bn.gov.br/hemeroteca-digital/",
       "class": "blocked"
+    },
+    {
+      "type": "dataset",
+      "id": "cnj-justica-aberta-extrajudicial",
+      "url": "https://justicaaberta.cnj.jus.br/",
+      "status": 200,
+      "finalUrl": "https://justicaaberta.cnj.jus.br/",
+      "class": "ok"
+    },
+    {
+      "type": "dataset",
+      "id": "cnj-srei",
+      "url": "https://www.cnj.jus.br/sistemas/srei-2/",
+      "status": 200,
+      "finalUrl": "https://www.cnj.jus.br/sistemas/srei-2/",
+      "class": "ok"
+    },
+    {
+      "type": "dataset",
+      "id": "ons-constrained-off-eolica",
+      "url": "https://dados.ons.org.br/dataset/restricao_coff_eolica_detail",
+      "status": 200,
+      "finalUrl": "https://dados.ons.org.br/dataset/restricao_coff_eolica_detail",
+      "class": "ok"
     },
     {
       "type": "source",
