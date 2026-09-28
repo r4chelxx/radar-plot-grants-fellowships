@@ -1,5 +1,6 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
+{date:"2026-09-28",type:"produto",title:"Todas as pautas passam a indicar fontes relacionadas",detail:"Os mapas agora separam explicitamente fontes já utilizadas de sugestões ainda não usadas. O Radar orienta caminhos de apuração, sem executar consultas, extrair dados ou substituir evidências existentes."},
 {date:"2026-09-28",type:"dados",title:"Cobertura nacional ampliada para justiça, ambiente e saneamento",detail:"Foram catalogadas a API Pública do DataJud, os Autos de Infração Ambiental do Ibama, o TerraBrasilis do INPE e a transição SNIS/SINISA, com método de acesso, unidade de análise e limitações editoriais."},
 {date:"2026-09-28",type:"qualidade",title:"Relações temáticas da Matriz ficaram mais específicas",detail:"O tema genérico Dados deixou de criar relações automáticas sozinho. Vínculos editoriais cadastrados e relações confirmadas permanecem preservados."},
 {date:"2026-09-25",type:"dados",title:"Censo Escolar ampliado com acesso via Base dos Dados",detail:"Entraram as tabelas tratadas do Censo Escolar e o Catálogo de Escolas do Inep pela Base dos Dados, com período, possibilidades de exportação, custos potenciais de consulta e distinção da fonte original documentados."},
