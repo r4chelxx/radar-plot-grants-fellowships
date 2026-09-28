@@ -114,14 +114,14 @@ window.RADAR_PARTS.investigations={
    {id:"lau-cartografia",dataset:"salvador-cartografia",name:"Salvador — Cartografia e ortoimagens",type:"Fonte geoespacial relacionada",status:"planejada",detail:"Caminho para transformação temporal; preservar ano, escala, resolução, CRS e produto."},
    {id:"lau-geo",dataset:"salvador-geo",name:"Salvador — informações geográficas",type:"Portal relacionado",status:"planejada",detail:"Caminho para lotes, logradouros e camadas municipais; conferir metadados antes de uso."},
    {id:"lau-setores",dataset:"ibge-setores-2022",name:"IBGE — Setores Censitários 2022",type:"Base territorial relacionada",status:"planejada",detail:"Caminho para contexto territorial atual; não resolve diretamente limites históricos de aforamentos."},
-   {id:"lau-diarios",dataset:"bahia-diario-oficial",name:"Bahia — Diário Oficial",type:"Fonte documental relacionada",status:"planejada",detail:"Caminho para atos e referências institucionais; resultados exigem identificação e leitura do documento original."}
+   {id:"lau-diarios",dataset:"bahia-doe",name:"Bahia — Diário Oficial",type:"Fonte documental relacionada",status:"planejada",detail:"Caminho para atos e referências institucionais; resultados exigem identificação e leitura do documento original."}
   ]
  },
  "evore":{
   updated:"2026-09-28",
   note:"Hipótese futura sem padrão de má conduta estabelecido. Todas as fontes abaixo são caminhos relacionados ainda não utilizados; o Radar não investiga pessoas nem infere irregularidade.",
   stages:[
-   {id:"hipotese",label:"Delimitação da hipótese e critérios",status:"nao_iniciado",evidence:["Definir pergunta verificável, período, recorte institucional e critérios antes de buscar nomes ou processos","Separar reclamação, processo, decisão, sanção e resultado definitivo"],sources:["evo-protocolo"]},
+   {id:"hipotese",label:"Delimitação da hipótese e critérios",status:"planejado",evidence:["Definir pergunta verificável, período, recorte institucional e critérios antes de buscar nomes ou processos","Separar reclamação, processo, decisão, sanção e resultado definitivo"],sources:["evo-protocolo"]},
    {id:"processos",label:"Processos judiciais públicos",status:"planejado",evidence:["DataJud pode orientar metadados por tribunal, classe, assunto e movimentos públicos","Metadados não substituem leitura processual; sigilo, homônimos e dados pessoais exigem cautela"],sources:["evo-datajud"]},
    {id:"profissionais",label:"Profissionais, vínculos e estabelecimentos",status:"planejado",evidence:["CNES pode indicar vínculos e estabelecimentos cadastrados como ponto de partida","Cadastro não comprova atendimento, conduta, escala real nem presença em uma data específica"],sources:["evo-cnes-prof","evo-cnes"]},
    {id:"responsabilizacao",label:"Decisões e responsabilização profissional",status:"planejado",evidence:["Conselhos profissionais, diários oficiais e decisões públicas são caminhos documentais possíveis","Ausência de resultado público não prova inexistência de apuração; sanções e recursos precisam ser lidos no contexto"],sources:["evo-conselhos","evo-diario"]},
@@ -133,7 +133,7 @@ window.RADAR_PARTS.investigations={
    {id:"evo-cnes-prof",dataset:"cnes-profissionais",name:"CNES — Profissionais por estabelecimento",type:"Base pública relacionada",status:"planejada",detail:"Caminho para vínculos cadastrados; não comprova atuação em evento específico nem qualidade assistencial."},
    {id:"evo-cnes",dataset:"cnes",name:"CNES — Estabelecimentos de Saúde",type:"Base pública relacionada",status:"planejada",detail:"Caminho para caracterizar estabelecimentos; cadastro não comprova oferta real de serviço em determinada data."},
    {id:"evo-conselhos",name:"Conselhos profissionais e decisões públicas",type:"Caminho documental relacionado",status:"planejada",detail:"Consultar apenas canais oficiais e decisões publicáveis, respeitando sigilo, recursos e contexto."},
-   {id:"evo-diario",dataset:"bahia-diario-oficial",name:"Bahia — Diário Oficial",type:"Fonte documental relacionada",status:"planejada",detail:"Caminho para atos públicos; resultados exigem leitura e confirmação no documento original."}
+   {id:"evo-diario",dataset:"bahia-doe",name:"Bahia — Diário Oficial",type:"Fonte documental relacionada",status:"planejada",detail:"Caminho para atos públicos; resultados exigem leitura e confirmação no documento original."}
   ]
  }
 };
