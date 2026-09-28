@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-09-28T17:56:02.312Z",
+  "checkedAt": "2026-09-28T18:14:57.338Z",
   "counts": {
-    "ok": 159,
+    "ok": 158,
     "blocked": 22,
-    "network": 23
+    "network": 26
   },
   "results": [
     {
@@ -1118,6 +1118,24 @@
       "class": "ok"
     },
     {
+      "type": "dataset",
+      "id": "cbf-governanca",
+      "url": "https://portaldegovernanca.cbf.com.br/",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed"
+    },
+    {
+      "type": "dataset",
+      "id": "cbf-bid",
+      "url": "https://bid.cbf.com.br/",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed"
+    },
+    {
       "type": "source",
       "id": "GIJN",
       "url": "https://gijn.org/topic/opportunities/",
@@ -1201,9 +1219,10 @@
       "type": "source",
       "id": "Gênero e Número",
       "url": "https://www.generonumero.media/",
-      "status": 200,
-      "finalUrl": "https://www.generonumero.media/",
-      "class": "ok"
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed"
     },
     {
       "type": "source",
