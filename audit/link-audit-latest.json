@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-09-26T01:24:09.812Z",
+  "checkedAt": "2026-09-28T17:56:02.312Z",
   "counts": {
-    "ok": 152,
-    "blocked": 23,
-    "network": 25
+    "ok": 159,
+    "blocked": 22,
+    "network": 23
   },
   "results": [
     {
@@ -444,19 +444,17 @@
       "type": "dataset",
       "id": "sei-localidades",
       "url": "https://map.geo.sei.ba.gov.br/arcgis/rest/services/servicos_sei/LOCALIDADE_BAHIA/MapServer",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed"
+      "status": 200,
+      "finalUrl": "https://map.geo.sei.ba.gov.br/arcgis/rest/services/servicos_sei/LOCALIDADE_BAHIA/MapServer",
+      "class": "ok"
     },
     {
       "type": "dataset",
       "id": "sei-divisao-municipal",
       "url": "https://map.geo.sei.ba.gov.br/arcgis/rest/services/servicos_sei/DPA_A_100K_VIGENTE_GCS_SIR_SEI/FeatureServer/0",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed"
+      "status": 200,
+      "finalUrl": "https://map.geo.sei.ba.gov.br/arcgis/rest/services/servicos_sei/DPA_A_100K_VIGENTE_GCS_SIR_SEI/FeatureServer/0",
+      "class": "ok"
     },
     {
       "type": "dataset",
@@ -1088,6 +1086,38 @@
       "class": "ok"
     },
     {
+      "type": "dataset",
+      "id": "datajud-api-publica",
+      "url": "https://www.cnj.jus.br/sistemas/datajud/api-publica/",
+      "status": 200,
+      "finalUrl": "https://www.cnj.jus.br/sistemas/datajud/api-publica/",
+      "class": "ok"
+    },
+    {
+      "type": "dataset",
+      "id": "ibama-autos-infracao",
+      "url": "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-auto-de-infracao",
+      "status": 200,
+      "finalUrl": "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-auto-de-infracao",
+      "class": "ok"
+    },
+    {
+      "type": "dataset",
+      "id": "inpe-terrabrasilis",
+      "url": "https://terrabrasilis.dpi.inpe.br/",
+      "status": 200,
+      "finalUrl": "https://terrabrasilis.dpi.inpe.br/",
+      "class": "ok"
+    },
+    {
+      "type": "dataset",
+      "id": "sinisa-saneamento",
+      "url": "https://www.gov.br/cidades/pt-br/acesso-a-informacao/acoes-e-programas/saneamento/sinisa",
+      "status": 200,
+      "finalUrl": "https://www.gov.br/cidades/pt-br/acesso-a-informacao/acoes-e-programas/saneamento/sinisa",
+      "class": "ok"
+    },
+    {
       "type": "source",
       "id": "GIJN",
       "url": "https://gijn.org/topic/opportunities/",
@@ -1395,9 +1425,9 @@
       "type": "source",
       "id": "Internews",
       "url": "https://internews.org/",
-      "status": 403,
-      "finalUrl": "https://internews.org/",
-      "class": "blocked"
+      "status": 200,
+      "finalUrl": "https://www.internews.org/",
+      "class": "ok"
     },
     {
       "type": "source",
