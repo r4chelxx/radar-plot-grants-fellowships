@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-09-28T18:14:57.338Z",
+  "checkedAt": "2026-09-28T18:40:19.389Z",
   "counts": {
-    "ok": 158,
-    "blocked": 22,
-    "network": 26
+    "ok": 145,
+    "blocked": 23,
+    "network": 39
   },
   "results": [
     {
@@ -402,9 +402,10 @@
       "type": "dataset",
       "id": "salvador-compras",
       "url": "https://transparencia.salvador.ba.gov.br/",
-      "status": 200,
-      "finalUrl": "https://transparencia.salvador.ba.gov.br/",
-      "class": "ok"
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed"
     },
     {
       "type": "dataset",
@@ -428,33 +429,37 @@
       "type": "dataset",
       "id": "sei-geoportal-rest",
       "url": "https://map.geo.sei.ba.gov.br/arcgis/rest/services",
-      "status": 200,
-      "finalUrl": "https://map.geo.sei.ba.gov.br/arcgis/rest/services",
-      "class": "ok"
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed"
     },
     {
       "type": "dataset",
       "id": "sei-regionalizacao",
       "url": "https://map.geo.sei.ba.gov.br/arcgis/rest/services/servicos_sei/REGIONALIZACAO_VIGENTE/FeatureServer",
-      "status": 200,
-      "finalUrl": "https://map.geo.sei.ba.gov.br/arcgis/rest/services/servicos_sei/REGIONALIZACAO_VIGENTE/FeatureServer",
-      "class": "ok"
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed"
     },
     {
       "type": "dataset",
       "id": "sei-localidades",
       "url": "https://map.geo.sei.ba.gov.br/arcgis/rest/services/servicos_sei/LOCALIDADE_BAHIA/MapServer",
-      "status": 200,
-      "finalUrl": "https://map.geo.sei.ba.gov.br/arcgis/rest/services/servicos_sei/LOCALIDADE_BAHIA/MapServer",
-      "class": "ok"
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed"
     },
     {
       "type": "dataset",
       "id": "sei-divisao-municipal",
       "url": "https://map.geo.sei.ba.gov.br/arcgis/rest/services/servicos_sei/DPA_A_100K_VIGENTE_GCS_SIR_SEI/FeatureServer/0",
-      "status": 200,
-      "finalUrl": "https://map.geo.sei.ba.gov.br/arcgis/rest/services/servicos_sei/DPA_A_100K_VIGENTE_GCS_SIR_SEI/FeatureServer/0",
-      "class": "ok"
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed"
     },
     {
       "type": "dataset",
@@ -469,57 +474,64 @@
       "type": "dataset",
       "id": "bahia-transparencia",
       "url": "https://www.transparencia.ba.gov.br/Portal",
-      "status": 200,
-      "finalUrl": "https://www.transparencia.ba.gov.br/Portal",
-      "class": "ok"
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed"
     },
     {
       "type": "dataset",
       "id": "sspba-estatisticas",
       "url": "https://www.ba.gov.br/ssp/publicacoes",
-      "status": 200,
-      "finalUrl": "https://www.ba.gov.br/ssp/publicacoes",
-      "class": "ok"
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed"
     },
     {
       "type": "dataset",
       "id": "sspba-dados-abertos",
       "url": "https://www.ba.gov.br/ssp/dados-abertos",
-      "status": 200,
-      "finalUrl": "https://www.ba.gov.br/ssp/dados-abertos",
-      "class": "ok"
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed"
     },
     {
       "type": "dataset",
       "id": "aneel",
       "url": "https://dadosabertos.aneel.gov.br/",
-      "status": 200,
-      "finalUrl": "https://dadosabertos.aneel.gov.br/",
-      "class": "ok"
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed"
     },
     {
       "type": "dataset",
       "id": "ons",
       "url": "https://dados.ons.org.br/",
-      "status": 200,
-      "finalUrl": "https://dados.ons.org.br/",
-      "class": "ok"
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed"
     },
     {
       "type": "dataset",
       "id": "ons-coff-solar",
       "url": "https://dados.ons.org.br/dataset/restricao_coff_fotovoltaica",
-      "status": 200,
-      "finalUrl": "https://dados.ons.org.br/dataset/restricao_coff_fotovoltaica",
-      "class": "ok"
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed"
     },
     {
       "type": "dataset",
       "id": "ons-coff-solar-detail",
       "url": "https://dados.ons.org.br/dataset/restricao_coff_fotovoltaica_detail",
-      "status": 200,
-      "finalUrl": "https://dados.ons.org.br/dataset/restricao_coff_fotovoltaica_detail",
-      "class": "ok"
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed"
     },
     {
       "type": "dataset",
@@ -565,9 +577,10 @@
       "type": "dataset",
       "id": "cnes",
       "url": "https://dadosabertos.saude.gov.br/dataset/cnes-cadastro-nacional-de-estabelecimentos-de-saude",
-      "status": 200,
-      "finalUrl": "https://dadosabertos.saude.gov.br/dataset/cnes-cadastro-nacional-de-estabelecimentos-de-saude",
-      "class": "ok"
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed"
     },
     {
       "type": "dataset",
@@ -916,9 +929,10 @@
       "type": "dataset",
       "id": "sesab-mortalidade-materna",
       "url": "https://biobr.saude.ba.gov.br/static/obitomaterno.php",
-      "status": 200,
-      "finalUrl": "https://biobr.saude.ba.gov.br/static/obitomaterno.php",
-      "class": "ok"
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed"
     },
     {
       "type": "dataset",
@@ -1136,6 +1150,14 @@
       "error": "TypeError:fetch failed"
     },
     {
+      "type": "dataset",
+      "id": "bn-hemeroteca-digital",
+      "url": "https://bndigital.bn.gov.br/hemeroteca-digital/",
+      "status": 403,
+      "finalUrl": "https://bndigital.bn.gov.br/hemeroteca-digital/",
+      "class": "blocked"
+    },
+    {
       "type": "source",
       "id": "GIJN",
       "url": "https://gijn.org/topic/opportunities/",
@@ -1219,10 +1241,9 @@
       "type": "source",
       "id": "Gênero e Número",
       "url": "https://www.generonumero.media/",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed"
+      "status": 200,
+      "finalUrl": "https://www.generonumero.media/",
+      "class": "ok"
     },
     {
       "type": "source",
