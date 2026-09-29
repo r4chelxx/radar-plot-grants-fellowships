@@ -1,9 +1,10 @@
 {
-  "checkedAt": "2026-09-29T11:22:57.850Z",
+  "checkedAt": "2026-09-29T14:24:00.880Z",
   "counts": {
-    "ok": 169,
-    "blocked": 25,
-    "network": 25
+    "ok": 167,
+    "blocked": 26,
+    "network": 29,
+    "broken": 1
   },
   "results": [
     {
@@ -696,25 +697,28 @@
       "type": "dataset",
       "id": "sesab-obitos",
       "url": "https://www.saude.ba.gov.br/suvisa/vigilancia-epidemiologica/",
-      "status": 200,
-      "finalUrl": "https://www.ba.gov.br/saude/suvisa/vigilancia-epidemiologica",
-      "class": "ok"
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed"
     },
     {
       "type": "dataset",
       "id": "inep-microdados",
       "url": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados",
-      "status": 200,
-      "finalUrl": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados",
-      "class": "ok"
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed"
     },
     {
       "type": "dataset",
       "id": "pncp",
       "url": "https://www.gov.br/pncp/pt-br",
-      "status": 200,
-      "finalUrl": "https://www.gov.br/pncp/pt-br",
-      "class": "ok"
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed"
     },
     {
       "type": "dataset",
@@ -1143,6 +1147,39 @@
     },
     {
       "type": "dataset",
+      "id": "fifa-professional-womens-landscape",
+      "url": "https://landscape.fifa.com/en/women/landscape",
+      "status": 200,
+      "finalUrl": "https://landscape.fifa.com/en/women/landscape",
+      "class": "ok"
+    },
+    {
+      "type": "dataset",
+      "id": "fifa-womens-benchmarking-2025",
+      "url": "https://inside.fifa.com/womens-football/fifa-benchmark-report",
+      "status": 404,
+      "finalUrl": "https://inside.fifa.com/womens-football/fifa-benchmark-report",
+      "class": "broken"
+    },
+    {
+      "type": "dataset",
+      "id": "esporte-lie-painel",
+      "url": "https://paineis.mds.gov.br/public/extensions/lei-de-incentivo-v2/lei-de-incentivo-v2.html",
+      "status": 200,
+      "finalUrl": "https://paineis.mds.gov.br/public/extensions/lei-de-incentivo-v2/lei-de-incentivo-v2.html",
+      "class": "ok"
+    },
+    {
+      "type": "dataset",
+      "id": "cbf-futebol-feminino-panorama-2026",
+      "url": "https://www.cbf.com.br/futebol-brasileiro/noticias/competicoes-campeonato-brasileiro-feminino/a/com-copa-2027-no-horizonte-cbf-apresenta-panorama-do-futebol-feminino-no-brasil",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed"
+    },
+    {
+      "type": "dataset",
       "id": "cbf-governanca",
       "url": "https://portaldegovernanca.cbf.com.br/",
       "status": null,
@@ -1411,9 +1448,9 @@
       "type": "source",
       "id": "WFSJ / WCSJ",
       "url": "https://wfsj.org/",
-      "status": 200,
+      "status": 403,
       "finalUrl": "https://wfsj.org/",
-      "class": "ok"
+      "class": "blocked"
     },
     {
       "type": "source",
