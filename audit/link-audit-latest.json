@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-09-29T18:46:31.323Z",
+  "checkedAt": "2026-09-29T19:04:02.500Z",
   "policy": "404/410 becomes broken only after appearing as suspect or broken in the previous audit; blocked and network results are inconclusive",
   "counts": {
-    "ok": 173,
+    "ok": 174,
     "blocked": 24,
     "network": 26
   },
@@ -1721,6 +1721,17 @@
       ]
     },
     {
+      "type": "dataset",
+      "id": "rfb-cnpj-dados-abertos",
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/dados-abertos/cadastros",
+      "status": 200,
+      "finalUrl": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/dados-abertos/cadastros",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
       "type": "source",
       "id": "GIJN",
       "url": "https://gijn.org/topic/opportunities/",
@@ -1838,6 +1849,7 @@
       "finalUrl": "https://www.generonumero.media/",
       "class": "ok",
       "attempts": [
+        "TypeError:fetch failed",
         200
       ]
     },
@@ -2432,6 +2444,7 @@
       "finalUrl": "https://resources.rsf.org/fellowship-opportunities/",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
