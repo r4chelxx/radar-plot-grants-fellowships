@@ -26,10 +26,10 @@ window.RADAR_PARTS.investigations={
   ]
  },
  "data-centers":{
-  updated:"2026-09-28",
+  updated:"2026-09-29",
   note:"Investigação avançada, com base própria e Gentio do Ouro como caso-piloto. Fontes já usadas permanecem separadas das sugestões; o Radar apenas indica caminhos adicionais.",
   stages:[
-   {id:"empreendimentos",label:"Empreendimentos, empresas e estrutura societária",status:"estruturado",evidence:["Base própria de empreendimentos em construção e validação","Gentio do Ouro usado como caso-piloto"],sources:["dc-base-propria","dc-aneel-atos"]},
+   {id:"empreendimentos",label:"Empreendimentos, empresas e estrutura societária",status:"estruturado",evidence:["Base própria de empreendimentos em construção e validação","Gentio do Ouro usado como caso-piloto","Os dados abertos do CNPJ podem apoiar a conferência de empresas, estabelecimentos, CNAEs e quadros societários; cadastro não prova controle efetivo nem vínculo com cada projeto"],sources:["dc-base-propria","dc-aneel-atos","dc-cnpj"]},
    {id:"energia",label:"Energia, conexão e transmissão",status:"em_apuracao",evidence:["Atos regulatórios e infraestrutura elétrica já integram a apuração","SIGET, SAMP e BDGD são caminhos complementares para testar transmissão, demanda, agentes e infraestrutura, sem presumir vínculo com cada empreendimento","Dados do ONS sobre constrained-off eólico e solar podem ajudar a testar quando, onde e por que houve restrição de geração; não demonstram, sozinhos, conexão física ou comercial com data centers"],sources:["dc-aneel-atos","dc-delano","dc-siget","dc-samp","dc-bdgd","dc-ons-eolica","dc-ons-solar"]},
    {id:"agua",label:"Água e disponibilidade hídrica",status:"em_apuracao",evidence:["SNIRH/ANA, outorgas e licenciamento compõem a frente hídrica","SINISA/SNIS pode contextualizar serviços municipais, sem substituir outorgas nem consumo específico dos projetos"],sources:["dc-ana","dc-inema","dc-sinisa"]},
    {id:"licenciamento",label:"Licenciamento e governança ambiental",status:"em_apuracao",evidence:["SEIA/INEMA e atos ambientais são frente ativa","Autos do Ibama são um caminho nacional complementar; não equivalem a decisão final nem comprovam relação com um empreendimento sem verificação"],sources:["dc-inema","dc-ibama"]},
@@ -43,6 +43,7 @@ window.RADAR_PARTS.investigations={
    {id:"dc-ana",dataset:"ana-snirh-usos-agua",name:"ANA / SNIRH",type:"Sistemas oficiais",status:"usada",detail:"Fontes hídricas incorporadas à frente de água; cada extração deve preservar produto e variável utilizados."},
    {id:"dc-inema",dataset:"seia-bahia",name:"INEMA / SEIA",type:"Processos, atos e sistemas oficiais",status:"usada",detail:"Licenciamento, outorga e documentação ambiental consultados como frente ativa."},
    {id:"dc-delano",dataset:"plot-datacenters-delano",name:"Entrevista com Delano — energia e sistema elétrico",type:"Entrevista técnica",status:"usada",detail:"Fonte técnica para geração renovável, transmissão, grandes cargas e curtailment; orienta documentos a buscar e não prova fatos específicos dos projetos."},
+   {id:"dc-cnpj",dataset:"rfb-cnpj-dados-abertos",name:"Receita Federal — Dados Abertos do CNPJ",type:"Base cadastral relacionada",status:"planejada",detail:"Caminho nacional para conferir empresas, estabelecimentos, CNAEs e quadros societários. Não comprova controle econômico efetivo, operação, contrato, incentivo ou vínculo com um empreendimento sem cruzamento documental."},
    {id:"dc-siget",dataset:"aneel-siget",name:"ANEEL — SIGET",type:"Base pública relacionada",status:"planejada",detail:"Caminho complementar para infraestrutura de transmissão, subestações, linhas, módulos e pontos de conexão."},
    {id:"dc-samp",dataset:"aneel-samp",name:"ANEEL — SAMP",type:"Base pública relacionada",status:"planejada",detail:"Caminho complementar para mercado, consumo, demanda e agentes acessantes; a granularidade precisa ser conferida."},
    {id:"dc-bdgd",dataset:"aneel-bdgd",name:"ANEEL — BDGD",type:"Base pública relacionada",status:"planejada",detail:"Caminho para ativos de distribuição e testes espaciais, sem presumir vínculo com empreendimentos."},
