@@ -1,11 +1,35 @@
 {
-  "checkedAt": "2026-09-28T18:54:32.845Z",
+  "checkedAt": "2026-09-29T11:22:57.850Z",
   "counts": {
-    "ok": 162,
-    "blocked": 23,
+    "ok": 169,
+    "blocked": 25,
     "network": 25
   },
   "results": [
+    {
+      "type": "opportunity",
+      "id": "equality-fund-journalism-2027",
+      "url": "https://equalityfund.ca/en/posts/application-journalism-fellowship",
+      "status": 200,
+      "finalUrl": "https://equalityfund.ca/en/posts/application-journalism-fellowship",
+      "class": "ok"
+    },
+    {
+      "type": "opportunity",
+      "id": "ochberg-2027",
+      "url": "https://gcjt.org/resources/call-applications-2027-ochberg-fellowships",
+      "status": 403,
+      "finalUrl": "https://gcjt.org/resources/call-applications-2027-ochberg-fellowships",
+      "class": "blocked"
+    },
+    {
+      "type": "opportunity",
+      "id": "climatexc-story-to-life-2026",
+      "url": "https://www.climatexc.org/grants/climate-action-in-your-community",
+      "status": 200,
+      "finalUrl": "https://www.climatexc.org/grants/climate-action-in-your-community",
+      "class": "ok"
+    },
     {
       "type": "opportunity",
       "id": "ctrlj-research-hub26",
@@ -98,9 +122,9 @@
       "type": "opportunity",
       "id": "pulitzer-env",
       "url": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/our-work-environment-grants",
-      "status": 200,
+      "status": 403,
       "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/our-work-environment-grants",
-      "class": "ok"
+      "class": "blocked"
     },
     {
       "type": "opportunity",
@@ -1168,6 +1192,22 @@
       "class": "ok"
     },
     {
+      "type": "dataset",
+      "id": "plataforma-brasil-dados-abertos",
+      "url": "https://dadosabertos.saude.gov.br/dataset/plataforma_brasil",
+      "status": 200,
+      "finalUrl": "https://dadosabertos.saude.gov.br/dataset/plataforma_brasil",
+      "class": "ok"
+    },
+    {
+      "type": "dataset",
+      "id": "ms-pda-2026-2028",
+      "url": "https://www.gov.br/saude/pt-br/acesso-a-informacao/dados-abertos/pda",
+      "status": 200,
+      "finalUrl": "https://www.gov.br/saude/pt-br/acesso-a-informacao/dados-abertos/pda",
+      "class": "ok"
+    },
+    {
       "type": "source",
       "id": "GIJN",
       "url": "https://gijn.org/topic/opportunities/",
@@ -1696,6 +1736,14 @@
       "class": "ok"
     },
     {
+      "type": "source",
+      "id": "Indicator",
+      "url": "https://indicator.media/",
+      "status": 200,
+      "finalUrl": "https://indicator.media/",
+      "class": "ok"
+    },
+    {
       "type": "tool",
       "id": "datawrapper",
       "url": "https://www.datawrapper.de/",
@@ -1709,6 +1757,30 @@
       "url": "https://www.react-simple-maps.io/",
       "status": 200,
       "finalUrl": "https://www.react-simple-maps.io/",
+      "class": "ok"
+    },
+    {
+      "type": "tool",
+      "id": "geowhisperer",
+      "url": "https://www.geowhisperer.org/",
+      "status": 200,
+      "finalUrl": "https://www.geowhisperer.org/",
+      "class": "ok"
+    },
+    {
+      "type": "tool",
+      "id": "digga",
+      "url": "https://digga.dev/",
+      "status": 200,
+      "finalUrl": "https://digga.dev/",
+      "class": "ok"
+    },
+    {
+      "type": "tool",
+      "id": "decryptads",
+      "url": "https://decryptads.com/",
+      "status": 200,
+      "finalUrl": "https://decryptads.com/",
       "class": "ok"
     }
   ]
