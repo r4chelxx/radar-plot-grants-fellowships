@@ -18,3 +18,9 @@ O validador também verifica os estados permitidos de oportunidades, elegibilida
 ## Estado pessoal
 
 O carregamento de `editorial_state` é filtrado pelo usuário autenticado. Respostas de uma sessão anterior são descartadas após troca de conta ou saída; controles de escrita aguardam a sincronização. Textos pessoais são escapados ao renderizar.
+
+## Auditoria de links
+
+A auditoria executa uma requisição real, repete falhas transitórias com tempo maior e preserva resultados bloqueados ou de rede como inconclusivos. Respostas 401, 403, 405, 406 e 429 não significam link quebrado. Um 404/410 aparece primeiro como suspeita e só bloqueia a integração se persistir na auditoria seguinte. Registros internos sem URL pública permanecem catalogados, mas não entram no teste nem exibem botão de acesso.
+
+O relatório mais recente fica em `audit/link-audit-latest.json`. A rotina roda em mudanças de links, em pull requests e semanalmente; execuções concorrentes do mesmo ramo são canceladas para evitar disputa na publicação do relatório.

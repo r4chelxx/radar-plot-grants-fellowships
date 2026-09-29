@@ -1,19 +1,34 @@
 name: Audit Radar links
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "0 11 * * 1"
+  pull_request:
+    paths:
+      - "data/opportunities.js"
+      - "data/datasets.js"
+      - "data/sources.js"
+      - "data/tools.js"
+      - "scripts/check-links.js"
+      - ".github/workflows/audit-links.yml"
   push:
     branches: [main]
     paths:
       - "data/opportunities.js"
       - "data/datasets.js"
       - "data/sources.js"
+      - "data/tools.js"
       - "scripts/check-links.js"
       - ".github/workflows/audit-links.yml"
+concurrency:
+  group: radar-link-audit-${{ github.ref }}
+  cancel-in-progress: true
 permissions:
   contents: write
 jobs:
   audit-links:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -24,7 +39,7 @@ jobs:
         continue-on-error: true
         run: node scripts/check-links.js
       - name: Publish latest audit report
-        if: always()
+        if: always() && github.event_name != 'pull_request'
         run: |
           mkdir -p audit
           cp link-audit.json audit/link-audit-latest.json
@@ -33,7 +48,8 @@ jobs:
           git add audit/link-audit-latest.json
           if ! git diff --cached --quiet; then
             git commit -m "Audit: refresh link report [skip ci]"
-            git push
+            git pull --rebase origin main
+            git push origin HEAD:main
           fi
       - name: Upload audit report
         if: always()
@@ -41,7 +57,7 @@ jobs:
         with:
           name: radar-link-audit
           path: link-audit.json
-          if-no-files-found: ignore
-      - name: Fail on confirmed broken links
+          if-no-files-found: error
+      - name: Fail on persistently broken links
         if: steps.audit.outcome == 'failure'
         run: exit 1
