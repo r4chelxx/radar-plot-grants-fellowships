@@ -1,10 +1,10 @@
 {
-  "checkedAt": "2026-09-29T19:04:02.500Z",
+  "checkedAt": "2026-09-30T01:27:22.433Z",
   "policy": "404/410 becomes broken only after appearing as suspect or broken in the previous audit; blocked and network results are inconclusive",
   "counts": {
-    "ok": 174,
+    "ok": 177,
     "blocked": 24,
-    "network": 26
+    "network": 27
   },
   "results": [
     {
@@ -1849,7 +1849,6 @@
       "finalUrl": "https://www.generonumero.media/",
       "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
         200
       ]
     },
@@ -2088,11 +2087,13 @@
       "type": "source",
       "id": "Farol Jornalismo",
       "url": "https://faroljornalismo.cc/",
-      "status": 200,
-      "finalUrl": "http://faroljornalismo.cc/blog/",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "TypeError:fetch failed",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -2444,7 +2445,6 @@
       "finalUrl": "https://resources.rsf.org/fellowship-opportunities/",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -2465,6 +2465,17 @@
       "url": "https://indicator.media/",
       "status": 200,
       "finalUrl": "https://indicator.media/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Google Journalist Studio",
+      "url": "https://journaliststudio.google.com/",
+      "status": 200,
+      "finalUrl": "https://journaliststudio.google.com/",
       "class": "ok",
       "attempts": [
         200
@@ -2520,6 +2531,39 @@
       "url": "https://decryptads.com/",
       "status": 200,
       "finalUrl": "https://decryptads.com/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "agenda-transparente",
+      "url": "https://agendas.fiquemsabendo.com.br/",
+      "status": 200,
+      "finalUrl": "https://agendas.fiquemsabendo.com.br/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "google-pinpoint",
+      "url": "https://journaliststudio.google.com/pinpoint/about/pt-BR_br/",
+      "status": 200,
+      "finalUrl": "https://journaliststudio.google.com/pinpoint/about/pt-BR_br/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "occrp-aleph-pro",
+      "url": "https://aleph.occrp.org/",
+      "status": 200,
+      "finalUrl": "https://aleph.occrp.org/",
       "class": "ok",
       "attempts": [
         200
