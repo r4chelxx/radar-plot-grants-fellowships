@@ -5,8 +5,8 @@ window.RADAR_PARTS.sources=[
 {name:"Escola de Dados / OKBR",type:"Dados / formação",scope:"Brasil",priority:"Alta",url:"https://escoladedados.org/",cadence:"quinzenal",category:"dados/visual",lastChecked:"2026-09-24",checkStatus:"auditoria inicial"},
 {name:"Abraji",type:"Investigação / formação",scope:"Brasil",priority:"Alta",url:"https://abraji.org.br/",cadence:"quinzenal",category:"investigação",lastChecked:"2026-09-24",checkStatus:"auditoria inicial"},
 {name:"ICIJ",type:"Investigação",scope:"Global",priority:"Alta",url:"https://www.icij.org/",cadence:"quinzenal",category:"investigação",lastChecked:"2026-09-24",checkStatus:"auditoria inicial"},
-{name:"OCCRP",type:"Investigação",scope:"Global",priority:"Alta",url:"https://www.occrp.org/",cadence:"quinzenal",category:"investigação",lastChecked:"2026-09-24",checkStatus:"auditoria inicial"},
-{name:"Fiquem Sabendo",type:"Transparência / dados",scope:"Brasil",priority:"Alta",url:"https://fiquemsabendo.com.br/",cadence:"quinzenal",category:"dados/visual",lastChecked:"2026-09-24",checkStatus:"auditoria inicial"},
+{name:"OCCRP",type:"Investigação",scope:"Global",priority:"Alta",url:"https://www.occrp.org/",cadence:"quinzenal",category:"investigação",lastChecked:"2026-09-29",checkStatus:"verificada"},
+{name:"Fiquem Sabendo",type:"Transparência / dados",scope:"Brasil",priority:"Alta",url:"https://fiquemsabendo.com.br/",cadence:"quinzenal",category:"dados/visual",lastChecked:"2026-09-29",checkStatus:"verificada"},
 {name:"The Pudding",type:"Visual / dados",scope:"Global",priority:"Alta",url:"https://pudding.cool/",cadence:"quinzenal",category:"dados/visual",lastChecked:"2026-09-24",checkStatus:"auditoria inicial"},
 {name:"Tech Policy Press",type:"Tecnologia / políticas públicas",scope:"Global",priority:"Alta",url:"https://www.techpolicy.press/",cadence:"quinzenal",category:"tecnologia/política pública",lastChecked:"2026-09-24",checkStatus:"auditoria inicial"},
 {name:"Agência Tatu",type:"Dados / Nordeste",scope:"Brasil",priority:"Alta",url:"https://www.agenciatatu.com.br/",cadence:"quinzenal",category:"dados/visual",lastChecked:"2026-09-24",checkStatus:"auditoria inicial"},
@@ -74,4 +74,5 @@ window.RADAR_PARTS.sources=[
 {name:"Repórteres sem Fronteiras — Fellowships e oportunidades",type:"Fellowships / segurança / liberdade de imprensa / freelas",scope:"Global",priority:"Média",url:"https://resources.rsf.org/fellowship-opportunities/",cadence:"quinzenal",category:"oportunidades",lastChecked:"2026-09-25",checkStatus:"verificada"},
 {name:"Rádio Novelo",type:"Áudio / jornalismo narrativo / veículo a monitorar",scope:"Brasil",priority:"Média",url:"https://radionovelo.com.br/",cadence:"quinzenal",category:"oportunidades",lastChecked:"2026-09-25",checkStatus:"monitorar canal editorial"},
 {name:"Indicator",role:"curadoria",type:"Newsletter / OSINT / tecnologia e investigações digitais",scope:"Global",priority:"Alta",url:"https://indicator.media/",cadence:"semanal",category:"tecnologia/política pública",lastChecked:"2026-09-29",checkStatus:"verificada"},
+{name:"Google Journalist Studio",role:"fonte oficial",type:"Ferramentas para jornalismo e pesquisa documental",scope:"Global",priority:"Média",url:"https://journaliststudio.google.com/",cadence:"mensal",category:"dados/visual",lastChecked:"2026-09-29",checkStatus:"verificada"},
 ];
