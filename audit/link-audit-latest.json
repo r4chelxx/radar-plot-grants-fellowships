@@ -1,10 +1,10 @@
 {
-  "checkedAt": "2026-09-30T01:27:22.433Z",
+  "checkedAt": "2026-09-30T02:34:45.699Z",
   "policy": "404/410 becomes broken only after appearing as suspect or broken in the previous audit; blocked and network results are inconclusive",
   "counts": {
-    "ok": 177,
+    "ok": 178,
     "blocked": 24,
-    "network": 27
+    "network": 26
   },
   "results": [
     {
@@ -2087,13 +2087,11 @@
       "type": "source",
       "id": "Farol Jornalismo",
       "url": "https://faroljornalismo.cc/",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "http://faroljornalismo.cc/blog/",
+      "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
