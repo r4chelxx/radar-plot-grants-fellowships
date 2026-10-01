@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-01T20:04:23.424Z",
+  "checkedAt": "2026-10-01T20:21:08.591Z",
   "policy": "404/410 becomes broken only after appearing as suspect or broken in the previous audit; blocked and network results are inconclusive",
   "counts": {
-    "ok": 202,
-    "blocked": 26,
+    "ok": 209,
+    "blocked": 29,
     "network": 26,
     "server": 1
   },
@@ -329,7 +329,7 @@
     },
     {
       "type": "opportunity",
-      "id": "fij",
+      "id": "fij-investigative-grants",
       "url": "https://fij.org/apply-for-a-grant/",
       "status": 200,
       "finalUrl": "https://fij.org/apply-for-a-grant/",
@@ -578,6 +578,116 @@
       "class": "ok",
       "attempts": [
         200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "play-the-game-fund",
+      "url": "https://www.playthegame.org/journalism-fund/pitch-your-story/",
+      "status": 200,
+      "finalUrl": "https://www.playthegame.org/journalism-fund/pitch-your-story/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "pulitzer-gender",
+      "url": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/gender-equality-grant",
+      "status": 403,
+      "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/gender-equality-grant",
+      "class": "blocked",
+      "attempts": [
+        403
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "pulitzer-global",
+      "url": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/global-reporting-grants",
+      "status": 403,
+      "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/global-reporting-grants",
+      "class": "blocked",
+      "attempts": [
+        403
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "iwmf-rgws",
+      "url": "https://www.iwmf.org/programs/reporting-grants-for-womens-stories/",
+      "status": 200,
+      "finalUrl": "https://www.iwmf.org/programs/reporting-grants-for-womens-stories/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "iwmf-kari-next",
+      "url": "https://www.iwmf.org/programs/kari-howard-fund/",
+      "status": 200,
+      "finalUrl": "https://www.iwmf.org/programs/kari-howard-fund/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "iwmf-kim-next",
+      "url": "https://www.iwmf.org/programs/kim-wall-memorial-fund/",
+      "status": 200,
+      "finalUrl": "https://www.iwmf.org/programs/kim-wall-memorial-fund/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "ewa-next",
+      "url": "https://ewa.org/fellowships",
+      "status": 200,
+      "finalUrl": "https://ewa.org/fellowships",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "egab-pitches",
+      "url": "https://www.egab.co/faqs",
+      "status": 200,
+      "finalUrl": "https://www.egab.co/faqs",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "type-investigations-pitches",
+      "url": "https://typeinvestigations.org/about/faq/",
+      "status": 200,
+      "finalUrl": "https://typeinvestigations.org/about/faq/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "fire-virtual-newsroom",
+      "url": "https://gijn.org/resource/grants-fellowships/",
+      "status": 403,
+      "finalUrl": "https://gijn.org/resource/grants-fellowships/",
+      "class": "blocked",
+      "attempts": [
+        403
       ]
     },
     {
