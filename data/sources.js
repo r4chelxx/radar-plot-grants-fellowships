@@ -1,5 +1,11 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.sources=[
+{"name":"OpenRefine","url":"https://openrefine.org/","type":"Limpeza e reconciliação de dados","scope":"Global","role":"fonte oficial","priority":"Alta","cadence":"mensal","category":"dados/visual","lastChecked":"2026-10-01","checkStatus":"verificada"},
+{"name":"Tabula","url":"https://tabula.technology/","type":"Extração de tabelas de PDF","scope":"Global","role":"fonte oficial","priority":"Alta","cadence":"mensal","category":"dados/visual","lastChecked":"2026-10-01","checkStatus":"verificada"},
+{"name":"QGIS","url":"https://qgis.org/","type":"Cartografia e análise geoespacial","scope":"Global","role":"fonte oficial","priority":"Alta","cadence":"mensal","category":"dados/visual","lastChecked":"2026-10-01","checkStatus":"verificada"},
+{"name":"Esri Living Atlas","url":"https://livingatlas.arcgis.com/wayback/","type":"Imagens e recursos geoespaciais","scope":"Global","role":"fonte oficial","priority":"Alta","cadence":"mensal","category":"dados/visual","lastChecked":"2026-10-01","checkStatus":"verificada"},
+{"name":"MapBiomas Alerta","url":"https://alerta.mapbiomas.org/metodo-mapbiomas-alerta/","type":"Desmatamento validado e dados geográficos","scope":"Brasil","role":"fonte oficial","priority":"Alta","cadence":"mensal","category":"dados/visual","lastChecked":"2026-10-01","checkStatus":"verificada"},
+{"name":"SEEG / Observatório do Clima","url":"https://seeg.eco.br/metodologia/","type":"Estimativas de emissões e metodologia","scope":"Brasil","role":"fonte oficial","priority":"Alta","cadence":"mensal","category":"dados/visual","lastChecked":"2026-10-01","checkStatus":"verificada"},
 {name:"GIJN",type:"Oportunidades / investigação",scope:"Global",priority:"Alta",url:"https://gijn.org/topic/opportunities/",cadence:"quinzenal",category:"oportunidades",lastChecked:"2026-09-24",checkStatus:"auditoria inicial"},
 {name:"Knight Center",type:"Formação / jornalismo",scope:"Américas",priority:"Alta",url:"https://knightcenter.utexas.edu/",cadence:"quinzenal",category:"ecossistema/formação",lastChecked:"2026-09-24",checkStatus:"auditoria inicial"},
 {name:"Escola de Dados / OKBR",type:"Dados / formação",scope:"Brasil",priority:"Alta",url:"https://escoladedados.org/",cadence:"quinzenal",category:"dados/visual",lastChecked:"2026-09-24",checkStatus:"auditoria inicial"},
