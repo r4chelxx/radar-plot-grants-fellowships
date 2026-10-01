@@ -1,10 +1,10 @@
 {
-  "checkedAt": "2026-10-01T20:21:08.591Z",
+  "checkedAt": "2026-10-01T20:33:24.673Z",
   "policy": "404/410 becomes broken only after appearing as suspect or broken in the previous audit; blocked and network results are inconclusive",
   "counts": {
     "ok": 209,
-    "blocked": 29,
-    "network": 26,
+    "blocked": 28,
+    "network": 27,
     "server": 1
   },
   "results": [
@@ -682,12 +682,12 @@
     {
       "type": "opportunity",
       "id": "fire-virtual-newsroom",
-      "url": "https://gijn.org/resource/grants-fellowships/",
-      "status": 403,
-      "finalUrl": "https://gijn.org/resource/grants-fellowships/",
-      "class": "blocked",
+      "url": "https://www.firenewsroom.org/about-us/fire-frequently-asked-questions",
+      "status": 200,
+      "finalUrl": "https://www.firenewsroom.org/about-us/fire-frequently-asked-questions",
+      "class": "ok",
       "attempts": [
-        403
+        200
       ]
     },
     {
@@ -2243,11 +2243,13 @@
       "type": "source",
       "id": "Journalismfund Europe",
       "url": "https://www.journalismfund.eu/",
-      "status": 200,
-      "finalUrl": "https://www.journalismfund.eu/",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "TypeError:fetch failed",
+        "TypeError:fetch failed"
       ]
     },
     {
