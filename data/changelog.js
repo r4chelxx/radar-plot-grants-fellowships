@@ -3,6 +3,18 @@ window.RADAR_PARTS.changelog=[
   {
     "date": "2026-10-01",
     "type": "correção",
+    "title": "FIRE reavaliado como elegível condicional",
+    "items": [
+      {
+        "id": "fire-virtual-newsroom",
+        "title": "FIRE Consultancy / Virtual Newsroom"
+      }
+    ],
+    "detail": "FIRE foi reclassificado como oportunidade real, mas condicional: Rachel pode ser elegível como freelancer fora dos EUA, desde que o projeto seja para veículo em inglês. O Radar passa a tratar FIRE como preparação de Consultancy, não como grant direto; Virtual Newsroom/grants dependem de convite posterior."
+  },
+  {
+    "date": "2026-10-01",
+    "type": "correção",
     "title": "FIJ reclassificado como inelegível para a fila atual",
     "items": [
       {

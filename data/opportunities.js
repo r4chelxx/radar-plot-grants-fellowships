@@ -2652,7 +2652,7 @@ window.RADAR_PARTS.opportunities=[
     "scope": "Investigação / copublicação EUA"
   },
   {
-    "value": "Serviços + grants relatados até US$ 12.500",
+    "value": "Consultoria inicial; Virtual Newsroom até US$ 12.500 após convite",
     "duration": null,
     "modality": "Apoio editorial / grant para freelancer",
     "documents": [],
@@ -2663,13 +2663,18 @@ window.RADAR_PARTS.opportunities=[
         "date": "2026-10-01",
         "status": "monitorar",
         "source": "https://newsfuel.org/opportunities/48"
+      },
+      {
+        "date": "2026-10-01",
+        "status": "preparar",
+        "source": "https://www.firenewsroom.org/program/guidelines-and-application"
       }
     ],
     "id": "fire-virtual-newsroom",
-    "summary": "FIRE/IRE oferece consultoria, serviços de reportagem e possíveis grants para freelancers investigativos, com foco em projetos para veículos em inglês.",
-    "status": "monitorar",
+    "summary": "FIRE aceita freelancers investigativos fora dos EUA e sem restrição de cidadania, mas trabalha apenas com histórias para veículos em inglês. O caminho real começa pela FIRE Consultancy; grants da Virtual Newsroom dependem de convite posterior.",
+    "status": "preparar",
     "eligibility": "parcial",
-    "fit": 6.5,
+    "fit": 7,
     "apply": null,
     "story": [
       "futebol",
@@ -2677,11 +2682,11 @@ window.RADAR_PARTS.opportunities=[
     ],
     "region": "Internacional, com saída editorial em inglês",
     "funder": "Freelance Investigative Reporters & Editors (FIRE/IRE)",
-    "url": "https://newsfuel.org/opportunities/48",
-    "rules": "https://gijn.org/resource/grants-fellowships/",
+    "url": "https://www.firenewsroom.org/program/guidelines-and-application",
+    "rules": "https://www.firenewsroom.org/about-us/fire-frequently-asked-questions",
     "verified": "2026-10-01",
-    "notes": "Reanálise: segue parcial, mas não prioritária. FIRE/IRE pode aceitar freelancers fora dos EUA, porém a saída precisa ser em veículo de língua inglesa e projetos internacionais se fortalecem com ângulo EUA. Útil apenas como apoio editorial/jurídico/pesquisa se houver publicação internacional alinhada; não é destino principal de CEP nem futfem.",
-    "title": "FIRE Virtual Newsroom",
+    "notes": "Elegível em tese para Rachel como freelancer investigativa no Brasil, desde que a história seja pensada para veículo em inglês. Não é submissão direta a grant: novos candidatos e quem busca grants precisam primeiro aplicar para a FIRE Consultancy; se aceitos, podem ser convidados para Virtual Newsroom/grants. Para futfem, é uma oportunidade real se o pitch for refeito em inglês para público internacional, idealmente com eixo EUA/Reino Unido ou ligas/mercados globais. Para CEP-escola, só vale se houver editoria em inglês interessada em desigualdade territorial e accountability educacional municipal; sem isso, fica menos acionável. Legal/Comprehensive Consultancy ligada a questões contratuais é limitada a histórias planejadas para outlets dos EUA.",
+    "title": "FIRE Consultancy / Virtual Newsroom",
     "org": "Freelance Investigative Reporters & Editors (FIRE/IRE)",
     "type": "Grant / apoio editorial",
     "scope": "Investigação freelancer / inglês"
