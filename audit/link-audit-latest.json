@@ -1,10 +1,11 @@
 {
-  "checkedAt": "2026-10-01T11:00:40.278Z",
+  "checkedAt": "2026-10-01T19:41:33.742Z",
   "policy": "404/410 becomes broken only after appearing as suspect or broken in the previous audit; blocked and network results are inconclusive",
   "counts": {
-    "ok": 183,
-    "blocked": 24,
-    "network": 26
+    "ok": 188,
+    "blocked": 26,
+    "network": 26,
+    "server": 1
   },
   "results": [
     {
@@ -577,6 +578,28 @@
       "class": "ok",
       "attempts": [
         200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "mapbiomas-alerta",
+      "url": "https://plataforma.alerta.mapbiomas.org/",
+      "status": 200,
+      "finalUrl": "https://plataforma.alerta.mapbiomas.org/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "seeg-emissoes",
+      "url": "https://seeg.eco.br/dados/",
+      "status": 403,
+      "finalUrl": "https://seeg.eco.br/dados/",
+      "class": "blocked",
+      "attempts": [
+        403
       ]
     },
     {
@@ -1762,6 +1785,73 @@
       "class": "ok",
       "attempts": [
         200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "openrefine",
+      "url": "https://openrefine.org/",
+      "status": 200,
+      "finalUrl": "https://openrefine.org/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "tabula",
+      "url": "https://tabula.technology/",
+      "status": 200,
+      "finalUrl": "https://tabula.technology/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "qgis",
+      "url": "https://qgis.org/",
+      "status": 200,
+      "finalUrl": "https://qgis.org/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "esri-wayback",
+      "url": "https://livingatlas.arcgis.com/wayback/",
+      "status": 200,
+      "finalUrl": "https://livingatlas.arcgis.com/wayback/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "MapBiomas Alerta",
+      "url": "https://alerta.mapbiomas.org/metodo-mapbiomas-alerta/",
+      "status": 503,
+      "finalUrl": "https://alerta.mapbiomas.org/metodo-mapbiomas-alerta/",
+      "class": "server",
+      "attempts": [
+        503,
+        503
+      ]
+    },
+    {
+      "type": "source",
+      "id": "SEEG / Observatório do Clima",
+      "url": "https://seeg.eco.br/metodologia/",
+      "status": 403,
+      "finalUrl": "https://seeg.eco.br/metodologia/",
+      "class": "blocked",
+      "attempts": [
+        403
       ]
     },
     {
