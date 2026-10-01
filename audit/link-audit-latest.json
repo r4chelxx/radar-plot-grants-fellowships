@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-10-01T19:41:33.742Z",
+  "checkedAt": "2026-10-01T20:04:23.424Z",
   "policy": "404/410 becomes broken only after appearing as suspect or broken in the previous audit; blocked and network results are inconclusive",
   "counts": {
-    "ok": 188,
+    "ok": 202,
     "blocked": 26,
     "network": 26,
     "server": 1
@@ -575,6 +575,72 @@
       "url": "https://mediaparty.org/2026/05/14/journalism-micro-grants-media-party-world-bank/",
       "status": 200,
       "finalUrl": "https://mediaparty.org/2026/05/14/journalism-micro-grants-media-party-world-bank/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "anp-revendedores-combustiveis",
+      "url": "https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos/dados-cadastrais-dos-revendedores-varejistas-de-combustiveis-automotivos",
+      "status": 200,
+      "finalUrl": "https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos/dados-cadastrais-dos-revendedores-varejistas-de-combustiveis-automotivos",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "anp-precos-combustiveis",
+      "url": "https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos/serie-historica-de-precos-de-combustiveis",
+      "status": 200,
+      "finalUrl": "https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos/serie-historica-de-precos-de-combustiveis",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "ondh-disque100-ligue180",
+      "url": "https://www.gov.br/mdh/pt-br/acesso-a-informacao/dados-abertos/disque100",
+      "status": 200,
+      "finalUrl": "https://www.gov.br/mdh/pt-br/acesso-a-informacao/dados-abertos/disque100",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "ceis-cnep-sancoes",
+      "url": "https://portaldatransparencia.gov.br/download-de-dados/ceis",
+      "status": 200,
+      "finalUrl": "https://portaldatransparencia.gov.br/download-de-dados/ceis",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "CGU — Dados Abertos de Ouvidoria",
+      "url": "https://www.gov.br/cgu/pt-br/acesso-a-informacao/dados-abertos/arquivos/ouvidoria",
+      "status": 200,
+      "finalUrl": "https://www.gov.br/cgu/pt-br/acesso-a-informacao/dados-abertos/arquivos/ouvidoria",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Fala.BR / CGU",
+      "url": "https://www.gov.br/acessoainformacao/pt-br/falabr/visao-geral/busca-de-pedidos-e-respostas-download-de-dados",
+      "status": 200,
+      "finalUrl": "https://www.gov.br/acessoainformacao/pt-br/falabr/visao-geral/busca-de-pedidos-e-respostas-download-de-dados",
       "class": "ok",
       "attempts": [
         200
@@ -1788,6 +1854,61 @@
       ]
     },
     {
+      "type": "source",
+      "id": "DuckDB",
+      "url": "https://duckdb.org/docs/current/guides/overview",
+      "status": 200,
+      "finalUrl": "https://duckdb.org/docs/current/guides/overview",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "datasette",
+      "url": "https://datasette.io/",
+      "status": 200,
+      "finalUrl": "https://datasette.io/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "ANP — Dados Abertos",
+      "url": "https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos/dados-abertos",
+      "status": 200,
+      "finalUrl": "https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos/dados-abertos",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "MDHC — ONDH",
+      "url": "https://www.gov.br/mdh/pt-br/ondh/dados-e-estudos",
+      "status": 200,
+      "finalUrl": "https://www.gov.br/mdh/pt-br/ondh/dados-e-estudos",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Portal da Transparência / CGU",
+      "url": "https://portaldatransparencia.gov.br/download-de-dados/",
+      "status": 200,
+      "finalUrl": "https://portaldatransparencia.gov.br/download-de-dados/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
       "type": "tool",
       "id": "openrefine",
       "url": "https://openrefine.org/",
@@ -2597,6 +2718,39 @@
       "url": "https://journaliststudio.google.com/",
       "status": 200,
       "finalUrl": "https://journaliststudio.google.com/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "indicator-lab",
+      "url": "https://indicator.media/indicator-lab",
+      "status": 200,
+      "finalUrl": "https://indicator.media/indicator-lab",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "osint-navigator",
+      "url": "https://navigator.indicator.media/",
+      "status": 200,
+      "finalUrl": "https://navigator.indicator.media/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "duckdb",
+      "url": "https://duckdb.org/",
+      "status": 200,
+      "finalUrl": "https://duckdb.org/",
       "class": "ok",
       "attempts": [
         200
