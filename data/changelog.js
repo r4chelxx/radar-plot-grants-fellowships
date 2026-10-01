@@ -2,6 +2,26 @@ window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
   {
     "date": "2026-10-01",
+    "type": "correção",
+    "title": "FIJ reclassificado como inelegível para a fila atual",
+    "items": [
+      {
+        "id": "fij-investigative-grants",
+        "title": "Fund for Investigative Journalism — descartado"
+      },
+      {
+        "id": "type-investigations-pitches",
+        "title": "Type Investigations — apenas monitoramento"
+      },
+      {
+        "id": "fire-virtual-newsroom",
+        "title": "FIRE Virtual Newsroom — parcial, não prioritário"
+      }
+    ],
+    "detail": "Reanálise das oportunidades EUA/inglês: FIJ não é acionável para Rachel/PLOT sem repórter ou eixo forte dos EUA e publicação em veículo americano em inglês. Type e FIRE permanecem apenas como monitoramento condicional, não como prioridade de submissão."
+  },
+  {
+    "date": "2026-10-01",
     "type": "oportunidades",
     "title": "Nova triagem EUA/inglês para reportagens investigativas",
     "items": [

@@ -39,7 +39,7 @@ window.RADAR_PARTS.stories=[
       "Trabalho",
       "Governança"
     ],
-    "summary": "Investigação madura sobre formação, retenção e mobilidade das atletas brasileiras diante da Copa de 2027: base própria, reconstrução histórica, clubes, competições e mercados, comparação internacional, entrevistas, mapas de fluxos e visualizações. Play the Game já submetido. Novos destinos exigem adaptação do pitch, não reinício da investigação. IWMF Women's Stories encerrado; Pulitzer Gender é alternativa em fila e Kari Howard/Kim Wall são monitoramento. FIJ, Type Investigations e FIRE entram como rotas parciais se houver eixo EUA/inglês verificável; não substituem Play the Game nem Pulitzer Gender."
+    "summary": "Investigação madura sobre formação, retenção e mobilidade das atletas brasileiras diante da Copa de 2027: base própria, reconstrução histórica, clubes, competições e mercados, comparação internacional, entrevistas, mapas de fluxos e visualizações. Play the Game já submetido. Novos destinos exigem adaptação do pitch, não reinício da investigação. IWMF Women's Stories encerrado; Pulitzer Gender é alternativa em fila e Kari Howard/Kim Wall são monitoramento. FIJ foi descartado para a pauta como está; Type/FIRE ficam apenas como monitoramento se surgir recorte EUA/inglês realmente comprovado."
   },
   {
     "id": "educacao",
@@ -51,7 +51,7 @@ window.RADAR_PARTS.stories=[
       "Dados",
       "Políticas públicas"
     ],
-    "summary": "Investigação das oportunidades oferecidas pelas escolas municipais de ensino fundamental de Salvador e sua distribuição territorial. Pulitzer Data é a prioridade: base por escola, análise espacial e apuração das decisões administrativas e orçamentárias. Global é alternativa; ML apenas se necessário à apuração. FIJ/Type/FIRE ficam fora da prioridade, salvo se surgir publicação internacional em inglês com ângulo EUA comprovado."
+    "summary": "Investigação das oportunidades oferecidas pelas escolas municipais de ensino fundamental de Salvador e sua distribuição territorial. Pulitzer Data é a prioridade: base por escola, análise espacial e apuração das decisões administrativas e orçamentárias. Global é alternativa; ML apenas se necessário à apuração. FIJ está descartado para a pauta como está; Type/FIRE só seriam reavaliados com publicação internacional em inglês e ângulo EUA comprovado."
   },
   {
     "id": "laudemio",

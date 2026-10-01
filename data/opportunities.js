@@ -2592,23 +2592,26 @@ window.RADAR_PARTS.opportunities=[
         "date": "2026-10-01",
         "status": "monitorar",
         "source": "https://fij.org/apply-for-a-grant/"
+      },
+      {
+        "date": "2026-10-01",
+        "status": "descartada",
+        "source": "https://fij.org/grants-faq/"
       }
     ],
     "id": "fij-investigative-grants",
     "summary": "Grants do Fund for Investigative Journalism para reportagens investigativas, com regular grants de até US$10 mil e seed funding de até US$2,5 mil. Para pautas baseadas fora dos EUA, exige ângulo forte com EUA e publicação em inglês em veículo dos EUA.",
-    "status": "monitorar",
-    "eligibility": "parcial",
-    "fit": 7.5,
+    "status": "descartada",
+    "eligibility": "inelegível",
+    "fit": 2,
     "apply": "2027-01-29",
-    "story": [
-      "futebol"
-    ],
+    "story": [],
     "region": "Estados Unidos / Internacional com eixo EUA",
     "funder": "Fund for Investigative Journalism",
     "url": "https://fij.org/apply-for-a-grant/",
     "rules": "https://fij.org/apply-for-a-grant/",
     "verified": "2026-10-01",
-    "notes": "Não é prioridade para CEP-escola porque a investigação municipal de Salvador não tem, por ora, ângulo direto com EUA. Para futfem, pode ser plano B se o recorte demonstrar impacto/participação de atores americanos — clubes, universidades, investidores, agentes, ligas, federações ou rotas de mobilidade — e houver compromisso de publicação em inglês em veículo dos EUA. Full grants pedem carta de compromisso; seed não exige carta, mas ainda precisa indicar rota editorial. Próximo prazo publicado: 29/01/2027 para regular e seed; Alicia Patterson Fellowship no mesmo guarda-chuva tem prazo 01/10/2026, mas demanda 6 ou 12 meses e deve ser avaliada separadamente.",
+    "notes": "Reanálise: descartada para a fila atual de Rachel/PLOT. O FIJ aceita alguns projetos internacionais apenas quando vêm de repórteres baseados nos EUA ou têm ângulo muito forte com EUA, envolvendo cidadãos, governo ou empresas americanas, e ainda exigem publicação em inglês em veículo dos EUA. CEP-escola não tem esse eixo. Futfem só voltaria a ser reavaliada se nascer uma versão nova centrada em atores dos EUA e com interesse editorial americano comprovado; não é uma oportunidade real para a investigação como está hoje.",
     "title": "Fund for Investigative Journalism — Grants",
     "org": "Fund for Investigative Journalism",
     "type": "Grant",
@@ -2632,7 +2635,7 @@ window.RADAR_PARTS.opportunities=[
     "summary": "Newsroom investigativa sem fins lucrativos que trabalha com freelancers, cobre custos diretos, paga taxa complementar e ajuda a colocar a reportagem em veículo parceiro dos EUA.",
     "status": "monitorar",
     "eligibility": "parcial",
-    "fit": 7,
+    "fit": 5.5,
     "apply": null,
     "story": [
       "futebol"
@@ -2642,7 +2645,7 @@ window.RADAR_PARTS.opportunities=[
     "url": "https://typeinvestigations.org/about/how-to-pitch/",
     "rules": "https://typeinvestigations.org/about/faq/",
     "verified": "2026-10-01",
-    "notes": "Canal editorial, não edital de grant. Aceita repórteres fora dos EUA, mas exige fluência em inglês, familiaridade com padrões da mídia americana, vínculo direto com EUA e primeira publicação em veículo dos EUA. Pitch gerado por IA é rejeitado; qualquer uso de IA no processo deve ser discutido com editor. Para futfem, só vale se a investigação for reposicionada como accountability internacional com eixo EUA. Não é rota prioritária para CEP-escola.",
+    "notes": "Reanálise: não é uma oportunidade prática imediata. Type aceita repórteres fora dos EUA, mas exige fluência em inglês, familiaridade com padrões da mídia americana, vínculo direto com EUA e primeira publicação em veículo dos EUA. Pode ficar apenas como monitoramento para uma versão futura de futfem com eixo EUA muito forte; não serve para CEP-escola como está.",
     "title": "Type Investigations — pitch investigativo",
     "org": "Type Investigations",
     "type": "Pitch",
@@ -2666,7 +2669,7 @@ window.RADAR_PARTS.opportunities=[
     "summary": "FIRE/IRE oferece consultoria, serviços de reportagem e possíveis grants para freelancers investigativos, com foco em projetos para veículos em inglês.",
     "status": "monitorar",
     "eligibility": "parcial",
-    "fit": 7,
+    "fit": 6.5,
     "apply": null,
     "story": [
       "futebol",
@@ -2677,7 +2680,7 @@ window.RADAR_PARTS.opportunities=[
     "url": "https://newsfuel.org/opportunities/48",
     "rules": "https://gijn.org/resource/grants-fellowships/",
     "verified": "2026-10-01",
-    "notes": "A fonte pública atual mais clara veio de NewsFuel/GIJN: freelancers podem residir fora dos EUA, mas a reportagem deve sair em veículo de língua inglesa; projeto internacional se fortalece com ângulo dos EUA. Pode ajudar como consultoria/serviço antes de uma candidatura maior, especialmente se houver necessidade de apoio jurídico, editorial ou de pesquisa. Para CEP-escola, uso só se houver publicação internacional em inglês; para futfem, melhor se o gancho EUA estiver bem documentado.",
+    "notes": "Reanálise: segue parcial, mas não prioritária. FIRE/IRE pode aceitar freelancers fora dos EUA, porém a saída precisa ser em veículo de língua inglesa e projetos internacionais se fortalecem com ângulo EUA. Útil apenas como apoio editorial/jurídico/pesquisa se houver publicação internacional alinhada; não é destino principal de CEP nem futfem.",
     "title": "FIRE Virtual Newsroom",
     "org": "Freelance Investigative Reporters & Editors (FIRE/IRE)",
     "type": "Grant / apoio editorial",
