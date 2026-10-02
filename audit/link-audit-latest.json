@@ -1,13 +1,24 @@
 {
-  "checkedAt": "2026-10-02T02:17:55.954Z",
+  "checkedAt": "2026-10-02T12:11:55.969Z",
   "policy": "404/410 becomes broken only after appearing as suspect or broken in the previous audit; blocked and network results are inconclusive",
   "counts": {
-    "ok": 219,
-    "blocked": 28,
+    "blocked": 26,
+    "ok": 224,
     "network": 26,
     "server": 1
   },
   "results": [
+    {
+      "type": "opportunity",
+      "id": "pulitzer-ocean-reporting-network",
+      "url": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/apply-join-ocean-reporting-network-orn",
+      "status": 403,
+      "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/apply-join-ocean-reporting-network-orn",
+      "class": "blocked",
+      "attempts": [
+        403
+      ]
+    },
     {
       "type": "opportunity",
       "id": "fapesp-bridge-jc-ii",
@@ -122,11 +133,11 @@
       "type": "opportunity",
       "id": "pulitzer-data",
       "url": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/data-journalism-grants",
-      "status": 403,
+      "status": 200,
       "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/data-journalism-grants",
-      "class": "blocked",
+      "class": "ok",
       "attempts": [
-        403
+        200
       ]
     },
     {
@@ -595,22 +606,22 @@
       "type": "opportunity",
       "id": "pulitzer-gender",
       "url": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/gender-equality-grant",
-      "status": 403,
+      "status": 200,
       "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/gender-equality-grant",
-      "class": "blocked",
+      "class": "ok",
       "attempts": [
-        403
+        200
       ]
     },
     {
       "type": "opportunity",
       "id": "pulitzer-global",
       "url": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/global-reporting-grants",
-      "status": 403,
+      "status": 200,
       "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/global-reporting-grants",
-      "class": "blocked",
+      "class": "ok",
       "attempts": [
-        403
+        200
       ]
     },
     {
@@ -685,6 +696,17 @@
       "url": "https://www.firenewsroom.org/about-us/fire-frequently-asked-questions",
       "status": 200,
       "finalUrl": "https://www.firenewsroom.org/about-us/fire-frequently-asked-questions",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "World Bank Data360",
+      "url": "https://data360.worldbank.org/",
+      "status": 200,
+      "finalUrl": "https://data.worldbank.org/",
       "class": "ok",
       "attempts": [
         200
@@ -2916,6 +2938,17 @@
       "url": "https://journaliststudio.google.com/",
       "status": 200,
       "finalUrl": "https://journaliststudio.google.com/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "world-bank-data360-api",
+      "url": "https://data360.worldbank.org/en/api",
+      "status": 200,
+      "finalUrl": "https://data360.worldbank.org/en/api",
       "class": "ok",
       "attempts": [
         200
