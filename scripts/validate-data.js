@@ -38,9 +38,12 @@ for(const o of opps){
   if(!opportunityStatuses.has(o.status)) errors.push("opportunity "+o.id+": invalid status "+o.status);
   if(!eligibilityStatuses.has(o.eligibility)) errors.push("opportunity "+o.id+": invalid eligibility "+o.eligibility);
   if(!o.rules||!/^https?:\/\//.test(o.rules)) errors.push("opportunity "+o.id+": invalid official source");
+  if(!Array.isArray(o.themes)||!o.themes.length) errors.push("opportunity "+o.id+": themes must be a non-empty array");
+  if(!Array.isArray(o.story)) errors.push("opportunity "+o.id+": story must be an array of story ids");
+  if(o.apply!==undefined&&o.apply!==null&&!/^https?:\/\//.test(o.apply)) errors.push("opportunity "+o.id+": invalid apply URL");
+  if(o.status==="aberta"&&o.deadline&&o.deadline<todayInBahia) errors.push("opportunity "+o.id+": open status with past deadline "+o.deadline);
   for(const k of ["deadline","opens","verified"]) if(o[k]&&!dateRx.test(o[k])) errors.push("opportunity "+o.id+": invalid "+k);
   checkPastDate("opportunity "+o.id+" verified",o.verified);
-  if(o.story!==undefined&&!Array.isArray(o.story)) errors.push("opportunity "+o.id+": story must be an array of story ids");
   for(const s of Array.isArray(o.story)?o.story:[]) if(!storyIds.has(s)) errors.push("opportunity "+o.id+": unknown story "+s);
   if(!o.summary) warnings.push("opportunity "+o.id+": missing editorial summary");
 }

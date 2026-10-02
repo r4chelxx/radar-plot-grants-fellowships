@@ -1,19 +1,197 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
-window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"4 meses de acompanhamento; início em novembro de 2026 e publicação até abril de 2027","modality":"Principalmente remota","documents":["brief de investigação de até 2.500 palavras com título, tema, enfoque, hipótese e metodologia","identificação do veículo de publicação","carta de compromisso editorial do veículo"],"restrictions":["experiência jornalística comprovável, especialmente em investigação ou reportagem aprofundada","proposta deve contar com compromisso de publicação de um meio jornalístico","compreensão de espanhol recomendada para o acompanhamento","uso de IA generativa não é permitido na produção ou criação da candidatura"],"opens":"2026-09-10","verificationHistory":[{"date":"2026-10-02","status":"aberta","source":"https://www.derechosdigitales.org/pt/noticias/inscricoes-abertas-para-a-primeira-edicao-do-programa-jornalismo-para-os-direitos-digitais/"}],"id":"derechos-digitales-jornalismo-2026","summary":"Bolsa para investigações latino-americanas sobre tecnologia, poder e direitos humanos, com forte aderência a impactos territoriais, corporativos e sociais da infraestrutura digital.","title":"Jornalismo para os Direitos Digitais 2026","org":"Derechos Digitales","type":"Bolsa de investigação","themes":["Tecnologia","Direitos humanos","IA/tech","Investigação","Poder corporativo"],"scope":"América Latina e Caribe","deadline":"2026-10-04","deadlineStatus":"confirmado","eligibility":"elegível","fit":10,"status":"aberta","story":["data-centers"],"rules":"https://www.derechosdigitales.org/pt/noticias/inscricoes-abertas-para-a-primeira-edicao-do-programa-jornalismo-para-os-direitos-digitais/","apply":"https://forms.derechosdigitales.org/index.php?lang=es&r=survey%2Findex&sid=527193","verified":"2026-10-02","desc":"Aceita jornalistas independentes e equipes, desde que uma pessoa seja responsável pela candidatura e exista compromisso de publicação. O próprio PLOT. pode cumprir esse requisito se for apresentado como meio jornalístico efetivo. Para data centers, a chamada admite investigações locais sobre tecnologia, assimetrias de poder e impactos em comunidades e territórios. Prazo curto: 04/10/2026.","discoveredVia":["Derechos Digitales"],"discoveryUrl":"https://www.derechosdigitales.org/pt/noticias/inscricoes-abertas-para-a-primeira-edicao-do-programa-jornalismo-para-os-direitos-digitais/"},{"value":"US$ 130.000 + tuition e seguro-saúde","duration":"9 meses · setembro de 2027 a maio de 2028","modality":"Presencial · Stanford, Califórnia","documents":["formulário de candidatura","vídeo de 1 minuto","currículo","amostra de trabalho","contatos de 3 referências profissionais"],"restrictions":["mínimo de 5 anos de experiência profissional","dedicação integral e residência em Stanford durante o programa","não financia projeto de reportagem, livro ou aceleração de startup"],"opens":"2026-10-14","verificationHistory":[{"date":"2026-10-02","status":"preparar","source":"https://jsk.stanford.edu/become-a-fellow"}],"id":"jsk-2027-28","summary":"Fellowship residencial para jornalistas e profissionais do ecossistema jornalístico explorarem uma questão estratégica e desenvolverem liderança e novas abordagens para o setor.","title":"John S. Knight Journalism Fellowships 2027–28","org":"Stanford University","type":"Fellowship","themes":["Jornalismo","Inovação","Liderança","Tecnologia"],"scope":"Internacional","deadline":"2026-12-02","deadlineStatus":"abre_2026-10-14","eligibility":"elegível","fit":8.5,"status":"preparar","story":[],"rules":"https://jsk.stanford.edu/become-a-fellow","apply":"https://jsk.stanford.edu/become-a-fellow","verified":"2026-10-02","desc":"A chamada abre em 14/10 às 20h UTC e fecha em 02/12 às 21h UTC. Aceita jornalistas internacionais, empregados ou independentes, com pelo menos cinco anos de experiência. É uma fellowship de desenvolvimento profissional e exploração de uma questão sobre jornalismo, não um grant para executar uma reportagem.","discoveredVia":["John S. Knight Journalism Fellowships"],"discoveryUrl":"https://jsk.stanford.edu/become-a-fellow"},{"value":"US$ 87.500 por 9 meses + apoios de saúde e childcare conforme regras","duration":"ano acadêmico 2027–28","modality":"Presencial · Harvard, Cambridge, Massachusetts","documents":["2 ensaios","perfil profissional","resumo da proposta de estudo","amostras de trabalho","3 cartas de recomendação"],"restrictions":["mínimo de 5 anos de experiência full-time em mídia","fluência em inglês","residência na região de Cambridge durante o período letivo","candidatura deve ser de autoria do candidato; IA só pode ser usada para pequenas correções editoriais e deve ser declarada"],"opens":null,"verificationHistory":[{"date":"2026-10-02","status":"preparar","source":"https://nieman.harvard.edu/fellowships/how-to-apply/"}],"id":"nieman-2027-28","summary":"Fellowship residencial em Harvard para jornalistas experientes desenvolverem um programa individual de estudos e aprofundarem questões relevantes à própria trajetória e ao jornalismo.","title":"Nieman Fellowship 2027–28 — International","org":"Nieman Foundation / Harvard University","type":"Fellowship","themes":["Jornalismo","Investigação","Formação","Inovação"],"scope":"Internacional","deadline":"2026-12-01","deadlineStatus":"abre_primeira_semana_outubro","eligibility":"elegível","fit":8.5,"status":"preparar","story":[],"rules":"https://nieman.harvard.edu/fellowships/how-to-apply/","apply":"https://nieman.harvard.edu/fellowships/how-to-apply/","verified":"2026-10-02","desc":"A Nieman confirma abertura das candidaturas 2027–28 na primeira semana de outubro e prazo de 01/12 para jornalistas internacionais. Exige cinco anos de experiência em mídia e três recomendações; não há requisito de diploma universitário.","discoveredVia":["Nieman Foundation"],"discoveryUrl":"https://nieman.harvard.edu/fellowships/how-to-apply/"},
+window.RADAR_PARTS.opportunities=[
+  {
+    "value": "US$ 5.000 por proposta",
+    "duration": "4 meses de acompanhamento; início em novembro de 2026 e publicação até abril de 2027",
+    "modality": "Principalmente remota",
+    "documents": [
+      "brief de investigação de até 2.500 palavras com título, tema, enfoque, hipótese e metodologia",
+      "identificação do veículo de publicação",
+      "carta de compromisso editorial do veículo"
+    ],
+    "restrictions": [
+      "experiência jornalística comprovável, especialmente em investigação ou reportagem aprofundada",
+      "proposta deve contar com compromisso de publicação de um meio jornalístico",
+      "compreensão de espanhol recomendada para o acompanhamento",
+      "uso de IA generativa não é permitido na produção ou criação da candidatura"
+    ],
+    "opens": "2026-09-10",
+    "verificationHistory": [
+      {
+        "date": "2026-10-02",
+        "status": "aberta",
+        "source": "https://www.derechosdigitales.org/pt/noticias/inscricoes-abertas-para-a-primeira-edicao-do-programa-jornalismo-para-os-direitos-digitais/"
+      }
+    ],
+    "id": "derechos-digitales-jornalismo-2026",
+    "summary": "Bolsa para investigações latino-americanas sobre tecnologia, poder e direitos humanos, com forte aderência a impactos territoriais, corporativos e sociais da infraestrutura digital.",
+    "title": "Jornalismo para os Direitos Digitais 2026",
+    "org": "Derechos Digitales",
+    "type": "Bolsa de investigação",
+    "themes": [
+      "Tecnologia",
+      "Direitos humanos",
+      "IA/tech",
+      "Investigação",
+      "Poder corporativo"
+    ],
+    "scope": "América Latina e Caribe",
+    "deadline": "2026-10-04",
+    "deadlineStatus": "confirmado",
+    "eligibility": "elegível",
+    "fit": 10,
+    "status": "aberta",
+    "story": [
+      "data-centers"
+    ],
+    "rules": "https://www.derechosdigitales.org/pt/noticias/inscricoes-abertas-para-a-primeira-edicao-do-programa-jornalismo-para-os-direitos-digitais/",
+    "apply": "https://forms.derechosdigitales.org/index.php?lang=es&r=survey%2Findex&sid=527193",
+    "verified": "2026-10-02",
+    "desc": "Aceita jornalistas independentes e equipes, desde que uma pessoa seja responsável pela candidatura e exista compromisso de publicação. O próprio PLOT. pode cumprir esse requisito se for apresentado como meio jornalístico efetivo. Para data centers, a chamada admite investigações locais sobre tecnologia, assimetrias de poder e impactos em comunidades e territórios. Prazo curto: 04/10/2026.",
+    "discoveredVia": [
+      "Derechos Digitales"
+    ],
+    "discoveryUrl": "https://www.derechosdigitales.org/pt/noticias/inscricoes-abertas-para-a-primeira-edicao-do-programa-jornalismo-para-os-direitos-digitais/"
+  },
+  {
+    "value": "US$ 130.000 + tuition e seguro-saúde",
+    "duration": "9 meses · setembro de 2027 a maio de 2028",
+    "modality": "Presencial · Stanford, Califórnia",
+    "documents": [
+      "formulário de candidatura",
+      "vídeo de 1 minuto",
+      "currículo",
+      "amostra de trabalho",
+      "contatos de 3 referências profissionais"
+    ],
+    "restrictions": [
+      "mínimo de 5 anos de experiência profissional",
+      "dedicação integral e residência em Stanford durante o programa",
+      "não financia projeto de reportagem, livro ou aceleração de startup"
+    ],
+    "opens": "2026-10-14",
+    "verificationHistory": [
+      {
+        "date": "2026-10-02",
+        "status": "preparar",
+        "source": "https://jsk.stanford.edu/become-a-fellow"
+      }
+    ],
+    "id": "jsk-2027-28",
+    "summary": "Fellowship residencial para jornalistas e profissionais do ecossistema jornalístico explorarem uma questão estratégica e desenvolverem liderança e novas abordagens para o setor.",
+    "title": "John S. Knight Journalism Fellowships 2027–28",
+    "org": "Stanford University",
+    "type": "Fellowship",
+    "themes": [
+      "Jornalismo",
+      "Inovação",
+      "Liderança",
+      "Tecnologia"
+    ],
+    "scope": "Internacional",
+    "deadline": "2026-12-02",
+    "deadlineStatus": "abre_2026-10-14",
+    "eligibility": "elegível",
+    "fit": 8.5,
+    "status": "preparar",
+    "story": [],
+    "rules": "https://jsk.stanford.edu/become-a-fellow",
+    "apply": "https://jsk.stanford.edu/become-a-fellow",
+    "verified": "2026-10-02",
+    "desc": "A chamada abre em 14/10 às 20h UTC e fecha em 02/12 às 21h UTC. Aceita jornalistas internacionais, empregados ou independentes, com pelo menos cinco anos de experiência. É uma fellowship de desenvolvimento profissional e exploração de uma questão sobre jornalismo, não um grant para executar uma reportagem.",
+    "discoveredVia": [
+      "John S. Knight Journalism Fellowships"
+    ],
+    "discoveryUrl": "https://jsk.stanford.edu/become-a-fellow"
+  },
+  {
+    "value": "US$ 87.500 por 9 meses + apoios de saúde e childcare conforme regras",
+    "duration": "ano acadêmico 2027–28",
+    "modality": "Presencial · Harvard, Cambridge, Massachusetts",
+    "documents": [
+      "2 ensaios",
+      "perfil profissional",
+      "resumo da proposta de estudo",
+      "amostras de trabalho",
+      "3 cartas de recomendação"
+    ],
+    "restrictions": [
+      "mínimo de 5 anos de experiência full-time em mídia",
+      "fluência em inglês",
+      "residência na região de Cambridge durante o período letivo",
+      "candidatura deve ser de autoria do candidato; IA só pode ser usada para pequenas correções editoriais e deve ser declarada"
+    ],
+    "opens": null,
+    "verificationHistory": [
+      {
+        "date": "2026-10-02",
+        "status": "preparar",
+        "source": "https://nieman.harvard.edu/fellowships/how-to-apply/"
+      }
+    ],
+    "id": "nieman-2027-28",
+    "summary": "Fellowship residencial em Harvard para jornalistas experientes desenvolverem um programa individual de estudos e aprofundarem questões relevantes à própria trajetória e ao jornalismo.",
+    "title": "Nieman Fellowship 2027–28 — International",
+    "org": "Nieman Foundation / Harvard University",
+    "type": "Fellowship",
+    "themes": [
+      "Jornalismo",
+      "Investigação",
+      "Formação",
+      "Inovação"
+    ],
+    "scope": "Internacional",
+    "deadline": "2026-12-01",
+    "deadlineStatus": "abre_primeira_semana_outubro",
+    "eligibility": "elegível",
+    "fit": 8.5,
+    "status": "preparar",
+    "story": [],
+    "rules": "https://nieman.harvard.edu/fellowships/how-to-apply/",
+    "apply": "https://nieman.harvard.edu/fellowships/how-to-apply/",
+    "verified": "2026-10-02",
+    "desc": "A Nieman confirma abertura das candidaturas 2027–28 na primeira semana de outubro e prazo de 01/12 para jornalistas internacionais. Exige cinco anos de experiência em mídia e três recomendações; não há requisito de diploma universitário.",
+    "discoveredVia": [
+      "Nieman Foundation"
+    ],
+    "discoveryUrl": "https://nieman.harvard.edu/fellowships/how-to-apply/"
+  },
   {
     "value": "salário do fellow coberto + apoio ao veículo; valor exato não publicado",
     "duration": "12 meses · início previsto em janeiro de 2027 para a quarta turma",
     "modality": "Fellowship internacional em rede",
-    "documents": ["carta de apoio do empregador ou redação anfitriã","3 exemplos de investigações publicadas nos últimos 5 anos","3 referências profissionais ou cartas de recomendação","passaporte válido por mais de 6 meses"],
-    "restrictions": ["jornalistas experientes, freelancers ou de redação","histórico comprovado de investigação ambiental e conhecimento de temas oceânicos","dedicação de um ano à investigação","freelancer precisa de redação anfitriã comprometida com apoio e publicação"],
+    "documents": [
+      "carta de apoio do empregador ou redação anfitriã",
+      "3 exemplos de investigações publicadas nos últimos 5 anos",
+      "3 referências profissionais ou cartas de recomendação",
+      "passaporte válido por mais de 6 meses"
+    ],
+    "restrictions": [
+      "jornalistas experientes, freelancers ou de redação",
+      "histórico comprovado de investigação ambiental e conhecimento de temas oceânicos",
+      "dedicação de um ano à investigação",
+      "freelancer precisa de redação anfitriã comprometida com apoio e publicação"
+    ],
     "opens": "2026-08-24",
-    "verificationHistory": [{"date":"2026-10-02","status":"monitorar","source":"https://pulitzercenter.org/grants-fellowships/opportunities-journalists/apply-join-ocean-reporting-network-orn"}],
+    "verificationHistory": [
+      {
+        "date": "2026-10-02",
+        "status": "monitorar",
+        "source": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/apply-join-ocean-reporting-network-orn"
+      }
+    ],
     "id": "pulitzer-ocean-reporting-network",
     "summary": "Fellowship anual do Pulitzer Center para investigações aprofundadas sobre oceanos, pesca, biodiversidade, comunidades costeiras, governança e cadeias de suprimento.",
     "title": "Ocean Reporting Network Fellowship",
     "org": "Pulitzer Center",
     "type": "Fellowship",
-    "themes": ["Clima","Ambiente","Investigação","Transparência","Dados"],
+    "themes": [
+      "Clima",
+      "Ambiente",
+      "Investigação",
+      "Transparência",
+      "Dados"
+    ],
     "scope": "Global",
     "deadline": "2026-09-13",
     "deadlineStatus": "encerrado · recorrência anual confirmada",
@@ -25,7 +203,9 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
     "apply": null,
     "verified": "2026-10-02",
     "desc": "A quarta turma está encerrada, mas o Pulitzer informa que a ORN recruta jornalistas a cada ano e aceita profissionais de qualquer lugar do mundo, com incentivo ao Sul Global. Manter em monitoramento para a próxima abertura; a edição 2027 abriu em 24/08 e fechou em 13/09/2026.",
-    "discoveredVia": ["Pulitzer Center"],
+    "discoveredVia": [
+      "Pulitzer Center"
+    ],
     "discoveryUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/apply-join-ocean-reporting-network-orn"
   },
   {
@@ -50,6 +230,11 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
         "date": "2026-09-30",
         "status": "monitorar",
         "source": "https://fapesp.br/oportunidades/cepid-bridge%3A-gestao-de-ecossistemas-para-transicoes-sustentaveis/9850/"
+      },
+      {
+        "date": "2026-10-02",
+        "status": "monitorar",
+        "source": "https://fapesp.br/oportunidades/cepid-bridge%3A-gestao-de-ecossistemas-para-transicoes-sustentaveis/9850/"
       }
     ],
     "id": "fapesp-bridge-jc-ii",
@@ -72,7 +257,7 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
     "story": [],
     "rules": "https://fapesp.br/oportunidades/cepid-bridge%3A-gestao-de-ecossistemas-para-transicoes-sustentaveis/9850/",
     "apply": "https://forms.gle/QAEurvfT7LfwQMRd7",
-    "verified": "2026-09-30",
+    "verified": "2026-10-02",
     "desc": "A formação superior atende a um dos requisitos, mas é preciso confirmar o curso de Introdução ao Jornalismo Científico de pelo menos 90 horas e a disponibilidade para dedicação integral presencial. A vaga envolve produção jornalística, redes sociais, divulgação científica e desenvolvimento de canais de comunicação; prazo oficial em 12/10/2026.",
     "discoveredVia": [
       "FAPESP Oportunidades"
@@ -97,6 +282,11 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
     "verificationHistory": [
       {
         "date": "2026-09-29",
+        "status": "aberta",
+        "source": "https://equalityfund.ca/en/posts/application-journalism-fellowship"
+      },
+      {
+        "date": "2026-10-02",
         "status": "aberta",
         "source": "https://equalityfund.ca/en/posts/application-journalism-fellowship"
       }
@@ -126,7 +316,7 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
     ],
     "rules": "https://equalityfund.ca/en/posts/application-journalism-fellowship",
     "apply": "https://equalityfund.ca/en/posts/application-journalism-fellowship",
-    "verified": "2026-09-29",
+    "verified": "2026-10-02",
     "desc": "Brasil consta na lista vigente de países elegíveis a ODA. A fellowship aceita jornalistas independentes, exige reportagem sobre a própria comunidade e prioriza soluções locais para crises como violência de gênero, direitos sexuais e reprodutivos, clima e autoritarismo. A página oficial diverge entre 23h e meia-noite no horário do leste; adotar 23h como limite seguro.",
     "discoveredVia": [
       "GIJN Saved Links"
@@ -154,6 +344,11 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
         "date": "2026-09-29",
         "status": "aberta",
         "source": "https://gcjt.org/resources/call-applications-2027-ochberg-fellowships"
+      },
+      {
+        "date": "2026-10-02",
+        "status": "aberta",
+        "source": "https://gcjt.org/resources/call-applications-2027-ochberg-fellowships"
       }
     ],
     "id": "ochberg-2027",
@@ -179,7 +374,7 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
     ],
     "rules": "https://gcjt.org/resources/call-applications-2027-ochberg-fellowships",
     "apply": "https://gcjt.org/resources/call-applications-2027-ochberg-fellowships",
-    "verified": "2026-09-29",
+    "verified": "2026-10-02",
     "desc": "Aberta a jornalistas de qualquer país, inclusive freelancers. Seleciona 12–14 fellows e exige trajetória consistente de cobertura de trauma e seus impactos sobre indivíduos, famílias ou comunidades; recomendações podem ser enviadas até 27/10."
   },
   {
@@ -200,6 +395,11 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
     "verificationHistory": [
       {
         "date": "2026-09-29",
+        "status": "aberta",
+        "source": "https://www.climatexc.org/grants/climate-action-in-your-community"
+      },
+      {
+        "date": "2026-10-02",
         "status": "aberta",
         "source": "https://www.climatexc.org/grants/climate-action-in-your-community"
       }
@@ -227,7 +427,7 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
     ],
     "rules": "https://www.climatexc.org/grants/climate-action-in-your-community",
     "apply": "https://www.climatexc.org/grants/climate-action-in-your-community",
-    "verified": "2026-09-29",
+    "verified": "2026-10-02",
     "desc": "Aceita jornalista individual ou equipe no mundo, desde que vinculada a uma organização jornalística; a reportagem pode sair em qualquer idioma. O recorte de data centers só é adequado se partir de ação comunitária concreta e preservar o eixo investigativo sem deformá-lo para o edital."
   },
   {
@@ -246,6 +446,11 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
         "date": "2026-09-25",
         "status": "aberta",
         "source": "https://www.ctrl-j.info/programs/research-hub"
+      },
+      {
+        "date": "2026-10-02",
+        "status": "aberta",
+        "source": "https://www.ctrl-j.info/programs/research-hub"
       }
     ],
     "id": "ctrlj-research-hub26",
@@ -261,16 +466,16 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
       "Pesquisa"
     ],
     "scope": "Sul Global / América Latina",
-    "deadline": "2026-09-30",
-    "deadlineStatus": "confirmado",
+    "deadline": "2026-10-02",
+    "deadlineStatus": "encerra_hoje",
     "eligibility": "elegível",
     "fit": 9,
     "status": "aberta",
     "story": [],
     "rules": "https://www.ctrl-j.info/programs/research-hub",
     "apply": "https://www.ctrl-j.info/programs/research-hub",
-    "verified": "2026-09-25",
-    "desc": "Aberto a pesquisadores individuais em diferentes estágios, inclusive profissionais, na América Latina. Prevê 12 workshops, pesquisa original, publicação conjunta em 2027 e honorário de US$1.000 após a conclusão."
+    "verified": "2026-10-02",
+    "desc": "Programa para pesquisadores individuais do Sul Global, inclusive profissionais da América Latina. O prazo foi prorrogado oficialmente para 02/10/2026. Prevê 12 workshops ao longo de seis meses, desenvolvimento de pesquisa original e publicação conjunta em 2027; plenárias em inglês."
   },
   {
     "value": "US$1.000–5.000",
@@ -293,6 +498,11 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
         "date": "2026-09-25",
         "status": "monitorar",
         "source": "https://www.ctrl-j.info/programs/microgrants"
+      },
+      {
+        "date": "2026-10-02",
+        "status": "monitorar",
+        "source": "https://www.ctrl-j.info/programs/microgrants"
       }
     ],
     "id": "ctrlj-microgrants26",
@@ -308,15 +518,15 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
     ],
     "scope": "Sul Global",
     "deadline": "2026-10-15",
-    "deadlineStatus": "rolling",
+    "deadlineStatus": "rodada_15_10_2026",
     "eligibility": "parcial",
     "fit": 7.5,
     "status": "monitorar",
     "story": [],
     "rules": "https://www.ctrl-j.info/programs/microgrants",
     "apply": "https://www.ctrl-j.info/programs/microgrants",
-    "verified": "2026-09-25",
-    "desc": "Financia pequenos encontros. Freelancers podem concorrer com carta de apoio de uma organização anfitriã; recursos são transferidos apenas a entidade. Rodadas: 15/10/2026 e 31/01/2027."
+    "verified": "2026-10-02",
+    "desc": "Financia pequenos encontros sobre jornalismo, tecnologia, IA e fluxos de informação. Freelancers podem concorrer com carta de apoio de organização anfitriã; os recursos são transferidos apenas a uma entidade. Rodadas confirmadas: 15/10/2026 e 31/01/2027."
   },
   {
     "value": null,
@@ -333,6 +543,11 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
         "date": "2026-09-25",
         "status": "aberta",
         "source": "https://datavisualizationsociety.org/mentorship/"
+      },
+      {
+        "date": "2026-10-02",
+        "status": "aberta",
+        "source": "https://datavisualizationsociety.org/mentorship/"
       }
     ],
     "id": "dvs",
@@ -347,7 +562,7 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
     "scope": "Internacional",
     "deadline": null,
     "deadlineStatus": "aberta_sem_data",
-    "eligibility": "elegível",
+    "eligibility": "parcial",
     "fit": 10,
     "status": "aberta",
     "story": [
@@ -356,8 +571,8 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
     ],
     "rules": "https://datavisualizationsociety.org/mentorship/",
     "apply": "https://datavisualizationsociety.org/mentorship/",
-    "verified": "2026-09-25",
-    "desc": "Cohort outubro–dezembro com candidaturas abertas. Elegível como mentee se mantido o requisito de menos de 5 anos em dataviz e associação DVS Plus; prevê 6–10 encontros individuais ao longo de cerca de 10 semanas."
+    "verified": "2026-10-02",
+    "desc": "Cohort outubro–dezembro. A elegibilidade como mentee exige menos de cinco anos de experiência em visualização de dados e associação DVS Plus; como esses dois requisitos precisam estar satisfeitos no momento da candidatura, o Radar mantém a elegibilidade como parcial até confirmação."
   },
   {
     "value": null,
@@ -369,6 +584,11 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
     "verificationHistory": [
       {
         "date": "2026-09-23",
+        "status": "aberta",
+        "source": "https://registration.wcsj2027.org/wcsj27/fellowships"
+      },
+      {
+        "date": "2026-10-02",
         "status": "aberta",
         "source": "https://registration.wcsj2027.org/wcsj27/fellowships"
       }
@@ -395,7 +615,7 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
     ],
     "rules": "https://registration.wcsj2027.org/wcsj27/fellowships",
     "apply": "https://registration.wcsj2027.org/wcsj27/fellowships",
-    "verified": "2026-09-23",
+    "verified": "2026-10-02",
     "desc": "Apoio de viagem para a conferência mundial de jornalismo científico. Verificar novamente regras finais antes do envio."
   },
   {
@@ -414,6 +634,11 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
     "verificationHistory": [
       {
         "date": "2026-10-01",
+        "status": "aberta",
+        "source": "https://wallacehouse.umich.edu/knight-wallace/how-to-apply/international-applicants/"
+      },
+      {
+        "date": "2026-10-02",
         "status": "aberta",
         "source": "https://wallacehouse.umich.edu/knight-wallace/how-to-apply/international-applicants/"
       }
@@ -437,11 +662,11 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
     "story": [],
     "rules": "https://wallacehouse.umich.edu/knight-wallace/how-to-apply/international-applicants/",
     "apply": "https://knightwallacefellowshipapplications.secure-platform.com/",
-    "verified": "2026-10-01",
+    "verified": "2026-10-02",
     "desc": "Candidaturas internacionais abertas para 2027–28, com prazo em 01/12/2026. Exige mínimo de cinco anos de experiência e atuação atual em jornalismo. A candidatura deve ser escrita pela própria candidata, sem apoio de IA."
   },
   {
-    "value": null,
+    "value": "taxas cobertas + £2.000/mês + viagem e visto",
     "duration": null,
     "modality": null,
     "documents": [],
@@ -450,6 +675,11 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
     "verificationHistory": [
       {
         "date": "2026-09-24",
+        "status": "preparar",
+        "source": "https://reutersinstitute.politics.ox.ac.uk/our-journalist-fellowship-programme"
+      },
+      {
+        "date": "2026-10-02",
         "status": "preparar",
         "source": "https://reutersinstitute.politics.ox.ac.uk/our-journalist-fellowship-programme"
       }
@@ -472,8 +702,8 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
     "story": [],
     "rules": "https://reutersinstitute.politics.ox.ac.uk/our-journalist-fellowship-programme",
     "apply": null,
-    "verified": "2026-09-24",
-    "desc": "A página oficial confirma que o ciclo 2026–27 está encerrado e as candidaturas reabrem em janeiro de 2027. Freelancers podem concorrer; exige normalmente pelo menos cinco anos de experiência jornalística."
+    "verified": "2026-10-02",
+    "desc": "O ciclo 2026–27 está encerrado e as candidaturas reabrem em janeiro de 2027. O programa aceita jornalistas do mundo todo, inclusive freelancers, normalmente com pelo menos cinco anos de experiência. A maioria das fellowships é integralmente financiada, com stipend mensal de £2.000 e cobertura de viagem e visto."
   },
   {
     "value": "sem faixa fixa; maioria dos apoios anteriores US$10–20 mil",
@@ -504,6 +734,11 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
         "date": "2026-10-01",
         "status": "aberta",
         "source": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/data-journalism-grants"
+      },
+      {
+        "date": "2026-10-02",
+        "status": "aberta",
+        "source": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/data-journalism-grants"
       }
     ],
     "id": "pulitzer-data",
@@ -528,7 +763,7 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
     ],
     "rules": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/data-journalism-grants",
     "apply": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/data-journalism-grants",
-    "verified": "2026-10-01",
+    "verified": "2026-10-02",
     "desc": "Aberto internacionalmente em fluxo contínuo. Prioridade editorial atual: CEP-escola; data centers permanece como encaixe temático, fora da fila de submissão ao Pulitzer neste momento. Preservar a pergunta central e explicitar universo escolar, geocodificação, validação, variáveis territoriais e investigação de decisões administrativas/orçamentárias. Proposta de até 250 palavras e metodologia são centrais. Buscar compromisso de publicação/copublicação; o FAQ exige compromisso antes da aprovação. Adotar uma proposta ativa por vez como estratégia, conforme recomendação do FAQ; não duplicar em Data, Global ou Gender."
   },
   {
@@ -622,6 +857,11 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
         "date": "2026-09-25",
         "status": "encerrada",
         "source": "https://www.techpolicy.press/call-for-applications-2027-tech-policy-press-fellowship-program/"
+      },
+      {
+        "date": "2026-10-02",
+        "status": "encerrada",
+        "source": "https://www.techpolicy.press/call-for-applications-2027-tech-policy-press-fellowship-program/"
       }
     ],
     "id": "techpolicy27",
@@ -646,7 +886,7 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
     ],
     "rules": "https://www.techpolicy.press/call-for-applications-2027-tech-policy-press-fellowship-program/",
     "apply": "https://www.techpolicy.press/call-for-applications-2027-tech-policy-press-fellowship-program/",
-    "verified": "2026-09-25",
+    "verified": "2026-10-02",
     "desc": "Fellowship remota e part-time de 12 meses para jornalistas e outros profissionais mid-career. Aceita candidatos internacionais; stipend de US$10 mil."
   },
   {
@@ -659,6 +899,11 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
     "verificationHistory": [
       {
         "date": "2026-09-25",
+        "status": "encerrada",
+        "source": "https://fundaciongabo.org/es/convocatorias/taller-virtual-como-encontrar-y-contar-historias-climaticas-que-importen-tu-audiencia"
+      },
+      {
+        "date": "2026-10-02",
         "status": "encerrada",
         "source": "https://fundaciongabo.org/es/convocatorias/taller-virtual-como-encontrar-y-contar-historias-climaticas-que-importen-tu-audiencia"
       }
@@ -684,7 +929,7 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
     ],
     "rules": "https://fundaciongabo.org/es/convocatorias/taller-virtual-como-encontrar-y-contar-historias-climaticas-que-importen-tu-audiencia",
     "apply": "https://fundaciongabo.org/es/convocatorias/taller-virtual-como-encontrar-y-contar-historias-climaticas-que-importen-tu-audiencia",
-    "verified": "2026-09-25",
+    "verified": "2026-10-02",
     "desc": "Taller gratuito para 20 jornalistas de Ibero-América, de 20 a 23 de outubro; inclui possibilidade de mentorias editoriais individuais."
   },
   {
@@ -704,6 +949,11 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
     "verificationHistory": [
       {
         "date": "2026-09-24",
+        "status": "aberta",
+        "source": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/our-work-environment-grants"
+      },
+      {
+        "date": "2026-10-02",
         "status": "aberta",
         "source": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/our-work-environment-grants"
       }
@@ -730,7 +980,7 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
     ],
     "rules": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/our-work-environment-grants",
     "apply": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/our-work-environment-grants",
-    "verified": "2026-09-24",
+    "verified": "2026-10-02",
     "desc": "Propostas em fluxo contínuo para jornalistas no mundo; requer plano de distribuição e cartas de compromisso de publicação. Prioriza América do Sul entre as regiões e projetos concluíveis/publicáveis em 1–4 meses."
   },
   {
@@ -783,6 +1033,11 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
         "date": "2026-09-23",
         "status": "encerrada",
         "source": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/ai-accountability-fellowships"
+      },
+      {
+        "date": "2026-10-02",
+        "status": "encerrada",
+        "source": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/ai-accountability-fellowships"
       }
     ],
     "id": "pulitzer-ai-2627",
@@ -806,7 +1061,7 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
     ],
     "rules": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/ai-accountability-fellowships",
     "apply": null,
-    "verified": "2026-09-23",
+    "verified": "2026-10-02",
     "desc": "Ciclo 2026–27 encerrado; mantido no arquivo para monitorar a próxima edição."
   },
   {
@@ -821,6 +1076,11 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
         "date": "2026-09-23",
         "status": "monitorar",
         "source": "https://grants.journalismfund.eu/nl/node/99"
+      },
+      {
+        "date": "2026-10-02",
+        "status": "monitorar",
+        "source": "https://grants.journalismfund.eu/en/european-cross-border-grants"
       }
     ],
     "id": "jf-crossborder",
@@ -834,8 +1094,8 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
       "Dados"
     ],
     "scope": "Europa / internacional",
-    "deadline": "2026-10-01",
-    "deadlineStatus": "confirmado",
+    "deadline": "2027-01-07",
+    "deadlineStatus": "próxima_rodada_confirmada",
     "eligibility": "parcial",
     "fit": 6,
     "status": "monitorar",
@@ -844,8 +1104,8 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
     ],
     "rules": "https://grants.journalismfund.eu/nl/node/99",
     "apply": "https://grants.journalismfund.eu/nl/node/99",
-    "verified": "2026-09-23",
-    "desc": "Exige equipe de ao menos dois países europeus e 80% do orçamento para jornalistas/mídia da UE. Participantes de outros países podem entrar quando relevantes à pauta; só faz sentido com parceria europeia real."
+    "verified": "2026-10-02",
+    "desc": "A rodada de 01/10/2026 encerrou. A próxima chamada confirmada fecha em 07/01/2027 às 13h CET. Exige equipe de ao menos dois países europeus e pelo menos 80% do orçamento para jornalistas/mídia da UE; participantes de outros países podem integrar a equipe quando forem relevantes à investigação."
   },
   {
     "value": null,
@@ -857,6 +1117,11 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
     "verificationHistory": [
       {
         "date": "2026-09-23",
+        "status": "descartada",
+        "source": "https://grants.journalismfund.eu/en/pascal-decroos-fund"
+      },
+      {
+        "date": "2026-10-02",
         "status": "descartada",
         "source": "https://grants.journalismfund.eu/en/pascal-decroos-fund"
       }
@@ -878,7 +1143,7 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
     "story": [],
     "rules": "https://grants.journalismfund.eu/en/pascal-decroos-fund",
     "apply": null,
-    "verified": "2026-09-23",
+    "verified": "2026-10-02",
     "desc": "Arquivado: o resultado precisa ser publicado em veículo de língua neerlandesa na Bélgica; não é uma oportunidade direta para o PLOT."
   },
   {
@@ -891,6 +1156,11 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
     "verificationHistory": [
       {
         "date": "2026-09-23",
+        "status": "descartada",
+        "source": "https://grants.journalismfund.eu/en/belgian-bridge"
+      },
+      {
+        "date": "2026-10-02",
         "status": "descartada",
         "source": "https://grants.journalismfund.eu/en/belgian-bridge"
       }
@@ -913,7 +1183,7 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
     "story": [],
     "rules": "https://grants.journalismfund.eu/en/belgian-bridge",
     "apply": null,
-    "verified": "2026-09-23",
+    "verified": "2026-10-02",
     "desc": "Arquivado: exige residência legal na Bélgica e equipe envolvendo jornalismo neerlandófono e francófono."
   },
   {
@@ -926,6 +1196,11 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
     "verificationHistory": [
       {
         "date": "2026-09-25",
+        "status": "descartada",
+        "source": "https://grants.journalismfund.eu/en/the-invisible-life-grant"
+      },
+      {
+        "date": "2026-10-02",
         "status": "descartada",
         "source": "https://grants.journalismfund.eu/en/the-invisible-life-grant"
       }
@@ -949,7 +1224,7 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
     "story": [],
     "rules": "https://grants.journalismfund.eu/en/the-invisible-life-grant",
     "apply": null,
-    "verified": "2026-09-25",
+    "verified": "2026-10-02",
     "desc": "Arquivado por baixa aderência temática: financiamento é dedicado a investigações cross-border sobre bem-estar de animais de produção."
   },
   {
@@ -1000,11 +1275,16 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
         "date": "2026-09-23",
         "status": "aberta",
         "source": "https://ok.org.br/noticia/chamada-aberta-inscreva-sua-atividade-para-o-coda-br-2026/"
+      },
+      {
+        "date": "2026-10-02",
+        "status": "encerrada",
+        "source": "https://ok.org.br/noticia/chamada-aberta-inscreva-sua-atividade-para-o-coda-br-2026/"
       }
     ],
     "id": "coda26",
-    "summary": "Conferência brasileira dedicada a jornalismo de dados, métodos digitais, investigação e visualização.",
-    "title": "Coda.Br 2026",
+    "summary": "Chamada para propor atividades na Conferência Brasileira de Jornalismo de Dados e Métodos Digitais de 2026.",
+    "title": "Coda.Br 2026 — chamada de atividades",
     "org": "Open Knowledge Brasil / Escola de Dados",
     "type": "Conferência",
     "themes": [
@@ -1014,11 +1294,11 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
       "Formação"
     ],
     "scope": "Brasil",
-    "deadline": null,
-    "deadlineStatus": "inscricoes_abertas",
+    "deadline": "2026-06-07",
+    "deadlineStatus": "encerrado",
     "eligibility": "elegível",
     "fit": 10,
-    "status": "aberta",
+    "status": "encerrada",
     "story": [
       "laudemio",
       "futebol",
@@ -1026,8 +1306,8 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
     ],
     "rules": "https://ok.org.br/noticia/chamada-aberta-inscreva-sua-atividade-para-o-coda-br-2026/",
     "apply": "https://ok.org.br/",
-    "verified": "2026-09-23",
-    "desc": "11ª Conferência Brasileira de Jornalismo de Dados e Métodos Digitais, 12–13/11/2026 em São Paulo. Inscrições de participantes estão abertas; chamada de atividades já encerrou."
+    "verified": "2026-10-02",
+    "desc": "A chamada de atividades para o Coda.Br 2026 encerrou em 07/06/2026. A conferência ocorre em 12 e 13/11/2026, em São Paulo. O registro anterior misturava a chamada de atividades com uma suposta inscrição de participantes; a fonte oficial cadastrada sustenta apenas a chamada já encerrada."
   },
   {
     "value": null,
@@ -1039,6 +1319,11 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
     "verificationHistory": [
       {
         "date": "2026-09-23",
+        "status": "descartada",
+        "source": "https://www.solutionsjournalism.org/"
+      },
+      {
+        "date": "2026-10-02",
         "status": "descartada",
         "source": "https://www.solutionsjournalism.org/"
       }
@@ -1062,7 +1347,7 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
     "story": [],
     "rules": "https://www.solutionsjournalism.org/",
     "apply": null,
-    "verified": "2026-09-23",
+    "verified": "2026-10-02",
     "desc": "Descoberta no Gmail Radar PLOT.; chamada seleciona jornalistas baseados nos EUA, portanto arquivada como inelegível. Honorário de até US$5 mil."
   },
   {
@@ -1075,6 +1360,11 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
     "verificationHistory": [
       {
         "date": "2026-09-23",
+        "status": "descartada",
+        "source": "https://www.solutionsjournalism.org/"
+      },
+      {
+        "date": "2026-10-02",
         "status": "descartada",
         "source": "https://www.solutionsjournalism.org/"
       }
@@ -1097,7 +1387,7 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
     "story": [],
     "rules": "https://www.solutionsjournalism.org/",
     "apply": null,
-    "verified": "2026-09-23",
+    "verified": "2026-10-02",
     "desc": "Descoberta no Gmail Radar PLOT.; apoio de até US$1.500 para viagens a cidades dentro dos EUA, sem aderência operacional atual."
   },
   {
@@ -1154,6 +1444,11 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
         "date": "2026-09-24",
         "status": "aberta",
         "source": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/ai-reporting-grants"
+      },
+      {
+        "date": "2026-10-02",
+        "status": "aberta",
+        "source": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/ai-reporting-grants"
       }
     ],
     "id": "pulitzer-ai-grant",
@@ -1178,7 +1473,7 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
     ],
     "rules": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/ai-reporting-grants",
     "apply": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/ai-reporting-grants",
-    "verified": "2026-09-24",
+    "verified": "2026-10-02",
     "desc": "Fluxo contínuo, aberto a freelancers e jornalistas no mundo. O edital cita explicitamente impactos ambientais da IA, supply chains, regulação e governança; forte encaixe potencial para data centers."
   },
   {
@@ -1202,6 +1497,11 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
       },
       {
         "date": "2026-10-01",
+        "status": "aberta",
+        "source": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/machine-learning-reporting-grants"
+      },
+      {
+        "date": "2026-10-02",
         "status": "aberta",
         "source": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/machine-learning-reporting-grants"
       }
@@ -1228,7 +1528,7 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
     ],
     "rules": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/machine-learning-reporting-grants",
     "apply": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/machine-learning-reporting-grants",
-    "verified": "2026-10-01",
+    "verified": "2026-10-02",
     "desc": "Fluxo contínuo internacional. CEP-escola sai dos vínculos planejados: GIS e estatística convencional bastam ao desenho atual. Só reconsiderar se surgir um problema real de escala/complexidade para o qual ML seja necessário e verificável. Data centers mantém encaixe condicional, fora da fila atual de submissão. Não adicionar ML para satisfazer o edital."
   },
   {
@@ -1244,6 +1544,11 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
     "verificationHistory": [
       {
         "date": "2026-09-25",
+        "status": "aberta",
+        "source": "https://www.theopennotebook.com/early-career-fellowship-program/"
+      },
+      {
+        "date": "2026-10-02",
         "status": "aberta",
         "source": "https://www.theopennotebook.com/early-career-fellowship-program/"
       }
@@ -1271,7 +1576,7 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
     ],
     "rules": "https://www.theopennotebook.com/early-career-fellowship-program/",
     "apply": "https://www.theopennotebook.com/early-career-fellowship-program/",
-    "verified": "2026-09-25",
+    "verified": "2026-10-02",
     "desc": "Fellowship remota e part-time de 12 meses para início de carreira em jornalismo científico. Aceita candidatos internacionais, paga US$6.600 e recebe inscrições até 31/10/2026. O programa combina mentoring e produção editorial para The Open Notebook."
   },
   {
@@ -1284,6 +1589,11 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
     "verificationHistory": [
       {
         "date": "2026-09-24",
+        "status": "descartada",
+        "source": "https://healthjournalism.org/fellowships/ahcj-international-health-study-fellowships/"
+      },
+      {
+        "date": "2026-10-02",
         "status": "descartada",
         "source": "https://healthjournalism.org/fellowships/ahcj-international-health-study-fellowships/"
       }
@@ -1308,7 +1618,7 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
     ],
     "rules": "https://healthjournalism.org/fellowships/ahcj-international-health-study-fellowships/",
     "apply": null,
-    "verified": "2026-09-24",
+    "verified": "2026-10-02",
     "desc": "Apesar do nome internacional, é restrita a jornalistas baseados nos EUA. Arquivada para evitar falso positivo em futuras buscas."
   },
   {
@@ -1321,6 +1631,11 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
     "verificationHistory": [
       {
         "date": "2026-09-24",
+        "status": "descartada",
+        "source": "https://fij.org/apply-for-a-grant/"
+      },
+      {
+        "date": "2026-10-02",
         "status": "descartada",
         "source": "https://fij.org/apply-for-a-grant/"
       }
@@ -1342,7 +1657,7 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
     "story": [],
     "rules": "https://fij.org/apply-for-a-grant/",
     "apply": null,
-    "verified": "2026-09-24",
+    "verified": "2026-10-02",
     "desc": "Arquivado no registro de exclusões. Chamadas internacionais exigem forte ângulo dos EUA e publicação em inglês por veículo baseado nos EUA; além disso, o ciclo regular de setembro está encerrado."
   },
   {
@@ -1355,6 +1670,11 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
     "verificationHistory": [
       {
         "date": "2026-09-24",
+        "status": "descartada",
+        "source": "https://fij.org/40k-fellowship-application-open-webinar-aug-12-on-how-to-apply/"
+      },
+      {
+        "date": "2026-10-02",
         "status": "descartada",
         "source": "https://fij.org/40k-fellowship-application-open-webinar-aug-12-on-how-to-apply/"
       }
@@ -1376,7 +1696,7 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
     "story": [],
     "rules": "https://fij.org/40k-fellowship-application-open-webinar-aug-12-on-how-to-apply/",
     "apply": null,
-    "verified": "2026-09-24",
+    "verified": "2026-10-02",
     "desc": "US$40 mil por 12 meses ou US$20 mil por seis, mas requer investigação com forte foco nos EUA; mantida no arquivo, não nas oportunidades acionáveis."
   },
   {
@@ -1389,6 +1709,11 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
     "verificationHistory": [
       {
         "date": "2026-09-24",
+        "status": "preparar",
+        "source": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/persephone-miel-fellowships"
+      },
+      {
+        "date": "2026-10-02",
         "status": "preparar",
         "source": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/persephone-miel-fellowships"
       }
@@ -1416,7 +1741,7 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
     ],
     "rules": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/persephone-miel-fellowships",
     "apply": null,
-    "verified": "2026-09-24",
+    "verified": "2026-10-02",
     "desc": "Ciclo 2026 encerrou em março. É especialmente relevante para jornalistas fora dos EUA/Europa Ocidental e incentiva componentes multimídia; monitorar a abertura de 2027, sem apresentar como aberta."
   },
   {
@@ -1486,6 +1811,11 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
         "date": "2026-09-25",
         "status": "descartada",
         "source": "https://www.allardpierson.nl/en/fellowships/allard-pierson-fellowship-for-cartography"
+      },
+      {
+        "date": "2026-10-02",
+        "status": "descartada",
+        "source": "https://www.allardpierson.nl/en/fellowships/allard-pierson-fellowship-for-cartography"
       }
     ],
     "id": "allard-cartography",
@@ -1510,7 +1840,7 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
     ],
     "rules": "https://www.allardpierson.nl/en/fellowships/allard-pierson-fellowship-for-cartography",
     "apply": "https://www.allardpierson.nl/en/fellowships/allard-pierson-fellowship-for-cartography",
-    "verified": "2026-09-25",
+    "verified": "2026-10-02",
     "desc": "Arquivada para Rachel: as guidelines 2027 exigem mestrado concluído e capacidade acadêmica demonstrável. A formação atual registrada inclui graduação e especialização lato sensu em andamento, não mestrado concluído. A aderência temática à cartografia permanece alta, mas o requisito acadêmico formal impede candidatura neste ciclo."
   },
   {
@@ -1525,6 +1855,11 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
     "verificationHistory": [
       {
         "date": "2026-09-25",
+        "status": "descartada",
+        "source": "https://centerforhealthjournalism.org/fellowships-grants/data-fellowship"
+      },
+      {
+        "date": "2026-10-02",
         "status": "descartada",
         "source": "https://centerforhealthjournalism.org/fellowships-grants/data-fellowship"
       }
@@ -1551,7 +1886,7 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
     ],
     "rules": "https://centerforhealthjournalism.org/fellowships-grants/data-fellowship",
     "apply": null,
-    "verified": "2026-09-25",
+    "verified": "2026-10-02",
     "desc": "Ciclo 2026 encerrado. A fellowship trabalha projetos de saúde ligados a comunidades nos Estados Unidos e a página oficial direciona interessados ao ciclo 2027. Mantida apenas como fonte de ecossistema, não como oportunidade acionável para o PLOT. neste formato."
   },
   {
@@ -1569,6 +1904,11 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
     "verificationHistory": [
       {
         "date": "2026-09-25",
+        "status": "descartada",
+        "source": "https://fapesp.br/oportunidades/cepid-bridge%3A-gestao-de-ecossistemas-para-transicoes-sustentaveis/9851/"
+      },
+      {
+        "date": "2026-10-02",
         "status": "descartada",
         "source": "https://fapesp.br/oportunidades/cepid-bridge%3A-gestao-de-ecossistemas-para-transicoes-sustentaveis/9851/"
       }
@@ -1593,7 +1933,7 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
     "story": [],
     "rules": "https://fapesp.br/oportunidades/cepid-bridge%3A-gestao-de-ecossistemas-para-transicoes-sustentaveis/9851/",
     "apply": null,
-    "verified": "2026-09-25",
+    "verified": "2026-10-02",
     "desc": "Arquivada para Rachel: a chamada JC-IV do CEPID BRIDGE exige doutorado concluído, curso de Introdução ao Jornalismo Científico com duração mínima de 90 horas, dedicação integral e atuação presencial na FEA-USP. Prazo: 12/10/2026."
   },
   {
@@ -1606,6 +1946,11 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
     "verificationHistory": [
       {
         "date": "2026-09-25",
+        "status": "encerrada",
+        "source": "https://leibniz-ifl.de/en/career-1/open-positions/open-positions-details/journalist-in-residence-stipendium"
+      },
+      {
+        "date": "2026-10-02",
         "status": "encerrada",
         "source": "https://leibniz-ifl.de/en/career-1/open-positions/open-positions-details/journalist-in-residence-stipendium"
       }
@@ -1632,7 +1977,7 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
     ],
     "rules": "https://leibniz-ifl.de/en/career-1/open-positions/open-positions-details/journalist-in-residence-stipendium",
     "apply": null,
-    "verified": "2026-09-25",
+    "verified": "2026-10-02",
     "desc": "Ciclo encerrado, mas fonte de altíssima relevância: residência de um mês no VisLab, sem restrição regional/disciplinar, com cartografia e geovisualização. Monitorar nova edição."
   },
   {
@@ -1645,6 +1990,11 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
     "verificationHistory": [
       {
         "date": "2026-09-25",
+        "status": "monitorar",
+        "source": "https://www.catchlight.io/"
+      },
+      {
+        "date": "2026-10-02",
         "status": "monitorar",
         "source": "https://www.catchlight.io/"
       }
@@ -1670,7 +2020,7 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
     ],
     "rules": "https://www.catchlight.io/",
     "apply": null,
-    "verified": "2026-09-25",
+    "verified": "2026-10-02",
     "desc": "Programa internacional de visual storytelling. A elegibilidade geral é global; o ciclo 2026 concedeu três fellowships de US$30 mil. Não há chamada 2027 aberta no momento, portanto permanece apenas em monitoramento até publicação das regras do próximo ciclo."
   },
   {
@@ -1683,6 +2033,11 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
     "verificationHistory": [
       {
         "date": "2026-09-24",
+        "status": "descartada",
+        "source": "https://dowjonesnewsfund.org/djnfinternships/"
+      },
+      {
+        "date": "2026-10-02",
         "status": "descartada",
         "source": "https://dowjonesnewsfund.org/djnfinternships/"
       }
@@ -1706,7 +2061,7 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
     "story": [],
     "rules": "https://dowjonesnewsfund.org/djnfinternships/",
     "apply": null,
-    "verified": "2026-09-24",
+    "verified": "2026-10-02",
     "desc": "Arquivado: exige estudante full-time e, para internacionais, presença nos EUA com visto de trabalho; profissionais com um ano ou mais de trabalho jornalístico também não são elegíveis."
   },
   {
@@ -1723,6 +2078,11 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
     "verificationHistory": [
       {
         "date": "2026-09-24",
+        "status": "preparar",
+        "source": "https://rjionline.org/about-rji-fellowships/"
+      },
+      {
+        "date": "2026-10-02",
         "status": "preparar",
         "source": "https://rjionline.org/about-rji-fellowships/"
       }
@@ -1747,7 +2107,7 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
     "story": [],
     "rules": "https://rjionline.org/about-rji-fellowships/",
     "apply": null,
-    "verified": "2026-09-24",
+    "verified": "2026-10-02",
     "desc": "Abre 02/11. Fellowship remota de 8 meses, US$75 mil. Pode morar em qualquer país e não exige formação/idade específica. O produto final deve ser recurso, ferramenta, plataforma ou workshop gratuito para jornalistas/redações."
   },
   {
@@ -1764,6 +2124,11 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
     "verificationHistory": [
       {
         "date": "2026-09-24",
+        "status": "preparar",
+        "source": "https://rjionline.org/about-rji-fellowships/"
+      },
+      {
+        "date": "2026-10-02",
         "status": "preparar",
         "source": "https://rjionline.org/about-rji-fellowships/"
       }
@@ -1788,7 +2153,7 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
     "story": [],
     "rules": "https://rjionline.org/about-rji-fellowships/",
     "apply": null,
-    "verified": "2026-09-24",
+    "verified": "2026-10-02",
     "desc": "Abre 02/11. Fellowship remota de 8 meses, US$100 mil, para construir solução jornalística cujo uso de tecnologia emergente seja essencial. Viagens ao RJI são cobertas."
   },
   {
@@ -1805,6 +2170,11 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
     "verificationHistory": [
       {
         "date": "2026-09-24",
+        "status": "aberta",
+        "source": "https://www.swissviz.org/"
+      },
+      {
+        "date": "2026-10-02",
         "status": "aberta",
         "source": "https://www.swissviz.org/"
       }
@@ -1831,7 +2201,7 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
     ],
     "rules": "https://www.swissviz.org/",
     "apply": "https://www.swissviz.org/",
-    "verified": "2026-09-24",
+    "verified": "2026-10-02",
     "desc": "Aceita trabalhos de qualquer pessoa ou equipe, incluindo freelancers, redações e universidades, em formatos estáticos, interativos ou animados. Sem restrição suíça declarada nas regras atuais."
   },
   {
@@ -1844,6 +2214,11 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
     "verificationHistory": [
       {
         "date": "2026-09-24",
+        "status": "preparar",
+        "source": "https://www.sigmaawards.org/"
+      },
+      {
+        "date": "2026-10-02",
         "status": "preparar",
         "source": "https://www.sigmaawards.org/"
       }
@@ -1871,7 +2246,7 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
     ],
     "rules": "https://www.sigmaawards.org/",
     "apply": null,
-    "verified": "2026-09-24",
+    "verified": "2026-10-02",
     "desc": "Principal competição internacional de jornalismo de dados. A edição 2026 recebeu 543 inscrições de 84 países; monitorar abertura da edição 2027 para trabalhos publicados em 2026."
   },
   {
@@ -1884,6 +2259,11 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
     "verificationHistory": [
       {
         "date": "2026-09-24",
+        "status": "preparar",
+        "source": "https://awards.journalists.org/about/"
+      },
+      {
+        "date": "2026-10-02",
         "status": "preparar",
         "source": "https://awards.journalists.org/about/"
       }
@@ -1911,7 +2291,7 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
     ],
     "rules": "https://awards.journalists.org/about/",
     "apply": null,
-    "verified": "2026-09-24",
+    "verified": "2026-10-02",
     "desc": "OJAs reconhecem jornalismo digital no mundo, incluindo visual storytelling e investigative data journalism. Ciclo 2026 encerrado; monitorar 2027 após publicação de peças do PLOT."
   },
   {
@@ -1967,6 +2347,11 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
         "date": "2026-09-25",
         "status": "descartada",
         "source": "https://www.usccmf.org/faq"
+      },
+      {
+        "date": "2026-10-02",
+        "status": "descartada",
+        "source": "https://www.usccmf.org/faq"
       }
     ],
     "id": "usc-civic27",
@@ -1989,20 +2374,34 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
     "story": [],
     "rules": "https://www.usccmf.org/faq",
     "apply": null,
-    "verified": "2026-09-25",
+    "verified": "2026-10-02",
     "desc": "Arquivada para Rachel: a FAQ oficial exige que fellows estejam geograficamente dentro de ±4 horas do Pacific Time. O ciclo 2026–27 está fechado e o programa espera nova busca em 2027, mas a restrição geográfica atual exclui participação a partir de Salvador."
   },
   {
-    "value": null,
-    "duration": null,
-    "modality": null,
-    "documents": [],
-    "restrictions": [],
-    "opens": null,
+    "value": "US$ 75.000–120.000; Senior Fellows US$ 115.000–135.000",
+    "duration": "12 meses · jun/2027–mai/2028",
+    "modality": "Treinamento remoto + summit presencial + placement em newsroom",
+    "documents": [
+      "CV",
+      "respostas curtas da candidatura",
+      "1 a 3 amostras de escrita, total máximo de 4.500 palavras"
+    ],
+    "restrictions": [
+      "dedicação integral de junho de 2027 a maio de 2028",
+      "placements concentram-se em EUA, Reino Unido e Hong Kong",
+      "direito de trabalho nesses mercados é fortemente favorecido; patrocínio de visto é incomum",
+      "não usar IA para redigir qualquer parte da candidatura"
+    ],
+    "opens": "2026-09-28",
     "verificationHistory": [
       {
         "date": "2026-09-25",
         "status": "monitorar",
+        "source": "https://www.tarbellcenter.org/fellowship"
+      },
+      {
+        "date": "2026-10-02",
+        "status": "aberta",
         "source": "https://www.tarbellcenter.org/fellowship"
       }
     ],
@@ -2017,18 +2416,18 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
       "Tecnologia"
     ],
     "scope": "Internacional / verificar",
-    "deadline": null,
-    "deadlineStatus": "monitorar_proximo_ciclo",
-    "eligibility": "elegível",
+    "deadline": "2026-11-22",
+    "deadlineStatus": "confirmado",
+    "eligibility": "parcial",
     "fit": 9,
-    "status": "monitorar",
+    "status": "aberta",
     "story": [
       "data-centers"
     ],
     "rules": "https://www.tarbellcenter.org/fellowship",
-    "apply": null,
-    "verified": "2026-09-25",
-    "desc": "Fellowship internacional de um ano para jornalismo sobre IA. O programa aceita candidatos de qualquer nacionalidade; o ciclo atual está fechado, então permanece em monitoramento até a próxima chamada, quando prazo e regras específicas devem ser reconfirmados."
+    "apply": "https://www.tarbellcenter.org/fellowship",
+    "verified": "2026-10-02",
+    "desc": "A chamada 2027–28 está aberta até 22/11/2026. O programa combina três meses de formação em IA e jornalismo com nove meses de placement em newsroom. Para Rachel, a elegibilidade é parcial: a candidatura é possível, mas o programa prioriza quem já tem direito de trabalhar nos EUA, Reino Unido ou Hong Kong e informa que patrocínio de visto é incomum."
   },
   {
     "value": null,
@@ -2081,6 +2480,11 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
         "date": "2026-09-24",
         "status": "descartada",
         "source": "https://citp.princeton.edu/programs/siegel-public-interest-technology-summer-fellowship-pit-sf"
+      },
+      {
+        "date": "2026-10-02",
+        "status": "descartada",
+        "source": "https://citp.princeton.edu/programs/siegel-public-interest-technology-summer-fellowship-pit-sf"
       }
     ],
     "id": "princeton-pit27",
@@ -2102,7 +2506,7 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
     "story": [],
     "rules": "https://citp.princeton.edu/programs/siegel-public-interest-technology-summer-fellowship-pit-sf",
     "apply": null,
-    "verified": "2026-09-24",
+    "verified": "2026-10-02",
     "desc": "Arquivado para Rachel: programa é voltado a undergraduates em ascensão para junior/senior. Mantido como fonte de ecossistema de public-interest technology."
   },
   {
@@ -2117,6 +2521,11 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
     "verificationHistory": [
       {
         "date": "2026-09-25",
+        "status": "descartada",
+        "source": "https://www.icfj.org/our-work/hans-staiger-investigative-reporting-award"
+      },
+      {
+        "date": "2026-10-02",
         "status": "descartada",
         "source": "https://www.icfj.org/our-work/hans-staiger-investigative-reporting-award"
       }
@@ -2141,7 +2550,7 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
     ],
     "rules": "https://www.icfj.org/our-work/hans-staiger-investigative-reporting-award",
     "apply": "https://www.icfj.org/our-work/hans-staiger-investigative-reporting-award",
-    "verified": "2026-09-25",
+    "verified": "2026-10-02",
     "desc": "Arquivada: a chamada 2027 é exclusiva para jornalistas afiliados à rede global da OCCRP. O prêmio é de US$5 mil e recebe candidaturas até 15/11/2026, mas sem vínculo com a rede não é acionável."
   },
   {
@@ -2154,6 +2563,11 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
     "verificationHistory": [
       {
         "date": "2026-09-24",
+        "status": "aberta",
+        "source": "https://gijn.org/stories/ij-week-full-program-release/"
+      },
+      {
+        "date": "2026-10-02",
         "status": "aberta",
         "source": "https://gijn.org/stories/ij-week-full-program-release/"
       }
@@ -2171,16 +2585,16 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
       "Tecnologia"
     ],
     "scope": "Internacional / online",
-    "deadline": "2026-10-26",
-    "deadlineStatus": "evento_confirmado",
+    "deadline": null,
+    "deadlineStatus": "evento_26_30_out_2026",
     "eligibility": "elegível",
     "fit": 9,
     "status": "aberta",
     "story": [],
     "rules": "https://gijn.org/stories/ij-week-full-program-release/",
     "apply": "https://gijn.org/stories/ij-week-full-program-release/",
-    "verified": "2026-09-24",
-    "desc": "Evento online de 26–30/10 com mais de 50 sessões, 130+ palestrantes e Editor's Clinics para discutir pitches, pautas e carreira com editores de organizações investigativas."
+    "verified": "2026-10-02",
+    "desc": "Evento online de 26–30/10/2026 com mais de 50 sessões e 130+ palestrantes, incluindo Editor's Clinics para discutir pitches, pautas e carreira. A data de 26/10 é início do evento, não prazo de candidatura; por isso deixou de ser registrada como deadline."
   },
   {
     "value": null,
@@ -2192,6 +2606,11 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
     "verificationHistory": [
       {
         "date": "2026-09-24",
+        "status": "encerrada",
+        "source": "https://agencia.petrobras.com.br/selecao"
+      },
+      {
+        "date": "2026-10-02",
         "status": "encerrada",
         "source": "https://agencia.petrobras.com.br/selecao"
       }
@@ -2218,7 +2637,7 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
     ],
     "rules": "https://agencia.petrobras.com.br/selecao",
     "apply": null,
-    "verified": "2026-09-24",
+    "verified": "2026-10-02",
     "desc": "Ciclo 2026 encerrado. Foram 15 bolsas de R$20 mil para jornalistas de todas as regiões, inclusive freelancers. Mantido como fonte recorrente a monitorar para nova edição."
   },
   {
@@ -2277,10 +2696,15 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
         "date": "2026-10-01",
         "status": "aberta",
         "source": "https://www.playthegame.org/journalism-fund/pitch-your-story/"
+      },
+      {
+        "date": "2026-10-02",
+        "status": "aberta",
+        "source": "https://www.playthegame.org/journalism-fund/pitch-your-story/"
       }
     ],
     "deadline": null,
-    "verified": "2026-10-01",
+    "verified": "2026-10-02",
     "scope": "Internacional",
     "fit": 10,
     "eligibility": "elegível",
@@ -2324,10 +2748,15 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
         "date": "2026-10-01",
         "status": "aberta",
         "source": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/gender-equality-grant"
+      },
+      {
+        "date": "2026-10-02",
+        "status": "aberta",
+        "source": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/gender-equality-grant"
       }
     ],
     "deadline": null,
-    "verified": "2026-10-01",
+    "verified": "2026-10-02",
     "scope": "Internacional",
     "fit": 9.5,
     "eligibility": "elegível",
@@ -2371,10 +2800,15 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
         "date": "2026-10-01",
         "status": "aberta",
         "source": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/global-reporting-grants"
+      },
+      {
+        "date": "2026-10-02",
+        "status": "aberta",
+        "source": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/global-reporting-grants"
       }
     ],
     "deadline": null,
-    "verified": "2026-10-01",
+    "verified": "2026-10-02",
     "scope": "Internacional",
     "fit": 9,
     "eligibility": "elegível",
@@ -2554,10 +2988,15 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
         "date": "2026-10-01",
         "status": "monitorar",
         "source": "https://ewa.org/fellowships"
+      },
+      {
+        "date": "2026-10-02",
+        "status": "monitorar",
+        "source": "https://ewa.org/fellowships"
       }
     ],
     "deadline": null,
-    "verified": "2026-10-01",
+    "verified": "2026-10-02",
     "scope": "Elegibilidade de jornalista no Brasil não confirmada",
     "fit": 7,
     "eligibility": "parcial",
@@ -2598,10 +3037,15 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
         "date": "2026-10-01",
         "status": "monitorar",
         "source": "https://www.egab.co/faqs"
+      },
+      {
+        "date": "2026-10-02",
+        "status": "monitorar",
+        "source": "https://www.egab.co/faqs"
       }
     ],
     "deadline": null,
-    "verified": "2026-10-01",
+    "verified": "2026-10-02",
     "scope": "Internacional",
     "fit": 6,
     "eligibility": "parcial",
@@ -2643,6 +3087,11 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
         "date": "2026-10-01",
         "status": "descartada",
         "source": "https://fij.org/grants-faq/"
+      },
+      {
+        "date": "2026-10-02",
+        "status": "descartada",
+        "source": "https://fij.org/apply-for-a-grant/"
       }
     ],
     "id": "fij-investigative-grants",
@@ -2650,18 +3099,25 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
     "status": "descartada",
     "eligibility": "inelegível",
     "fit": 2,
-    "apply": "2027-01-29",
+    "apply": null,
     "story": [],
     "region": "Estados Unidos / Internacional com eixo EUA",
     "funder": "Fund for Investigative Journalism",
     "url": "https://fij.org/apply-for-a-grant/",
     "rules": "https://fij.org/apply-for-a-grant/",
-    "verified": "2026-10-01",
+    "verified": "2026-10-02",
     "notes": "Reanálise: descartada para a fila atual de Rachel/PLOT. O FIJ aceita alguns projetos internacionais apenas quando vêm de repórteres baseados nos EUA ou têm ângulo muito forte com EUA, envolvendo cidadãos, governo ou empresas americanas, e ainda exigem publicação em inglês em veículo dos EUA. CEP-escola não tem esse eixo. Futfem só voltaria a ser reavaliada se nascer uma versão nova centrada em atores dos EUA e com interesse editorial americano comprovado; não é uma oportunidade real para a investigação como está hoje.",
     "title": "Fund for Investigative Journalism — Grants",
     "org": "Fund for Investigative Journalism",
     "type": "Grant",
-    "scope": "Investigação / EUA-internacional"
+    "scope": "Investigação / EUA-internacional",
+    "themes": [
+      "Investigação",
+      "Accountability"
+    ],
+    "deadline": "2027-01-29",
+    "deadlineStatus": "próximo_ciclo_confirmado",
+    "desc": "O FIJ confirmou 29/01/2027 como próximo prazo para regular grants de até US$10 mil e seed grants de até US$2,5 mil. Para Rachel/PLOT., permanece descartada na fila atual: projetos baseados fora dos EUA precisam vir de repórter baseado nos EUA ou ter ângulo muito forte com os EUA e publicação em inglês em veículo dos EUA."
   },
   {
     "value": "Orçamentos típicos de US$ 3.000 a US$ 6.000",
@@ -2675,6 +3131,11 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
         "date": "2026-10-01",
         "status": "monitorar",
         "source": "https://typeinvestigations.org/about/how-to-pitch/"
+      },
+      {
+        "date": "2026-10-02",
+        "status": "monitorar",
+        "source": "https://typeinvestigations.org/about/faq/"
       }
     ],
     "id": "type-investigations-pitches",
@@ -2690,12 +3151,18 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
     "funder": "Type Investigations",
     "url": "https://typeinvestigations.org/about/how-to-pitch/",
     "rules": "https://typeinvestigations.org/about/faq/",
-    "verified": "2026-10-01",
+    "verified": "2026-10-02",
     "notes": "Reanálise: não é uma oportunidade prática imediata. Type aceita repórteres fora dos EUA, mas exige fluência em inglês, familiaridade com padrões da mídia americana, vínculo direto com EUA e primeira publicação em veículo dos EUA. Pode ficar apenas como monitoramento para uma versão futura de futfem com eixo EUA muito forte; não serve para CEP-escola como está.",
     "title": "Type Investigations — pitch investigativo",
     "org": "Type Investigations",
     "type": "Pitch",
-    "scope": "Investigação / copublicação EUA"
+    "scope": "Investigação / copublicação EUA",
+    "themes": [
+      "Investigação",
+      "Accountability",
+      "Cross-border"
+    ],
+    "desc": "Newsroom investigativa que trabalha com freelancers e copublicação. Para Rachel/PLOT., permanece como elegibilidade parcial: a proposta precisa ter vínculo direto com os EUA, atender padrões editoriais da mídia americana e prever primeira publicação em veículo dos EUA. Orçamentos típicos informados no cadastro ficam na faixa de US$3 mil a US$6 mil."
   },
   {
     "value": "Consultoria inicial; Virtual Newsroom até US$ 12.500 após convite",
@@ -2714,6 +3181,11 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
         "date": "2026-10-01",
         "status": "preparar",
         "source": "https://www.firenewsroom.org/program/guidelines-and-application"
+      },
+      {
+        "date": "2026-10-02",
+        "status": "preparar",
+        "source": "https://www.firenewsroom.org/about-us/fire-frequently-asked-questions"
       }
     ],
     "id": "fire-virtual-newsroom",
@@ -2730,11 +3202,17 @@ window.RADAR_PARTS.opportunities=[{"value":"US$ 5.000 por proposta","duration":"
     "funder": "Freelance Investigative Reporters & Editors (FIRE/IRE)",
     "url": "https://www.firenewsroom.org/program/guidelines-and-application",
     "rules": "https://www.firenewsroom.org/about-us/fire-frequently-asked-questions",
-    "verified": "2026-10-01",
+    "verified": "2026-10-02",
     "notes": "Elegível em tese para Rachel como freelancer investigativa no Brasil, desde que a história seja pensada para veículo em inglês. Não é submissão direta a grant: novos candidatos e quem busca grants precisam primeiro aplicar para a FIRE Consultancy; se aceitos, podem ser convidados para Virtual Newsroom/grants. Para futfem, é uma oportunidade real se o pitch for refeito em inglês para público internacional, idealmente com eixo EUA/Reino Unido ou ligas/mercados globais. Para CEP-escola, só vale se houver editoria em inglês interessada em desigualdade territorial e accountability educacional municipal; sem isso, fica menos acionável. Legal/Comprehensive Consultancy ligada a questões contratuais é limitada a histórias planejadas para outlets dos EUA.",
     "title": "FIRE Consultancy / Virtual Newsroom",
     "org": "Freelance Investigative Reporters & Editors (FIRE/IRE)",
     "type": "Grant / apoio editorial",
-    "scope": "Investigação freelancer / inglês"
+    "scope": "Investigação freelancer / inglês",
+    "themes": [
+      "Investigação",
+      "Freelance",
+      "Apoio editorial"
+    ],
+    "desc": "FIRE aceita freelancers investigativos fora dos EUA, mas trabalha com histórias destinadas a veículos em inglês. Novos candidatos começam pela FIRE Consultancy; apoio da Virtual Newsroom e grants de até US$12,5 mil dependem de convite posterior. Para Rachel/PLOT., a elegibilidade continua parcial e condicionada a uma saída editorial em inglês."
   }
 ].map(o=>Object.assign({value:null,duration:null,modality:null,documents:[],restrictions:[],opens:null,verificationHistory:o.verified?[{date:o.verified,status:o.status,source:o.rules}]:[]},o));
