@@ -1,13 +1,46 @@
 {
-  "checkedAt": "2026-10-02T12:11:55.969Z",
+  "checkedAt": "2026-10-02T22:19:14.972Z",
   "policy": "404/410 becomes broken only after appearing as suspect or broken in the previous audit; blocked and network results are inconclusive",
   "counts": {
-    "blocked": 26,
-    "ok": 224,
+    "ok": 235,
+    "blocked": 28,
     "network": 26,
     "server": 1
   },
   "results": [
+    {
+      "type": "opportunity",
+      "id": "derechos-digitales-jornalismo-2026",
+      "url": "https://www.derechosdigitales.org/pt/noticias/inscricoes-abertas-para-a-primeira-edicao-do-programa-jornalismo-para-os-direitos-digitais/",
+      "status": 200,
+      "finalUrl": "https://www.derechosdigitales.org/pt/noticias/inscricoes-abertas-para-a-primeira-edicao-do-programa-jornalismo-para-os-direitos-digitais/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "John S. Knight Journalism Fellowships",
+      "url": "https://jsk.stanford.edu/become-a-fellow",
+      "status": 200,
+      "finalUrl": "https://jsk.stanford.edu/become-a-fellow",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Nieman Foundation",
+      "url": "https://nieman.harvard.edu/fellowships/how-to-apply/",
+      "status": 200,
+      "finalUrl": "https://nieman.harvard.edu/fellowships/how-to-apply/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
     {
       "type": "opportunity",
       "id": "pulitzer-ocean-reporting-network",
@@ -606,22 +639,22 @@
       "type": "opportunity",
       "id": "pulitzer-gender",
       "url": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/gender-equality-grant",
-      "status": 200,
+      "status": 403,
       "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/gender-equality-grant",
-      "class": "ok",
+      "class": "blocked",
       "attempts": [
-        200
+        403
       ]
     },
     {
       "type": "opportunity",
       "id": "pulitzer-global",
       "url": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/global-reporting-grants",
-      "status": 200,
+      "status": 403,
       "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/global-reporting-grants",
-      "class": "ok",
+      "class": "blocked",
       "attempts": [
-        200
+        403
       ]
     },
     {
@@ -696,6 +729,39 @@
       "url": "https://www.firenewsroom.org/about-us/fire-frequently-asked-questions",
       "status": 200,
       "finalUrl": "https://www.firenewsroom.org/about-us/fire-frequently-asked-questions",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Transferegov.br — Dados Abertos",
+      "url": "https://api-publica.transferegov.gestao.gov.br/",
+      "status": 200,
+      "finalUrl": "https://api-publica.transferegov.gestao.gov.br/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Obrasgov.br — Dados Abertos",
+      "url": "https://api-publica.obrasgov.gestao.gov.br/",
+      "status": 200,
+      "finalUrl": "https://api-publica.obrasgov.gestao.gov.br/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Ministério da Fazenda — Desonerações Tributárias",
+      "url": "https://www.gov.br/fazenda/pt-br/assuntos/politica-fiscal/atuacao-spe/plataforma-de-desoneracoes-tributarias",
+      "status": 200,
+      "finalUrl": "https://www.gov.br/fazenda/pt-br/assuntos/politica-fiscal/atuacao-spe/plataforma-de-desoneracoes-tributarias",
       "class": "ok",
       "attempts": [
         200
@@ -1855,6 +1921,7 @@
       "finalUrl": "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-auto-de-infracao",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -2024,6 +2091,28 @@
       "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/dados-abertos/cadastros",
       "status": 200,
       "finalUrl": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/dados-abertos/cadastros",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Derechos Digitales",
+      "url": "https://www.derechosdigitales.org/",
+      "status": 200,
+      "finalUrl": "https://www.derechosdigitales.org/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Codesinfo",
+      "url": "https://codesinfo.com.br/solucoes/",
+      "status": 200,
+      "finalUrl": "https://codesinfo.com.br/solucoes/",
       "class": "ok",
       "attempts": [
         200
@@ -2938,6 +3027,61 @@
       "url": "https://journaliststudio.google.com/",
       "status": 200,
       "finalUrl": "https://journaliststudio.google.com/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "monitor-diario",
+      "url": "https://codesinfo.com.br/solucoes/monitor-diario/",
+      "status": 200,
+      "finalUrl": "https://codesinfo.com.br/solucoes/monitor-diario/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "jor-mcp",
+      "url": "https://codesinfo.com.br/solucoes/jor-mcp/",
+      "status": 200,
+      "finalUrl": "https://codesinfo.com.br/solucoes/jor-mcp/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "jeo-infoamazonia",
+      "url": "https://codesinfo.com.br/solucoes/jeo/",
+      "status": 200,
+      "finalUrl": "https://codesinfo.com.br/solucoes/jeo/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "mamute-politico",
+      "url": "https://codesinfo.com.br/solucoes/mamute-politico/",
+      "status": 200,
+      "finalUrl": "https://codesinfo.com.br/solucoes/mamute-politico/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "quiteria-azmina",
+      "url": "https://codesinfo.com.br/solucoes/quiteria/",
+      "status": 200,
+      "finalUrl": "https://codesinfo.com.br/solucoes/quiteria/",
       "class": "ok",
       "attempts": [
         200
