@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-02T22:19:14.972Z",
+  "checkedAt": "2026-10-02T22:33:31.965Z",
   "policy": "404/410 becomes broken only after appearing as suspect or broken in the previous audit; blocked and network results are inconclusive",
   "counts": {
     "ok": 235,
@@ -786,6 +786,7 @@
       "finalUrl": "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-termo-de-embargo",
       "class": "ok",
       "attempts": [
+        504,
         200
       ]
     },
@@ -1921,7 +1922,6 @@
       "finalUrl": "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-auto-de-infracao",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -2402,6 +2402,7 @@
       "finalUrl": "https://www.generonumero.media/",
       "class": "ok",
       "attempts": [
+        "TypeError:fetch failed",
         200
       ]
     },
