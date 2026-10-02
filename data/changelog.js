@@ -3,6 +3,26 @@ window.RADAR_PARTS.changelog=[
   {
     "date": "2026-10-01",
     "type": "correção",
+    "title": "Kari, Kim e EWA reavaliados por encaixe editorial",
+    "items": [
+      {
+        "id": "iwmf-kari-next",
+        "title": "Kari Howard — boa opção narrativa futura para futfem"
+      },
+      {
+        "id": "iwmf-kim-next",
+        "title": "Kim Wall — encaixe estreito em subcultura"
+      },
+      {
+        "id": "ewa-next",
+        "title": "EWA — CEP-escola, não futfem"
+      }
+    ],
+    "detail": "Kari segue elegível e adequada para uma versão narrativa em inglês de futfem. Kim fica como monitoramento mais específico para subculturas/comunidades invisibilizadas. EWA é relevante apenas para CEP-escola, com editor/veículo comprometido e dependente dos temas da próxima chamada."
+  },
+  {
+    "date": "2026-10-01",
+    "type": "correção",
     "title": "FIRE reavaliado como elegível condicional",
     "items": [
       {

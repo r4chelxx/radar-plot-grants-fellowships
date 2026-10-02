@@ -2426,6 +2426,11 @@ window.RADAR_PARTS.opportunities=[
         "date": "2026-10-01",
         "status": "monitorar",
         "source": "https://www.iwmf.org/programs/kari-howard-fund/"
+      },
+      {
+        "date": "2026-10-01",
+        "status": "monitorar",
+        "source": "https://iwmf.submittable.com/submit/c65a15f2-9ff5-4c2b-b2a3-2d897c703381/the-kari-howard-fund-for-narrative-journalism-2026"
       }
     ],
     "deadline": null,
@@ -2450,7 +2455,8 @@ window.RADAR_PARTS.opportunities=[
     "rules": "https://www.iwmf.org/programs/kari-howard-fund/",
     "apply": null,
     "summary": "Possível versão narrativa de futfem; 2026 encerrado, próximo ciclo sem anúncio confirmado.",
-    "desc": "O ciclo 2026 fechou em 12/07/2026. Monitorar nova chamada; não apresentar como aberta. Regras de 2026: mulheres e pessoas não binárias, mínimo de três anos de experiência, candidatura e publicação em inglês, reportagem escrita como eixo central e conclusão em seis meses após concessão. Para futfem, preservar investigação/dados e construir narrativa de carreira com personagens, cenas e consequências concretas. Exige interesse editorial ou trajetória comprovada em veículos de destaque. Revalidar todas as condições no próximo edital."
+    "desc": "O ciclo 2026 fechou em 12/07/2026. Monitorar nova chamada; não apresentar como aberta. Regras de 2026: mulheres e pessoas não binárias, mínimo de três anos de experiência, candidatura e publicação em inglês, reportagem escrita como eixo central e conclusão em seis meses após concessão. Para futfem, preservar investigação/dados e construir narrativa de carreira com personagens, cenas e consequências concretas. Exige interesse editorial ou trajetória comprovada em veículos de destaque. Revalidar todas as condições no próximo edital.",
+    "notes": "Adequada para futfem no próximo ciclo se a proposta virar uma narrativa longform em inglês, liderada por texto, com personagem/estrutura forte e apuração robusta sobre formação, retenção, trabalho e mobilidade. Regras verificadas no ciclo 2026: aberta a mulheres e pessoas não binárias; freelancer ou staff; jornalismo como profissão principal; 3+ anos de experiência; prova de interesse de editor ou histórico em veículos proeminentes; candidatura e publicação em inglês; multimídia deve complementar projeto escrito; reportagem/publicação em até seis meses. Valor médio histórico em torno de US$5 mil. Não é a prioridade antes de Pulitzer Gender, mas é um bom monitoramento."
   },
   {
     "value": "US$5 mil por grant anual na página do programa",
@@ -2467,12 +2473,17 @@ window.RADAR_PARTS.opportunities=[
         "date": "2026-10-01",
         "status": "monitorar",
         "source": "https://www.iwmf.org/programs/kim-wall-memorial-fund/"
+      },
+      {
+        "date": "2026-10-01",
+        "status": "monitorar",
+        "source": "https://www.iwmf.org/programs/kim-wall-memorial-fund/"
       }
     ],
     "deadline": null,
     "verified": "2026-10-01",
     "scope": "Internacional",
-    "fit": 7.5,
+    "fit": 6.5,
     "eligibility": "elegível",
     "id": "iwmf-kim-next",
     "title": "Kim Wall Memorial Fund — próximo ciclo",
@@ -2491,7 +2502,8 @@ window.RADAR_PARTS.opportunities=[
     "rules": "https://www.iwmf.org/programs/kim-wall-memorial-fund/",
     "apply": null,
     "summary": "Encaixe condicional para futfem; monitorar edital futuro sem data presumida.",
-    "desc": "A página apresenta beneficiárias de 2026 e grants anuais de US$5 mil para mulheres e pessoas não binárias. Não foi confirmada chamada aberta de 2027. Valoriza histórias subnoticiadas, subculturas e pessoas invisibilizadas, no espírito de Kim Wall. Futfem só deve ser adaptada se a apuração sustentar uma narrativa de trajetórias e experiências pouco retratadas; gênero ou esporte, isoladamente, não garantem encaixe. Confirmar elegibilidade e demais requisitos no novo edital."
+    "desc": "A página apresenta beneficiárias de 2026 e grants anuais de US$5 mil para mulheres e pessoas não binárias. Não foi confirmada chamada aberta de 2027. Valoriza histórias subnoticiadas, subculturas e pessoas invisibilizadas, no espírito de Kim Wall. Futfem só deve ser adaptada se a apuração sustentar uma narrativa de trajetórias e experiências pouco retratadas; gênero ou esporte, isoladamente, não garantem encaixe. Confirmar elegibilidade e demais requisitos no novo edital.",
+    "notes": "Elegível em tese, mas encaixe mais estreito do que Kari/Pulitzer Gender. O fundo é anual, cerca de US$5 mil, para mulheres e pessoas não binárias, e privilegia histórias no espírito da Kim Wall: subculturas, comunidades pouco vistas e 'undercurrents of rebellion'. Para futfem, só vale se o pitch sair do enquadramento amplo de mercado/formação e focar uma comunidade, circuito ou cultura invisibilizada do futebol feminino, com escrita literária e acesso de campo. Não parece rota principal para a investigação atual."
   },
   {
     "value": "referência atual: microfellowships de até US$5 mil",
@@ -2505,6 +2517,11 @@ window.RADAR_PARTS.opportunities=[
     ],
     "opens": null,
     "verificationHistory": [
+      {
+        "date": "2026-10-01",
+        "status": "monitorar",
+        "source": "https://ewa.org/fellowships"
+      },
       {
         "date": "2026-10-01",
         "status": "monitorar",
@@ -2533,7 +2550,8 @@ window.RADAR_PARTS.opportunities=[
     "rules": "https://ewa.org/fellowships",
     "apply": null,
     "summary": "Monitorar próximo ciclo; não tratar CEP-escola como candidatura elegível confirmada.",
-    "desc": "Página atual exige associação jornalística à EWA e, para freelancers, carta de editor de veículo independente garantindo publicação sem paywall. Não foi confirmada elegibilidade de jornalista residente no Brasil com reportagem sobre Salvador nem nova janela aberta. A página exibe informação de prazo antigo com inconsistência de data/dia da semana; não transportar esse prazo ao calendário. Antes de adaptar CEP-escola, confirmar cobertura geográfica, associação e carta editorial."
+    "desc": "Página atual exige associação jornalística à EWA e, para freelancers, carta de editor de veículo independente garantindo publicação sem paywall. Não foi confirmada elegibilidade de jornalista residente no Brasil com reportagem sobre Salvador nem nova janela aberta. A página exibe informação de prazo antigo com inconsistência de data/dia da semana; não transportar esse prazo ao calendário. Antes de adaptar CEP-escola, confirmar cobertura geográfica, associação e carta editorial.",
+    "notes": "Adequada apenas para CEP-escola, não para futfem. A rodada atual está fechada; próximas chamadas costumam exigir associação jornalística à EWA (gratuita para jornalistas), carta de editor ou veículo independente comprometendo publicação/veiculação diante de paywall, projeto publicado em 6 a 9 meses e entrega de métricas/relato/budget após publicação. O encaixe depende dos temas prioritários da próxima rodada. Para a pauta CEP, ajustar para K-12, equity/access, dados e possível jornalismo de soluções; se a estratégia for vender para veículo brasileiro local como freelancer, EWA serve mais como monitoramento internacional do que como destino imediato."
   },
   {
     "value": null,
