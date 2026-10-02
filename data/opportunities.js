@@ -901,6 +901,11 @@ window.RADAR_PARTS.opportunities=[
         "date": "2026-09-25",
         "status": "encerrada",
         "source": "https://fundaciongabo.org/es/convocatorias/taller-virtual-como-encontrar-y-contar-historias-climaticas-que-importen-tu-audiencia"
+      },
+      {
+        "date": "2026-10-02",
+        "status": "encerrada",
+        "source": "https://fundaciongabo.org/es/convocatorias/taller-virtual-como-encontrar-y-contar-historias-climaticas-que-importen-tu-audiencia"
       }
     ],
     "id": "gabo-clima",
@@ -924,7 +929,7 @@ window.RADAR_PARTS.opportunities=[
     ],
     "rules": "https://fundaciongabo.org/es/convocatorias/taller-virtual-como-encontrar-y-contar-historias-climaticas-que-importen-tu-audiencia",
     "apply": "https://fundaciongabo.org/es/convocatorias/taller-virtual-como-encontrar-y-contar-historias-climaticas-que-importen-tu-audiencia",
-    "verified": "2026-09-25",
+    "verified": "2026-10-02",
     "desc": "Taller gratuito para 20 jornalistas de Ibero-América, de 20 a 23 de outubro; inclui possibilidade de mentorias editoriais individuais."
   },
   {
@@ -944,6 +949,11 @@ window.RADAR_PARTS.opportunities=[
     "verificationHistory": [
       {
         "date": "2026-09-24",
+        "status": "aberta",
+        "source": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/our-work-environment-grants"
+      },
+      {
+        "date": "2026-10-02",
         "status": "aberta",
         "source": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/our-work-environment-grants"
       }
@@ -970,7 +980,7 @@ window.RADAR_PARTS.opportunities=[
     ],
     "rules": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/our-work-environment-grants",
     "apply": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/our-work-environment-grants",
-    "verified": "2026-09-24",
+    "verified": "2026-10-02",
     "desc": "Propostas em fluxo contínuo para jornalistas no mundo; requer plano de distribuição e cartas de compromisso de publicação. Prioriza América do Sul entre as regiões e projetos concluíveis/publicáveis em 1–4 meses."
   },
   {
@@ -1023,6 +1033,11 @@ window.RADAR_PARTS.opportunities=[
         "date": "2026-09-23",
         "status": "encerrada",
         "source": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/ai-accountability-fellowships"
+      },
+      {
+        "date": "2026-10-02",
+        "status": "encerrada",
+        "source": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/ai-accountability-fellowships"
       }
     ],
     "id": "pulitzer-ai-2627",
@@ -1046,7 +1061,7 @@ window.RADAR_PARTS.opportunities=[
     ],
     "rules": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/ai-accountability-fellowships",
     "apply": null,
-    "verified": "2026-09-23",
+    "verified": "2026-10-02",
     "desc": "Ciclo 2026–27 encerrado; mantido no arquivo para monitorar a próxima edição."
   },
   {
@@ -1306,6 +1321,11 @@ window.RADAR_PARTS.opportunities=[
         "date": "2026-09-23",
         "status": "descartada",
         "source": "https://www.solutionsjournalism.org/"
+      },
+      {
+        "date": "2026-10-02",
+        "status": "descartada",
+        "source": "https://www.solutionsjournalism.org/"
       }
     ],
     "id": "sj-heal",
@@ -1327,7 +1347,7 @@ window.RADAR_PARTS.opportunities=[
     "story": [],
     "rules": "https://www.solutionsjournalism.org/",
     "apply": null,
-    "verified": "2026-09-23",
+    "verified": "2026-10-02",
     "desc": "Descoberta no Gmail Radar PLOT.; chamada seleciona jornalistas baseados nos EUA, portanto arquivada como inelegível. Honorário de até US$5 mil."
   },
   {
@@ -1340,6 +1360,11 @@ window.RADAR_PARTS.opportunities=[
     "verificationHistory": [
       {
         "date": "2026-09-23",
+        "status": "descartada",
+        "source": "https://www.solutionsjournalism.org/"
+      },
+      {
+        "date": "2026-10-02",
         "status": "descartada",
         "source": "https://www.solutionsjournalism.org/"
       }
@@ -1362,7 +1387,7 @@ window.RADAR_PARTS.opportunities=[
     "story": [],
     "rules": "https://www.solutionsjournalism.org/",
     "apply": null,
-    "verified": "2026-09-23",
+    "verified": "2026-10-02",
     "desc": "Descoberta no Gmail Radar PLOT.; apoio de até US$1.500 para viagens a cidades dentro dos EUA, sem aderência operacional atual."
   },
   {
@@ -1419,6 +1444,11 @@ window.RADAR_PARTS.opportunities=[
         "date": "2026-09-24",
         "status": "aberta",
         "source": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/ai-reporting-grants"
+      },
+      {
+        "date": "2026-10-02",
+        "status": "aberta",
+        "source": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/ai-reporting-grants"
       }
     ],
     "id": "pulitzer-ai-grant",
@@ -1443,7 +1473,7 @@ window.RADAR_PARTS.opportunities=[
     ],
     "rules": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/ai-reporting-grants",
     "apply": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/ai-reporting-grants",
-    "verified": "2026-09-24",
+    "verified": "2026-10-02",
     "desc": "Fluxo contínuo, aberto a freelancers e jornalistas no mundo. O edital cita explicitamente impactos ambientais da IA, supply chains, regulação e governança; forte encaixe potencial para data centers."
   },
   {
@@ -1516,6 +1546,11 @@ window.RADAR_PARTS.opportunities=[
         "date": "2026-09-25",
         "status": "aberta",
         "source": "https://www.theopennotebook.com/early-career-fellowship-program/"
+      },
+      {
+        "date": "2026-10-02",
+        "status": "aberta",
+        "source": "https://www.theopennotebook.com/early-career-fellowship-program/"
       }
     ],
     "id": "ton-2027",
@@ -1541,7 +1576,7 @@ window.RADAR_PARTS.opportunities=[
     ],
     "rules": "https://www.theopennotebook.com/early-career-fellowship-program/",
     "apply": "https://www.theopennotebook.com/early-career-fellowship-program/",
-    "verified": "2026-09-25",
+    "verified": "2026-10-02",
     "desc": "Fellowship remota e part-time de 12 meses para início de carreira em jornalismo científico. Aceita candidatos internacionais, paga US$6.600 e recebe inscrições até 31/10/2026. O programa combina mentoring e produção editorial para The Open Notebook."
   },
   {
@@ -1554,6 +1589,11 @@ window.RADAR_PARTS.opportunities=[
     "verificationHistory": [
       {
         "date": "2026-09-24",
+        "status": "descartada",
+        "source": "https://healthjournalism.org/fellowships/ahcj-international-health-study-fellowships/"
+      },
+      {
+        "date": "2026-10-02",
         "status": "descartada",
         "source": "https://healthjournalism.org/fellowships/ahcj-international-health-study-fellowships/"
       }
@@ -1578,7 +1618,7 @@ window.RADAR_PARTS.opportunities=[
     ],
     "rules": "https://healthjournalism.org/fellowships/ahcj-international-health-study-fellowships/",
     "apply": null,
-    "verified": "2026-09-24",
+    "verified": "2026-10-02",
     "desc": "Apesar do nome internacional, é restrita a jornalistas baseados nos EUA. Arquivada para evitar falso positivo em futuras buscas."
   },
   {
@@ -1591,6 +1631,11 @@ window.RADAR_PARTS.opportunities=[
     "verificationHistory": [
       {
         "date": "2026-09-24",
+        "status": "descartada",
+        "source": "https://fij.org/apply-for-a-grant/"
+      },
+      {
+        "date": "2026-10-02",
         "status": "descartada",
         "source": "https://fij.org/apply-for-a-grant/"
       }
@@ -1612,7 +1657,7 @@ window.RADAR_PARTS.opportunities=[
     "story": [],
     "rules": "https://fij.org/apply-for-a-grant/",
     "apply": null,
-    "verified": "2026-09-24",
+    "verified": "2026-10-02",
     "desc": "Arquivado no registro de exclusões. Chamadas internacionais exigem forte ângulo dos EUA e publicação em inglês por veículo baseado nos EUA; além disso, o ciclo regular de setembro está encerrado."
   },
   {
@@ -1625,6 +1670,11 @@ window.RADAR_PARTS.opportunities=[
     "verificationHistory": [
       {
         "date": "2026-09-24",
+        "status": "descartada",
+        "source": "https://fij.org/40k-fellowship-application-open-webinar-aug-12-on-how-to-apply/"
+      },
+      {
+        "date": "2026-10-02",
         "status": "descartada",
         "source": "https://fij.org/40k-fellowship-application-open-webinar-aug-12-on-how-to-apply/"
       }
@@ -1646,7 +1696,7 @@ window.RADAR_PARTS.opportunities=[
     "story": [],
     "rules": "https://fij.org/40k-fellowship-application-open-webinar-aug-12-on-how-to-apply/",
     "apply": null,
-    "verified": "2026-09-24",
+    "verified": "2026-10-02",
     "desc": "US$40 mil por 12 meses ou US$20 mil por seis, mas requer investigação com forte foco nos EUA; mantida no arquivo, não nas oportunidades acionáveis."
   },
   {
@@ -1659,6 +1709,11 @@ window.RADAR_PARTS.opportunities=[
     "verificationHistory": [
       {
         "date": "2026-09-24",
+        "status": "preparar",
+        "source": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/persephone-miel-fellowships"
+      },
+      {
+        "date": "2026-10-02",
         "status": "preparar",
         "source": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/persephone-miel-fellowships"
       }
@@ -1686,7 +1741,7 @@ window.RADAR_PARTS.opportunities=[
     ],
     "rules": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/persephone-miel-fellowships",
     "apply": null,
-    "verified": "2026-09-24",
+    "verified": "2026-10-02",
     "desc": "Ciclo 2026 encerrou em março. É especialmente relevante para jornalistas fora dos EUA/Europa Ocidental e incentiva componentes multimídia; monitorar a abertura de 2027, sem apresentar como aberta."
   },
   {
@@ -1893,6 +1948,11 @@ window.RADAR_PARTS.opportunities=[
         "date": "2026-09-25",
         "status": "encerrada",
         "source": "https://leibniz-ifl.de/en/career-1/open-positions/open-positions-details/journalist-in-residence-stipendium"
+      },
+      {
+        "date": "2026-10-02",
+        "status": "encerrada",
+        "source": "https://leibniz-ifl.de/en/career-1/open-positions/open-positions-details/journalist-in-residence-stipendium"
       }
     ],
     "id": "ifl-cartography",
@@ -1917,7 +1977,7 @@ window.RADAR_PARTS.opportunities=[
     ],
     "rules": "https://leibniz-ifl.de/en/career-1/open-positions/open-positions-details/journalist-in-residence-stipendium",
     "apply": null,
-    "verified": "2026-09-25",
+    "verified": "2026-10-02",
     "desc": "Ciclo encerrado, mas fonte de altíssima relevância: residência de um mês no VisLab, sem restrição regional/disciplinar, com cartografia e geovisualização. Monitorar nova edição."
   },
   {
@@ -1975,6 +2035,11 @@ window.RADAR_PARTS.opportunities=[
         "date": "2026-09-24",
         "status": "descartada",
         "source": "https://dowjonesnewsfund.org/djnfinternships/"
+      },
+      {
+        "date": "2026-10-02",
+        "status": "descartada",
+        "source": "https://dowjonesnewsfund.org/djnfinternships/"
       }
     ],
     "id": "djnf-data",
@@ -1996,7 +2061,7 @@ window.RADAR_PARTS.opportunities=[
     "story": [],
     "rules": "https://dowjonesnewsfund.org/djnfinternships/",
     "apply": null,
-    "verified": "2026-09-24",
+    "verified": "2026-10-02",
     "desc": "Arquivado: exige estudante full-time e, para internacionais, presença nos EUA com visto de trabalho; profissionais com um ano ou mais de trabalho jornalístico também não são elegíveis."
   },
   {
@@ -2282,6 +2347,11 @@ window.RADAR_PARTS.opportunities=[
         "date": "2026-09-25",
         "status": "descartada",
         "source": "https://www.usccmf.org/faq"
+      },
+      {
+        "date": "2026-10-02",
+        "status": "descartada",
+        "source": "https://www.usccmf.org/faq"
       }
     ],
     "id": "usc-civic27",
@@ -2304,7 +2374,7 @@ window.RADAR_PARTS.opportunities=[
     "story": [],
     "rules": "https://www.usccmf.org/faq",
     "apply": null,
-    "verified": "2026-09-25",
+    "verified": "2026-10-02",
     "desc": "Arquivada para Rachel: a FAQ oficial exige que fellows estejam geograficamente dentro de ±4 horas do Pacific Time. O ciclo 2026–27 está fechado e o programa espera nova busca em 2027, mas a restrição geográfica atual exclui participação a partir de Salvador."
   },
   {
@@ -2967,10 +3037,15 @@ window.RADAR_PARTS.opportunities=[
         "date": "2026-10-01",
         "status": "monitorar",
         "source": "https://www.egab.co/faqs"
+      },
+      {
+        "date": "2026-10-02",
+        "status": "monitorar",
+        "source": "https://www.egab.co/faqs"
       }
     ],
     "deadline": null,
-    "verified": "2026-10-01",
+    "verified": "2026-10-02",
     "scope": "Internacional",
     "fit": 6,
     "eligibility": "parcial",
