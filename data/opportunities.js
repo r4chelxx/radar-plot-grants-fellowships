@@ -6,7 +6,7 @@ window.RADAR_PARTS.opportunities=[
     "modality": "Fellowship internacional em rede",
     "documents": ["carta de apoio do empregador ou redação anfitriã","3 exemplos de investigações publicadas nos últimos 5 anos","3 referências profissionais ou cartas de recomendação","passaporte válido por mais de 6 meses"],
     "restrictions": ["jornalistas experientes, freelancers ou de redação","histórico comprovado de investigação ambiental e conhecimento de temas oceânicos","dedicação de um ano à investigação","freelancer precisa de redação anfitriã comprometida com apoio e publicação"],
-    "opens": "recorrente anual; a quarta turma abriu em 24/08/2026",
+    "opens": "2026-08-24",
     "verificationHistory": [{"date":"2026-10-02","status":"monitorar","source":"https://pulitzercenter.org/grants-fellowships/opportunities-journalists/apply-join-ocean-reporting-network-orn"}],
     "id": "pulitzer-ocean-reporting-network",
     "summary": "Fellowship anual do Pulitzer Center para investigações aprofundadas sobre oceanos, pesca, biodiversidade, comunidades costeiras, governança e cadeias de suprimento.",
