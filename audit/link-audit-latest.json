@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-10-02T01:46:18.642Z",
+  "checkedAt": "2026-10-02T02:17:55.954Z",
   "policy": "404/410 becomes broken only after appearing as suspect or broken in the previous audit; blocked and network results are inconclusive",
   "counts": {
-    "ok": 210,
+    "ok": 219,
     "blocked": 28,
     "network": 26,
     "server": 1
@@ -685,6 +685,50 @@
       "url": "https://www.firenewsroom.org/about-us/fire-frequently-asked-questions",
       "status": 200,
       "finalUrl": "https://www.firenewsroom.org/about-us/fire-frequently-asked-questions",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Ibama — Áreas Embargadas",
+      "url": "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-termo-de-embargo",
+      "status": 200,
+      "finalUrl": "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-termo-de-embargo",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "CVM — Dados Abertos",
+      "url": "https://dados.cvm.gov.br/",
+      "status": 200,
+      "finalUrl": "https://dados.cvm.gov.br/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Banco Central do Brasil — Dados Abertos",
+      "url": "https://dadosabertos.bcb.gov.br/",
+      "status": 200,
+      "finalUrl": "https://dadosabertos.bcb.gov.br/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Anatel — Dados Abertos",
+      "url": "https://www.gov.br/anatel/pt-br/dados/dados-abertos",
+      "status": 200,
+      "finalUrl": "https://www.gov.br/anatel/pt-br/dados/dados-abertos",
       "class": "ok",
       "attempts": [
         200
@@ -1964,6 +2008,50 @@
       ]
     },
     {
+      "type": "tool",
+      "id": "tesseract-ocr",
+      "url": "https://tesseract-ocr.github.io/tessdoc/",
+      "status": 200,
+      "finalUrl": "https://tesseract-ocr.github.io/tessdoc/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Mapshaper",
+      "url": "https://mapshaper.org/docs/",
+      "status": 200,
+      "finalUrl": "https://mapshaper.org/docs/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "overpass-turbo",
+      "url": "https://overpass-turbo.eu/",
+      "status": 200,
+      "finalUrl": "https://overpass-turbo.eu/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "nominatim",
+      "url": "https://nominatim.org/",
+      "status": 200,
+      "finalUrl": "https://nominatim.org/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
       "type": "source",
       "id": "DuckDB",
       "url": "https://duckdb.org/docs/current/guides/overview",
@@ -2828,6 +2916,17 @@
       "url": "https://journaliststudio.google.com/",
       "status": 200,
       "finalUrl": "https://journaliststudio.google.com/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "mapshaper",
+      "url": "https://mapshaper.org/",
+      "status": 200,
+      "finalUrl": "https://mapshaper.org/",
       "class": "ok",
       "attempts": [
         200
