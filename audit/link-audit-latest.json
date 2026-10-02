@@ -1,10 +1,10 @@
 {
-  "checkedAt": "2026-10-01T20:33:24.673Z",
+  "checkedAt": "2026-10-02T01:46:18.642Z",
   "policy": "404/410 becomes broken only after appearing as suspect or broken in the previous audit; blocked and network results are inconclusive",
   "counts": {
-    "ok": 209,
+    "ok": 210,
     "blocked": 28,
-    "network": 27,
+    "network": 26,
     "server": 1
   },
   "results": [
@@ -2243,13 +2243,11 @@
       "type": "source",
       "id": "Journalismfund Europe",
       "url": "https://www.journalismfund.eu/",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://www.journalismfund.eu/",
+      "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
