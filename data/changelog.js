@@ -1,6 +1,27 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
   {
+    "date": "2026-10-02",
+    "type": "nova-oportunidade",
+    "title": "Ocean Reporting Network entra no monitoramento recorrente",
+    "items": [{"id":"pulitzer-ocean-reporting-network","title":"Ocean Reporting Network Fellowship"}],
+    "detail": "A quarta turma está encerrada, mas a recorrência anual foi confirmada pelo Pulitzer Center. O Radar passa a monitorar a próxima abertura, com elegibilidade global, requisitos e condições da edição 2027 registrados."
+  },
+  {
+    "date": "2026-10-02",
+    "type": "dados",
+    "title": "Data360 amplia o catálogo global de desenvolvimento",
+    "items": [{"id":"world-bank-data360","title":"World Bank Data360"}],
+    "detail": "O catálogo do Banco Mundial entrou com cobertura global, metadados, desagregações, API e ressalvas sobre periodicidade, metodologia e licenças dos produtores originais."
+  },
+  {
+    "date": "2026-10-02",
+    "type": "ferramentas",
+    "title": "API oficial do Data360 adicionada",
+    "items": [{"id":"world-bank-data360-api","title":"World Bank Data360 API"}],
+    "detail": "A API v1 do Data360 foi adicionada como ferramenta para busca e extração reproduzível de dados, indicadores, metadados e desagregações."
+  },
+  {
     "date": "2026-10-01",
     "type": "dados",
     "title": "Telecom, mercado financeiro, séries econômicas e embargos ambientais",
