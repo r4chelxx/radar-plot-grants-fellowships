@@ -2,6 +2,54 @@ window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
   {
     "date": "2026-10-01",
+    "type": "dados",
+    "title": "Telecom, mercado financeiro, séries econômicas e embargos ambientais",
+    "items": [
+      {
+        "id": "anatel-dados-abertos-telecom",
+        "title": "Anatel — dados abertos de telecomunicações"
+      },
+      {
+        "id": "bcb-dados-abertos-sgs",
+        "title": "Banco Central — Dados Abertos e séries SGS"
+      },
+      {
+        "id": "cvm-dados-abertos",
+        "title": "CVM — portal de dados abertos"
+      },
+      {
+        "id": "ibama-termos-embargo",
+        "title": "Ibama — termos de embargo ambiental"
+      }
+    ],
+    "detail": "Anatel, Banco Central, CVM e Ibama entraram com cobertura, frequência, formatos, granularidade, documentação e limites de interpretação para pautas de infraestrutura, transparência, território e ambiente."
+  },
+  {
+    "date": "2026-10-01",
+    "type": "ferramentas",
+    "title": "Geocodificação, OSM, mapas e OCR local",
+    "items": [
+      {
+        "id": "nominatim",
+        "title": "Nominatim"
+      },
+      {
+        "id": "overpass-turbo",
+        "title": "Overpass Turbo"
+      },
+      {
+        "id": "mapshaper",
+        "title": "Mapshaper"
+      },
+      {
+        "id": "tesseract-ocr",
+        "title": "Tesseract OCR"
+      }
+    ],
+    "detail": "Nominatim, Overpass Turbo, Mapshaper e Tesseract OCR foram adicionados com usos e cautelas sobre política de uso, dados colaborativos, perda cartográfica, qualidade de OCR e revisão humana."
+  },
+  {
+    "date": "2026-10-01",
     "type": "correção",
     "title": "Kari, Kim e EWA reavaliados por encaixe editorial",
     "items": [
