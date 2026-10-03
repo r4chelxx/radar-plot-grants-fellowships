@@ -1,24 +1,169 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
-window.RADAR_PARTS.changelog=[{"date":"2026-10-02","type":"nova-oportunidade","title":"Direitos digitais e duas fellowships internacionais entram no radar","items":[{"id":"derechos-digitales-jornalismo-2026","title":"Jornalismo para os Direitos Digitais 2026"},{"id":"jsk-2027-28","title":"John S. Knight Journalism Fellowships 2027–28"},{"id":"nieman-2027-28","title":"Nieman Fellowship 2027–28 — International"}],"detail":"A rodada adicionou a chamada urgente da Derechos Digitales, com prazo em 04/10, além de JSK e Nieman para preparação dos ciclos 2027–28. Elegibilidade, apoio, datas e requisitos foram checados nas páginas oficiais."},{"date":"2026-10-02","type":"dados","title":"Transferências, obras públicas e desonerações tributárias","items":[{"id":"transferegov-dados-abertos","title":"Transferegov.br — APIs e dados abertos"},{"id":"obrasgov-api","title":"Obrasgov.br — API de obras públicas"},{"id":"fazenda-painel-desoneracoes-dirbi","title":"Ministério da Fazenda — Painel de Caracterização das Desonerações Tributárias"}],"detail":"Entraram os novos ambientes oficiais de APIs do Transferegov e Obrasgov e a plataforma da Fazenda que cruza DIRBI com indicadores sociais, produtivos, ambientais e a Taxonomia Sustentável Brasileira."},{"date":"2026-10-02","type":"ferramentas","title":"Cinco ferramentas abertas do Codesinfo 2026","items":[{"id":"monitor-diario","title":"Monitor Diário"},{"id":"jor-mcp","title":"Jor-MCP"},{"id":"jeo-infoamazonia","title":"JEO"},{"id":"mamute-politico","title":"Mamute Político"},{"id":"quiteria-azmina","title":"QuitérIA"}],"detail":"A edição 2026 do Codesinfo trouxe cinco soluções open-source para monitoramento de Diários Oficiais, infraestrutura MCP, geojornalismo, acompanhamento legislativo e análise de proposições sobre gênero e direitos humanos."},
+window.RADAR_PARTS.changelog=[
+  {
+    "date": "2026-10-02",
+    "type": "nova-oportunidade",
+    "title": "Fellowship global de saúde com grant de reportagem",
+    "items": [
+      {
+        "id": "npf-rare-disease-2026",
+        "title": "Rare Disease Reporting Fellowship and Grants 2026"
+      }
+    ],
+    "detail": "A National Press Foundation abriu fellowship online para jornalistas profissionais de qualquer país, com prazo em 22/10 e grants de até US$2 mil para até 20 participantes. Elegibilidade, horários, carta editorial e data de publicação foram checados na fonte oficial."
+  },
+  {
+    "date": "2026-10-02",
+    "type": "dados",
+    "title": "Compras públicas, renúncias fiscais e PEPs",
+    "items": [
+      {
+        "id": "comprasgov-dados-abertos",
+        "title": "Compras.gov.br — Dados Abertos e API"
+      },
+      {
+        "id": "rfb-beneficios-renuncias-fiscais",
+        "title": "Receita Federal — Benefícios e Renúncias Fiscais"
+      },
+      {
+        "id": "opensanctions-br-pep",
+        "title": "OpenSanctions — Brazil Politically Exposed Persons"
+      }
+    ],
+    "detail": "Entraram o novo ecossistema de dados abertos do Compras.gov.br, o catálogo da Receita sobre benefícios e renúncias e a base brasileira de PEPs do OpenSanctions, todos com limitações de uso e necessidade de confirmação em fontes primárias."
+  },
+  {
+    "date": "2026-10-02",
+    "type": "ferramentas",
+    "title": "Nova camada de OSINT e pesquisa societária",
+    "items": [
+      {
+        "id": "bellingcat-online-investigations-toolkit",
+        "title": "Bellingcat Online Investigations Toolkit"
+      },
+      {
+        "id": "opensanctions-api",
+        "title": "OpenSanctions API"
+      },
+      {
+        "id": "opencorporates-api",
+        "title": "OpenCorporates API"
+      },
+      {
+        "id": "occrp-id",
+        "title": "OCCRP ID"
+      }
+    ],
+    "detail": "A rodada adicionou um catálogo de ferramentas OSINT, APIs para entidades e empresas e o índice global de registros do OCCRP, com cautelas explícitas sobre homônimos, licenciamento, cobertura e validação na fonte original."
+  },
+  {
+    "date": "2026-10-02",
+    "type": "produto",
+    "title": "Oportunidades ganham ação rápida “Já fiz”",
+    "detail": "O estado pessoal concluído foi renomeado para “Já fiz” e ganhou botão rápido ao lado de “Vou fazer” e “Não agora”. O estado continua sincronizado por usuário e não altera o status factual da oportunidade."
+  },
+  {
+    "date": "2026-10-02",
+    "type": "nova-oportunidade",
+    "title": "Direitos digitais e duas fellowships internacionais entram no radar",
+    "items": [
+      {
+        "id": "derechos-digitales-jornalismo-2026",
+        "title": "Jornalismo para os Direitos Digitais 2026"
+      },
+      {
+        "id": "jsk-2027-28",
+        "title": "John S. Knight Journalism Fellowships 2027–28"
+      },
+      {
+        "id": "nieman-2027-28",
+        "title": "Nieman Fellowship 2027–28 — International"
+      }
+    ],
+    "detail": "A rodada adicionou a chamada urgente da Derechos Digitales, com prazo em 04/10, além de JSK e Nieman para preparação dos ciclos 2027–28. Elegibilidade, apoio, datas e requisitos foram checados nas páginas oficiais."
+  },
+  {
+    "date": "2026-10-02",
+    "type": "dados",
+    "title": "Transferências, obras públicas e desonerações tributárias",
+    "items": [
+      {
+        "id": "transferegov-dados-abertos",
+        "title": "Transferegov.br — APIs e dados abertos"
+      },
+      {
+        "id": "obrasgov-api",
+        "title": "Obrasgov.br — API de obras públicas"
+      },
+      {
+        "id": "fazenda-painel-desoneracoes-dirbi",
+        "title": "Ministério da Fazenda — Painel de Caracterização das Desonerações Tributárias"
+      }
+    ],
+    "detail": "Entraram os novos ambientes oficiais de APIs do Transferegov e Obrasgov e a plataforma da Fazenda que cruza DIRBI com indicadores sociais, produtivos, ambientais e a Taxonomia Sustentável Brasileira."
+  },
+  {
+    "date": "2026-10-02",
+    "type": "ferramentas",
+    "title": "Cinco ferramentas abertas do Codesinfo 2026",
+    "items": [
+      {
+        "id": "monitor-diario",
+        "title": "Monitor Diário"
+      },
+      {
+        "id": "jor-mcp",
+        "title": "Jor-MCP"
+      },
+      {
+        "id": "jeo-infoamazonia",
+        "title": "JEO"
+      },
+      {
+        "id": "mamute-politico",
+        "title": "Mamute Político"
+      },
+      {
+        "id": "quiteria-azmina",
+        "title": "QuitérIA"
+      }
+    ],
+    "detail": "A edição 2026 do Codesinfo trouxe cinco soluções open-source para monitoramento de Diários Oficiais, infraestrutura MCP, geojornalismo, acompanhamento legislativo e análise de proposições sobre gênero e direitos humanos."
+  },
   {
     "date": "2026-10-02",
     "type": "nova-oportunidade",
     "title": "Ocean Reporting Network entra no monitoramento recorrente",
-    "items": [{"id":"pulitzer-ocean-reporting-network","title":"Ocean Reporting Network Fellowship"}],
+    "items": [
+      {
+        "id": "pulitzer-ocean-reporting-network",
+        "title": "Ocean Reporting Network Fellowship"
+      }
+    ],
     "detail": "A quarta turma está encerrada, mas a recorrência anual foi confirmada pelo Pulitzer Center. O Radar passa a monitorar a próxima abertura, com elegibilidade global, requisitos e condições da edição 2027 registrados."
   },
   {
     "date": "2026-10-02",
     "type": "dados",
     "title": "Data360 amplia o catálogo global de desenvolvimento",
-    "items": [{"id":"world-bank-data360","title":"World Bank Data360"}],
+    "items": [
+      {
+        "id": "world-bank-data360",
+        "title": "World Bank Data360"
+      }
+    ],
     "detail": "O catálogo do Banco Mundial entrou com cobertura global, metadados, desagregações, API e ressalvas sobre periodicidade, metodologia e licenças dos produtores originais."
   },
   {
     "date": "2026-10-02",
     "type": "ferramentas",
     "title": "API oficial do Data360 adicionada",
-    "items": [{"id":"world-bank-data360-api","title":"World Bank Data360 API"}],
+    "items": [
+      {
+        "id": "world-bank-data360-api",
+        "title": "World Bank Data360 API"
+      }
+    ],
     "detail": "A API v1 do Data360 foi adicionada como ferramenta para busca e extração reproduzível de dados, indicadores, metadados e desagregações."
   },
   {
