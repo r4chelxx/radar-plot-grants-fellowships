@@ -1,6 +1,56 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.opportunities=[
   {
+    "value": "Até US$ 2.000 para até 20 fellows; treinamento online gratuito para todos os selecionados",
+    "duration": "Treinamento de 16–20/11/2026; reportagem apoiada deve ser publicada até 01/03/2027",
+    "modality": "Online · sessões ao vivo, 8h–12h ET",
+    "documents": [
+      "candidatura online",
+      "carta do editor autorizando participação, se empregada; ou carta de editor demonstrando interesse em publicar, se freelancer"
+    ],
+    "restrictions": [
+      "participação integral nas cinco sessões é obrigatória",
+      "fluência em inglês para acompanhar o treinamento",
+      "grant de reportagem é limitado a até 20 participantes e não é garantido a todos os fellows"
+    ],
+    "opens": null,
+    "verificationHistory": [
+      {
+        "date": "2026-10-02",
+        "status": "aberta",
+        "source": "https://nationalpress.org/training/apply-2026-rare-disease-reporting-fellowship-and-grants/"
+      }
+    ],
+    "id": "npf-rare-disease-2026",
+    "summary": "Fellowship global de saúde com treinamento sobre doenças raras, biotecnologia, genética e IA, além de grants de reportagem para parte da turma.",
+    "title": "Rare Disease Reporting Fellowship and Grants 2026",
+    "org": "National Press Foundation",
+    "type": "Fellowship / Grant",
+    "themes": [
+      "Saúde",
+      "Ciência",
+      "Biotecnologia",
+      "IA/tech",
+      "Formação",
+      "Reportagem"
+    ],
+    "scope": "Internacional / online",
+    "deadline": "2026-10-22",
+    "deadlineStatus": "confirmado",
+    "eligibility": "elegível",
+    "fit": 7.5,
+    "status": "aberta",
+    "story": [],
+    "rules": "https://nationalpress.org/training/apply-2026-rare-disease-reporting-fellowship-and-grants/",
+    "apply": "https://nationalpress.org/training/apply-2026-rare-disease-reporting-fellowship-and-grants/",
+    "verified": "2026-10-02",
+    "desc": "Aberta a jornalistas profissionais de qualquer país e meio. O treinamento ocorre online de 16 a 20/11, quatro horas por dia, e é obrigatório. Até 20 fellows que necessitem e se qualifiquem recebem até US$2 mil para produzir uma reportagem sobre doenças raras; freelancers precisam apresentar carta de editor com interesse em publicar.",
+    "discoveredVia": [
+      "National Press Foundation"
+    ],
+    "discoveryUrl": "https://nationalpress.org/programs/"
+  },
+  {
     "value": "US$ 5.000 por proposta",
     "duration": "4 meses de acompanhamento; início em novembro de 2026 e publicação até abril de 2027",
     "modality": "Principalmente remota",

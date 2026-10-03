@@ -1,2 +1,352 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
-window.RADAR_PARTS.tools=[{"id":"monitor-diario","name":"Monitor Diário","kind":"monitoramento automatizado de Diários Oficiais do Nordeste","url":"https://codesinfo.com.br/solucoes/monitor-diario/","desc":"Plataforma open-source da Agência Tatu para monitorar diariamente os Diários Oficiais dos nove estados do Nordeste por temas e palavras-chave, gerando alertas, resumos e referências ao documento e à página de origem. Útil para contratos, nomeações, licitações, obras, saúde e educação; resultados de IA são triagem e devem ser conferidos no Diário Oficial original.","discoveredVia":["Codesinfo"],"discoveryUrl":"https://codesinfo.com.br/solucoes/monitor-diario/"},{"id":"jor-mcp","name":"Jor-MCP","kind":"infraestrutura MCP para acervos jornalísticos","url":"https://codesinfo.com.br/solucoes/jor-mcp/","desc":"Servidor open-source da Ambiental Media, sob licença Apache 2.0, para expor conteúdos e acervos jornalísticos a sistemas de IA em formato estruturado e com regras próprias de acesso, atribuição e licenciamento. Oferece busca, recuperação de texto limpo e listagem de publicações recentes; exige implantação e governança próprias.","discoveredVia":["Codesinfo"],"discoveryUrl":"https://codesinfo.com.br/solucoes/jor-mcp/"},{"id":"jeo-infoamazonia","name":"JEO","kind":"geojornalismo e mapas no WordPress","url":"https://codesinfo.com.br/solucoes/jeo/","desc":"Plugin open-source do InfoAmazonia para geolocalizar reportagens, criar mapas e minimapas, organizar conteúdos por território e recomendar matérias por proximidade. Integra Mapbox, MapLibre, react-map-gl e Nominatim e pode usar IA/RAG com revisão humana; é voltado a sites em WordPress.","discoveredVia":["Codesinfo"],"discoveryUrl":"https://codesinfo.com.br/solucoes/jeo/"},{"id":"mamute-politico","name":"Mamute Político","kind":"monitoramento legislativo do Congresso Nacional","url":"https://codesinfo.com.br/solucoes/mamute-politico/","desc":"Plataforma open-source do Correio Sabiá que organiza dados oficiais da Câmara e do Senado para acompanhar projetos, requerimentos, votações e discursos de parlamentares, com alertas e consultas assistidas por IA. Serve como camada de exploração; qualquer conclusão sobre atuação parlamentar deve ser confirmada nos registros oficiais do Congresso.","discoveredVia":["Codesinfo"],"discoveryUrl":"https://codesinfo.com.br/solucoes/mamute-politico/"},{"id":"quiteria-azmina","name":"QuitérIA","kind":"monitoramento legislativo de gênero e direitos humanos","url":"https://codesinfo.com.br/solucoes/quiteria/","desc":"Ferramenta open-source do Instituto AzMina integrada ao Elas no Congresso para identificar e classificar proposições relacionadas a mulheres, meninas, população negra e pessoas LGBTQIAPN+. Combina coleta legislativa, IA, validação humana e governança; oferece dados reutilizáveis e API pública, mas classificações devem ser lidas com sua metodologia e curadoria.","discoveredVia":["Codesinfo"],"discoveryUrl":"https://codesinfo.com.br/solucoes/quiteria/"},{"id":"world-bank-data360-api","name":"World Bank Data360 API","kind":"API de consulta e extração de dados de desenvolvimento","url":"https://data360.worldbank.org/en/api","desc":"API oficial do Data360 para pesquisar conjuntos e recuperar dados, indicadores, metadados e desagregações por filtros. Útil para consultas reproduzíveis e integração com scripts; a documentação usa OpenAPI 3.0. Conferir metadados, licença e produtor original de cada série, especialmente quando os dados vierem de parceiros do Banco Mundial.","discoveredVia":["World Bank Data360"],"discoveryUrl":"https://data360.worldbank.org/en/api"},{"id":"tesseract-ocr","name":"Tesseract OCR","kind":"OCR local para documentos e imagens","url":"https://tesseract-ocr.github.io/tessdoc/","desc":"Motor OCR aberto para extrair texto de imagens e documentos digitalizados, com uso por linha de comando ou API e suporte a vários idiomas por arquivos treinados. Útil para PDFs escaneados recebidos por LAI. Acurácia depende da qualidade da imagem, idioma, layout e pré-processamento; revisar manualmente trechos sensíveis, números e nomes próprios.","discoveredVia":["Tesseract OCR"],"discoveryUrl":"https://tesseract-ocr.github.io/tessdoc/"},{"id":"mapshaper","name":"Mapshaper","kind":"edição e simplificação de dados geoespaciais","url":"https://mapshaper.org/","desc":"Ferramenta web e de linha de comando para abrir, converter, simplificar, filtrar, dissolver e exportar Shapefile, GeoJSON, TopoJSON, GeoPackage, FlatGeobuf, GeoParquet, GeoTIFF, KML e CSV. Útil para preparar mapas leves. Conferir projeção, topologia, perda de detalhe e atributos antes de publicar.","discoveredVia":["Mapshaper"],"discoveryUrl":"https://mapshaper.org/docs/"},{"id":"overpass-turbo","name":"Overpass Turbo","kind":"consulta e extração de dados OpenStreetMap","url":"https://overpass-turbo.eu/","desc":"Interface web para montar consultas Overpass, visualizar resultados em mapa e exportar elementos do OpenStreetMap por área, tag, tipo ou condição. Boa para localizar escolas, hospitais, igrejas, infraestrutura e mudanças mapeadas. Dados são colaborativos, incompletos e podem conter erros; registrar consulta, data, bbox e tags usadas.","discoveredVia":["Overpass Turbo"],"discoveryUrl":"https://wiki.openstreetmap.org/wiki/Overpass_turbo"},{"id":"nominatim","name":"Nominatim","kind":"geocodificação e geocodificação reversa","url":"https://nominatim.org/","desc":"Ferramenta baseada em OpenStreetMap para transformar nomes/endereço em coordenadas e coordenadas em endereços aproximados. Útil para padronizar localidades e conferir pontos de bases públicas. A API pública do OSM tem capacidade limitada e política de uso; para volumes maiores, usar instância própria ou serviço dedicado. Resultados dependem da cobertura e qualidade colaborativa do OSM.","discoveredVia":["Nominatim"],"discoveryUrl":"https://operations.osmfoundation.org/policies/nominatim/"},{"id":"indicator-lab","name":"Indicator Lab","kind":"suite de investigação assistida por IA","url":"https://indicator.media/indicator-lab","desc":"Camada paga da Indicator com Spotlight, Scoutpost, Navigator, Splash e Mycroft para planejar investigações, monitorar mudanças, localizar ferramentas, gerar materiais visuais e rodar fluxos locais com modelos próprios. Usar apenas com revisão editorial humana, registro de fontes e cuidado com dados sensíveis, custos de assinatura e dependência de modelos.","discoveredVia":["Indicator"],"discoveryUrl":"https://indicator.media/p/the-indicator-lab-is-live-investigations-with-ai"},{"id":"osint-navigator","name":"OSINT Navigator","kind":"busca curada de ferramentas OSINT","url":"https://navigator.indicator.media/","desc":"Catálogo pesquisável de ferramentas OSINT, compilado de toolkits independentes e pensado para encontrar recursos por intenção de investigação. A recomendação deve ser tratada como triagem: confirmar cada ferramenta no site original, revisar riscos legais/éticos, termos de uso e adequação à pauta antes de aplicar.","discoveredVia":["Indicator"],"discoveryUrl":"https://indicator.media/p/the-indicator-lab-is-live-investigations-with-ai"},{"id":"duckdb","name":"DuckDB","kind":"análise local de CSV, Parquet e bancos tabulares","url":"https://duckdb.org/","desc":"Banco analítico embutido para consultar arquivos grandes em CSV, Parquet, JSON e bases SQLite/PostgreSQL sem montar um servidor. Bom para cruzamentos reprodutíveis em notebooks e scripts. Registrar versão, caminho dos arquivos, encoding e transformações; consultas rápidas não eliminam validação de tipos, duplicidades e chaves.","discoveredVia":["DuckDB"],"discoveryUrl":"https://duckdb.org/docs/current/guides/overview"},{"id":"datasette","name":"Datasette","kind":"publicação e exploração de dados","url":"https://datasette.io/","desc":"Ferramenta aberta para transformar dados estruturados em um site explorável com busca, consultas SQL e API. Útil para publicar bases próprias, protótipos de apuração e anexos verificáveis. Exige revisar privacidade, licenças, campos sensíveis, custo de hospedagem e performance antes de abrir dados ao público.","discoveredVia":["Datasette"],"discoveryUrl":"https://docs.datasette.io/en/latest/"},{"id":"openrefine","name":"OpenRefine","kind":"limpeza e reconciliação de dados","url":"https://openrefine.org/","desc":"Software gratuito e aberto para padronizar nomes, agrupar grafias parecidas, filtrar inconsistências, transformar tabelas e repetir operações com histórico reversível. Processa os dados localmente; reconciliação e enriquecimento via serviços externos podem enviar valores para terceiros. Revisar os agrupamentos antes de unir pessoas, empresas ou estabelecimentos.","discoveredVia":["OpenRefine"],"discoveryUrl":"https://openrefine.org/privacy"},{"id":"tabula","name":"Tabula","kind":"extração de tabelas de PDF","url":"https://tabula.technology/","desc":"Software gratuito e aberto que roda localmente e extrai tabelas de PDFs com texto para CSV e outros formatos de planilha. Útil para respostas de LAI, relatórios e anexos. Não faz OCR de páginas escaneadas; conferir colunas, linhas, totais e quebras de página no documento original. Requer instalação e Java conforme sistema operacional.","discoveredVia":["Tabula"],"discoveryUrl":"https://tabula.technology/"},{"id":"qgis","name":"QGIS","kind":"análise geoespacial e cartografia","url":"https://qgis.org/","desc":"Software gratuito e aberto para editar camadas, cruzar pontos e polígonos, medir áreas, analisar dados geográficos e produzir mapas e atlas. Útil para escolas, infraestrutura e imóveis. Registrar projeção, versão e escala de cada camada; proximidade ou sobreposição espacial não comprova vínculo jurídico, propriedade ou conexão operacional.","discoveredVia":["QGIS"],"discoveryUrl":"https://qgis.org/"},{"id":"esri-wayback","name":"Esri World Imagery Wayback","kind":"comparação temporal de imagens","url":"https://livingatlas.arcgis.com/wayback/","desc":"Interface para explorar versões históricas do mosaico World Imagery e comparar mudanças visíveis no território. Complementa a inspeção manual de áreas de obras e imóveis. A data de publicação do mosaico não é a data de captura da imagem; verificar os metadados locais, resolução, estação e cobertura antes de datar uma mudança. Imagens não comprovam propriedade nem regularidade de empreendimento.","discoveredVia":["Esri Living Atlas"],"discoveryUrl":"https://doc.arcgis.com/en/imagery/workflows/tutorials/creating-an-image-visit-app.htm"},{"id":"arbiter","name":"Arbiter","kind":"monitoramento de narrativas e desinformação","url":"https://arbiter.simppl.org/","desc":"Permite definir um tema em linguagem natural e analisar publicações sociais em escala para agrupar narrativas, extrair alegações, sinalizar contas coordenadas, comparar plataformas e acompanhar tendências. Está em fase de testes com redações e depende de APIs, dumps acadêmicos e provedores externos; limites de volume, cobertura e acesso variam por plataforma, e os resultados automatizados exigem revisão humana.","discoveredVia":["Radar PLOT. · Gmail"],"discoveryUrl":"https://mailchi.mp/gijn/gijc27-website-launched-investigating-war-crimes-which-newsroom-personality-are-you?e=0695d2d4f8"},{"id":"detector-bbt","name":"Detector BBT","kind":"monitoramento legislativo e eleitoral","url":"https://bancadadasbigtechs.org/","desc":"Permite buscar e filtrar deputados e senadores por partido, UF, Casa, eleição e posição em pautas de regulação digital, abrindo os registros e suas fontes. A pontuação combina votos, autoria, relatoria, emendas e declarações públicas; a base é colaborativa e atualizada, votações simbólicas podem não ter registro nominal e toda classificação deve ser conferida nos documentos oficiais da Câmara e do Senado.","discoveredVia":["Radar PLOT. · Gmail"],"discoveryUrl":"https://newsletter.ctrlz.org.br/p/o-seu-candidato-e-da-bancada-das"},{"id":"datawrapper","name":"Datawrapper","kind":"visualização","url":"https://www.datawrapper.de/","desc":"Criação de gráficos, mapas e tabelas para publicação."},{"id":"react-simple-maps","name":"React Simple Maps","kind":"biblioteca de mapas","url":"https://www.react-simple-maps.io/","desc":"Componentes SVG para mapas em React; requer arquivos geográficos próprios e implementação no frontend.","discoveredVia":["Quantum of Sollazzo"],"discoveryUrl":"https://buttondown.com/puntofisso/archive/676-quantum-of-sollazzo/"},{"id":"geowhisperer","name":"GeoWhisperer","kind":"OSINT geoespacial","url":"https://www.geowhisperer.org/","desc":"Compara imagens datadas do Esri World Imagery Wayback, executa checagens mecânicas de resolução, estação e intervalo e gera relatório ou vídeo das mudanças. A cobertura depende das imagens que a Esri publicou; resultados de IA precisam ser confirmados visualmente.","discoveredVia":["Indicator"],"discoveryUrl":"https://indicator.media/p/briefing-uk-s-new-anti-disinfo-unit"},{"id":"digga","name":"digga","kind":"pesquisa de domínios","url":"https://digga.dev/","desc":"Ferramenta gratuita e open source para DNS, RDAP/WHOIS, subdomínios, IP/ASN, autenticação de e-mail e certificados SSL/TLS; a enumeração de subdomínios usa fontes públicas passivas.","discoveredVia":["Indicator"],"discoveryUrl":"https://indicator.media/p/briefing-uk-s-new-anti-disinfo-unit"},{"id":"decryptads","name":"DecryptAds","kind":"investigação de publicidade digital","url":"https://decryptads.com/","desc":"Mapeia cadeias de publicidade programática com arquivos públicos como ads.txt, app-ads.txt e sellers.json, permitindo investigar parceiros, contas compartilhadas, mudanças e relações societárias.","discoveredVia":["Indicator"],"discoveryUrl":"https://indicator.media/p/briefing-uk-s-new-anti-disinfo-unit"},{"id":"agenda-transparente","name":"Agenda Transparente","kind":"monitoramento de agendas públicas","url":"https://agendas.fiquemsabendo.com.br/","desc":"Pesquisa compromissos de autoridades por pessoa, órgão, período e palavra-chave e permite baixar resultados em CSV. A cobertura depende do que os governos publicam; uma reunião com várias autoridades pode gerar linhas repetidas, e nomes de órgãos ou empresas exigem padronização antes da análise.","discoveredVia":["Radar PLOT. · Gmail","Fiquem Sabendo"],"discoveryUrl":"https://news.fiquemsabendo.com.br/p/el-nino-na-agenda-do-governo-federal"},{"id":"google-pinpoint","name":"Google Pinpoint","kind":"pesquisa e análise documental","url":"https://journaliststudio.google.com/pinpoint/about/pt-BR_br/","desc":"Pesquisa grandes coleções de PDFs, imagens, e-mails, áudio e vídeo com OCR, transcrição, entidades e recursos de IA. Exige Conta Google; resultados automáticos precisam de conferência. Documentos são privados por padrão, mas comandos e respostas da IA generativa podem integrar amostras revisadas por humanos, portanto não inclua dados pessoais nos prompts e avalie o sigilo antes de enviar materiais sensíveis.","discoveredVia":["Google Journalist Studio"],"discoveryUrl":"https://support.google.com/pinpoint/answer/17007004?hl=pt-BR"},{"id":"occrp-aleph-pro","name":"OCCRP Aleph Pro","kind":"investigação societária e documental","url":"https://aleph.occrp.org/","desc":"Pesquisa pessoas, empresas, documentos, vazamentos e bases públicas; permite OCR, cruzamento de nomes, relações e espaços de investigação. Parte do acervo é protegida, o cadastro avançado passa por revisão manual e exige 2FA, e todo resultado deve ser confirmado na fonte original.","discoveredVia":["OCCRP"],"discoveryUrl":"https://docs.aleph.occrp.org/"}];
+window.RADAR_PARTS.tools=[
+  {
+    "id": "occrp-id",
+    "name": "OCCRP ID",
+    "kind": "índice global de registros e apoio à pesquisa investigativa",
+    "url": "https://id.occrp.org/als.php",
+    "desc": "Serviço do OCCRP que reúne um índice público de mais de mil fontes de registros empresariais, fundiários e judiciais em mais de 180 países. A equipe de pesquisa e bases comerciais é voltada a membros e parceiros do OCCRP, mas o índice de fontes é público e útil para localizar registros estrangeiros; cada achado deve ser confirmado no registro de origem.",
+    "discoveredVia": [
+      "OCCRP"
+    ],
+    "discoveryUrl": "https://id.occrp.org/als.php"
+  },
+  {
+    "id": "opencorporates-api",
+    "name": "OpenCorporates API",
+    "kind": "pesquisa e reconciliação de empresas",
+    "url": "https://api.opencorporates.com/",
+    "desc": "API de uma base global de empresas construída a partir de fontes públicas primárias, com proveniência por registro e integração de reconciliação com OpenRefine. Útil para localizar entidades jurídicas e normalizar nomes entre países. Acesso, limites e licenciamento variam por uso; registros devem ser confirmados no registro empresarial original antes de publicação.",
+    "discoveredVia": [
+      "OpenCorporates"
+    ],
+    "discoveryUrl": "https://api.opencorporates.com/"
+  },
+  {
+    "id": "opensanctions-api",
+    "name": "OpenSanctions API",
+    "kind": "busca, matching e reconciliação de entidades",
+    "url": "https://api.opensanctions.org/docs",
+    "desc": "API para pesquisar e cruzar pessoas, empresas, PEPs, sanções e entidades relacionadas. Oferece search, match, entities, statements e reconciliação com OpenRefine; o OpenSanctions informa chaves gratuitas para trabalho de interesse público, incluindo jornalismo. Scores de busca não equivalem a confirmação de identidade: revisar fontes, identificadores e possíveis homônimos.",
+    "discoveredVia": [
+      "OpenSanctions"
+    ],
+    "discoveryUrl": "https://www.opensanctions.org/docs/api/"
+  },
+  {
+    "id": "bellingcat-online-investigations-toolkit",
+    "name": "Bellingcat Online Investigations Toolkit",
+    "kind": "catálogo colaborativo de ferramentas OSINT",
+    "url": "https://www.bellingcat.com/resources/2024/09/24/bellingcat-online-investigations-toolkit/",
+    "desc": "Catálogo mantido pela comunidade Bellingcat para localizar ferramentas de investigação aberta em mapas e satélites, redes sociais, transporte, arquivamento, empresas e outras categorias. As fichas registram custo, dificuldade, requisitos, limitações, considerações éticas e guias. É uma camada de descoberta: disponibilidade e resultados de cada ferramenta precisam ser verificados individualmente.",
+    "discoveredVia": [
+      "Bellingcat"
+    ],
+    "discoveryUrl": "https://www.bellingcat.com/resources/2024/09/24/bellingcat-online-investigations-toolkit/"
+  },
+  {
+    "id": "monitor-diario",
+    "name": "Monitor Diário",
+    "kind": "monitoramento automatizado de Diários Oficiais do Nordeste",
+    "url": "https://codesinfo.com.br/solucoes/monitor-diario/",
+    "desc": "Plataforma open-source da Agência Tatu para monitorar diariamente os Diários Oficiais dos nove estados do Nordeste por temas e palavras-chave, gerando alertas, resumos e referências ao documento e à página de origem. Útil para contratos, nomeações, licitações, obras, saúde e educação; resultados de IA são triagem e devem ser conferidos no Diário Oficial original.",
+    "discoveredVia": [
+      "Codesinfo"
+    ],
+    "discoveryUrl": "https://codesinfo.com.br/solucoes/monitor-diario/"
+  },
+  {
+    "id": "jor-mcp",
+    "name": "Jor-MCP",
+    "kind": "infraestrutura MCP para acervos jornalísticos",
+    "url": "https://codesinfo.com.br/solucoes/jor-mcp/",
+    "desc": "Servidor open-source da Ambiental Media, sob licença Apache 2.0, para expor conteúdos e acervos jornalísticos a sistemas de IA em formato estruturado e com regras próprias de acesso, atribuição e licenciamento. Oferece busca, recuperação de texto limpo e listagem de publicações recentes; exige implantação e governança próprias.",
+    "discoveredVia": [
+      "Codesinfo"
+    ],
+    "discoveryUrl": "https://codesinfo.com.br/solucoes/jor-mcp/"
+  },
+  {
+    "id": "jeo-infoamazonia",
+    "name": "JEO",
+    "kind": "geojornalismo e mapas no WordPress",
+    "url": "https://codesinfo.com.br/solucoes/jeo/",
+    "desc": "Plugin open-source do InfoAmazonia para geolocalizar reportagens, criar mapas e minimapas, organizar conteúdos por território e recomendar matérias por proximidade. Integra Mapbox, MapLibre, react-map-gl e Nominatim e pode usar IA/RAG com revisão humana; é voltado a sites em WordPress.",
+    "discoveredVia": [
+      "Codesinfo"
+    ],
+    "discoveryUrl": "https://codesinfo.com.br/solucoes/jeo/"
+  },
+  {
+    "id": "mamute-politico",
+    "name": "Mamute Político",
+    "kind": "monitoramento legislativo do Congresso Nacional",
+    "url": "https://codesinfo.com.br/solucoes/mamute-politico/",
+    "desc": "Plataforma open-source do Correio Sabiá que organiza dados oficiais da Câmara e do Senado para acompanhar projetos, requerimentos, votações e discursos de parlamentares, com alertas e consultas assistidas por IA. Serve como camada de exploração; qualquer conclusão sobre atuação parlamentar deve ser confirmada nos registros oficiais do Congresso.",
+    "discoveredVia": [
+      "Codesinfo"
+    ],
+    "discoveryUrl": "https://codesinfo.com.br/solucoes/mamute-politico/"
+  },
+  {
+    "id": "quiteria-azmina",
+    "name": "QuitérIA",
+    "kind": "monitoramento legislativo de gênero e direitos humanos",
+    "url": "https://codesinfo.com.br/solucoes/quiteria/",
+    "desc": "Ferramenta open-source do Instituto AzMina integrada ao Elas no Congresso para identificar e classificar proposições relacionadas a mulheres, meninas, população negra e pessoas LGBTQIAPN+. Combina coleta legislativa, IA, validação humana e governança; oferece dados reutilizáveis e API pública, mas classificações devem ser lidas com sua metodologia e curadoria.",
+    "discoveredVia": [
+      "Codesinfo"
+    ],
+    "discoveryUrl": "https://codesinfo.com.br/solucoes/quiteria/"
+  },
+  {
+    "id": "world-bank-data360-api",
+    "name": "World Bank Data360 API",
+    "kind": "API de consulta e extração de dados de desenvolvimento",
+    "url": "https://data360.worldbank.org/en/api",
+    "desc": "API oficial do Data360 para pesquisar conjuntos e recuperar dados, indicadores, metadados e desagregações por filtros. Útil para consultas reproduzíveis e integração com scripts; a documentação usa OpenAPI 3.0. Conferir metadados, licença e produtor original de cada série, especialmente quando os dados vierem de parceiros do Banco Mundial.",
+    "discoveredVia": [
+      "World Bank Data360"
+    ],
+    "discoveryUrl": "https://data360.worldbank.org/en/api"
+  },
+  {
+    "id": "tesseract-ocr",
+    "name": "Tesseract OCR",
+    "kind": "OCR local para documentos e imagens",
+    "url": "https://tesseract-ocr.github.io/tessdoc/",
+    "desc": "Motor OCR aberto para extrair texto de imagens e documentos digitalizados, com uso por linha de comando ou API e suporte a vários idiomas por arquivos treinados. Útil para PDFs escaneados recebidos por LAI. Acurácia depende da qualidade da imagem, idioma, layout e pré-processamento; revisar manualmente trechos sensíveis, números e nomes próprios.",
+    "discoveredVia": [
+      "Tesseract OCR"
+    ],
+    "discoveryUrl": "https://tesseract-ocr.github.io/tessdoc/"
+  },
+  {
+    "id": "mapshaper",
+    "name": "Mapshaper",
+    "kind": "edição e simplificação de dados geoespaciais",
+    "url": "https://mapshaper.org/",
+    "desc": "Ferramenta web e de linha de comando para abrir, converter, simplificar, filtrar, dissolver e exportar Shapefile, GeoJSON, TopoJSON, GeoPackage, FlatGeobuf, GeoParquet, GeoTIFF, KML e CSV. Útil para preparar mapas leves. Conferir projeção, topologia, perda de detalhe e atributos antes de publicar.",
+    "discoveredVia": [
+      "Mapshaper"
+    ],
+    "discoveryUrl": "https://mapshaper.org/docs/"
+  },
+  {
+    "id": "overpass-turbo",
+    "name": "Overpass Turbo",
+    "kind": "consulta e extração de dados OpenStreetMap",
+    "url": "https://overpass-turbo.eu/",
+    "desc": "Interface web para montar consultas Overpass, visualizar resultados em mapa e exportar elementos do OpenStreetMap por área, tag, tipo ou condição. Boa para localizar escolas, hospitais, igrejas, infraestrutura e mudanças mapeadas. Dados são colaborativos, incompletos e podem conter erros; registrar consulta, data, bbox e tags usadas.",
+    "discoveredVia": [
+      "Overpass Turbo"
+    ],
+    "discoveryUrl": "https://wiki.openstreetmap.org/wiki/Overpass_turbo"
+  },
+  {
+    "id": "nominatim",
+    "name": "Nominatim",
+    "kind": "geocodificação e geocodificação reversa",
+    "url": "https://nominatim.org/",
+    "desc": "Ferramenta baseada em OpenStreetMap para transformar nomes/endereço em coordenadas e coordenadas em endereços aproximados. Útil para padronizar localidades e conferir pontos de bases públicas. A API pública do OSM tem capacidade limitada e política de uso; para volumes maiores, usar instância própria ou serviço dedicado. Resultados dependem da cobertura e qualidade colaborativa do OSM.",
+    "discoveredVia": [
+      "Nominatim"
+    ],
+    "discoveryUrl": "https://operations.osmfoundation.org/policies/nominatim/"
+  },
+  {
+    "id": "indicator-lab",
+    "name": "Indicator Lab",
+    "kind": "suite de investigação assistida por IA",
+    "url": "https://indicator.media/indicator-lab",
+    "desc": "Camada paga da Indicator com Spotlight, Scoutpost, Navigator, Splash e Mycroft para planejar investigações, monitorar mudanças, localizar ferramentas, gerar materiais visuais e rodar fluxos locais com modelos próprios. Usar apenas com revisão editorial humana, registro de fontes e cuidado com dados sensíveis, custos de assinatura e dependência de modelos.",
+    "discoveredVia": [
+      "Indicator"
+    ],
+    "discoveryUrl": "https://indicator.media/p/the-indicator-lab-is-live-investigations-with-ai"
+  },
+  {
+    "id": "osint-navigator",
+    "name": "OSINT Navigator",
+    "kind": "busca curada de ferramentas OSINT",
+    "url": "https://navigator.indicator.media/",
+    "desc": "Catálogo pesquisável de ferramentas OSINT, compilado de toolkits independentes e pensado para encontrar recursos por intenção de investigação. A recomendação deve ser tratada como triagem: confirmar cada ferramenta no site original, revisar riscos legais/éticos, termos de uso e adequação à pauta antes de aplicar.",
+    "discoveredVia": [
+      "Indicator"
+    ],
+    "discoveryUrl": "https://indicator.media/p/the-indicator-lab-is-live-investigations-with-ai"
+  },
+  {
+    "id": "duckdb",
+    "name": "DuckDB",
+    "kind": "análise local de CSV, Parquet e bancos tabulares",
+    "url": "https://duckdb.org/",
+    "desc": "Banco analítico embutido para consultar arquivos grandes em CSV, Parquet, JSON e bases SQLite/PostgreSQL sem montar um servidor. Bom para cruzamentos reprodutíveis em notebooks e scripts. Registrar versão, caminho dos arquivos, encoding e transformações; consultas rápidas não eliminam validação de tipos, duplicidades e chaves.",
+    "discoveredVia": [
+      "DuckDB"
+    ],
+    "discoveryUrl": "https://duckdb.org/docs/current/guides/overview"
+  },
+  {
+    "id": "datasette",
+    "name": "Datasette",
+    "kind": "publicação e exploração de dados",
+    "url": "https://datasette.io/",
+    "desc": "Ferramenta aberta para transformar dados estruturados em um site explorável com busca, consultas SQL e API. Útil para publicar bases próprias, protótipos de apuração e anexos verificáveis. Exige revisar privacidade, licenças, campos sensíveis, custo de hospedagem e performance antes de abrir dados ao público.",
+    "discoveredVia": [
+      "Datasette"
+    ],
+    "discoveryUrl": "https://docs.datasette.io/en/latest/"
+  },
+  {
+    "id": "openrefine",
+    "name": "OpenRefine",
+    "kind": "limpeza e reconciliação de dados",
+    "url": "https://openrefine.org/",
+    "desc": "Software gratuito e aberto para padronizar nomes, agrupar grafias parecidas, filtrar inconsistências, transformar tabelas e repetir operações com histórico reversível. Processa os dados localmente; reconciliação e enriquecimento via serviços externos podem enviar valores para terceiros. Revisar os agrupamentos antes de unir pessoas, empresas ou estabelecimentos.",
+    "discoveredVia": [
+      "OpenRefine"
+    ],
+    "discoveryUrl": "https://openrefine.org/privacy"
+  },
+  {
+    "id": "tabula",
+    "name": "Tabula",
+    "kind": "extração de tabelas de PDF",
+    "url": "https://tabula.technology/",
+    "desc": "Software gratuito e aberto que roda localmente e extrai tabelas de PDFs com texto para CSV e outros formatos de planilha. Útil para respostas de LAI, relatórios e anexos. Não faz OCR de páginas escaneadas; conferir colunas, linhas, totais e quebras de página no documento original. Requer instalação e Java conforme sistema operacional.",
+    "discoveredVia": [
+      "Tabula"
+    ],
+    "discoveryUrl": "https://tabula.technology/"
+  },
+  {
+    "id": "qgis",
+    "name": "QGIS",
+    "kind": "análise geoespacial e cartografia",
+    "url": "https://qgis.org/",
+    "desc": "Software gratuito e aberto para editar camadas, cruzar pontos e polígonos, medir áreas, analisar dados geográficos e produzir mapas e atlas. Útil para escolas, infraestrutura e imóveis. Registrar projeção, versão e escala de cada camada; proximidade ou sobreposição espacial não comprova vínculo jurídico, propriedade ou conexão operacional.",
+    "discoveredVia": [
+      "QGIS"
+    ],
+    "discoveryUrl": "https://qgis.org/"
+  },
+  {
+    "id": "esri-wayback",
+    "name": "Esri World Imagery Wayback",
+    "kind": "comparação temporal de imagens",
+    "url": "https://livingatlas.arcgis.com/wayback/",
+    "desc": "Interface para explorar versões históricas do mosaico World Imagery e comparar mudanças visíveis no território. Complementa a inspeção manual de áreas de obras e imóveis. A data de publicação do mosaico não é a data de captura da imagem; verificar os metadados locais, resolução, estação e cobertura antes de datar uma mudança. Imagens não comprovam propriedade nem regularidade de empreendimento.",
+    "discoveredVia": [
+      "Esri Living Atlas"
+    ],
+    "discoveryUrl": "https://doc.arcgis.com/en/imagery/workflows/tutorials/creating-an-image-visit-app.htm"
+  },
+  {
+    "id": "arbiter",
+    "name": "Arbiter",
+    "kind": "monitoramento de narrativas e desinformação",
+    "url": "https://arbiter.simppl.org/",
+    "desc": "Permite definir um tema em linguagem natural e analisar publicações sociais em escala para agrupar narrativas, extrair alegações, sinalizar contas coordenadas, comparar plataformas e acompanhar tendências. Está em fase de testes com redações e depende de APIs, dumps acadêmicos e provedores externos; limites de volume, cobertura e acesso variam por plataforma, e os resultados automatizados exigem revisão humana.",
+    "discoveredVia": [
+      "Radar PLOT. · Gmail"
+    ],
+    "discoveryUrl": "https://mailchi.mp/gijn/gijc27-website-launched-investigating-war-crimes-which-newsroom-personality-are-you?e=0695d2d4f8"
+  },
+  {
+    "id": "detector-bbt",
+    "name": "Detector BBT",
+    "kind": "monitoramento legislativo e eleitoral",
+    "url": "https://bancadadasbigtechs.org/",
+    "desc": "Permite buscar e filtrar deputados e senadores por partido, UF, Casa, eleição e posição em pautas de regulação digital, abrindo os registros e suas fontes. A pontuação combina votos, autoria, relatoria, emendas e declarações públicas; a base é colaborativa e atualizada, votações simbólicas podem não ter registro nominal e toda classificação deve ser conferida nos documentos oficiais da Câmara e do Senado.",
+    "discoveredVia": [
+      "Radar PLOT. · Gmail"
+    ],
+    "discoveryUrl": "https://newsletter.ctrlz.org.br/p/o-seu-candidato-e-da-bancada-das"
+  },
+  {
+    "id": "datawrapper",
+    "name": "Datawrapper",
+    "kind": "visualização",
+    "url": "https://www.datawrapper.de/",
+    "desc": "Criação de gráficos, mapas e tabelas para publicação."
+  },
+  {
+    "id": "react-simple-maps",
+    "name": "React Simple Maps",
+    "kind": "biblioteca de mapas",
+    "url": "https://www.react-simple-maps.io/",
+    "desc": "Componentes SVG para mapas em React; requer arquivos geográficos próprios e implementação no frontend.",
+    "discoveredVia": [
+      "Quantum of Sollazzo"
+    ],
+    "discoveryUrl": "https://buttondown.com/puntofisso/archive/676-quantum-of-sollazzo/"
+  },
+  {
+    "id": "geowhisperer",
+    "name": "GeoWhisperer",
+    "kind": "OSINT geoespacial",
+    "url": "https://www.geowhisperer.org/",
+    "desc": "Compara imagens datadas do Esri World Imagery Wayback, executa checagens mecânicas de resolução, estação e intervalo e gera relatório ou vídeo das mudanças. A cobertura depende das imagens que a Esri publicou; resultados de IA precisam ser confirmados visualmente.",
+    "discoveredVia": [
+      "Indicator"
+    ],
+    "discoveryUrl": "https://indicator.media/p/briefing-uk-s-new-anti-disinfo-unit"
+  },
+  {
+    "id": "digga",
+    "name": "digga",
+    "kind": "pesquisa de domínios",
+    "url": "https://digga.dev/",
+    "desc": "Ferramenta gratuita e open source para DNS, RDAP/WHOIS, subdomínios, IP/ASN, autenticação de e-mail e certificados SSL/TLS; a enumeração de subdomínios usa fontes públicas passivas.",
+    "discoveredVia": [
+      "Indicator"
+    ],
+    "discoveryUrl": "https://indicator.media/p/briefing-uk-s-new-anti-disinfo-unit"
+  },
+  {
+    "id": "decryptads",
+    "name": "DecryptAds",
+    "kind": "investigação de publicidade digital",
+    "url": "https://decryptads.com/",
+    "desc": "Mapeia cadeias de publicidade programática com arquivos públicos como ads.txt, app-ads.txt e sellers.json, permitindo investigar parceiros, contas compartilhadas, mudanças e relações societárias.",
+    "discoveredVia": [
+      "Indicator"
+    ],
+    "discoveryUrl": "https://indicator.media/p/briefing-uk-s-new-anti-disinfo-unit"
+  },
+  {
+    "id": "agenda-transparente",
+    "name": "Agenda Transparente",
+    "kind": "monitoramento de agendas públicas",
+    "url": "https://agendas.fiquemsabendo.com.br/",
+    "desc": "Pesquisa compromissos de autoridades por pessoa, órgão, período e palavra-chave e permite baixar resultados em CSV. A cobertura depende do que os governos publicam; uma reunião com várias autoridades pode gerar linhas repetidas, e nomes de órgãos ou empresas exigem padronização antes da análise.",
+    "discoveredVia": [
+      "Radar PLOT. · Gmail",
+      "Fiquem Sabendo"
+    ],
+    "discoveryUrl": "https://news.fiquemsabendo.com.br/p/el-nino-na-agenda-do-governo-federal"
+  },
+  {
+    "id": "google-pinpoint",
+    "name": "Google Pinpoint",
+    "kind": "pesquisa e análise documental",
+    "url": "https://journaliststudio.google.com/pinpoint/about/pt-BR_br/",
+    "desc": "Pesquisa grandes coleções de PDFs, imagens, e-mails, áudio e vídeo com OCR, transcrição, entidades e recursos de IA. Exige Conta Google; resultados automáticos precisam de conferência. Documentos são privados por padrão, mas comandos e respostas da IA generativa podem integrar amostras revisadas por humanos, portanto não inclua dados pessoais nos prompts e avalie o sigilo antes de enviar materiais sensíveis.",
+    "discoveredVia": [
+      "Google Journalist Studio"
+    ],
+    "discoveryUrl": "https://support.google.com/pinpoint/answer/17007004?hl=pt-BR"
+  },
+  {
+    "id": "occrp-aleph-pro",
+    "name": "OCCRP Aleph Pro",
+    "kind": "investigação societária e documental",
+    "url": "https://aleph.occrp.org/",
+    "desc": "Pesquisa pessoas, empresas, documentos, vazamentos e bases públicas; permite OCR, cruzamento de nomes, relações e espaços de investigação. Parte do acervo é protegida, o cadastro avançado passa por revisão manual e exige 2FA, e todo resultado deve ser confirmado na fonte original.",
+    "discoveredVia": [
+      "OCCRP"
+    ],
+    "discoveryUrl": "https://docs.aleph.occrp.org/"
+  }
+];
