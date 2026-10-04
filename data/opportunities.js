@@ -501,6 +501,11 @@ window.RADAR_PARTS.opportunities=[
         "date": "2026-10-02",
         "status": "aberta",
         "source": "https://www.ctrl-j.info/programs/research-hub"
+      },
+      {
+        "date": "2026-10-04",
+        "status": "encerrada",
+        "source": "https://www.ctrl-j.info/programs/research-hub"
       }
     ],
     "id": "ctrlj-research-hub26",
@@ -517,15 +522,15 @@ window.RADAR_PARTS.opportunities=[
     ],
     "scope": "Sul Global / América Latina",
     "deadline": "2026-10-02",
-    "deadlineStatus": "encerra_hoje",
+    "deadlineStatus": "encerrado",
     "eligibility": "elegível",
     "fit": 9,
-    "status": "aberta",
+    "status": "encerrada",
     "story": [],
     "rules": "https://www.ctrl-j.info/programs/research-hub",
-    "apply": "https://www.ctrl-j.info/programs/research-hub",
-    "verified": "2026-10-02",
-    "desc": "Programa para pesquisadores individuais do Sul Global, inclusive profissionais da América Latina. O prazo foi prorrogado oficialmente para 02/10/2026. Prevê 12 workshops ao longo de seis meses, desenvolvimento de pesquisa original e publicação conjunta em 2027; plenárias em inglês."
+    "apply": null,
+    "verified": "2026-10-04",
+    "desc": "Programa para pesquisadores individuais do Sul Global, inclusive profissionais da América Latina. O prazo, prorrogado oficialmente para 02/10/2026, já encerrou. A edição previa 12 workshops ao longo de seis meses, desenvolvimento de pesquisa original e publicação conjunta em 2027; plenárias em inglês."
   },
   {
     "value": "US$1.000–5.000",
@@ -3265,4 +3270,4 @@ window.RADAR_PARTS.opportunities=[
     ],
     "desc": "FIRE aceita freelancers investigativos fora dos EUA, mas trabalha com histórias destinadas a veículos em inglês. Novos candidatos começam pela FIRE Consultancy; apoio da Virtual Newsroom e grants de até US$12,5 mil dependem de convite posterior. Para Rachel/PLOT., a elegibilidade continua parcial e condicionada a uma saída editorial em inglês."
   }
-].map(o=>Object.assign({value:null,duration:null,modality:null,documents:[],restrictions:[],opens:null,verificationHistory:o.verified?[{date:o.verified,status:o.status,source:o.rules}]:[]},o));
+];
