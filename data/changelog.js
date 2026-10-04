@@ -1,6 +1,15 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
   {
+    "date":"2026-10-04","type":"dados","title":"Catálogo federal de APIs entra no Radar","items":[{"id":"conecta-catalogo-apis-governamentais","title":"Conecta gov.br — Catálogo de APIs Governamentais"}],"detail":"A rodada de recuperação adicionou o catálogo oficial do Conecta, que centraliza APIs governamentais e explicita órgão, esfera, forma de acesso, endpoints e documentação por serviço."
+  },
+  {
+    "date":"2026-10-04","type":"ferramentas","title":"Backfield entra na camada de ferramentas","items":[{"id":"backfield-local-angle","title":"Backfield"}],"detail":"A ferramenta open-source da Local Angle transforma reportagens em dados estruturados, com geocodificação, extração de pessoas e citações, grafo de conhecimento, metadados editoriais e busca semântica."
+  },
+  {
+    "date":"2026-10-04","type":"fontes","title":"Novas fontes para descoberta de APIs e tecnologia jornalística","items":[{"id":"open-journalism","title":"Open Journalism"},{"id":"local-angle","title":"Local Angle"},{"id":"conecta-gov-catalogo-apis","title":"Conecta gov.br — Catálogo de APIs Governamentais"}],"detail":"Entraram duas fontes de tecnologia jornalística aberta e o catálogo oficial de APIs governamentais para ampliar a descoberta recorrente do Radar."
+  },
+  {
     "date": "2026-10-04",
     "type": "oportunidade",
     "title": "CTRL+J Research Hub encerrado",

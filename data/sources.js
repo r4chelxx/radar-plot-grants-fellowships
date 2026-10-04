@@ -1,6 +1,15 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.sources=[
   {
+    "name": "Open Journalism", "url": "https://openjournalism.news/", "type": "Curadoria de projetos, código, dados e ferramentas abertas de redações", "scope": "Global", "role": "curadoria", "priority": "Alta", "cadence": "quinzenal", "category": "dados/visual", "lastChecked": "2026-10-04", "checkStatus": "verificada"
+  },
+  {
+    "name": "Local Angle", "url": "https://github.com/localangle/backfield", "type": "Ferramentas open-source e infraestrutura para jornalismo", "scope": "Global", "role": "fonte oficial", "priority": "Média", "cadence": "mensal", "category": "dados/visual", "lastChecked": "2026-10-04", "checkStatus": "verificada"
+  },
+  {
+    "name": "Conecta gov.br — Catálogo de APIs Governamentais", "url": "https://www.gov.br/conecta/catalogo/", "type": "Catálogo oficial de APIs, registros de referência e integrações governamentais", "scope": "Brasil", "role": "fonte oficial", "priority": "Alta", "cadence": "mensal", "category": "dados/visual", "lastChecked": "2026-10-04", "checkStatus": "verificada"
+  },
+  {
     "name": "OpenCorporates",
     "url": "https://api.opencorporates.com/",
     "type": "Dados societários globais e API de empresas",
@@ -1233,7 +1242,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://indicator.media/",
     "cadence": "semanal",
     "category": "tecnologia/política pública",
-    "lastChecked": "2026-10-01",
+    "lastChecked": "2026-10-04",
     "checkStatus": "verificada"
   },
   {

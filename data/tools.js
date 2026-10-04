@@ -1,6 +1,15 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.tools=[
   {
+    "id": "backfield-local-angle",
+    "name": "Backfield",
+    "kind": "extração estruturada, geocodificação e grafo de conhecimento para acervos jornalísticos",
+    "url": "https://github.com/localangle/backfield",
+    "desc": "Plataforma open-source da Local Angle para transformar reportagens em dados estruturados: extrai e geocodifica lugares, organiza pessoas e citações, conecta pessoas, lugares e organizações em grafo de conhecimento, aplica metadados editoriais e permite busca semântica e extrações customizadas. O código é Apache-2.0 e pode ser auto-hospedado; a implantação exige infraestrutura própria e integrações externas opcionais.",
+    "discoveredVia": ["Open Journalism", "Local Angle"],
+    "discoveryUrl": "https://openjournalism.news/2026/09/14/open-journalism-update-august-30-september-12-2026/"
+  },
+  {
     "id": "occrp-id",
     "name": "OCCRP ID",
     "kind": "índice global de registros e apoio à pesquisa investigativa",

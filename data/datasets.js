@@ -1,6 +1,28 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.datasets=[
   {
+    "id": "conecta-catalogo-apis-governamentais",
+    "name": "Conecta gov.br — Catálogo de APIs Governamentais",
+    "org": "Ministério da Gestão e da Inovação em Serviços Públicos / Secretaria de Governo Digital",
+    "territoryTier": "Brasil",
+    "kind": "catalog",
+    "themes": ["APIs governamentais","Dados públicos","Transparência","Interoperabilidade","Empresas","Orçamento","Políticas públicas"],
+    "coverage": "Catálogo federal de APIs governamentais, incluindo APIs externas, registros de referência e serviços disponibilizados via Plataforma do Conecta; a página consultada exibia 96 APIs catalogadas",
+    "frequency": "Varia por API e sistema de origem; o catálogo registra versões e metadados próprios por serviço",
+    "format": "Catálogo web / APIs REST / JSON e documentação específica conforme serviço",
+    "period": "Corrente; histórico e data de atualização variam por API catalogada",
+    "granularity": "API, sistema, órgão cedente, esfera, endpoint e operação; granularidade dos dados varia por serviço",
+    "geoUnit": "Brasil; federal e, em alguns serviços, estadual e municipal",
+    "api": "O catálogo aponta endpoints e documentação por API; acesso pode ser público, externo ou condicionado à adesão ao Conecta conforme o serviço",
+    "docs": "https://www.gov.br/conecta/catalogo/",
+    "limitations": "O catálogo não significa que todas as APIs sejam abertas ao público sem credencial. Requisitos de adesão, autenticação, cobertura, versão e atualização variam por serviço; para uso jornalístico, conferir a ficha e a documentação da API específica antes da coleta.",
+    "lastChecked": "2026-10-04",
+    "story": ["data-centers","educacao","violencia-obstetrica"],
+    "url": "https://www.gov.br/conecta/catalogo/",
+    "discoveredVia": ["Conecta gov.br — Catálogo de APIs Governamentais"],
+    "discoveryUrl": "https://www.gov.br/conecta/catalogo/"
+  },
+  {
     "id": "opensanctions-br-pep",
     "name": "OpenSanctions — Brazil Politically Exposed Persons",
     "org": "OpenSanctions · fonte-base: Controladoria-Geral da União",
