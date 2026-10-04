@@ -1,6 +1,18 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
   {
+    "date": "2026-10-04",
+    "type": "oportunidade",
+    "title": "CTRL+J Research Hub encerrado",
+    "items": [
+      {
+        "id": "ctrlj-research-hub26",
+        "title": "CTRL+J Research Hub 2026"
+      }
+    ],
+    "detail": "O prazo prorrogado terminou em 2 de outubro; a oportunidade saiu da lista de chamadas abertas e foi marcada como encerrada."
+  },
+  {
     "date": "2026-10-02",
     "type": "nova-oportunidade",
     "title": "Fellowship global de saúde com grant de reportagem",
