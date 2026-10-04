@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-03T00:36:44.004Z",
+  "checkedAt": "2026-10-04T11:51:27.843Z",
   "policy": "404/410 becomes broken only after appearing as suspect or broken in the previous audit; blocked and network results are inconclusive",
   "counts": {
     "ok": 245,
@@ -830,6 +830,7 @@
       "finalUrl": "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-termo-de-embargo",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
