@@ -3270,4 +3270,4 @@ window.RADAR_PARTS.opportunities=[
     ],
     "desc": "FIRE aceita freelancers investigativos fora dos EUA, mas trabalha com histórias destinadas a veículos em inglês. Novos candidatos começam pela FIRE Consultancy; apoio da Virtual Newsroom e grants de até US$12,5 mil dependem de convite posterior. Para Rachel/PLOT., a elegibilidade continua parcial e condicionada a uma saída editorial em inglês."
   }
-];
+].map(o=>Object.assign({value:null,duration:null,modality:null,documents:[],restrictions:[],opens:null,verificationHistory:o.verified?[{date:o.verified,status:o.status,source:o.rules}]:[]},o));
