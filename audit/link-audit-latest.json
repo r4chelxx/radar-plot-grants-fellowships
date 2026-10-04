@@ -1,11 +1,11 @@
 {
-  "checkedAt": "2026-10-04T11:51:27.843Z",
+  "checkedAt": "2026-10-04T18:55:24.283Z",
   "policy": "404/410 becomes broken only after appearing as suspect or broken in the previous audit; blocked and network results are inconclusive",
   "counts": {
-    "ok": 245,
+    "ok": 241,
     "blocked": 28,
-    "network": 26,
-    "server": 1
+    "network": 27,
+    "server": 7
   },
   "results": [
     {
@@ -746,6 +746,17 @@
       ]
     },
     {
+      "type": "source",
+      "id": "Conecta gov.br — Catálogo de APIs Governamentais",
+      "url": "https://www.gov.br/conecta/catalogo/",
+      "status": 200,
+      "finalUrl": "https://www.gov.br/conecta/catalogo/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
       "type": "dataset",
       "id": "opensanctions-br-pep",
       "url": "https://www.opensanctions.org/datasets/br_pep/",
@@ -830,7 +841,6 @@
       "finalUrl": "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-termo-de-embargo",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -1207,33 +1217,36 @@
       "type": "dataset",
       "id": "ouvidorsus",
       "url": "https://dadosabertos.saude.gov.br/dataset/ouvidorsus",
-      "status": 200,
+      "status": 500,
       "finalUrl": "https://dadosabertos.saude.gov.br/dataset/ouvidorsus",
-      "class": "ok",
+      "class": "server",
       "attempts": [
-        200
+        500,
+        500
       ]
     },
     {
       "type": "dataset",
       "id": "cnes",
       "url": "https://dadosabertos.saude.gov.br/dataset/cnes-cadastro-nacional-de-estabelecimentos-de-saude",
-      "status": 200,
+      "status": 500,
       "finalUrl": "https://dadosabertos.saude.gov.br/dataset/cnes-cadastro-nacional-de-estabelecimentos-de-saude",
-      "class": "ok",
+      "class": "server",
       "attempts": [
-        200
+        500,
+        500
       ]
     },
     {
       "type": "dataset",
       "id": "sisagua-captacao",
       "url": "https://dadosabertos.saude.gov.br/dataset/sisagua-pontos-de-captacao",
-      "status": 200,
+      "status": 500,
       "finalUrl": "https://dadosabertos.saude.gov.br/dataset/sisagua-pontos-de-captacao",
-      "class": "ok",
+      "class": "server",
       "attempts": [
-        200
+        500,
+        500
       ]
     },
     {
@@ -1479,22 +1492,24 @@
       "type": "dataset",
       "id": "sinasc",
       "url": "https://dadosabertos.saude.gov.br/dataset/sistema-de-informacao-sobre-nascidos-vivos-sinasc",
-      "status": 200,
+      "status": 500,
       "finalUrl": "https://dadosabertos.saude.gov.br/dataset/sistema-de-informacao-sobre-nascidos-vivos-sinasc",
-      "class": "ok",
+      "class": "server",
       "attempts": [
-        200
+        500,
+        500
       ]
     },
     {
       "type": "dataset",
       "id": "sim-mortalidade",
       "url": "https://dadosabertos.saude.gov.br/dataset/sim",
-      "status": 200,
+      "status": 500,
       "finalUrl": "https://dadosabertos.saude.gov.br/dataset/sim",
-      "class": "ok",
+      "class": "server",
       "attempts": [
-        200
+        500,
+        500
       ]
     },
     {
@@ -2111,11 +2126,12 @@
       "type": "dataset",
       "id": "plataforma-brasil-dados-abertos",
       "url": "https://dadosabertos.saude.gov.br/dataset/plataforma_brasil",
-      "status": 200,
+      "status": 500,
       "finalUrl": "https://dadosabertos.saude.gov.br/dataset/plataforma_brasil",
-      "class": "ok",
+      "class": "server",
       "attempts": [
-        200
+        500,
+        500
       ]
     },
     {
@@ -2135,6 +2151,28 @@
       "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/dados-abertos/cadastros",
       "status": 200,
       "finalUrl": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/dados-abertos/cadastros",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Open Journalism",
+      "url": "https://openjournalism.news/",
+      "status": 200,
+      "finalUrl": "https://openjournalism.news/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "backfield-local-angle",
+      "url": "https://github.com/localangle/backfield",
+      "status": 200,
+      "finalUrl": "https://github.com/localangle/backfield",
       "class": "ok",
       "attempts": [
         200
@@ -3080,11 +3118,13 @@
       "type": "source",
       "id": "Repórteres sem Fronteiras — Fellowships e oportunidades",
       "url": "https://resources.rsf.org/fellowship-opportunities/",
-      "status": 200,
-      "finalUrl": "https://resources.rsf.org/fellowship-opportunities/",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "AbortError:This operation was aborted",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "AbortError:This operation was aborted"
       ]
     },
     {
