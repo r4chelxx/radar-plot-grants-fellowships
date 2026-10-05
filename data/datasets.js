@@ -1,12 +1,52 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.datasets=[
   {
+    "id": "sfb-painel-regularizacao-ambiental-rural",
+    "name": "Serviço Florestal Brasileiro — Painel da Regularização Ambiental Rural",
+    "org": "Serviço Florestal Brasileiro / Diretoria de Regularização Ambiental Rural",
+    "territoryTier": "Brasil",
+    "kind": "system",
+    "themes": [
+      "Cadastro Ambiental Rural",
+      "Regularização ambiental",
+      "Código Florestal",
+      "Reserva Legal",
+      "APP",
+      "Meio ambiente",
+      "Políticas públicas"
+    ],
+    "coverage": "Brasil · dados consolidados do SICAR sobre intenção de adesão ao PRA, análise de cadastros, passivos e excedentes de Reserva Legal e Áreas de Preservação Permanente",
+    "frequency": "Mensal",
+    "format": "Painel Power BI / dicionário de dados em PDF / catálogo CKAN",
+    "period": "Desde 05/01/2024, conforme metadados do catálogo; atualização mais recente registrada no portal em 27/07/2026",
+    "granularity": "Indicadores consolidados por município, com recortes e medidas definidos no dicionário do painel",
+    "geoUnit": "Brasil, UF e município",
+    "api": "O portal utiliza CKAN e oferece API de catálogo; o recurso principal é um painel Power BI, sem API de dados do painel documentada na ficha consultada",
+    "docs": "https://dados.florestal.gov.br/dataset/painel-da-regularizacao-ambiental-rural",
+    "limitations": "O painel apresenta indicadores consolidados e não substitui os registros individualizados do SICAR. A ficha não documenta uma API própria para extração dos dados do Power BI; conferir definições no dicionário, datas de referência e diferenças entre cadastro declarado, análise e regularização efetiva.",
+    "lastChecked": "2026-10-05",
+    "story": [],
+    "url": "https://dados.florestal.gov.br/dataset/painel-da-regularizacao-ambiental-rural",
+    "discoveredVia": [
+      "Serviço Florestal Brasileiro — Dados Abertos"
+    ],
+    "discoveryUrl": "https://dados.florestal.gov.br/dataset/painel-da-regularizacao-ambiental-rural"
+  },
+  {
     "id": "conecta-catalogo-apis-governamentais",
     "name": "Conecta gov.br — Catálogo de APIs Governamentais",
     "org": "Ministério da Gestão e da Inovação em Serviços Públicos / Secretaria de Governo Digital",
     "territoryTier": "Brasil",
     "kind": "catalog",
-    "themes": ["APIs governamentais","Dados públicos","Transparência","Interoperabilidade","Empresas","Orçamento","Políticas públicas"],
+    "themes": [
+      "APIs governamentais",
+      "Dados públicos",
+      "Transparência",
+      "Interoperabilidade",
+      "Empresas",
+      "Orçamento",
+      "Políticas públicas"
+    ],
     "coverage": "Catálogo federal de APIs governamentais, incluindo APIs externas, registros de referência e serviços disponibilizados via Plataforma do Conecta; a página consultada exibia 96 APIs catalogadas",
     "frequency": "Varia por API e sistema de origem; o catálogo registra versões e metadados próprios por serviço",
     "format": "Catálogo web / APIs REST / JSON e documentação específica conforme serviço",
@@ -17,9 +57,15 @@ window.RADAR_PARTS.datasets=[
     "docs": "https://www.gov.br/conecta/catalogo/",
     "limitations": "O catálogo não significa que todas as APIs sejam abertas ao público sem credencial. Requisitos de adesão, autenticação, cobertura, versão e atualização variam por serviço; para uso jornalístico, conferir a ficha e a documentação da API específica antes da coleta.",
     "lastChecked": "2026-10-04",
-    "story": ["data-centers","educacao","violencia-obstetrica"],
+    "story": [
+      "data-centers",
+      "educacao",
+      "violencia-obstetrica"
+    ],
     "url": "https://www.gov.br/conecta/catalogo/",
-    "discoveredVia": ["Conecta gov.br — Catálogo de APIs Governamentais"],
+    "discoveredVia": [
+      "Conecta gov.br — Catálogo de APIs Governamentais"
+    ],
     "discoveryUrl": "https://www.gov.br/conecta/catalogo/"
   },
   {
