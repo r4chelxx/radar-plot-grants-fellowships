@@ -1,6 +1,63 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.opportunities=[
   {
+    "value": "US$ 500 por categoria; duas categorias premiadas",
+    "duration": "Submissões até 09/10/2026; vencedores anunciados em 22/10/2026",
+    "modality": "Prêmio internacional / submissão online",
+    "documents": [
+      "link de peça publicada em 2026 ou rascunho com indicação de onde será publicado",
+      "título e subtítulo",
+      "resumo de 150 palavras sobre relevância e apuração",
+      "afiliação ao veículo",
+      "imagem de capa/thumbnail"
+    ],
+    "restrictions": [
+      "a reportagem deve conectar substantivamente demografia e saúde planetária",
+      "conteúdo publicado em 2026; a página aceita também rascunho com indicação de publicação",
+      "blogs de ONGs ou organizações não são elegíveis"
+    ],
+    "opens": "2026-08-10",
+    "verificationHistory": [
+      {
+        "date": "2026-10-05",
+        "status": "aberta",
+        "source": "https://gatesinstitute.org/demographics-planetary-health-story-prize/"
+      }
+    ],
+    "id": "demographics-planetary-health-story-prize-2026",
+    "summary": "Prêmio para jornalismo publicado em 2026 — ou rascunho com destino editorial — que conecte demografia a clima, migração, saúde reprodutiva, urbanização, poluição ou desigualdades.",
+    "title": "Demographics & Planetary Health Story Prize 2026",
+    "org": "William H. Gates Sr. Institute / Johns Hopkins e parceiros",
+    "type": "Prêmio",
+    "themes": [
+      "Saúde",
+      "Clima",
+      "Demografia",
+      "Gênero",
+      "Migração",
+      "Dados",
+      "Narrativas visuais"
+    ],
+    "scope": "Global",
+    "deadline": "2026-10-09",
+    "deadlineStatus": "confirmado",
+    "eligibility": "elegível",
+    "fit": 7,
+    "status": "aberta",
+    "story": [
+      "violencia-obstetrica",
+      "data-centers"
+    ],
+    "rules": "https://gatesinstitute.org/demographics-planetary-health-story-prize/",
+    "apply": "https://gatesinstitute.org/demographics-planetary-health-story-prize/",
+    "verified": "2026-10-05",
+    "desc": "Aberto a jornalistas, freelancers, repórteres comunitários e estudantes que publiquem em veículos digitais, impressos ou sociais. Premia duas categorias com US$500 cada. Para o PLOT., só é acionável se houver peça de 2026 — ou rascunho com publicação prevista — que conecte de modo claro demografia e saúde planetária.",
+    "discoveredVia": [
+      "William H. Gates Sr. Institute"
+    ],
+    "discoveryUrl": "https://gatesinstitute.org/2026/08/demographics-planetary-health-story-prize-now-open/"
+  },
+  {
     "value": "Até US$ 2.000 para até 20 fellows; treinamento online gratuito para todos os selecionados",
     "duration": "Treinamento de 16–20/11/2026; reportagem apoiada deve ser publicada até 01/03/2027",
     "modality": "Online · sessões ao vivo, 8h–12h ET",
@@ -71,6 +128,11 @@ window.RADAR_PARTS.opportunities=[
         "date": "2026-10-02",
         "status": "aberta",
         "source": "https://www.derechosdigitales.org/pt/noticias/inscricoes-abertas-para-a-primeira-edicao-do-programa-jornalismo-para-os-direitos-digitais/"
+      },
+      {
+        "date": "2026-10-05",
+        "status": "encerrada",
+        "source": "https://www.derechosdigitales.org/pt/noticias/inscricoes-abertas-para-a-primeira-edicao-do-programa-jornalismo-para-os-direitos-digitais/"
       }
     ],
     "id": "derechos-digitales-jornalismo-2026",
@@ -87,17 +149,17 @@ window.RADAR_PARTS.opportunities=[
     ],
     "scope": "América Latina e Caribe",
     "deadline": "2026-10-04",
-    "deadlineStatus": "confirmado",
+    "deadlineStatus": "encerrado",
     "eligibility": "elegível",
     "fit": 10,
-    "status": "aberta",
+    "status": "encerrada",
     "story": [
       "data-centers"
     ],
     "rules": "https://www.derechosdigitales.org/pt/noticias/inscricoes-abertas-para-a-primeira-edicao-do-programa-jornalismo-para-os-direitos-digitais/",
-    "apply": "https://forms.derechosdigitales.org/index.php?lang=es&r=survey%2Findex&sid=527193",
-    "verified": "2026-10-02",
-    "desc": "Aceita jornalistas independentes e equipes, desde que uma pessoa seja responsável pela candidatura e exista compromisso de publicação. O próprio PLOT. pode cumprir esse requisito se for apresentado como meio jornalístico efetivo. Para data centers, a chamada admite investigações locais sobre tecnologia, assimetrias de poder e impactos em comunidades e territórios. Prazo curto: 04/10/2026.",
+    "apply": null,
+    "verified": "2026-10-05",
+    "desc": "Chamada encerrada em 4/10/2026. Selecionava quatro jornalistas da América Latina e do Caribe para investigações sobre tecnologia, poder e direitos humanos, com bolsa de US$5 mil e acompanhamento editorial por quatro meses.",
     "discoveredVia": [
       "Derechos Digitales"
     ],
