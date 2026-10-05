@@ -1,13 +1,116 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
   {
-    "date":"2026-10-04","type":"dados","title":"Catálogo federal de APIs entra no Radar","items":[{"id":"conecta-catalogo-apis-governamentais","title":"Conecta gov.br — Catálogo de APIs Governamentais"}],"detail":"A rodada de recuperação adicionou o catálogo oficial do Conecta, que centraliza APIs governamentais e explicita órgão, esfera, forma de acesso, endpoints e documentação por serviço."
+    "date": "2026-10-05",
+    "type": "nova-oportunidade",
+    "title": "Prêmio internacional de demografia e saúde planetária",
+    "items": [
+      {
+        "id": "demographics-planetary-health-story-prize-2026",
+        "title": "Demographics & Planetary Health Story Prize 2026"
+      }
+    ],
+    "detail": "Entrou a chamada do WH Gates Institute e parceiros, aberta até 9 de outubro para trabalhos de 2026 ou rascunhos com destino editorial; há duas categorias de US$500."
   },
   {
-    "date":"2026-10-04","type":"ferramentas","title":"Backfield entra na camada de ferramentas","items":[{"id":"backfield-local-angle","title":"Backfield"}],"detail":"A ferramenta open-source da Local Angle transforma reportagens em dados estruturados, com geocodificação, extração de pessoas e citações, grafo de conhecimento, metadados editoriais e busca semântica."
+    "date": "2026-10-05",
+    "type": "dados",
+    "title": "Regularização ambiental rural ganha painel federal",
+    "items": [
+      {
+        "id": "sfb-painel-regularizacao-ambiental-rural",
+        "title": "Serviço Florestal Brasileiro — Painel da Regularização Ambiental Rural"
+      }
+    ],
+    "detail": "O painel do Serviço Florestal Brasileiro entrou com cobertura nacional, periodicidade mensal, granularidade municipal, dicionário de dados e ressalvas sobre agregação e extração."
   },
   {
-    "date":"2026-10-04","type":"fontes","title":"Novas fontes para descoberta de APIs e tecnologia jornalística","items":[{"id":"open-journalism","title":"Open Journalism"},{"id":"local-angle","title":"Local Angle"},{"id":"conecta-gov-catalogo-apis","title":"Conecta gov.br — Catálogo de APIs Governamentais"}],"detail":"Entraram duas fontes de tecnologia jornalística aberta e o catálogo oficial de APIs governamentais para ampliar a descoberta recorrente do Radar."
+    "date": "2026-10-05",
+    "type": "ferramentas",
+    "title": "ProPublica abre método de inferência em planilhas",
+    "items": [
+      {
+        "id": "propublica-looper-skills",
+        "title": "Looper Skills"
+      }
+    ],
+    "detail": "Looper Skills foi adicionado como recurso aberto para aplicar perguntas jornalísticas linha a linha, documentando definições e casos-limite e exigindo avaliação humana dos resultados."
+  },
+  {
+    "date": "2026-10-05",
+    "type": "fontes",
+    "title": "Três fontes permanentes ampliam saúde, ambiente e código aberto",
+    "items": [
+      {
+        "id": "william-h-gates-sr-institute",
+        "title": "William H. Gates Sr. Institute"
+      },
+      {
+        "id": "servico-florestal-brasileiro-dados-abertos",
+        "title": "Serviço Florestal Brasileiro — Dados Abertos"
+      },
+      {
+        "id": "propublica-open-source",
+        "title": "ProPublica Open Source"
+      }
+    ],
+    "detail": "O catálogo passa a monitorar o WH Gates Institute, o portal de dados do Serviço Florestal Brasileiro e os repositórios abertos da ProPublica."
+  },
+  {
+    "date": "2026-10-05",
+    "type": "oportunidade",
+    "title": "Jornalismo para os Direitos Digitais encerrado",
+    "items": [
+      {
+        "id": "derechos-digitales-jornalismo-2026",
+        "title": "Jornalismo para os Direitos Digitais 2026"
+      }
+    ],
+    "detail": "O prazo terminou em 4 de outubro; a chamada da Derechos Digitales saiu do conjunto de oportunidades abertas."
+  },
+  {
+    "date": "2026-10-04",
+    "type": "dados",
+    "title": "Catálogo federal de APIs entra no Radar",
+    "items": [
+      {
+        "id": "conecta-catalogo-apis-governamentais",
+        "title": "Conecta gov.br — Catálogo de APIs Governamentais"
+      }
+    ],
+    "detail": "A rodada de recuperação adicionou o catálogo oficial do Conecta, que centraliza APIs governamentais e explicita órgão, esfera, forma de acesso, endpoints e documentação por serviço."
+  },
+  {
+    "date": "2026-10-04",
+    "type": "ferramentas",
+    "title": "Backfield entra na camada de ferramentas",
+    "items": [
+      {
+        "id": "backfield-local-angle",
+        "title": "Backfield"
+      }
+    ],
+    "detail": "A ferramenta open-source da Local Angle transforma reportagens em dados estruturados, com geocodificação, extração de pessoas e citações, grafo de conhecimento, metadados editoriais e busca semântica."
+  },
+  {
+    "date": "2026-10-04",
+    "type": "fontes",
+    "title": "Novas fontes para descoberta de APIs e tecnologia jornalística",
+    "items": [
+      {
+        "id": "open-journalism",
+        "title": "Open Journalism"
+      },
+      {
+        "id": "local-angle",
+        "title": "Local Angle"
+      },
+      {
+        "id": "conecta-gov-catalogo-apis",
+        "title": "Conecta gov.br — Catálogo de APIs Governamentais"
+      }
+    ],
+    "detail": "Entraram duas fontes de tecnologia jornalística aberta e o catálogo oficial de APIs governamentais para ampliar a descoberta recorrente do Radar."
   },
   {
     "date": "2026-10-04",

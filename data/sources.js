@@ -1,13 +1,76 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.sources=[
   {
-    "name": "Open Journalism", "url": "https://openjournalism.news/", "type": "Curadoria de projetos, código, dados e ferramentas abertas de redações", "scope": "Global", "role": "curadoria", "priority": "Alta", "cadence": "quinzenal", "category": "dados/visual", "lastChecked": "2026-10-04", "checkStatus": "verificada"
+    "name": "ProPublica Open Source",
+    "url": "https://github.com/propublica",
+    "type": "Código, dados, métodos e ferramentas abertas de jornalismo investigativo",
+    "scope": "Global",
+    "role": "fonte oficial",
+    "priority": "Alta",
+    "cadence": "mensal",
+    "category": "investigação",
+    "lastChecked": "2026-10-05",
+    "checkStatus": "verificada"
   },
   {
-    "name": "Local Angle", "url": "https://github.com/localangle/backfield", "type": "Ferramentas open-source e infraestrutura para jornalismo", "scope": "Global", "role": "fonte oficial", "priority": "Média", "cadence": "mensal", "category": "dados/visual", "lastChecked": "2026-10-04", "checkStatus": "verificada"
+    "name": "Serviço Florestal Brasileiro — Dados Abertos",
+    "url": "https://dados.florestal.gov.br/",
+    "type": "Dados ambientais rurais, SICAR, regularização ambiental e Código Florestal",
+    "scope": "Brasil",
+    "role": "fonte oficial",
+    "priority": "Alta",
+    "cadence": "mensal",
+    "category": "dados/visual",
+    "lastChecked": "2026-10-05",
+    "checkStatus": "verificada"
   },
   {
-    "name": "Conecta gov.br — Catálogo de APIs Governamentais", "url": "https://www.gov.br/conecta/catalogo/", "type": "Catálogo oficial de APIs, registros de referência e integrações governamentais", "scope": "Brasil", "role": "fonte oficial", "priority": "Alta", "cadence": "mensal", "category": "dados/visual", "lastChecked": "2026-10-04", "checkStatus": "verificada"
+    "name": "William H. Gates Sr. Institute",
+    "url": "https://gatesinstitute.org/",
+    "type": "Saúde reprodutiva, demografia, gênero, dados e oportunidades jornalísticas",
+    "scope": "Global",
+    "role": "fonte oficial",
+    "priority": "Alta",
+    "cadence": "mensal",
+    "category": "saúde/direitos",
+    "lastChecked": "2026-10-05",
+    "checkStatus": "verificada"
+  },
+  {
+    "name": "Open Journalism",
+    "url": "https://openjournalism.news/",
+    "type": "Curadoria de projetos, código, dados e ferramentas abertas de redações",
+    "scope": "Global",
+    "role": "curadoria",
+    "priority": "Alta",
+    "cadence": "quinzenal",
+    "category": "dados/visual",
+    "lastChecked": "2026-10-05",
+    "checkStatus": "verificada"
+  },
+  {
+    "name": "Local Angle",
+    "url": "https://github.com/localangle/backfield",
+    "type": "Ferramentas open-source e infraestrutura para jornalismo",
+    "scope": "Global",
+    "role": "fonte oficial",
+    "priority": "Média",
+    "cadence": "mensal",
+    "category": "dados/visual",
+    "lastChecked": "2026-10-04",
+    "checkStatus": "verificada"
+  },
+  {
+    "name": "Conecta gov.br — Catálogo de APIs Governamentais",
+    "url": "https://www.gov.br/conecta/catalogo/",
+    "type": "Catálogo oficial de APIs, registros de referência e integrações governamentais",
+    "scope": "Brasil",
+    "role": "fonte oficial",
+    "priority": "Alta",
+    "cadence": "mensal",
+    "category": "dados/visual",
+    "lastChecked": "2026-10-04",
+    "checkStatus": "verificada"
   },
   {
     "name": "OpenCorporates",
@@ -602,7 +665,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://ijnet.org/en/opportunities",
     "cadence": "diária",
     "category": "oportunidades",
-    "lastChecked": "2026-10-04",
+    "lastChecked": "2026-10-05",
     "checkStatus": "verificada"
   },
   {
@@ -767,7 +830,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://garimpo.news/",
     "cadence": "diária",
     "category": "tecnologia/política pública",
-    "lastChecked": "2026-10-04",
+    "lastChecked": "2026-10-05",
     "checkStatus": "verificada"
   },
   {
@@ -856,7 +919,7 @@ window.RADAR_PARTS.sources=[
     "url": null,
     "cadence": "diária",
     "category": "ecossistema/formação",
-    "lastChecked": "2026-10-04",
+    "lastChecked": "2026-10-05",
     "checkStatus": "verificada"
   },
   {
@@ -944,7 +1007,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://fapesp.br/oportunidades/",
     "cadence": "diária",
     "category": "oportunidades",
-    "lastChecked": "2026-10-04",
+    "lastChecked": "2026-10-05",
     "checkStatus": "verificada"
   },
   {
@@ -1120,7 +1183,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://gijn.org/jobs",
     "cadence": "diária",
     "category": "dados/visual",
-    "lastChecked": "2026-10-04",
+    "lastChecked": "2026-10-05",
     "checkStatus": "verificada"
   },
   {
@@ -1131,7 +1194,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://gijn.org/rounduplink/",
     "cadence": "diária",
     "category": "oportunidades",
-    "lastChecked": "2026-10-04",
+    "lastChecked": "2026-10-05",
     "checkStatus": "verificada"
   },
   {
@@ -1242,7 +1305,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://indicator.media/",
     "cadence": "semanal",
     "category": "tecnologia/política pública",
-    "lastChecked": "2026-10-04",
+    "lastChecked": "2026-10-05",
     "checkStatus": "verificada"
   },
   {
