@@ -1,13 +1,24 @@
 {
-  "checkedAt": "2026-10-04T18:55:24.283Z",
+  "checkedAt": "2026-10-05T11:36:25.003Z",
   "policy": "404/410 becomes broken only after appearing as suspect or broken in the previous audit; blocked and network results are inconclusive",
   "counts": {
-    "ok": 241,
-    "blocked": 28,
-    "network": 27,
+    "ok": 222,
+    "blocked": 30,
+    "network": 50,
     "server": 7
   },
   "results": [
+    {
+      "type": "opportunity",
+      "id": "demographics-planetary-health-story-prize-2026",
+      "url": "https://gatesinstitute.org/demographics-planetary-health-story-prize/",
+      "status": 200,
+      "finalUrl": "https://gatesinstitute.org/demographics-planetary-health-story-prize/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
     {
       "type": "opportunity",
       "id": "npf-rare-disease-2026",
@@ -661,11 +672,11 @@
       "type": "opportunity",
       "id": "pulitzer-global",
       "url": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/global-reporting-grants",
-      "status": 403,
+      "status": 200,
       "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/global-reporting-grants",
-      "class": "blocked",
+      "class": "ok",
       "attempts": [
-        403
+        200
       ]
     },
     {
@@ -746,6 +757,17 @@
       ]
     },
     {
+      "type": "dataset",
+      "id": "sfb-painel-regularizacao-ambiental-rural",
+      "url": "https://dados.florestal.gov.br/dataset/painel-da-regularizacao-ambiental-rural",
+      "status": 200,
+      "finalUrl": "https://dados.florestal.gov.br/dataset/painel-da-regularizacao-ambiental-rural",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
       "type": "source",
       "id": "Conecta gov.br — Catálogo de APIs Governamentais",
       "url": "https://www.gov.br/conecta/catalogo/",
@@ -793,11 +815,11 @@
       "type": "source",
       "id": "Transferegov.br — Dados Abertos",
       "url": "https://api-publica.transferegov.gestao.gov.br/",
-      "status": 200,
+      "status": 403,
       "finalUrl": "https://api-publica.transferegov.gestao.gov.br/",
-      "class": "ok",
+      "class": "blocked",
       "attempts": [
-        200
+        403
       ]
     },
     {
@@ -837,11 +859,11 @@
       "type": "source",
       "id": "Ibama — Áreas Embargadas",
       "url": "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-termo-de-embargo",
-      "status": 200,
+      "status": 403,
       "finalUrl": "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-termo-de-embargo",
-      "class": "ok",
+      "class": "blocked",
       "attempts": [
-        200
+        403
       ]
     },
     {
@@ -1039,44 +1061,52 @@
       "type": "dataset",
       "id": "sei-geoportal-rest",
       "url": "https://map.geo.sei.ba.gov.br/arcgis/rest/services",
-      "status": 200,
-      "finalUrl": "https://map.geo.sei.ba.gov.br/arcgis/rest/services",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "TypeError:fetch failed",
+        "TypeError:fetch failed"
       ]
     },
     {
       "type": "dataset",
       "id": "sei-regionalizacao",
       "url": "https://map.geo.sei.ba.gov.br/arcgis/rest/services/servicos_sei/REGIONALIZACAO_VIGENTE/FeatureServer",
-      "status": 200,
-      "finalUrl": "https://map.geo.sei.ba.gov.br/arcgis/rest/services/servicos_sei/REGIONALIZACAO_VIGENTE/FeatureServer",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "TypeError:fetch failed",
+        "TypeError:fetch failed"
       ]
     },
     {
       "type": "dataset",
       "id": "sei-localidades",
       "url": "https://map.geo.sei.ba.gov.br/arcgis/rest/services/servicos_sei/LOCALIDADE_BAHIA/MapServer",
-      "status": 200,
-      "finalUrl": "https://map.geo.sei.ba.gov.br/arcgis/rest/services/servicos_sei/LOCALIDADE_BAHIA/MapServer",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "TypeError:fetch failed",
+        "TypeError:fetch failed"
       ]
     },
     {
       "type": "dataset",
       "id": "sei-divisao-municipal",
       "url": "https://map.geo.sei.ba.gov.br/arcgis/rest/services/servicos_sei/DPA_A_100K_VIGENTE_GCS_SIR_SEI/FeatureServer/0",
-      "status": 200,
-      "finalUrl": "https://map.geo.sei.ba.gov.br/arcgis/rest/services/servicos_sei/DPA_A_100K_VIGENTE_GCS_SIR_SEI/FeatureServer/0",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "TypeError:fetch failed",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -1107,33 +1137,39 @@
       "type": "dataset",
       "id": "sspba-estatisticas",
       "url": "https://www.ba.gov.br/ssp/publicacoes",
-      "status": 200,
-      "finalUrl": "https://www.ba.gov.br/ssp/publicacoes",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "TypeError:fetch failed",
+        "TypeError:fetch failed"
       ]
     },
     {
       "type": "dataset",
       "id": "sspba-dados-abertos",
       "url": "https://www.ba.gov.br/ssp/dados-abertos",
-      "status": 200,
-      "finalUrl": "https://www.ba.gov.br/ssp/dados-abertos",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "TypeError:fetch failed",
+        "TypeError:fetch failed"
       ]
     },
     {
       "type": "dataset",
       "id": "aneel",
       "url": "https://dadosabertos.aneel.gov.br/",
-      "status": 200,
-      "finalUrl": "https://dadosabertos.aneel.gov.br/",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "TypeError:fetch failed",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -1253,33 +1289,39 @@
       "type": "dataset",
       "id": "aneel-emergencias",
       "url": "https://dadosabertos.aneel.gov.br/dataset/ocorrencias-emergenciais-nas-redes-de-distribuicao",
-      "status": 200,
-      "finalUrl": "https://dadosabertos.aneel.gov.br/dataset/ocorrencias-emergenciais-nas-redes-de-distribuicao",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "TypeError:fetch failed",
+        "TypeError:fetch failed"
       ]
     },
     {
       "type": "dataset",
       "id": "aneel-interrupcoes",
       "url": "https://dadosabertos.aneel.gov.br/dataset/interrupcoes-de-energia-eletrica-nas-redes-de-distribuicao",
-      "status": 200,
-      "finalUrl": "https://dadosabertos.aneel.gov.br/dataset/interrupcoes-de-energia-eletrica-nas-redes-de-distribuicao",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "TypeError:fetch failed",
+        "TypeError:fetch failed"
       ]
     },
     {
       "type": "dataset",
       "id": "aneel-dec-fec",
       "url": "https://dadosabertos.aneel.gov.br/dataset/indicadores-coletivos-de-continuidade-dec-e-fec",
-      "status": 200,
-      "finalUrl": "https://dadosabertos.aneel.gov.br/dataset/indicadores-coletivos-de-continuidade-dec-e-fec",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "TypeError:fetch failed",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -1319,22 +1361,26 @@
       "type": "dataset",
       "id": "inema-geobahia",
       "url": "https://www.ba.gov.br/inema/servicos/dados-geoespaciais",
-      "status": 200,
-      "finalUrl": "https://www.ba.gov.br/inema/servicos/dados-geoespaciais",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "TypeError:fetch failed",
+        "TypeError:fetch failed"
       ]
     },
     {
       "type": "dataset",
       "id": "inema-atos-outorga",
       "url": "https://www.ba.gov.br/inema/atende/outorga",
-      "status": 200,
-      "finalUrl": "https://www.ba.gov.br/inema/atende/outorga",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "TypeError:fetch failed",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -1380,11 +1426,13 @@
       "type": "dataset",
       "id": "sesab-obitos",
       "url": "https://www.saude.ba.gov.br/suvisa/vigilancia-epidemiologica/",
-      "status": 200,
-      "finalUrl": "https://www.ba.gov.br/saude/suvisa/vigilancia-epidemiologica",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "TypeError:fetch failed",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -1481,11 +1529,13 @@
       "type": "dataset",
       "id": "sigeduc-escolas-ba",
       "url": "https://sigeduc.educacao.ba.gov.br/sigeduc/public/transparencia/pages/consulta/relatorio_escolas/relEscolasEtapaModalidadeAnalitico.jsf",
-      "status": 200,
-      "finalUrl": "https://sigeduc.educacao.ba.gov.br/sigeduc/public/transparencia/pages/consulta/relatorio_escolas/relEscolasEtapaModalidadeAnalitico.jsf",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "TypeError:fetch failed",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -1736,11 +1786,13 @@
       "type": "dataset",
       "id": "sesab-sinasc-perfil",
       "url": "https://www.saude.ba.gov.br/",
-      "status": 200,
-      "finalUrl": "https://www.ba.gov.br/saude/",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "TypeError:fetch failed",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -1782,11 +1834,13 @@
       "type": "dataset",
       "id": "aneel-siga",
       "url": "https://dadosabertos.aneel.gov.br/dataset/siga-sistema-de-informacoes-de-geracao-da-aneel",
-      "status": 200,
-      "finalUrl": "https://dadosabertos.aneel.gov.br/dataset/siga-sistema-de-informacoes-de-geracao-da-aneel",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "TypeError:fetch failed",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -1806,33 +1860,39 @@
       "type": "dataset",
       "id": "inema-consulta-processos",
       "url": "https://www.ba.gov.br/inema/banner/consulta-de-processos",
-      "status": 200,
-      "finalUrl": "https://www.ba.gov.br/inema/banner/consulta-de-processos",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "TypeError:fetch failed",
+        "TypeError:fetch failed"
       ]
     },
     {
       "type": "dataset",
       "id": "inema-formularios-outorga",
       "url": "https://www.ba.gov.br/inema/atende/formularios/outorga",
-      "status": 200,
-      "finalUrl": "https://www.ba.gov.br/inema/atende/formularios/outorga",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "TypeError:fetch failed",
+        "TypeError:fetch failed"
       ]
     },
     {
       "type": "dataset",
       "id": "inema-normas-licenciamento",
       "url": "https://www.ba.gov.br/inema/legislacao/normas-tecnicas-e-portarias",
-      "status": 200,
-      "finalUrl": "https://www.ba.gov.br/inema/legislacao/normas-tecnicas-e-portarias",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "TypeError:fetch failed",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -1863,44 +1923,52 @@
       "type": "dataset",
       "id": "apeb-aforamentos-codices",
       "url": "https://www.ba.gov.br/fpc/arquivo-publico-acervo",
-      "status": 200,
-      "finalUrl": "https://www.ba.gov.br/fpc/arquivo-publico-acervo",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "TypeError:fetch failed",
+        "TypeError:fetch failed"
       ]
     },
     {
       "type": "dataset",
       "id": "aneel-siget",
       "url": "https://dadosabertos.aneel.gov.br/dataset/sistema-de-gestao-da-transmissao-siget",
-      "status": 200,
-      "finalUrl": "https://dadosabertos.aneel.gov.br/dataset/sistema-de-gestao-da-transmissao-siget",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "TypeError:fetch failed",
+        "TypeError:fetch failed"
       ]
     },
     {
       "type": "dataset",
       "id": "aneel-samp",
       "url": "https://dadosabertos.aneel.gov.br/dataset/samp",
-      "status": 200,
-      "finalUrl": "https://dadosabertos.aneel.gov.br/dataset/samp",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "TypeError:fetch failed",
+        "TypeError:fetch failed"
       ]
     },
     {
       "type": "dataset",
       "id": "bahia-sde-incentivos",
       "url": "https://www.ba.gov.br/sde/incentivos",
-      "status": 200,
-      "finalUrl": "https://www.ba.gov.br/sde/incentivos",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "TypeError:fetch failed",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -1955,11 +2023,13 @@
       "type": "dataset",
       "id": "aneel-bdgd",
       "url": "https://dadosabertos.aneel.gov.br/dataset/base-de-dados-geografica-da-distribuidora-bdgd",
-      "status": 200,
-      "finalUrl": "https://dadosabertos.aneel.gov.br/dataset/base-de-dados-geografica-da-distribuidora-bdgd",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "TypeError:fetch failed",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -1977,11 +2047,11 @@
       "type": "dataset",
       "id": "ibama-autos-infracao",
       "url": "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-auto-de-infracao",
-      "status": 200,
+      "status": 403,
       "finalUrl": "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-auto-de-infracao",
-      "class": "ok",
+      "class": "blocked",
       "attempts": [
-        200
+        403
       ]
     },
     {
@@ -2151,6 +2221,39 @@
       "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/dados-abertos/cadastros",
       "status": 200,
       "finalUrl": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/dados-abertos/cadastros",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "ProPublica Open Source",
+      "url": "https://github.com/propublica",
+      "status": 200,
+      "finalUrl": "https://github.com/propublica",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Serviço Florestal Brasileiro — Dados Abertos",
+      "url": "https://dados.florestal.gov.br/",
+      "status": 200,
+      "finalUrl": "https://dados.florestal.gov.br/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "William H. Gates Sr. Institute",
+      "url": "https://gatesinstitute.org/",
+      "status": 200,
+      "finalUrl": "https://gatesinstitute.org/",
       "class": "ok",
       "attempts": [
         200
@@ -3118,13 +3221,11 @@
       "type": "source",
       "id": "Repórteres sem Fronteiras — Fellowships e oportunidades",
       "url": "https://resources.rsf.org/fellowship-opportunities/",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "AbortError:This operation was aborted",
+      "status": 200,
+      "finalUrl": "https://resources.rsf.org/fellowship-opportunities/",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "AbortError:This operation was aborted"
+        200
       ]
     },
     {
@@ -3155,6 +3256,17 @@
       "url": "https://journaliststudio.google.com/",
       "status": 200,
       "finalUrl": "https://journaliststudio.google.com/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "propublica-looper-skills",
+      "url": "https://github.com/propublica/looper-skills",
+      "status": 200,
+      "finalUrl": "https://github.com/propublica/looper-skills",
       "class": "ok",
       "attempts": [
         200
