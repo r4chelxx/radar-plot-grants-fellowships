@@ -1,12 +1,27 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.tools=[
   {
+    "id": "propublica-looper-skills",
+    "name": "Looper Skills",
+    "kind": "habilidades abertas para inferência em planilhas e análise repetível com IA",
+    "url": "https://github.com/propublica/looper-skills",
+    "desc": "Projeto open-source da ProPublica para transformar uma pergunta jornalística em um prompt reproduzível aplicado linha a linha a documentos, registros, links ou arquivos. O Looper Prompt Guide registra definições, casos-limite e decisões; há pacote para agentes que leem SKILL.md e uma versão Gem para Gemini. É útil para triagem em escala, mas exige amostragem, avaliação de erros, proteção de dados sensíveis e confirmação humana dos resultados.",
+    "discoveredVia": [
+      "Open Journalism",
+      "ProPublica Open Source"
+    ],
+    "discoveryUrl": "https://openjournalism.news/2026/09/14/open-journalism-update-august-30-september-12-2026/"
+  },
+  {
     "id": "backfield-local-angle",
     "name": "Backfield",
     "kind": "extração estruturada, geocodificação e grafo de conhecimento para acervos jornalísticos",
     "url": "https://github.com/localangle/backfield",
     "desc": "Plataforma open-source da Local Angle para transformar reportagens em dados estruturados: extrai e geocodifica lugares, organiza pessoas e citações, conecta pessoas, lugares e organizações em grafo de conhecimento, aplica metadados editoriais e permite busca semântica e extrações customizadas. O código é Apache-2.0 e pode ser auto-hospedado; a implantação exige infraestrutura própria e integrações externas opcionais.",
-    "discoveredVia": ["Open Journalism", "Local Angle"],
+    "discoveredVia": [
+      "Open Journalism",
+      "Local Angle"
+    ],
     "discoveryUrl": "https://openjournalism.news/2026/09/14/open-journalism-update-august-30-september-12-2026/"
   },
   {
