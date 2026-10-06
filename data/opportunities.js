@@ -1,6 +1,55 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.opportunities=[
   {
+    "value": "US$ 54.500–62.000 anuais para empregados nos EUA; faixa internacional não informada",
+    "duration": "Tempo integral; contratação aberta até preenchimento da vaga",
+    "modality": "Remota · aberta a candidaturas de qualquer país",
+    "documents": [],
+    "restrictions": [
+      "mínimo de cinco anos apoiando atividades administrativas e programáticas em equipes distribuídas",
+      "inglês e proficiência em ao menos um dos idiomas de trabalho do Pulitzer Center, incluindo português",
+      "experiência ou interesse demonstrável em IA, jornalismo e impacto da tecnologia na sociedade",
+      "disponibilidade para colaboração entre fusos, horários flexíveis e viagens ocasionais"
+    ],
+    "opens": null,
+    "verificationHistory": [
+      {
+        "date": "2026-10-06",
+        "status": "aberta",
+        "source": "https://ats.rippling.com/the-pulitzer-center-on-crisis-reporting/jobs/5379f55c-5765-47c1-89ca-e4b341861774"
+      }
+    ],
+    "id": "pulitzer-center-ai-program-coordinator-2026",
+    "summary": "Vaga global e remota para coordenar newsletter, treinamentos, grants, fellowships, métricas e operações da AI Accountability Network do Pulitzer Center.",
+    "title": "Program Coordinator, AI Initiative",
+    "org": "Pulitzer Center",
+    "type": "Vaga",
+    "themes": [
+      "Jornalismo",
+      "Inteligência artificial",
+      "Accountability",
+      "Tecnologia",
+      "Gestão de programas",
+      "Dados"
+    ],
+    "scope": "Global / remoto",
+    "deadline": null,
+    "deadlineStatus": "aberta_sem_data",
+    "eligibility": "elegível",
+    "fit": 8.5,
+    "status": "aberta",
+    "story": [],
+    "rules": "https://ats.rippling.com/the-pulitzer-center-on-crisis-reporting/jobs/5379f55c-5765-47c1-89ca-e4b341861774",
+    "apply": "https://ats.rippling.com/the-pulitzer-center-on-crisis-reporting/jobs/5379f55c-5765-47c1-89ca-e4b341861774",
+    "verified": "2026-10-06",
+    "desc": "A vaga é explicitamente remota e aberta a pessoas em qualquer país. Rachel atende ao recorte de experiência profissional e ao requisito linguístico de inglês mais português; a aderência final depende de demonstrar experiência com coordenação de programas, fluxos administrativos, pagamentos/grants, newsletters e métricas. Como não há prazo definido, a recomendação é avaliar e candidatar-se cedo.",
+    "discoveredVia": [
+      "GIJN Jobs Board",
+      "Pulitzer Center"
+    ],
+    "discoveryUrl": "https://gijn.org/jobs/program-coordinator-ai-initiative/"
+  },
+  {
     "value": "US$ 500 por categoria; duas categorias premiadas",
     "duration": "Submissões até 09/10/2026; vencedores anunciados em 22/10/2026",
     "modality": "Prêmio internacional / submissão online",

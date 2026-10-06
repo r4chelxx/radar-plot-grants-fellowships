@@ -1,6 +1,18 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.sources=[
   {
+    "name": "Overture Maps Foundation",
+    "url": "https://docs.overturemaps.org/",
+    "type": "Dados cartográficos globais abertos, esquemas, lançamentos e ferramentas geoespaciais",
+    "scope": "Global",
+    "role": "fonte oficial",
+    "priority": "Alta",
+    "cadence": "mensal",
+    "category": "dados/visual",
+    "lastChecked": "2026-10-06",
+    "checkStatus": "verificada"
+  },
+  {
     "name": "ProPublica Open Source",
     "url": "https://github.com/propublica",
     "type": "Código, dados, métodos e ferramentas abertas de jornalismo investigativo",
@@ -621,7 +633,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://pulitzercenter.org/grants-fellowships",
     "cadence": "semanal",
     "category": "dados/visual",
-    "lastChecked": "2026-10-02",
+    "lastChecked": "2026-10-06",
     "checkStatus": "verificada"
   },
   {
@@ -665,7 +677,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://ijnet.org/en/opportunities",
     "cadence": "diária",
     "category": "oportunidades",
-    "lastChecked": "2026-10-05",
+    "lastChecked": "2026-10-06",
     "checkStatus": "verificada"
   },
   {
@@ -828,9 +840,9 @@ window.RADAR_PARTS.sources=[
     "scope": "Brasil",
     "priority": "Alta",
     "url": "https://garimpo.news/",
-    "cadence": "diária",
+    "cadence": "semanal",
     "category": "tecnologia/política pública",
-    "lastChecked": "2026-10-05",
+    "lastChecked": "2026-10-06",
     "checkStatus": "verificada"
   },
   {
@@ -886,7 +898,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://quantumofsollazzo.com/",
     "cadence": "semanal",
     "category": "dados/visual",
-    "lastChecked": "2026-10-04",
+    "lastChecked": "2026-10-06",
     "checkStatus": "verificada"
   },
   {
@@ -919,7 +931,7 @@ window.RADAR_PARTS.sources=[
     "url": null,
     "cadence": "diária",
     "category": "ecossistema/formação",
-    "lastChecked": "2026-10-05",
+    "lastChecked": "2026-10-06",
     "checkStatus": "verificada"
   },
   {
@@ -1007,7 +1019,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://fapesp.br/oportunidades/",
     "cadence": "diária",
     "category": "oportunidades",
-    "lastChecked": "2026-10-05",
+    "lastChecked": "2026-10-06",
     "checkStatus": "verificada"
   },
   {
@@ -1183,7 +1195,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://gijn.org/jobs",
     "cadence": "diária",
     "category": "dados/visual",
-    "lastChecked": "2026-10-05",
+    "lastChecked": "2026-10-06",
     "checkStatus": "verificada"
   },
   {
@@ -1194,7 +1206,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://gijn.org/rounduplink/",
     "cadence": "diária",
     "category": "oportunidades",
-    "lastChecked": "2026-10-05",
+    "lastChecked": "2026-10-06",
     "checkStatus": "verificada"
   },
   {

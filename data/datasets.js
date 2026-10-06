@@ -1,6 +1,42 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.datasets=[
   {
+    "id": "overture-maps-buildings",
+    "name": "Overture Maps — Buildings",
+    "org": "Overture Maps Foundation / Linux Foundation",
+    "territoryTier": "Outros",
+    "kind": "dataset",
+    "themes": [
+      "Edificações",
+      "Cartografia",
+      "Planejamento urbano",
+      "Sensoriamento remoto",
+      "Geodados",
+      "Visualização",
+      "Análise espacial"
+    ],
+    "coverage": "Global · pegadas de edificações e partes de edifícios combinadas a partir de OpenStreetMap, bases públicas e municipais e fontes derivadas por aprendizado de máquina",
+    "frequency": "Mensal",
+    "format": "GeoParquet em Amazon S3 e Microsoft Azure Blob Storage; consulta por DuckDB, Python CLI, Spark/Sedona e integração com ArcGIS/QGIS",
+    "period": "Fotografia mensal corrente; versão consultada 2026-09-23.1. Os arquivos completos das duas versões mais recentes ficam disponíveis nos buckets, enquanto notas e changelogs permanecem publicados",
+    "granularity": "Feição individual de edifício ou parte de edifício, com geometria, atributos do esquema e GERS ID para edifícios",
+    "geoUnit": "Geometria individual de edificação em cobertura mundial",
+    "api": "Não há API convencional de registros: o acesso oficial ocorre por objetos GeoParquet em S3/Azure, Overture Python CLI, DuckDB e ferramentas geoespaciais documentadas",
+    "docs": "https://docs.overturemaps.org/guides/buildings/",
+    "limitations": "A própria documentação alerta que pegadas derivadas por aprendizado de máquina têm menor precisão, sobretudo no Sul Global. A camada building_part vem apenas do OpenStreetMap; licenças e atribuição variam conforme as fontes e o tema de edifícios é ODbL. As versões completas nos buckets têm retenção de 60 dias, por isso análises reprodutíveis devem registrar a versão e preservar os recortes usados.",
+    "lastChecked": "2026-10-06",
+    "story": [
+      "data-centers",
+      "laudemio"
+    ],
+    "url": "https://docs.overturemaps.org/guides/buildings/",
+    "discoveredVia": [
+      "Quantum of Sollazzo",
+      "Overture Maps Foundation"
+    ],
+    "discoveryUrl": "https://buttondown.com/puntofisso/archive/677-quantum-of-sollazzo/"
+  },
+  {
     "id": "sfb-painel-regularizacao-ambiental-rural",
     "name": "Serviço Florestal Brasileiro — Painel da Regularização Ambiental Rural",
     "org": "Serviço Florestal Brasileiro / Diretoria de Regularização Ambiental Rural",
