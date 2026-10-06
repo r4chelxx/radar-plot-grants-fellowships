@@ -1,6 +1,17 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.tools=[
   {
+    "id": "llamaindex-liteparse",
+    "name": "LiteParse",
+    "kind": "parser local e open-source de PDFs e documentos com OCR opcional",
+    "url": "https://github.com/run-llama/liteparse",
+    "desc": "Ferramenta Apache-2.0 da LlamaIndex para extrair texto espacial e caixas delimitadoras sem enviar os arquivos à nuvem. Processa PDFs e converte DOCX, XLSX, PPTX e imagens; oferece Tesseract embutido ou OCR externo e exporta Markdown, JSON, texto e screenshots via Python, Node/TypeScript, Rust, CLI ou navegador/WASM. É útil para triagem e criação de acervos pesquisáveis, mas a própria documentação recomenda ferramentas mais robustas para tabelas densas, múltiplas colunas, gráficos, manuscritos e digitalizações complexas; a extração deve ser amostrada e conferida antes de uso jornalístico.",
+    "discoveredVia": [
+      "Quantum of Sollazzo"
+    ],
+    "discoveryUrl": "https://buttondown.com/puntofisso/archive/677-quantum-of-sollazzo/"
+  },
+  {
     "id": "propublica-looper-skills",
     "name": "Looper Skills",
     "kind": "habilidades abertas para inferência em planilhas e análise repetível com IA",
