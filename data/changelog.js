@@ -1,6 +1,54 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
   {
+    "date": "2026-10-06",
+    "type": "nova-oportunidade",
+    "title": "Pulitzer Center abre vaga global em IA e jornalismo",
+    "items": [
+      {
+        "id": "pulitzer-center-ai-program-coordinator-2026",
+        "title": "Program Coordinator, AI Initiative"
+      }
+    ],
+    "detail": "Entrou a vaga remota e global da AI Accountability Network, aberta até preenchimento e com exigência de cinco anos de experiência, inglês e um idioma adicional — incluindo português."
+  },
+  {
+    "date": "2026-10-06",
+    "type": "dados",
+    "title": "Edificações globais da Overture entram no Radar",
+    "items": [
+      {
+        "id": "overture-maps-buildings",
+        "title": "Overture Maps — Buildings"
+      }
+    ],
+    "detail": "A base mensal de edificações entrou com cobertura global, GeoParquet, acesso por S3/Azure e ferramentas geoespaciais, além de ressalvas sobre precisão no Sul Global, licenças e retenção de versões."
+  },
+  {
+    "date": "2026-10-06",
+    "type": "ferramentas",
+    "title": "Parser local amplia a triagem documental",
+    "items": [
+      {
+        "id": "llamaindex-liteparse",
+        "title": "LiteParse"
+      }
+    ],
+    "detail": "LiteParse entrou como parser local e open-source para PDFs e outros documentos, com OCR opcional, caixas delimitadoras e saídas em Markdown, JSON, texto e screenshots."
+  },
+  {
+    "date": "2026-10-06",
+    "type": "fontes",
+    "title": "Overture Maps passa a ser monitorada como fonte oficial",
+    "items": [
+      {
+        "id": "overture-maps-foundation",
+        "title": "Overture Maps Foundation"
+      }
+    ],
+    "detail": "O catálogo ganhou a documentação oficial da Overture para acompanhar lançamentos mensais de dados cartográficos; a cadência do Garimpo também foi corrigida de diária para semanal após mudança editorial publicada pelo próprio veículo."
+  },
+  {
     "date": "2026-10-05",
     "type": "nova-oportunidade",
     "title": "Prêmio internacional de demografia e saúde planetária",
