@@ -1,6 +1,41 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.datasets=[
   {
+    "id": "climate-trace-emissions-inventory",
+    "name": "Climate TRACE — Inventário Global de Emissões",
+    "org": "Climate TRACE Coalition",
+    "territoryTier": "Outros",
+    "kind": "dataset",
+    "themes": [
+      "Clima",
+      "Emissões",
+      "Energia",
+      "Indústria",
+      "Transportes",
+      "Poluição do ar",
+      "Empresas",
+      "Geodados"
+    ],
+    "coverage": "Global · estimativas de gases de efeito estufa e poluentes atmosféricos por país, setor, subsetor e fonte emissora, com dados complementares de propriedade e confiança quando disponíveis",
+    "frequency": "Mensal",
+    "format": "CSV por subsetor e país, arquivos de confiança e propriedade, GeoPackage, Google BigQuery, API REST beta e pacote Python climate-trace-tools",
+    "period": "Versão 5.11.0 publicada em 24/09/2026, com dados mensais até julho de 2026; a extensão histórica e a granularidade temporal variam por setor e fonte",
+    "granularity": "Fonte emissora individual ou agregada, país, setor, subsetor, gás e período; há geometrias e arquivos de maior resolução apenas para parte dos setores",
+    "geoUnit": "Global, país, recortes subnacionais e urbanos, fonte/facilidade e geometrias setoriais selecionadas",
+    "api": "https://api.climatetrace.org/v7/docs/index.html — API pública beta para busca de ativos por setor, proprietário e localização e consulta de emissões e agregados nacionais",
+    "docs": "https://media.climatetrace.org/about_the_data_latest_b6e7b8d419.pdf",
+    "limitations": "São estimativas modeladas, não medições uniformes nem inventários oficiais; metodologia, disponibilidade, resolução e níveis de confiança variam por subsetor. A API é beta e não tem disponibilidade garantida. Arquivos geoespaciais de maior resolução para vários setores precisam ser solicitados; o BigQuery exige conta Google Cloud e pode gerar cobrança acima da franquia. Conferir a metodologia setorial, a classificação de confiança e fontes primárias antes de atribuir emissões a uma instalação ou empresa.",
+    "lastChecked": "2026-10-07",
+    "story": [
+      "data-centers"
+    ],
+    "url": "https://climatetrace.org/data",
+    "discoveredVia": [
+      "Climate TRACE"
+    ],
+    "discoveryUrl": "https://climatetrace.org/data"
+  },
+  {
     "id": "overture-maps-buildings",
     "name": "Overture Maps — Buildings",
     "org": "Overture Maps Foundation / Linux Foundation",
