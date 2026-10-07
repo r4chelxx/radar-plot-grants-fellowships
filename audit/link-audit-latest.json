@@ -1,13 +1,24 @@
 {
-  "checkedAt": "2026-10-06T12:16:23.072Z",
+  "checkedAt": "2026-10-07T12:19:48.328Z",
   "policy": "404/410 becomes broken only after appearing as suspect or broken in the previous audit; blocked and network results are inconclusive",
   "counts": {
-    "ok": 247,
-    "blocked": 30,
-    "network": 35,
+    "ok": 261,
+    "blocked": 28,
+    "network": 26,
     "server": 1
   },
   "results": [
+    {
+      "type": "opportunity",
+      "id": "our-world-in-data-writer-2026",
+      "url": "https://ourworldindata.org/hiring-writer-2026",
+      "status": 200,
+      "finalUrl": "https://ourworldindata.org/hiring-writer-2026",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
     {
       "type": "opportunity",
       "id": "pulitzer-center-ai-program-coordinator-2026",
@@ -397,11 +408,11 @@
       "type": "opportunity",
       "id": "ahcj-int",
       "url": "https://healthjournalism.org/fellowships/ahcj-international-health-study-fellowships/",
-      "status": 403,
+      "status": 200,
       "finalUrl": "https://healthjournalism.org/fellowships/ahcj-international-health-study-fellowships/",
-      "class": "blocked",
+      "class": "ok",
       "attempts": [
-        403
+        200
       ]
     },
     {
@@ -762,6 +773,17 @@
       "url": "https://www.firenewsroom.org/about-us/fire-frequently-asked-questions",
       "status": 200,
       "finalUrl": "https://www.firenewsroom.org/about-us/fire-frequently-asked-questions",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Climate TRACE",
+      "url": "https://climatetrace.org/data",
+      "status": 200,
+      "finalUrl": "https://climatetrace.org/data",
       "class": "ok",
       "attempts": [
         200
@@ -1173,13 +1195,11 @@
       "type": "dataset",
       "id": "aneel",
       "url": "https://dadosabertos.aneel.gov.br/",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://dadosabertos.aneel.gov.br/",
+      "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -1296,39 +1316,33 @@
       "type": "dataset",
       "id": "aneel-emergencias",
       "url": "https://dadosabertos.aneel.gov.br/dataset/ocorrencias-emergenciais-nas-redes-de-distribuicao",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://dadosabertos.aneel.gov.br/dataset/ocorrencias-emergenciais-nas-redes-de-distribuicao",
+      "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
       "type": "dataset",
       "id": "aneel-interrupcoes",
       "url": "https://dadosabertos.aneel.gov.br/dataset/interrupcoes-de-energia-eletrica-nas-redes-de-distribuicao",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://dadosabertos.aneel.gov.br/dataset/interrupcoes-de-energia-eletrica-nas-redes-de-distribuicao",
+      "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
       "type": "dataset",
       "id": "aneel-dec-fec",
       "url": "https://dadosabertos.aneel.gov.br/dataset/indicadores-coletivos-de-continuidade-dec-e-fec",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://dadosabertos.aneel.gov.br/dataset/indicadores-coletivos-de-continuidade-dec-e-fec",
+      "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -1829,13 +1843,11 @@
       "type": "dataset",
       "id": "aneel-siga",
       "url": "https://dadosabertos.aneel.gov.br/dataset/siga-sistema-de-informacoes-de-geracao-da-aneel",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://dadosabertos.aneel.gov.br/dataset/siga-sistema-de-informacoes-de-geracao-da-aneel",
+      "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -1923,26 +1935,22 @@
       "type": "dataset",
       "id": "aneel-siget",
       "url": "https://dadosabertos.aneel.gov.br/dataset/sistema-de-gestao-da-transmissao-siget",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://dadosabertos.aneel.gov.br/dataset/sistema-de-gestao-da-transmissao-siget",
+      "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
       "type": "dataset",
       "id": "aneel-samp",
       "url": "https://dadosabertos.aneel.gov.br/dataset/samp",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://dadosabertos.aneel.gov.br/dataset/samp",
+      "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -2008,13 +2016,11 @@
       "type": "dataset",
       "id": "aneel-bdgd",
       "url": "https://dadosabertos.aneel.gov.br/dataset/base-de-dados-geografica-da-distribuidora-bdgd",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://dadosabertos.aneel.gov.br/dataset/base-de-dados-geografica-da-distribuidora-bdgd",
+      "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -2205,6 +2211,17 @@
       "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/dados-abertos/cadastros",
       "status": 200,
       "finalUrl": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/dados-abertos/cadastros",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "ocrmypdf",
+      "url": "https://ocrmypdf.readthedocs.io/en/latest/",
+      "status": 200,
+      "finalUrl": "https://ocrmypdf.readthedocs.io/en/latest/",
       "class": "ok",
       "attempts": [
         200
@@ -2511,9 +2528,9 @@
     {
       "type": "source",
       "id": "GIJN",
-      "url": "https://gijn.org/topic/opportunities/",
+      "url": "https://gijn.org/",
       "status": 403,
-      "finalUrl": "https://gijn.org/topic/opportunities/",
+      "finalUrl": "https://gijn.org/",
       "class": "blocked",
       "attempts": [
         403
@@ -2919,11 +2936,11 @@
       "type": "source",
       "id": "Association of Health Care Journalists",
       "url": "https://healthjournalism.org/",
-      "status": 403,
+      "status": 200,
       "finalUrl": "https://healthjournalism.org/",
-      "class": "blocked",
+      "class": "ok",
       "attempts": [
-        403
+        200
       ]
     },
     {
@@ -3216,13 +3233,11 @@
       "type": "source",
       "id": "Repórteres sem Fronteiras — Fellowships e oportunidades",
       "url": "https://resources.rsf.org/fellowship-opportunities/",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "AbortError:This operation was aborted",
+      "status": 200,
+      "finalUrl": "https://resources.rsf.org/fellowship-opportunities/",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "AbortError:This operation was aborted"
+        200
       ]
     },
     {
