@@ -1,6 +1,58 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
   {
+    "date": "2026-10-07",
+    "type": "nova-oportunidade",
+    "title": "Our World in Data abre vaga internacional para escrita baseada em dados",
+    "items": [
+      {
+        "id": "our-world-in-data-writer-2026",
+        "title": "Writer — Our World in Data"
+      }
+    ],
+    "detail": "Entrou a vaga remota e internacional com faixa de £80 mil a £120 mil anuais, análise mensal até preenchimento e exigência eliminatória de três textos prévios em inglês."
+  },
+  {
+    "date": "2026-10-07",
+    "type": "dados",
+    "title": "Inventário global do Climate TRACE amplia a apuração climática",
+    "items": [
+      {
+        "id": "climate-trace-emissions-inventory",
+        "title": "Climate TRACE — Inventário Global de Emissões"
+      }
+    ],
+    "detail": "A base entrou com dados mensais globais por fonte, setor e país, arquivos CSV e geoespaciais, BigQuery e API beta, além de ressalvas metodológicas e de confiança."
+  },
+  {
+    "date": "2026-10-07",
+    "type": "ferramentas",
+    "title": "OCR local reforça o trabalho com documentos digitalizados",
+    "items": [
+      {
+        "id": "ocrmypdf",
+        "title": "OCRmyPDF"
+      }
+    ],
+    "detail": "OCRmyPDF entrou como recurso aberto para tornar PDFs escaneados pesquisáveis localmente, com processamento em lote, PDF/A, API e advertências sobre qualidade, colunas e manuscritos."
+  },
+  {
+    "date": "2026-10-07",
+    "type": "fontes",
+    "title": "Duas fontes oficiais passam a ser monitoradas",
+    "items": [
+      {
+        "id": "climate-trace",
+        "title": "Climate TRACE"
+      },
+      {
+        "id": "ocrmypdf",
+        "title": "OCRmyPDF"
+      }
+    ],
+    "detail": "O catálogo passa a acompanhar mensalmente o inventário e a API do Climate TRACE e a documentação e os lançamentos do OCRmyPDF; o endereço geral da GIJN também foi corrigido após a rota temática antiga retornar 404."
+  },
+  {
     "date": "2026-10-06",
     "type": "nova-oportunidade",
     "title": "Pulitzer Center abre vaga global em IA e jornalismo",

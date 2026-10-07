@@ -1,6 +1,61 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.opportunities=[
   {
+    "value": "£ 80.000–120.000 anuais, conforme experiência e localização; residência de escrita remunerada antes da eventual oferta",
+    "duration": "Tempo integral, com horários flexíveis; meio período pode ser considerado. Candidaturas analisadas mensalmente até preenchimento da vaga",
+    "modality": "Remota internacional ou Oxford, Reino Unido; exige alguma sobreposição com o horário de trabalho britânico",
+    "documents": [
+      "currículo",
+      "três textos autorais publicados em inglês antes de 01/04/2026 e nos últimos cinco anos; no máximo um pode ser coautorado",
+      "Data Insight sobre indicador fornecido no formulário, com título de até 100 caracteres e texto de até 850 caracteres",
+      "links de perfis públicos de escrita ou redes sociais, quando houver"
+    ],
+    "restrictions": [
+      "portfólio prévio em inglês é requisito eliminatório; textos produzidos especificamente para a candidatura não são aceitos",
+      "experiência comprovada em escrita pública para audiência não especializada, baseada em dados e literatura de pesquisa",
+      "boa compreensão de estatística, interpretação crítica de dados e capacidade de propor visualizações",
+      "a etapa remunerada de residência não garante oferta posterior"
+    ],
+    "opens": "2026-04-28",
+    "verificationHistory": [
+      {
+        "date": "2026-10-07",
+        "status": "aberta",
+        "source": "https://ourworldindata.org/hiring-writer-2026"
+      }
+    ],
+    "id": "our-world-in-data-writer-2026",
+    "summary": "Vaga sênior para produzir narrativas acessíveis baseadas em dados e pesquisa, em colaboração com cientistas de dados e designers do Our World in Data.",
+    "title": "Writer — Our World in Data",
+    "org": "Our World in Data / Global Change Data Lab",
+    "type": "Vaga",
+    "themes": [
+      "Jornalismo de dados",
+      "Escrita",
+      "Visualização",
+      "Saúde",
+      "Clima",
+      "Direitos humanos",
+      "Tecnologia"
+    ],
+    "scope": "Global / remoto",
+    "deadline": null,
+    "deadlineStatus": "aberta_sem_data",
+    "eligibility": "elegível",
+    "fit": 6.5,
+    "status": "aberta",
+    "story": [],
+    "rules": "https://ourworldindata.org/hiring-writer-2026",
+    "apply": "https://ourworldindata.org/hiring-writer-2026",
+    "verified": "2026-10-07",
+    "desc": "A organização aceita candidaturas internacionais e trabalho remoto, mas exige três textos em inglês publicados antes de 1º de abril de 2026. Para Rachel, a vaga só é acionável se esse portfólio prévio existir; a experiência em jornalismo e dados é aderente, porém não compensa a ausência do requisito documental. Se elegível, vale avaliar cedo porque as candidaturas são revisadas em lotes mensais e a chamada fecha quando houver contratação.",
+    "discoveredVia": [
+      "GIJN Jobs Board",
+      "Our World in Data — Jobs"
+    ],
+    "discoveryUrl": "https://gijn.org/jobs/writer/"
+  },
+  {
     "value": "US$ 54.500–62.000 anuais para empregados nos EUA; faixa internacional não informada",
     "duration": "Tempo integral; contratação aberta até preenchimento da vaga",
     "modality": "Remota · aberta a candidaturas de qualquer país",

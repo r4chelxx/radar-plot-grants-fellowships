@@ -1,6 +1,17 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.tools=[
   {
+    "id": "ocrmypdf",
+    "name": "OCRmyPDF",
+    "kind": "OCR local e open-source para tornar PDFs digitalizados pesquisáveis",
+    "url": "https://ocrmypdf.readthedocs.io/en/latest/",
+    "desc": "Aplicação e biblioteca Python que adiciona uma camada de texto pesquisável a PDFs escaneados usando Tesseract, preservando o conteúdo original sempre que possível. Oferece correção de inclinação, otimização, saída PDF/A, processamento em lote, Docker, API e plugins, sendo útil para transformar dossiês e documentos públicos digitalizados em acervos pesquisáveis sem enviá-los a serviços externos. A precisão depende da qualidade da imagem e do idioma configurado; não reconhece manuscritos, pode errar a ordem de leitura em múltiplas colunas e gerar texto incorreto. PDFs potencialmente maliciosos exigem isolamento e todo resultado jornalístico deve ser conferido na imagem original.",
+    "discoveredVia": [
+      "OCRmyPDF"
+    ],
+    "discoveryUrl": "https://ocrmypdf.readthedocs.io/en/latest/introduction.html"
+  },
+  {
     "id": "llamaindex-liteparse",
     "name": "LiteParse",
     "kind": "parser local e open-source de PDFs e documentos com OCR opcional",
