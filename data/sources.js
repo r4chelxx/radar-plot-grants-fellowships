@@ -1,6 +1,30 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.sources=[
   {
+    "name": "Climate TRACE",
+    "url": "https://climatetrace.org/data",
+    "type": "Inventário global de emissões, API, dados geoespaciais e metodologias setoriais",
+    "scope": "Global",
+    "role": "fonte oficial",
+    "priority": "Alta",
+    "cadence": "mensal",
+    "category": "clima/dados",
+    "lastChecked": "2026-10-07",
+    "checkStatus": "verificada"
+  },
+  {
+    "name": "OCRmyPDF",
+    "url": "https://ocrmypdf.readthedocs.io/en/latest/",
+    "type": "Documentação e lançamentos de OCR local e processamento de PDFs",
+    "scope": "Global",
+    "role": "fonte oficial",
+    "priority": "Média",
+    "cadence": "mensal",
+    "category": "dados/visual",
+    "lastChecked": "2026-10-07",
+    "checkStatus": "verificada"
+  },
+  {
     "name": "Overture Maps Foundation",
     "url": "https://docs.overturemaps.org/",
     "type": "Dados cartográficos globais abertos, esquemas, lançamentos e ferramentas geoespaciais",
@@ -509,11 +533,11 @@ window.RADAR_PARTS.sources=[
     "type": "Oportunidades / investigação",
     "scope": "Global",
     "priority": "Alta",
-    "url": "https://gijn.org/topic/opportunities/",
+    "url": "https://gijn.org/",
     "cadence": "quinzenal",
     "category": "oportunidades",
-    "lastChecked": "2026-09-24",
-    "checkStatus": "auditoria inicial"
+    "lastChecked": "2026-10-07",
+    "checkStatus": "verificada"
   },
   {
     "name": "Knight Center",
@@ -677,7 +701,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://ijnet.org/en/opportunities",
     "cadence": "diária",
     "category": "oportunidades",
-    "lastChecked": "2026-10-06",
+    "lastChecked": "2026-10-07",
     "checkStatus": "verificada"
   },
   {
@@ -931,7 +955,7 @@ window.RADAR_PARTS.sources=[
     "url": null,
     "cadence": "diária",
     "category": "ecossistema/formação",
-    "lastChecked": "2026-10-06",
+    "lastChecked": "2026-10-07",
     "checkStatus": "verificada"
   },
   {
@@ -1019,7 +1043,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://fapesp.br/oportunidades/",
     "cadence": "diária",
     "category": "oportunidades",
-    "lastChecked": "2026-10-06",
+    "lastChecked": "2026-10-07",
     "checkStatus": "verificada"
   },
   {
@@ -1195,7 +1219,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://gijn.org/jobs",
     "cadence": "diária",
     "category": "dados/visual",
-    "lastChecked": "2026-10-06",
+    "lastChecked": "2026-10-07",
     "checkStatus": "verificada"
   },
   {
@@ -1206,7 +1230,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://gijn.org/rounduplink/",
     "cadence": "diária",
     "category": "oportunidades",
-    "lastChecked": "2026-10-06",
+    "lastChecked": "2026-10-07",
     "checkStatus": "verificada"
   },
   {
@@ -1272,8 +1296,8 @@ window.RADAR_PARTS.sources=[
     "url": "https://ourworldindata.org/jobs",
     "cadence": "quinzenal",
     "category": "dados/visual",
-    "lastChecked": "2026-09-24",
-    "checkStatus": "auditoria inicial"
+    "lastChecked": "2026-10-07",
+    "checkStatus": "verificada"
   },
   {
     "name": "CTRL+J Alliance",
