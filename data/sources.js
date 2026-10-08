@@ -1,6 +1,18 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.sources=[
   {
+    "name": "ANA/SNIRH — Geosserviços de Outorgas",
+    "url": "https://www.snirh.gov.br/arcgis/rest/services/SRE/OutorgasDireitodeUso/FeatureServer",
+    "type": "Geosserviço oficial com registros de outorgas federais de uso de recursos hídricos e consultas ArcGIS REST",
+    "scope": "Brasil",
+    "role": "fonte oficial",
+    "priority": "Alta",
+    "cadence": "mensal",
+    "category": "dados/visual",
+    "lastChecked": "2026-10-08",
+    "checkStatus": "verificada"
+  },
+  {
     "name": "Observatório da Imprensa",
     "url": "https://www.observatoriodaimprensa.com.br/",
     "type": "Análise de mídia, jornalismo, tecnologia e ferramentas para redações; newsletter editorial",
@@ -17,18 +29,6 @@ window.RADAR_PARTS.sources=[
     "url": "https://jeowp.org/",
     "type": "Documentação, lançamentos e código aberto para geojornalismo",
     "scope": "Global / Brasil",
-    "role": "fonte oficial",
-    "priority": "Média",
-    "cadence": "mensal",
-    "category": "dados/visual",
-    "lastChecked": "2026-10-08",
-    "checkStatus": "verificada"
-  },
-  {
-    "name": "Surface Transportation Board — Reports & Data",
-    "url": "https://www.stb.gov/reports-data/",
-    "type": "Portal oficial de dados ferroviários e séries econômicas dos EUA",
-    "scope": "Estados Unidos",
     "role": "fonte oficial",
     "priority": "Média",
     "cadence": "mensal",
