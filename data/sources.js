@@ -1,6 +1,30 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.sources=[
   {
+    "name": "JEO Maps / InfoAmazonia",
+    "url": "https://jeowp.org/",
+    "type": "Documentação, lançamentos e código aberto para geojornalismo",
+    "scope": "Global / Brasil",
+    "role": "fonte oficial",
+    "priority": "Média",
+    "cadence": "mensal",
+    "category": "dados/visual",
+    "lastChecked": "2026-10-08",
+    "checkStatus": "verificada"
+  },
+  {
+    "name": "Surface Transportation Board — Reports & Data",
+    "url": "https://www.stb.gov/reports-data/",
+    "type": "Portal oficial de dados ferroviários e séries econômicas dos EUA",
+    "scope": "Estados Unidos",
+    "role": "fonte oficial",
+    "priority": "Média",
+    "cadence": "mensal",
+    "category": "dados/visual",
+    "lastChecked": "2026-10-08",
+    "checkStatus": "verificada"
+  },
+  {
     "name": "Climate TRACE",
     "url": "https://climatetrace.org/data",
     "type": "Inventário global de emissões, API, dados geoespaciais e metodologias setoriais",
@@ -177,7 +201,7 @@ window.RADAR_PARTS.sources=[
     "priority": "Alta",
     "cadence": "semanal",
     "category": "oportunidades",
-    "lastChecked": "2026-10-02",
+    "lastChecked": "2026-10-08",
     "checkStatus": "verificada"
   },
   {
@@ -955,7 +979,7 @@ window.RADAR_PARTS.sources=[
     "url": null,
     "cadence": "diária",
     "category": "ecossistema/formação",
-    "lastChecked": "2026-10-07",
+    "lastChecked": "2026-10-08",
     "checkStatus": "verificada"
   },
   {
@@ -1043,7 +1067,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://fapesp.br/oportunidades/",
     "cadence": "diária",
     "category": "oportunidades",
-    "lastChecked": "2026-10-07",
+    "lastChecked": "2026-10-08",
     "checkStatus": "verificada"
   },
   {
@@ -1219,7 +1243,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://gijn.org/jobs",
     "cadence": "diária",
     "category": "dados/visual",
-    "lastChecked": "2026-10-07",
+    "lastChecked": "2026-10-08",
     "checkStatus": "verificada"
   },
   {
@@ -1230,7 +1254,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://gijn.org/rounduplink/",
     "cadence": "diária",
     "category": "oportunidades",
-    "lastChecked": "2026-10-07",
+    "lastChecked": "2026-10-08",
     "checkStatus": "verificada"
   },
   {
