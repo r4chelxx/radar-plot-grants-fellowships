@@ -39,7 +39,7 @@ window.RADAR_PARTS.changelog=[
   {
     "date": "2026-10-08",
     "type": "fontes",
-    "title": "Duas fontes oficiais passam a ser monitoradas",
+    "title": "Três fontes entram no catálogo de monitoramento",
     "items": [
       {
         "id": "stb-reports-data",
@@ -48,9 +48,13 @@ window.RADAR_PARTS.changelog=[
       {
         "id": "jeo-maps-infoamazonia",
         "title": "JEO Maps / InfoAmazonia"
+      },
+      {
+        "id": "observatorio-da-imprensa",
+        "title": "Observatório da Imprensa"
       }
     ],
-    "detail": "Adicionados monitoramentos mensais do STB e JEO. Gmail Radar PLOT.: triagem de mensagens de 26–31/08 e recentes de outubro."
+    "detail": "Fontes STB e JEO Maps adicionadas com cadência mensal; Observatório da Imprensa incluído como fonte semanal de descoberta, após identificar JEO Maps na edição de 28/08. Gmail Radar PLOT.: triagem de mensagens antigas de 26–31/08 e recentes de outubro."
   },
   {
     "date": "2026-10-07",
