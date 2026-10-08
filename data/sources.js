@@ -1,6 +1,18 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.sources=[
   {
+    "name": "Observatório da Imprensa",
+    "url": "https://www.observatoriodaimprensa.com.br/",
+    "type": "Análise de mídia, jornalismo, tecnologia e ferramentas para redações; newsletter editorial",
+    "scope": "Brasil",
+    "role": "newsletter / descoberta",
+    "priority": "Média",
+    "cadence": "semanal",
+    "category": "ecossistema/formação",
+    "lastChecked": "2026-10-08",
+    "checkStatus": "verificada"
+  },
+  {
     "name": "JEO Maps / InfoAmazonia",
     "url": "https://jeowp.org/",
     "type": "Documentação, lançamentos e código aberto para geojornalismo",
