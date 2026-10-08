@@ -1,36 +1,39 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.datasets=[
   {
-    "id": "stb-us-rail-open-data-portal",
-    "name": "Surface Transportation Board — Open Data Portal (Beta)",
-    "org": "Surface Transportation Board (STB), EUA",
-    "territoryTier": "Outros",
-    "kind": "portal",
+    "id": "ana-outorgas-federais-geoservico",
+    "name": "ANA/SNIRH — Outorgas Federais de Uso da Água (geosserviço)",
+    "org": "Agência Nacional de Águas e Saneamento Básico (ANA) / Sistema Nacional de Informações sobre Recursos Hídricos (SNIRH)",
+    "territoryTier": "Brasil",
+    "kind": "dataset",
     "themes": [
-      "Transportes",
-      "Ferrovias",
+      "Água",
+      "Recursos hídricos",
+      "Meio ambiente",
       "Infraestrutura",
-      "Economia",
-      "Trabalho",
       "Transparência",
-      "Dados abertos"
+      "Regulação",
+      "Geodados",
+      "Data centers"
     ],
-    "coverage": "Estados Unidos · desempenho operacional ferroviário, terminais, movimentação de cargas, emprego e séries econômicas reguladas pelo STB",
-    "frequency": "Semanal para indicadores de serviço ferroviário; mensal para emprego; demais séries variam",
-    "format": "Tabelas, downloads estruturados e API Huwise/Opendatasoft",
-    "period": "Histórico variável por conjunto; conferir metadados e data de atualização na ficha",
-    "granularity": "Operadora, terminal, rota ou indicador e período conforme dataset",
-    "geoUnit": "Estados Unidos, operadora ferroviária, terminal e região conforme conjunto",
-    "api": "https://stb.opendatasoft.com/pages/homepage/ — seção API; endpoints específicos nas fichas",
-    "docs": "https://www.stb.gov/reports-data/",
-    "limitations": "Portal beta com aviso oficial de erros, lacunas e funções indisponíveis. Cobertura exclusiva dos EUA e de operadores sujeitos ao reporte STB. Comparações dependem de definições, periodicidade e unidades de cada dataset; consultar metadados e metodologia.",
+    "coverage": "Brasil · outorgas preventivas e de direito de uso de recursos hídricos emitidas pela ANA em corpos d'água de domínio federal, com identificação de usos e referência à resolução da agência",
+    "frequency": "Não informada na documentação pública do serviço; conferir atualização da camada antes de cada uso",
+    "format": "Serviço geográfico ArcGIS FeatureServer com consultas REST em JSON e coordenadas WGS 84 (EPSG:4326)",
+    "period": "Outorgas registradas a partir de 2001, conforme descrição oficial do serviço; data final e completude devem ser conferidas na camada",
+    "granularity": "Registro individual de outorga, uso e localização; campos específicos conforme metadados da camada",
+    "geoUnit": "Brasil; pontos/registros georreferenciados das outorgas federais, com possibilidade de recorte por estado e bacia",
+    "api": "https://www.snirh.gov.br/arcgis/rest/services/SRE/OutorgasDireitodeUso/FeatureServer/0 — camada Outorgas Federais (0), consultas REST JSON; MaxRecordCount 2000 por requisição, exigir paginação",
+    "docs": "https://www.snirh.gov.br/portal/snirh-1/paineis-de-indicadores/regulacao-de-usos-de-recursos-hidricos-1",
+    "limitations": "A base cobre outorgas federais emitidas pela ANA, não a totalidade de captações nem outorgas estaduais, como as administradas pelo INEMA na Bahia. Outorga é autorização, não volume efetivamente captado. Para investigar data centers e disputa por água, cruzar com registros do INEMA, licenciamento ambiental e dados de consumo, validando a vigência e a precisão geográfica dos registros. A documentação não explicita frequência de atualização.",
     "lastChecked": "2026-10-08",
-    "story": [],
-    "url": "https://stb.opendatasoft.com/pages/homepage/",
-    "discoveredVia": [
-      "Surface Transportation Board — Reports & Data"
+    "story": [
+      "data-centers"
     ],
-    "discoveryUrl": "https://www.stb.gov/reports-data/"
+    "url": "https://www.snirh.gov.br/arcgis/rest/services/SRE/OutorgasDireitodeUso/FeatureServer/0",
+    "discoveredVia": [
+      "ANA/SNIRH — Geosserviços de Outorgas"
+    ],
+    "discoveryUrl": "https://www.snirh.gov.br/arcgis/rest/services/SRE/OutorgasDireitodeUso/FeatureServer"
   },
   {
     "id": "climate-trace-emissions-inventory",
