@@ -1,6 +1,38 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.datasets=[
   {
+    "id": "stb-us-rail-open-data-portal",
+    "name": "Surface Transportation Board — Open Data Portal (Beta)",
+    "org": "Surface Transportation Board (STB), EUA",
+    "territoryTier": "Outros",
+    "kind": "portal",
+    "themes": [
+      "Transportes",
+      "Ferrovias",
+      "Infraestrutura",
+      "Economia",
+      "Trabalho",
+      "Transparência",
+      "Dados abertos"
+    ],
+    "coverage": "Estados Unidos · desempenho operacional ferroviário, terminais, movimentação de cargas, emprego e séries econômicas reguladas pelo STB",
+    "frequency": "Semanal para indicadores de serviço ferroviário; mensal para emprego; demais séries variam",
+    "format": "Tabelas, downloads estruturados e API Huwise/Opendatasoft",
+    "period": "Histórico variável por conjunto; conferir metadados e data de atualização na ficha",
+    "granularity": "Operadora, terminal, rota ou indicador e período conforme dataset",
+    "geoUnit": "Estados Unidos, operadora ferroviária, terminal e região conforme conjunto",
+    "api": "https://stb.opendatasoft.com/pages/homepage/ — seção API; endpoints específicos nas fichas",
+    "docs": "https://www.stb.gov/reports-data/",
+    "limitations": "Portal beta com aviso oficial de erros, lacunas e funções indisponíveis. Cobertura exclusiva dos EUA e de operadores sujeitos ao reporte STB. Comparações dependem de definições, periodicidade e unidades de cada dataset; consultar metadados e metodologia.",
+    "lastChecked": "2026-10-08",
+    "story": [],
+    "url": "https://stb.opendatasoft.com/pages/homepage/",
+    "discoveredVia": [
+      "Surface Transportation Board — Reports & Data"
+    ],
+    "discoveryUrl": "https://www.stb.gov/reports-data/"
+  },
+  {
     "id": "climate-trace-emissions-inventory",
     "name": "Climate TRACE — Inventário Global de Emissões",
     "org": "Climate TRACE Coalition",
