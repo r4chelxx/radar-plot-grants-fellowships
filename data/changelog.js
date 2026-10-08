@@ -15,14 +15,14 @@ window.RADAR_PARTS.changelog=[
   {
     "date": "2026-10-08",
     "type": "dados",
-    "title": "STB abre catálogo beta de dados ferroviários",
+    "title": "ANA disponibiliza geosserviço de outorgas federais de uso da água",
     "items": [
       {
-        "id": "stb-us-rail-open-data-portal",
-        "title": "Surface Transportation Board — Open Data Portal (Beta)"
+        "id": "ana-outorgas-federais-geoservico",
+        "title": "ANA/SNIRH — Outorgas Federais de Uso da Água (geosserviço)"
       }
     ],
-    "detail": "Portal oficial dos EUA com séries de serviço ferroviário e emprego, downloads e API, ainda em beta."
+    "detail": "Substitui o catálogo ferroviário norte-americano por registros georreferenciados de outorgas federais da ANA desde 2001, acessíveis via ArcGIS REST. Útil para apuração de uso da água, com ressalva de que não cobre outorgas estaduais nem consumo efetivo."
   },
   {
     "date": "2026-10-08",
@@ -39,11 +39,11 @@ window.RADAR_PARTS.changelog=[
   {
     "date": "2026-10-08",
     "type": "fontes",
-    "title": "Três fontes entram no catálogo de monitoramento",
+    "title": "Três fontes de monitoramento editorial e de dados",
     "items": [
       {
-        "id": "stb-reports-data",
-        "title": "Surface Transportation Board — Reports & Data"
+        "id": "ana-snirh-outorgas-geosservicos",
+        "title": "ANA/SNIRH — Geosserviços de Outorgas"
       },
       {
         "id": "jeo-maps-infoamazonia",
@@ -54,7 +54,7 @@ window.RADAR_PARTS.changelog=[
         "title": "Observatório da Imprensa"
       }
     ],
-    "detail": "Fontes STB e JEO Maps adicionadas com cadência mensal; Observatório da Imprensa incluído como fonte semanal de descoberta, após identificar JEO Maps na edição de 28/08. Gmail Radar PLOT.: triagem de mensagens antigas de 26–31/08 e recentes de outubro."
+    "detail": "Entram ANA/SNIRH — Geosserviços de Outorgas (mensal), JEO Maps / InfoAmazonia (mensal) e Observatório da Imprensa (semanal). A fonte ferroviária norte-americana foi descartada por baixa aderência às pautas PLOT."
   },
   {
     "date": "2026-10-07",
