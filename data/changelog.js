@@ -1,6 +1,58 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
   {
+    "date": "2026-10-08",
+    "type": "nova-oportunidade",
+    "title": "GIJN abre inscrições para bolsas da GIJC27",
+    "items": [
+      {
+        "id": "gijc27",
+        "title": "GIJC27 — fellowship para conferência de jornalismo investigativo"
+      }
+    ],
+    "detail": "Chamada confirmada até 31/01/2027; bolsa integral ou parcial, prioridade ao Sul Global e custos não cobertos discriminados."
+  },
+  {
+    "date": "2026-10-08",
+    "type": "dados",
+    "title": "STB abre catálogo beta de dados ferroviários",
+    "items": [
+      {
+        "id": "stb-us-rail-open-data-portal",
+        "title": "Surface Transportation Board — Open Data Portal (Beta)"
+      }
+    ],
+    "detail": "Portal oficial dos EUA com séries de serviço ferroviário e emprego, downloads e API, ainda em beta."
+  },
+  {
+    "date": "2026-10-08",
+    "type": "ferramentas",
+    "title": "JEO Maps entra no catálogo de geojornalismo",
+    "items": [
+      {
+        "id": "infoamazonia-jeo-maps",
+        "title": "JEO Maps — InfoAmazonia"
+      }
+    ],
+    "detail": "Plugin WordPress open-source identificado em newsletter do Observatório da Imprensa de 28/08 e confirmado na documentação oficial."
+  },
+  {
+    "date": "2026-10-08",
+    "type": "fontes",
+    "title": "Duas fontes oficiais passam a ser monitoradas",
+    "items": [
+      {
+        "id": "stb-reports-data",
+        "title": "Surface Transportation Board — Reports & Data"
+      },
+      {
+        "id": "jeo-maps-infoamazonia",
+        "title": "JEO Maps / InfoAmazonia"
+      }
+    ],
+    "detail": "Adicionados monitoramentos mensais do STB e JEO. Gmail Radar PLOT.: triagem de mensagens de 26–31/08 e recentes de outubro."
+  },
+  {
     "date": "2026-10-07",
     "type": "nova-oportunidade",
     "title": "Our World in Data abre vaga internacional para escrita baseada em dados",
