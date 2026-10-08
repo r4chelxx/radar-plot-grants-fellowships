@@ -1,6 +1,17 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.tools=[
   {
+    "id": "infoamazonia-jeo-maps",
+    "name": "JEO Maps — InfoAmazonia",
+    "kind": "plugin WordPress open-source para geojornalismo, storymaps e geolocalização",
+    "url": "https://wordpress.org/plugins/jeowp/",
+    "desc": "Plugin aberto da InfoAmazonia para mapas interativos, storymaps, camadas geográficas e reportagens geolocalizadas no WordPress. Suporta MapLibre/Mapbox, geocodificação por Nominatim, geolocalização em lote e recursos opcionais de IA. Exige WordPress e não funciona diretamente no site React/Lovable do PLOT. sem adaptação; coordenadas e sugestões geradas automaticamente precisam de revisão editorial e de privacidade.",
+    "discoveredVia": [
+      "Observatório da Imprensa"
+    ],
+    "discoveryUrl": "https://www.observatoriodaimprensa.com.br/codesinfo/infoamazonia-lanca-nova-versao-do-jeo-plugin-de-codigo-aberto-que-une-geojornalismo-e-ia/"
+  },
+  {
     "id": "ocrmypdf",
     "name": "OCRmyPDF",
     "kind": "OCR local e open-source para tornar PDFs digitalizados pesquisáveis",
