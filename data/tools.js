@@ -1,6 +1,17 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.tools=[
   {
+    "id": "wikimedia-xtools",
+    "name": "XTools — Wikimedia",
+    "kind": "auditoria de histórico, autoria e padrões de edição na Wikipédia",
+    "url": "https://xtools.wmcloud.org/",
+    "desc": "Conjunto de ferramentas públicas mantidas no ecossistema Wikimedia para investigar históricos de artigos, participação de editores, autoria por caracteres, contribuições entre projetos, edições automatizadas e mudanças de texto. O Page History permite filtros temporais e análise dos principais editores, com API documentada. Útil como ponto de partida para investigar operações de influência e alterações coordenadas na Wikipédia, mas correlações de edição não demonstram identidade comum ou manipulação. Algumas análises examinam no máximo as 20 mil revisões mais recentes e detecção de reversões tem limitações.",
+    "discoveredVia": [
+      "Wikimedia XTools"
+    ],
+    "discoveryUrl": "https://www.mediawiki.org/wiki/XTools/Page_History"
+  },
+  {
     "id": "infoamazonia-jeo-maps",
     "name": "JEO Maps — InfoAmazonia",
     "kind": "plugin WordPress open-source para geojornalismo, storymaps e geolocalização",
