@@ -285,7 +285,7 @@ window.RADAR_PARTS.sources=[
     "priority": "Alta",
     "cadence": "semanal",
     "category": "oportunidades",
-    "lastChecked": "2026-10-08",
+    "lastChecked": "2026-10-09",
     "checkStatus": "verificada"
   },
   {
@@ -644,7 +644,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://gijn.org/",
     "cadence": "quinzenal",
     "category": "oportunidades",
-    "lastChecked": "2026-10-07",
+    "lastChecked": "2026-10-09",
     "checkStatus": "verificada"
   },
   {
@@ -831,7 +831,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://reutersinstitute.politics.ox.ac.uk/",
     "cadence": "semanal",
     "category": "oportunidades",
-    "lastChecked": "2026-10-02",
+    "lastChecked": "2026-10-09",
     "checkStatus": "verificada"
   },
   {
@@ -1151,7 +1151,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://fapesp.br/oportunidades/",
     "cadence": "diária",
     "category": "oportunidades",
-    "lastChecked": "2026-10-08",
+    "lastChecked": "2026-10-09",
     "checkStatus": "verificada"
   },
   {
@@ -1327,7 +1327,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://gijn.org/jobs",
     "cadence": "diária",
     "category": "dados/visual",
-    "lastChecked": "2026-10-08",
+    "lastChecked": "2026-10-09",
     "checkStatus": "verificada"
   },
   {
@@ -1338,7 +1338,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://gijn.org/rounduplink/",
     "cadence": "diária",
     "category": "oportunidades",
-    "lastChecked": "2026-10-08",
+    "lastChecked": "2026-10-09",
     "checkStatus": "verificada"
   },
   {

@@ -1,6 +1,17 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.tools=[
   {
+    "id": "meaningfully-semantic-search",
+    "name": "Meaningfully",
+    "kind": "busca semântica local em planilhas e arquivos CSV",
+    "url": "https://github.com/jeremybmerrill/meaningfully",
+    "desc": "Aplicativo open-source criado para jornalistas pesquisarem por significado em uma coluna de texto, mesmo quando os registros não repetem as mesmas palavras. Importa CSV ou planilhas, gera embeddings localmente e permite opcionalmente usar uma chave da OpenAI; também pode ser executado pela linha de comando. É útil para localizar padrões e exemplos em respostas abertas, denúncias ou grandes listas, mas está em estágio alfa, pode ser lento, não é recomendado para mais de 100 mil linhas e os resultados semânticos precisam de revisão humana. Há instaladores para macOS e Linux; o suporte a Windows não foi testado pelo projeto.",
+    "discoveredVia": [
+      "GIJN"
+    ],
+    "discoveryUrl": "https://gijn.org/stories/toolbox-search-text-spreadsheet-track-website-changes/"
+  },
+  {
     "id": "wikimedia-xtools",
     "name": "XTools — Wikimedia",
     "kind": "auditoria de histórico, autoria e padrões de edição na Wikipédia",

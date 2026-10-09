@@ -1,6 +1,38 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.datasets=[
   {
+    "id": "reuters-digital-news-report-interactive",
+    "name": "Digital News Report 2026 — painel interativo e dados históricos",
+    "org": "Reuters Institute for the Study of Journalism / University of Oxford",
+    "territoryTier": "Outros",
+    "kind": "dataset",
+    "themes": [
+      "Jornalismo",
+      "Mídia",
+      "Consumo de notícias",
+      "Confiança",
+      "Plataformas",
+      "Desinformação",
+      "Tecnologia"
+    ],
+    "coverage": "Mercados de seis continentes pesquisados pelo Digital News Report, com indicadores comparáveis sobre acesso, confiança, pagamento, plataformas e formatos de notícia; a composição de países varia por edição",
+    "frequency": "Anual",
+    "format": "Painel interativo com gráficos e download de dados para os principais indicadores; relatório e metodologia em HTML/PDF",
+    "period": "Mais de uma década de levantamentos até a edição 2026; a extensão histórica varia conforme mercado e indicador",
+    "granularity": "Respostas de survey agregadas por mercado, ano, perfil demográfico e indicador disponível no painel",
+    "geoUnit": "País/mercado; recortes sociodemográficos variam por indicador e amostra",
+    "api": "API pública não identificada; exportação pelo painel interativo para os indicadores disponibilizados",
+    "docs": "https://reutersinstitute.politics.ox.ac.uk/digital-news-report/2026/methodology",
+    "limitations": "A pesquisa de 2026 foi realizada online pela YouGov entre meados de janeiro e o fim de fevereiro, com cotas e ponderação por idade, gênero e região. Amostras online não representam igualmente pessoas sem acesso ou com baixa conectividade; resultados são autorrelatados e diferenças entre mercados, traduções, composição da amostra e mudanças de questionário exigem cautela. Conferir a metodologia e a base de cada indicador antes de comparar anos ou países.",
+    "lastChecked": "2026-10-09",
+    "story": [],
+    "url": "https://reutersinstitute.politics.ox.ac.uk/digital-news-report/interactive",
+    "discoveredVia": [
+      "Reuters Institute"
+    ],
+    "discoveryUrl": "https://reutersinstitute.politics.ox.ac.uk/digital-news-report/interactive"
+  },
+  {
     "id": "sisagua-amostras-fora-padrao",
     "name": "SISAGUA — Amostras de água fora do padrão de potabilidade",
     "org": "Ministério da Saúde / SISAGUA",

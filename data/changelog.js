@@ -2,6 +2,37 @@ window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
   {
     "date": "2026-10-09",
+    "type": "dados",
+    "title": "Digital News Report 2026: painel e série histórica",
+    "items": [
+      {
+        "id": "reuters-digital-news-report-interactive",
+        "title": "Digital News Report 2026 — painel interativo e dados históricos"
+      }
+    ],
+    "detail": "Base internacional do Reuters Institute com mais de uma década de indicadores sobre consumo, confiança, pagamento e plataformas de notícias; metodologia e limitações de survey online registradas no catálogo."
+  },
+  {
+    "date": "2026-10-09",
+    "type": "ferramentas",
+    "title": "Meaningfully: busca semântica local em planilhas",
+    "items": [
+      {
+        "id": "meaningfully-semantic-search",
+        "title": "Meaningfully"
+      }
+    ],
+    "detail": "Ferramenta open-source para localizar trechos por significado em CSV e planilhas; estágio alfa, limites de escala e necessidade de revisão humana descritos no registro."
+  },
+  {
+    "date": "2026-10-09",
+    "type": "varredura",
+    "title": "Oportunidades revisadas sem nova inclusão elegível",
+    "items": [],
+    "detail": "Varredura ativa no Brasil, América Latina e exterior, incluindo fontes diárias e vencidas, Grants for Journalists, GFMD e pesquisa temática. As chamadas localizadas estavam encerradas, já catalogadas ou restritas a perfis e territórios incompatíveis. Backfill do Gmail Radar PLOT. revisou 20 mensagens de 07/06/2018 a 14/05/2020; não houve candidato ainda válido para inclusão."
+  },
+  {
+    "date": "2026-10-09",
     "type": "fontes",
     "title": "Curadorias internacionais de grants: Grants for Journalists e GFMD",
     "items": [
