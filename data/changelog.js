@@ -1,6 +1,46 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
   {
+    "date": "2026-10-09",
+    "type": "dados",
+    "title": "Rodada extra 1: análises mensais de qualidade da água no SISAGUA",
+    "items": [
+      {
+        "id": "sisagua-controle-mensal-parametros-basicos",
+        "title": "SISAGUA — Controle mensal de parâmetros básicos da água"
+      }
+    ],
+    "detail": "Dados oficiais por prestador e período; recursos atualizados em 02/10/2026. Não mede uso industrial de água; dados requerem avaliação de cobertura e consistência."
+  },
+  {
+    "date": "2026-10-09",
+    "type": "ferramentas",
+    "title": "Rodada extra 1: XTools para auditar edições da Wikipédia",
+    "items": [
+      {
+        "id": "wikimedia-xtools",
+        "title": "XTools — Wikimedia"
+      }
+    ],
+    "detail": "Análise de histórico, autoria e padrões de edição, identificada em newsletter Indicator e confirmada na documentação oficial Wikimedia."
+  },
+  {
+    "date": "2026-10-09",
+    "type": "fontes",
+    "title": "Rodada extra 1: fontes oficiais SUS e Wikimedia",
+    "items": [
+      {
+        "id": "portal-dados-abertos-sus",
+        "title": "Portal de Dados Abertos do SUS"
+      },
+      {
+        "id": "wikimedia-xtools-source",
+        "title": "Wikimedia XTools"
+      }
+    ],
+    "detail": "Novas fontes recorrentes, com cadências semanal e mensal."
+  },
+  {
     "date": "2026-10-08",
     "type": "nova-oportunidade",
     "title": "GIJN abre inscrições para bolsas da GIJC27",
