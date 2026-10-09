@@ -4,7 +4,7 @@ const fs = require('node:fs');
 const base = (process.env.RADAR_URL || 'https://r4chelxx.github.io/radar-plot-grants-fellowships/').replace(/\/$/, '/');
 const changelog = fs.readFileSync('data/changelog.js', 'utf8');
 const today = new Date().toISOString().slice(0, 10);
-const dates = [...changelog.matchAll(/20\d{2}-\d{2}-\d{2}/g)].map(m => m[0]).sort().reverse();
+const dates = [...changelog.matchAll(/"date"\s*:\s*"(20\d{2}-\d{2}-\d{2})"/g)].map(m => m[1]).sort().reverse();
 const latest = dates[0];
 if (!latest) throw new Error('No dated changelog entries found');
 async function get(path) {
