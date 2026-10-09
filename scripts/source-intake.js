@@ -8,9 +8,8 @@ const sources = [...text.matchAll(/"name"\s*:\s*"([^"]+)"[\s\S]*?"url"\s*:\s*"(h
 const unique = [...new Map(sources.map(s=>[s.url,s])).values()];
 // Rotate batches across the complete catalog. The report includes coverage metadata.
 const limit = Math.max(1, Number(process.env.SOURCE_LIMIT || 15));
-const dayIndex = Math.floor(Date.now()/86400000);
-const batchCount = Math.ceil(unique.length / limit);
-const batchIndex = dayIndex % batchCount;
+const batchCount = Math.max(1,Math.ceil(unique.length / limit));
+const batchIndex = Math.floor(Date.now()/86400000) % batchCount;
 const selected = unique.slice(batchIndex*limit, (batchIndex+1)*limit);
 async function inspect(s) {
   const controller = new AbortController();
