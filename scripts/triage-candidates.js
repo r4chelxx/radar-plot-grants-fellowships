@@ -16,6 +16,8 @@ for(const source of intake.results||[]){
  else if(!title)classification='not-extracted';
  report.results.push({source:source.name,url:source.url,classification,possibleMatches:duplicates.slice(0,5),sourcePageTitle:title||null,candidateTitle:null,deadline:null,eligibility:null,editoriallyVerified:false});
 }
+const classes=report.results.reduce((acc,x)=>(acc[x.classification]=(acc[x.classification]||0)+1,acc),{});
+report.summary={checked:report.results.length,classes,verifiedNewItems:{opportunities:0,datasets:0,tools:0},verificationNote:'No structured opportunities, datasets or tools are extracted from homepages; zeros mean none verified, not none available.'};
 fs.mkdirSync('intake',{recursive:true});
 fs.writeFileSync('intake/candidate-triage.json',JSON.stringify(report,null,2)+'\n');
-console.log(JSON.stringify({checked:report.results.length,matches:report.results.filter(x=>x.classification==='catalog-match').length,homepages:report.results.filter(x=>x.classification==='source-homepage-only').length}));
+console.log(JSON.stringify(report.summary));
