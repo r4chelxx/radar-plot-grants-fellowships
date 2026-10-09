@@ -18,6 +18,19 @@ for(const source of intake.results||[]){
 }
 const classes=report.results.reduce((acc,x)=>(acc[x.classification]=(acc[x.classification]||0)+1,acc),{});
 report.summary={checked:report.results.length,classes,verifiedNewItems:{opportunities:0,datasets:0,tools:0},verificationNote:'No structured opportunities, datasets or tools are extracted from homepages; zeros mean none verified, not none available.'};
+const leads=[];const seenLeads=new Set();
+for(const source of intake.results||[])for(const link of source.leads||[]){
+ const url=String(link.url||'').replace(/\/$/,'');
+ if(!url||seenLeads.has(url))continue;
+ seenLeads.add(url);
+ const matches=known.filter(x=>x.url&&x.url.replace(/\/$/,'')===url||normalize(x.name)===normalize(link.label));
+ const label=String(link.label||'');
+ const category=/grant|fellowship|bolsa|funding|financiamento|edital|call for|apply/i.test(label)?'opportunities':/dataset|dados abertos|open data|base de dados/i.test(label)?'datasets':/tool|ferramenta/i.test(label)?'tools':'uncategorized';
+ leads.push({source:source.name,title:label,url,category,classification:matches.length?'catalog-match':'needs-editorial-review',possibleMatches:matches.slice(0,5),deadline:null,eligibility:null,editoriallyVerified:false});
+}
+report.leads=leads;
+report.summary.linkLeads=leads.length;
+report.summary.unverifiedLinkLeads=leads.filter(x=>x.classification==='needs-editorial-review').length;
 fs.mkdirSync('intake',{recursive:true});
 fs.writeFileSync('intake/candidate-triage.json',JSON.stringify(report,null,2)+'\n');
 console.log(JSON.stringify(report.summary));

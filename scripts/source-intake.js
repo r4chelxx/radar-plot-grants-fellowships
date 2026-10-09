@@ -18,7 +18,9 @@ async function inspect(s) {
     const response = await fetch(s.url,{signal:controller.signal,headers:{'user-agent':'RadarPLOT-monitor/1.0'}});
     const body = (await response.text()).slice(0,100000);
     const title = (body.match(/<title[^>]*>([^<]{3,200})<\/title>/i)||[])[1] || '';
-    return {name:s.name,url:s.url,httpStatus:response.status,accessStatus:response.ok?'accessible':'http-error',extractionStatus:title?'html-title-only':'no-title',editorialStatus:'unverified',title:title.replace(/\s+/g,' ').trim(),fingerprint:crypto.createHash('sha256').update(body).digest('hex').slice(0,16),checkedAt:new Date().toISOString(),reviewRequired:true};
+    const links=[...body.matchAll(/<a\b[^>]*href=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi)].slice(0,300).map(m=>{try{return {url:new URL(m[1],response.url).href,label:m[2].replace(/<[^>]+>/g,' ').replace(/&amp;/g,'&').replace(/\s+/g,' ').trim().slice(0,160)}}catch{return null}}).filter(x=>x&&/^https?:/.test(x.url)&&x.label.length>=12);
+    const leads=links.filter(x=>/grant|fellowship|bolsa|financiamento|funding|call for|chamada|edital|application|apply|dataset|dados abertos|open data|tool|ferramenta/i.test(x.label)).slice(0,25);
+    return {name:s.name,url:s.url,leads,httpStatus:response.status,accessStatus:response.ok?'accessible':'http-error',extractionStatus:title?'html-title-only':'no-title',editorialStatus:'unverified',title:title.replace(/\s+/g,' ').trim(),fingerprint:crypto.createHash('sha256').update(body).digest('hex').slice(0,16),checkedAt:new Date().toISOString(),reviewRequired:true};
   } catch(error) {
     return {name:s.name,url:s.url,accessStatus:'failed',extractionStatus:'not-attempted',editorialStatus:'unverified',error:String(error),checkedAt:new Date().toISOString(),reviewRequired:true};
   } finally {clearTimeout(timer);}
