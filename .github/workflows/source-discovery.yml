@@ -1,0 +1,37 @@
+name: Radar source discovery
+on:
+  schedule:
+    - cron: '30 10 * * *'
+  workflow_dispatch:
+permissions:
+  contents: read
+  issues: write
+concurrency:
+  group: radar-source-discovery
+  cancel-in-progress: false
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Inspect monitored source websites
+        run: node scripts/source-intake.js
+      - uses: actions/upload-artifact@v4
+        with:
+          name: source-intake-${{ github.run_id }}
+          path: intake/source-review.json
+          if-no-files-found: error
+      - name: Link report in daily editorial queue
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          day=$(TZ=America/Bahia date +%F)
+          title="Radar editorial: $day"
+          issue=$(gh issue list --state open --search "$title in:title" --json number,title --jq ".[] | select(.title == \"$title\") | .number" | head -n 1)
+          if [ -n "$issue" ]; then
+            gh issue comment "$issue" --body "Relatório de fontes disponível como artefato desta execução: https://github.com/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}. Leads não foram verificados editorialmente nem publicados."
+          fi
