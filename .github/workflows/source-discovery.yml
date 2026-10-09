@@ -20,10 +20,10 @@ jobs:
           node-version: '22'
       - name: Inspect monitored source websites
         run: node scripts/source-intake.js
-      - uses: actions/upload-artifact@v4
+      - name: Compare extracted titles against catalog entries\n        run: node scripts/triage-candidates.js\n      - uses: actions/upload-artifact@v4
         with:
           name: source-intake-${{ github.run_id }}
-          path: intake/source-review.json
+          path: |\n            intake/source-review.json\n            intake/candidate-triage.json
           if-no-files-found: error
       - name: Link report in daily editorial queue
         env:
