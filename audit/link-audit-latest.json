@@ -1,10 +1,11 @@
 {
-  "checkedAt": "2026-10-09T00:30:42.387Z",
+  "checkedAt": "2026-10-09T12:21:48.865Z",
   "policy": "404/410 becomes broken only after appearing as suspect or broken in the previous audit; blocked and network results are inconclusive",
   "counts": {
-    "ok": 268,
-    "blocked": 28,
-    "network": 25
+    "ok": 276,
+    "blocked": 29,
+    "network": 25,
+    "server": 1
   },
   "results": [
     {
@@ -209,11 +210,11 @@
       "type": "opportunity",
       "id": "pulitzer-data",
       "url": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/data-journalism-grants",
-      "status": 403,
+      "status": 200,
       "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/data-journalism-grants",
-      "class": "blocked",
+      "class": "ok",
       "attempts": [
-        403
+        200
       ]
     },
     {
@@ -682,22 +683,22 @@
       "type": "opportunity",
       "id": "pulitzer-gender",
       "url": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/gender-equality-grant",
-      "status": 200,
+      "status": 403,
       "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/gender-equality-grant",
-      "class": "ok",
+      "class": "blocked",
       "attempts": [
-        200
+        403
       ]
     },
     {
       "type": "opportunity",
       "id": "pulitzer-global",
       "url": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/global-reporting-grants",
-      "status": 200,
+      "status": 403,
       "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/global-reporting-grants",
-      "class": "ok",
+      "class": "blocked",
       "attempts": [
-        200
+        403
       ]
     },
     {
@@ -779,6 +780,39 @@
     },
     {
       "type": "dataset",
+      "id": "reuters-digital-news-report-interactive",
+      "url": "https://reutersinstitute.politics.ox.ac.uk/digital-news-report/interactive",
+      "status": 200,
+      "finalUrl": "https://reutersinstitute.politics.ox.ac.uk/digital-news-report/interactive",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "sisagua-amostras-fora-padrao",
+      "url": "https://dadosabertos.saude.gov.br/dataset/sisagua-controle-mensal-amostras-fora-do-padrao",
+      "status": 200,
+      "finalUrl": "https://dadosabertos.saude.gov.br/dataset/sisagua-controle-mensal-amostras-fora-do-padrao",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "sisagua-controle-mensal-parametros-basicos",
+      "url": "https://dadosabertos.saude.gov.br/dataset/sisagua-controle-mensal-parametros-basicos",
+      "status": 200,
+      "finalUrl": "https://dadosabertos.saude.gov.br/dataset/sisagua-controle-mensal-parametros-basicos",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
       "id": "ana-outorgas-federais-geoservico",
       "url": "https://www.snirh.gov.br/arcgis/rest/services/SRE/OutorgasDireitodeUso/FeatureServer/0",
       "status": 200,
@@ -796,7 +830,6 @@
       "finalUrl": "https://climatetrace.org/data",
       "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
         200
       ]
     },
@@ -1173,11 +1206,12 @@
       "type": "dataset",
       "id": "bahia-transparencia",
       "url": "https://www.transparencia.ba.gov.br/Portal",
-      "status": 200,
+      "status": 500,
       "finalUrl": "https://www.transparencia.ba.gov.br/Portal",
-      "class": "ok",
+      "class": "server",
       "attempts": [
-        200
+        500,
+        500
       ]
     },
     {
@@ -2227,6 +2261,72 @@
     },
     {
       "type": "source",
+      "id": "GFMD — Funding Opportunities",
+      "url": "https://gfmd.info/fundings/",
+      "status": 200,
+      "finalUrl": "https://gfmd.info/fundings/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Grants for Journalists — catálogo",
+      "url": "https://grantsforjournalists.com/",
+      "status": 200,
+      "finalUrl": "https://grantsforjournalists.com/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Grants for Journalists — LinkedIn",
+      "url": "https://www.linkedin.com/company/grants-for-journalists/",
+      "status": 200,
+      "finalUrl": "https://www.linkedin.com/company/grants-for-journalists/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "quiteria-azmina",
+      "url": "https://www.elasnocongresso.com.br/",
+      "status": 200,
+      "finalUrl": "https://www.elasnocongresso.com.br/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Wikimedia XTools",
+      "url": "https://www.mediawiki.org/wiki/XTools",
+      "status": 200,
+      "finalUrl": "https://www.mediawiki.org/wiki/XTools",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Portal de Dados Abertos do SUS",
+      "url": "https://dadosabertos.saude.gov.br/dataset",
+      "status": 200,
+      "finalUrl": "https://dadosabertos.saude.gov.br/dataset",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
       "id": "ANA/SNIRH — Geosserviços de Outorgas",
       "url": "https://www.snirh.gov.br/arcgis/rest/services/SRE/OutorgasDireitodeUso/FeatureServer",
       "status": 200,
@@ -2684,6 +2784,7 @@
       "finalUrl": "https://www.generonumero.media/",
       "class": "ok",
       "attempts": [
+        "TypeError:fetch failed",
         200
       ]
     },
@@ -3316,6 +3417,28 @@
     },
     {
       "type": "tool",
+      "id": "meaningfully-semantic-search",
+      "url": "https://github.com/jeremybmerrill/meaningfully",
+      "status": 200,
+      "finalUrl": "https://github.com/jeremybmerrill/meaningfully",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "wikimedia-xtools",
+      "url": "https://xtools.wmcloud.org/",
+      "status": 200,
+      "finalUrl": "https://xtools.wmcloud.org/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
       "id": "infoamazonia-jeo-maps",
       "url": "https://wordpress.org/plugins/jeowp/",
       "status": 200,
@@ -3408,17 +3531,6 @@
       "url": "https://codesinfo.com.br/solucoes/mamute-politico/",
       "status": 200,
       "finalUrl": "https://codesinfo.com.br/solucoes/mamute-politico/",
-      "class": "ok",
-      "attempts": [
-        200
-      ]
-    },
-    {
-      "type": "tool",
-      "id": "quiteria-azmina",
-      "url": "https://codesinfo.com.br/solucoes/quiteria/",
-      "status": 200,
-      "finalUrl": "https://codesinfo.com.br/solucoes/quiteria/",
       "class": "ok",
       "attempts": [
         200
