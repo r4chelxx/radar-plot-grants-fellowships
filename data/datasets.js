@@ -1,6 +1,40 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.datasets=[
   {
+    "id": "health-at-a-glance-lac-2026",
+    "name": "Health at a Glance: Latin America and the Caribbean 2026",
+    "org": "OCDE / Banco Interamericano de Desenvolvimento / Banco Mundial",
+    "territoryTier": "Outros",
+    "kind": "curated-source",
+    "themes": [
+      "Saúde pública",
+      "Desigualdades",
+      "Mortalidade",
+      "Sistemas de saúde",
+      "Gastos públicos",
+      "Saúde digital",
+      "Gênero"
+    ],
+    "coverage": "América Latina e Caribe · indicadores comparáveis de estado de saúde, mortalidade, fatores de risco, acesso e qualidade do cuidado, gastos, força de trabalho, envelhecimento e infraestrutura digital; inclui Brasil",
+    "frequency": "Edição periódica; a publicação regional de 2026 foi lançada em 29/09/2026",
+    "format": "Relatório HTML navegável, tabelas e gráficos incorporados, PDF e links para fontes estatísticas originais",
+    "period": "Anos de referência variam por indicador; a edição compara séries e fotografias recentes, em geral até 2023–2025, conforme disponibilidade nacional",
+    "granularity": "Indicador agregado por país, ano e recortes como sexo, idade ou tipo de serviço quando disponíveis; algumas tabelas derivam de surveys institucionais específicos",
+    "geoUnit": "Países da América Latina e Caribe; não oferece desagregação municipal ou por estabelecimento",
+    "api": "Não há API específica do relatório; séries subjacentes podem estar no OECD Data Explorer, Banco Mundial, OMS/OPAS e fontes nacionais indicadas em cada capítulo",
+    "docs": "https://www.oecd.org/en/publications/health-at-a-glance-latin-america-and-the-caribbean-2026_445b3259-en.html",
+    "limitations": "É um compêndio harmonizado, não uma base primária única. Ano de referência, definição, cobertura e qualidade variam entre países e indicadores; algumas medidas vêm de respostas governamentais a surveys. Para apuração, registrar a fonte original indicada em cada tabela e evitar tratar lacunas ou ausência de marcação como inexistência do fenômeno.",
+    "lastChecked": "2026-10-09",
+    "story": [
+      "violencia-obstetrica"
+    ],
+    "url": "https://www.oecd.org/en/publications/health-at-a-glance-latin-america-and-the-caribbean-2026_445b3259-en.html",
+    "discoveredVia": [
+      "OECD Data"
+    ],
+    "discoveryUrl": "https://www.oecd.org/en/publications/health-at-a-glance-latin-america-and-the-caribbean-2026_445b3259-en.html"
+  },
+  {
     "id": "reuters-digital-news-report-interactive",
     "name": "Digital News Report 2026 — painel interativo e dados históricos",
     "org": "Reuters Institute for the Study of Journalism / University of Oxford",

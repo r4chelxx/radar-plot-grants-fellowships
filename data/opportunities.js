@@ -1,6 +1,118 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.opportunities=[
   {
+    "value": "€ 5.000–50.000 por projeto; € 1,2 milhão previstos para o esquema no ciclo 2026/27",
+    "duration": "Segunda chamada abre em 01/12/2026 e encerra em 02/02/2027; projetos financiados têm seis meses para publicação",
+    "modality": "Candidatura online em inglês · investigação transfronteiriça com núcleo europeu",
+    "documents": [
+      "formulário em inglês na plataforma Good Grants",
+      "proposta de investigação transfronteiriça e plano de trabalho",
+      "orçamento; o modelo do programa é recomendado, mas não obrigatório",
+      "carta de intenção de publicação, quando disponível"
+    ],
+    "restrictions": [
+      "a equipe precisa incluir jornalistas residentes em pelo menos dois países europeus participantes do Creative Europe",
+      "jornalistas no Brasil podem participar apenas como integrantes adicionais de uma equipe que cumpra o núcleo geográfico europeu",
+      "o projeto deve revelar informação nova e ter relevância transfronteiriça para públicos europeus",
+      "custos anteriores ao contrato e equipamento padrão não são financiados"
+    ],
+    "opens": "2026-12-01",
+    "verificationHistory": [
+      {
+        "date": "2026-10-09",
+        "status": "monitorar",
+        "source": "https://investigativejournalismforeu.net/grants/investigation-support-scheme/"
+      }
+    ],
+    "id": "ij4eu-investigation-support-second-call-2026",
+    "summary": "Segunda chamada do ciclo 2026/27 para financiar investigações transfronteiriças de interesse público lideradas por equipes com base em ao menos dois países europeus elegíveis.",
+    "title": "IJ4EU Investigation Support Scheme — segunda chamada 2026/27",
+    "org": "IJ4EU / International Press Institute",
+    "type": "Grant de reportagem",
+    "themes": [
+      "Jornalismo investigativo",
+      "Colaboração transfronteiriça",
+      "Direitos humanos",
+      "Clima",
+      "Saúde pública",
+      "Tecnologia",
+      "Corrupção"
+    ],
+    "scope": "Europa / colaboração global condicionada",
+    "deadline": "2027-02-02",
+    "deadlineStatus": "futuro_confirmado",
+    "eligibility": "parcial",
+    "fit": 7.5,
+    "status": "monitorar",
+    "story": [
+      "data-centers"
+    ],
+    "rules": "https://investigativejournalismforeu.net/grants/investigation-support-scheme/",
+    "apply": null,
+    "verified": "2026-10-09",
+    "desc": "Rachel e o PLOT. não podem liderar uma candidatura exclusivamente brasileira. A participação é possível se a investigação integrar uma equipe com jornalistas residentes em pelo menos dois países europeus elegíveis. Pode fazer sentido para uma expansão transnacional da pauta de data centers, desde que o interesse europeu seja substantivo e a parceria seja construída antes da abertura.",
+    "discoveredVia": [
+      "IJ4EU"
+    ],
+    "discoveryUrl": "https://investigativejournalismforeu.net/2026-27-calendar/"
+  },
+  {
+    "value": "Até € 20.000 por equipe, com mentoria, treinamento e networking; € 400 mil previstos para o esquema no ciclo 2026/27",
+    "duration": "Segunda chamada abre em 01/12/2026 e encerra em 02/02/2027; execução e apoio durante seis meses",
+    "modality": "Candidatura online em inglês · equipes predominantemente freelancers",
+    "documents": [
+      "formulário em inglês na plataforma Good Grants",
+      "proposta de investigação transfronteiriça e plano de trabalho",
+      "modelo obrigatório de orçamento do Freelancer Support Scheme",
+      "informações da equipe e estratégia de publicação"
+    ],
+    "restrictions": [
+      "a equipe deve ser composta predominantemente por freelancers",
+      "o núcleo precisa incluir jornalistas residentes em pelo menos dois países europeus participantes do Creative Europe",
+      "jornalistas no Brasil podem integrar a equipe, mas não substituem o requisito geográfico europeu",
+      "a investigação deve ter relevância direta para públicos europeus e revelar informação nova"
+    ],
+    "opens": "2026-12-01",
+    "verificationHistory": [
+      {
+        "date": "2026-10-09",
+        "status": "monitorar",
+        "source": "https://investigativejournalismforeu.net/grants/freelancer-support-scheme/"
+      }
+    ],
+    "id": "ij4eu-freelancer-support-second-call-2026",
+    "summary": "Grant e programa de apoio para equipes transfronteiriças compostas predominantemente por freelancers, com núcleo em pelo menos dois países europeus elegíveis.",
+    "title": "IJ4EU Freelancer Support Scheme — segunda chamada 2026/27",
+    "org": "IJ4EU / European Journalism Centre",
+    "type": "Grant de reportagem e mentoria",
+    "themes": [
+      "Jornalismo investigativo",
+      "Freelancers",
+      "Colaboração transfronteiriça",
+      "Mentoria",
+      "Clima",
+      "Direitos humanos",
+      "Tecnologia"
+    ],
+    "scope": "Europa / colaboração global condicionada",
+    "deadline": "2027-02-02",
+    "deadlineStatus": "futuro_confirmado",
+    "eligibility": "parcial",
+    "fit": 7,
+    "status": "monitorar",
+    "story": [
+      "data-centers"
+    ],
+    "rules": "https://investigativejournalismforeu.net/grants/freelancer-support-scheme/",
+    "apply": null,
+    "verified": "2026-10-09",
+    "desc": "A trilha combina financiamento e mentoria, mas exige uma equipe majoritariamente freelancer com integrantes residentes em ao menos dois países europeus elegíveis. Para Rachel, só é acionável mediante parceria internacional já estruturada e uma investigação com relevância europeia demonstrável; monitorar para decidir antes da abertura de dezembro.",
+    "discoveredVia": [
+      "IJ4EU"
+    ],
+    "discoveryUrl": "https://investigativejournalismforeu.net/2026-27-calendar/"
+  },
+  {
     "value": "£ 80.000–120.000 anuais, conforme experiência e localização; residência de escrita remunerada antes da eventual oferta",
     "duration": "Tempo integral, com horários flexíveis; meio período pode ser considerado. Candidaturas analisadas mensalmente até preenchimento da vaga",
     "modality": "Remota internacional ou Oxford, Reino Unido; exige alguma sobreposição com o horário de trabalho britânico",

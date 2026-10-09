@@ -2,6 +2,66 @@ window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
   {
     "date": "2026-10-09",
+    "type": "nova-oportunidade",
+    "title": "IJ4EU 2026/27: duas chamadas futuras para investigação transfronteiriça",
+    "items": [
+      {
+        "id": "ij4eu-investigation-support-second-call-2026",
+        "title": "IJ4EU Investigation Support Scheme — segunda chamada 2026/27"
+      },
+      {
+        "id": "ij4eu-freelancer-support-second-call-2026",
+        "title": "IJ4EU Freelancer Support Scheme — segunda chamada 2026/27"
+      }
+    ],
+    "detail": "Chamadas confirmadas para 01/12/2026–02/02/2027. Brasileiros podem integrar equipes, mas cada candidatura precisa ter membros residentes em pelo menos dois países europeus elegíveis; recomendação é monitorar e estruturar parceria antes da abertura."
+  },
+  {
+    "date": "2026-10-09",
+    "type": "dados",
+    "title": "Indicadores comparáveis de saúde na América Latina e Caribe",
+    "items": [
+      {
+        "id": "health-at-a-glance-lac-2026",
+        "title": "Health at a Glance: Latin America and the Caribbean 2026"
+      }
+    ],
+    "detail": "Compêndio de OCDE, BID e Banco Mundial, lançado em 29/09/2026, com indicadores de saúde, desigualdade, gastos, qualidade do cuidado e digitalização; limitações de comparabilidade registradas."
+  },
+  {
+    "date": "2026-10-09",
+    "type": "ferramentas",
+    "title": "DesagregaBiomasBR: dados ambientais oficiais dentro do QGIS",
+    "items": [
+      {
+        "id": "desagrega-biomas-br",
+        "title": "DesagregaBiomasBR"
+      }
+    ],
+    "detail": "Plugin FAO–INPE com assistente para selecionar e recortar PRODES, DETER, TerraClass e Área Queimada por territórios e áreas de interesse."
+  },
+  {
+    "date": "2026-10-09",
+    "type": "fontes",
+    "title": "Novas fontes oficiais para grants, saúde e monitoramento ambiental",
+    "items": [
+      {
+        "id": "ij4eu",
+        "title": "IJ4EU"
+      },
+      {
+        "id": "oecd-data",
+        "title": "OECD Data"
+      },
+      {
+        "id": "inpe-biomasbr-desagrega",
+        "title": "INPE — BiomasBR / DesagregaBiomasBR"
+      }
+    ],
+    "detail": "Fontes oficiais adicionadas com cadências semanal e mensal. Gmail Radar PLOT.: seis mensagens novas de 09/10 foram revisadas e o backfill avançou por 20 mensagens entre 01/06/2020 e 14/09/2021; não houve item ainda válido e ausente no catálogo a partir desses e-mails."
+  },
+  {
+    "date": "2026-10-09",
     "type": "dados",
     "title": "Digital News Report 2026: painel e série histórica",
     "items": [
