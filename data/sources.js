@@ -1,6 +1,42 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.sources=[
   {
+    "name": "GFMD — Funding Opportunities",
+    "url": "https://gfmd.info/fundings/",
+    "type": "Diretório global de financiamento para jornalismo, organizações de mídia e projetos de desenvolvimento de mídia; filtros por região, tema e prazo",
+    "scope": "Global / América Latina / Brasil",
+    "role": "curadoria / descoberta",
+    "priority": "Alta",
+    "cadence": "semanal",
+    "category": "oportunidades",
+    "lastChecked": "2026-10-09",
+    "checkStatus": "verificada"
+  },
+  {
+    "name": "Grants for Journalists — catálogo",
+    "url": "https://grantsforjournalists.com/",
+    "type": "Base pesquisável de grants, fellowships, financiamento para redações e materiais de candidatura",
+    "scope": "Global, com concentração histórica nos EUA",
+    "role": "curadoria / descoberta",
+    "priority": "Alta",
+    "cadence": "semanal",
+    "category": "oportunidades",
+    "lastChecked": "2026-10-09",
+    "checkStatus": "verificada"
+  },
+  {
+    "name": "Grants for Journalists — LinkedIn",
+    "url": "https://www.linkedin.com/company/grants-for-journalists/",
+    "type": "Curadoria internacional de oportunidades, editais e bolsas para jornalistas; publicações frequentes no LinkedIn",
+    "scope": "Global, com forte presença de oportunidades dos EUA e internacionais",
+    "role": "curadoria / descoberta",
+    "priority": "Alta",
+    "cadence": "diária",
+    "category": "oportunidades",
+    "lastChecked": "2026-10-09",
+    "checkStatus": "verificada"
+  },
+  {
     "name": "AzMina / Elas no Congresso",
     "url": "https://www.elasnocongresso.com.br/",
     "type": "Monitoramento legislativo de gênero, raça e direitos; plataforma QuitérIA e metodologia aberta",
