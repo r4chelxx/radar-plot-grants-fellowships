@@ -25,11 +25,15 @@ for(const source of intake.results||[])for(const link of source.leads||[]){
  seenLeads.add(url);
  const matches=known.filter(x=>x.url&&x.url.replace(/\/$/,'')===url||normalize(x.name)===normalize(link.label));
  const label=String(link.label||'');
+ const years=[...label.matchAll(/\b20(?:1\d|2\d|3\d)\b/g)].map(x=>Number(x[0]));
+ const currentYear=new Date().getUTCFullYear();
+ const historical=years.length>0&&Math.max(...years)<currentYear;
  const category=/grant|fellowship|bolsa|funding|financiamento|edital|call for|apply/i.test(label)?'opportunities':/dataset|dados abertos|open data|base de dados/i.test(label)?'datasets':/tool|ferramenta/i.test(label)?'tools':'uncategorized';
- leads.push({source:source.name,title:label,url,category,classification:matches.length?'catalog-match':'needs-editorial-review',possibleMatches:matches.slice(0,5),deadline:null,eligibility:null,editoriallyVerified:false});
+ leads.push({source:source.name,title:label,url,category,classification:matches.length?'catalog-match':historical?'historical-reference':'needs-editorial-review',possibleMatches:matches.slice(0,5),deadline:null,eligibility:null,editoriallyVerified:false});
 }
 report.leads=leads;
 report.summary.linkLeads=leads.length;
+report.summary.historicalReferences=leads.filter(x=>x.classification==='historical-reference').length;
 report.summary.unverifiedLinkLeads=leads.filter(x=>x.classification==='needs-editorial-review').length;
 fs.mkdirSync('intake',{recursive:true});
 fs.writeFileSync('intake/candidate-triage.json',JSON.stringify(report,null,2)+'\n');
