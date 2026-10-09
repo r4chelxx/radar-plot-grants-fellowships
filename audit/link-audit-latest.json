@@ -1,13 +1,34 @@
 {
-  "checkedAt": "2026-10-09T12:21:48.865Z",
+  "checkedAt": "2026-10-09T12:42:40.426Z",
   "policy": "404/410 becomes broken only after appearing as suspect or broken in the previous audit; blocked and network results are inconclusive",
   "counts": {
-    "ok": 276,
-    "blocked": 29,
-    "network": 25,
-    "server": 1
+    "ok": 281,
+    "blocked": 31,
+    "network": 26
   },
   "results": [
+    {
+      "type": "opportunity",
+      "id": "ij4eu-investigation-support-second-call-2026",
+      "url": "https://investigativejournalismforeu.net/grants/investigation-support-scheme/",
+      "status": 200,
+      "finalUrl": "https://investigativejournalismforeu.net/grants/investigation-support-scheme/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "ij4eu-freelancer-support-second-call-2026",
+      "url": "https://investigativejournalismforeu.net/grants/freelancer-support-scheme/",
+      "status": 200,
+      "finalUrl": "https://investigativejournalismforeu.net/grants/freelancer-support-scheme/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
     {
       "type": "opportunity",
       "id": "our-world-in-data-writer-2026",
@@ -780,6 +801,17 @@
     },
     {
       "type": "dataset",
+      "id": "health-at-a-glance-lac-2026",
+      "url": "https://www.oecd.org/en/publications/health-at-a-glance-latin-america-and-the-caribbean-2026_445b3259-en.html",
+      "status": 403,
+      "finalUrl": "https://www.oecd.org/en/publications/health-at-a-glance-latin-america-and-the-caribbean-2026_445b3259-en.html",
+      "class": "blocked",
+      "attempts": [
+        403
+      ]
+    },
+    {
+      "type": "dataset",
       "id": "reuters-digital-news-report-interactive",
       "url": "https://reutersinstitute.politics.ox.ac.uk/digital-news-report/interactive",
       "status": 200,
@@ -1206,12 +1238,11 @@
       "type": "dataset",
       "id": "bahia-transparencia",
       "url": "https://www.transparencia.ba.gov.br/Portal",
-      "status": 500,
+      "status": 200,
       "finalUrl": "https://www.transparencia.ba.gov.br/Portal",
-      "class": "server",
+      "class": "ok",
       "attempts": [
-        500,
-        500
+        200
       ]
     },
     {
@@ -1831,11 +1862,13 @@
       "type": "dataset",
       "id": "sesab-mortalidade-materna",
       "url": "https://biobr.saude.ba.gov.br/static/obitomaterno.php",
-      "status": 200,
-      "finalUrl": "https://biobr.saude.ba.gov.br/static/obitomaterno.php",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "TypeError:fetch failed",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -2254,6 +2287,39 @@
       "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/dados-abertos/cadastros",
       "status": 200,
       "finalUrl": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/dados-abertos/cadastros",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "IJ4EU",
+      "url": "https://investigativejournalismforeu.net/grants/",
+      "status": 200,
+      "finalUrl": "https://investigativejournalismforeu.net/grants/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "OECD Data",
+      "url": "https://www.oecd.org/en/data.html",
+      "status": 403,
+      "finalUrl": "https://www.oecd.org/en/data.html",
+      "class": "blocked",
+      "attempts": [
+        403
+      ]
+    },
+    {
+      "type": "source",
+      "id": "INPE — BiomasBR / DesagregaBiomasBR",
+      "url": "https://data.inpe.br/biomasbr/",
+      "status": 200,
+      "finalUrl": "https://data.inpe.br/biomasbr/",
       "class": "ok",
       "attempts": [
         200
@@ -3410,6 +3476,17 @@
       "url": "https://journaliststudio.google.com/",
       "status": 200,
       "finalUrl": "https://journaliststudio.google.com/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "desagrega-biomas-br",
+      "url": "https://plugins.qgis.org/plugins/DesagregaBiomasBR/",
+      "status": 200,
+      "finalUrl": "https://plugins.qgis.org/plugins/DesagregaBiomasBR/",
       "class": "ok",
       "attempts": [
         200
