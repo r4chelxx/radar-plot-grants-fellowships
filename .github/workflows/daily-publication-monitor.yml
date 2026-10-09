@@ -1,0 +1,39 @@
+name: Radar daily publication monitor
+on:
+  schedule:
+    - cron: '20 11 * * *'
+  workflow_dispatch:
+permissions:
+  contents: read
+  issues: write
+concurrency:
+  group: radar-publication-monitor
+  cancel-in-progress: false
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate published source
+        run: node scripts/validate-data.js
+      - name: Check Pages content and freshness
+        env:
+          RADAR_URL: https://r4chelxx.github.io/radar-plot-grants-fellowships/
+        run: node scripts/check-publication.js
+      - name: Create or update a single failure issue
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          issue=$(gh issue list --state open --label radar-monitor --json number --jq '.[0].number' || true)
+          message="Radar monitor failed on $(date -u +%FT%TZ). Check run: https://github.com/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}. This does not confirm a daily editorial update."
+          if [ -n "$issue" ]; then
+            gh issue comment "$issue" --body "$message"
+          else
+            gh label create radar-monitor --color B60205 --description "Radar monitoring failure" --force
+            gh issue create --title "Radar: publication monitor failure" --label radar-monitor --body "$message"
+          fi
