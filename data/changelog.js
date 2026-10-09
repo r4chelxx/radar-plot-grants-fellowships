@@ -2,6 +2,26 @@ window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
   {
     "date": "2026-10-09",
+    "type": "fontes",
+    "title": "Curadorias internacionais de grants: Grants for Journalists e GFMD",
+    "items": [
+      {
+        "id": "grants-for-journalists-linkedin",
+        "title": "Grants for Journalists — LinkedIn"
+      },
+      {
+        "id": "grants-for-journalists-catalogo",
+        "title": "Grants for Journalists — catálogo"
+      },
+      {
+        "id": "gfmd-funding-opportunities",
+        "title": "GFMD — Funding Opportunities"
+      }
+    ],
+    "detail": "Nova frente de descoberta independente: monitoramento diário do LinkedIn Grants for Journalists, revisão semanal de seu catálogo e diretório de financiamento GFMD. Todas as chamadas identificadas exigem confirmação de prazo e elegibilidade na fonte primária; curadorias podem conter anúncios encerrados ou atrasados."
+  },
+  {
+    "date": "2026-10-09",
     "type": "dados",
     "title": "Rodada extra 2: SISAGUA fora do padrão e revisão SINASC 2026",
     "items": [
