@@ -1,6 +1,28 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.tools=[
   {
+    "id": "meaningfully-semantic-search",
+    "name": "Meaningfully",
+    "kind": "busca semântica local em planilhas e arquivos CSV",
+    "url": "https://github.com/jeremybmerrill/meaningfully",
+    "desc": "Aplicativo open-source criado para jornalistas pesquisarem por significado em uma coluna de texto, mesmo quando os registros não repetem as mesmas palavras. Importa CSV ou planilhas, gera embeddings localmente e permite opcionalmente usar uma chave da OpenAI; também pode ser executado pela linha de comando. É útil para localizar padrões e exemplos em respostas abertas, denúncias ou grandes listas, mas está em estágio alfa, pode ser lento, não é recomendado para mais de 100 mil linhas e os resultados semânticos precisam de revisão humana. Há instaladores para macOS e Linux; o suporte a Windows não foi testado pelo projeto.",
+    "discoveredVia": [
+      "GIJN"
+    ],
+    "discoveryUrl": "https://gijn.org/stories/toolbox-search-text-spreadsheet-track-website-changes/"
+  },
+  {
+    "id": "wikimedia-xtools",
+    "name": "XTools — Wikimedia",
+    "kind": "auditoria de histórico, autoria e padrões de edição na Wikipédia",
+    "url": "https://xtools.wmcloud.org/",
+    "desc": "Conjunto de ferramentas públicas mantidas no ecossistema Wikimedia para investigar históricos de artigos, participação de editores, autoria por caracteres, contribuições entre projetos, edições automatizadas e mudanças de texto. O Page History permite filtros temporais e análise dos principais editores, com API documentada. Útil como ponto de partida para investigar operações de influência e alterações coordenadas na Wikipédia, mas correlações de edição não demonstram identidade comum ou manipulação. Algumas análises examinam no máximo as 20 mil revisões mais recentes e detecção de reversões tem limitações.",
+    "discoveredVia": [
+      "Wikimedia XTools"
+    ],
+    "discoveryUrl": "https://www.mediawiki.org/wiki/XTools/Page_History"
+  },
+  {
     "id": "infoamazonia-jeo-maps",
     "name": "JEO Maps — InfoAmazonia",
     "kind": "plugin WordPress open-source para geojornalismo, storymaps e geolocalização",
@@ -149,12 +171,13 @@ window.RADAR_PARTS.tools=[
     "id": "quiteria-azmina",
     "name": "QuitérIA",
     "kind": "monitoramento legislativo de gênero e direitos humanos",
-    "url": "https://codesinfo.com.br/solucoes/quiteria/",
-    "desc": "Ferramenta open-source do Instituto AzMina integrada ao Elas no Congresso para identificar e classificar proposições relacionadas a mulheres, meninas, população negra e pessoas LGBTQIAPN+. Combina coleta legislativa, IA, validação humana e governança; oferece dados reutilizáveis e API pública, mas classificações devem ser lidas com sua metodologia e curadoria.",
+    "url": "https://www.elasnocongresso.com.br/",
+    "desc": "Ferramenta do Instituto AzMina, integrada ao Elas no Congresso, que coleta e classifica proposições da Câmara e do Senado com recorte de gênero, raça e direitos das mulheres e pessoas LGBTQIAPN+. A QuitérIA combina processamento de linguagem natural, dados abertos e validação por organizações parceiras; o código e a metodologia estão disponíveis no GitHub do Instituto AzMina. As avaliações automáticas são pistas editoriais, não prova de impacto jurídico ou intenção parlamentar: confirmar cada proposição nas fontes oficiais e examinar classificações e limitações do modelo.",
     "discoveredVia": [
-      "Codesinfo"
+      "AzMina / Elas no Congresso",
+      "Observatório da Imprensa"
     ],
-    "discoveryUrl": "https://codesinfo.com.br/solucoes/quiteria/"
+    "discoveryUrl": "https://azmina.com.br/reportagens/azmina-lanca-ia-feminista/"
   },
   {
     "id": "world-bank-data360-api",

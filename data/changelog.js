@@ -1,6 +1,137 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
   {
+    "date": "2026-10-09",
+    "type": "dados",
+    "title": "Digital News Report 2026: painel e série histórica",
+    "items": [
+      {
+        "id": "reuters-digital-news-report-interactive",
+        "title": "Digital News Report 2026 — painel interativo e dados históricos"
+      }
+    ],
+    "detail": "Base internacional do Reuters Institute com mais de uma década de indicadores sobre consumo, confiança, pagamento e plataformas de notícias; metodologia e limitações de survey online registradas no catálogo."
+  },
+  {
+    "date": "2026-10-09",
+    "type": "ferramentas",
+    "title": "Meaningfully: busca semântica local em planilhas",
+    "items": [
+      {
+        "id": "meaningfully-semantic-search",
+        "title": "Meaningfully"
+      }
+    ],
+    "detail": "Ferramenta open-source para localizar trechos por significado em CSV e planilhas; estágio alfa, limites de escala e necessidade de revisão humana descritos no registro."
+  },
+  {
+    "date": "2026-10-09",
+    "type": "varredura",
+    "title": "Oportunidades revisadas sem nova inclusão elegível",
+    "items": [],
+    "detail": "Varredura ativa no Brasil, América Latina e exterior, incluindo fontes diárias e vencidas, Grants for Journalists, GFMD e pesquisa temática. As chamadas localizadas estavam encerradas, já catalogadas ou restritas a perfis e territórios incompatíveis. Backfill do Gmail Radar PLOT. revisou 20 mensagens de 07/06/2018 a 14/05/2020; não houve candidato ainda válido para inclusão."
+  },
+  {
+    "date": "2026-10-09",
+    "type": "fontes",
+    "title": "Curadorias internacionais de grants: Grants for Journalists e GFMD",
+    "items": [
+      {
+        "id": "grants-for-journalists-linkedin",
+        "title": "Grants for Journalists — LinkedIn"
+      },
+      {
+        "id": "grants-for-journalists-catalogo",
+        "title": "Grants for Journalists — catálogo"
+      },
+      {
+        "id": "gfmd-funding-opportunities",
+        "title": "GFMD — Funding Opportunities"
+      }
+    ],
+    "detail": "Nova frente de descoberta independente: monitoramento diário do LinkedIn Grants for Journalists, revisão semanal de seu catálogo e diretório de financiamento GFMD. Todas as chamadas identificadas exigem confirmação de prazo e elegibilidade na fonte primária; curadorias podem conter anúncios encerrados ou atrasados."
+  },
+  {
+    "date": "2026-10-09",
+    "type": "dados",
+    "title": "Rodada extra 2: SISAGUA fora do padrão e revisão SINASC 2026",
+    "items": [
+      {
+        "id": "sisagua-amostras-fora-padrao",
+        "title": "SISAGUA — Amostras de água fora do padrão de potabilidade"
+      },
+      {
+        "id": "sinasc",
+        "title": "SINASC — Sistema de Informações sobre Nascidos Vivos"
+      }
+    ],
+    "detail": "Novo conjunto de amostras fora do padrão atualizado em 02/10; SINASC revalidado com segunda prévia de 2026 e ressalvas sobre revisões de dados."
+  },
+  {
+    "date": "2026-10-09",
+    "type": "ferramentas",
+    "title": "Rodada extra 2: QuitérIA atualizada com fonte e metodologia oficiais",
+    "items": [
+      {
+        "id": "quiteria-azmina",
+        "title": "QuitérIA — AzMina"
+      }
+    ],
+    "detail": "Registro existente revalidado e corrigido para o painel oficial Elas no Congresso, com descrição de IA, código aberto e revisão humana; identificado em newsletter de 11/09."
+  },
+  {
+    "date": "2026-10-09",
+    "type": "fontes",
+    "title": "Rodada extra 2: AzMina / Elas no Congresso",
+    "items": [
+      {
+        "id": "azmina-elas-no-congresso",
+        "title": "AzMina / Elas no Congresso"
+      }
+    ],
+    "detail": "Nova fonte semanal. Triagem complementar do Gmail Radar PLOT. incluiu newsletters de 11–15/09 e 06–09/10; candidaturas encerradas e registros já existentes não foram duplicados."
+  },
+  {
+    "date": "2026-10-09",
+    "type": "dados",
+    "title": "Rodada extra 1: análises mensais de qualidade da água no SISAGUA",
+    "items": [
+      {
+        "id": "sisagua-controle-mensal-parametros-basicos",
+        "title": "SISAGUA — Controle mensal de parâmetros básicos da água"
+      }
+    ],
+    "detail": "Dados oficiais por prestador e período; recursos atualizados em 02/10/2026. Não mede uso industrial de água; dados requerem avaliação de cobertura e consistência."
+  },
+  {
+    "date": "2026-10-09",
+    "type": "ferramentas",
+    "title": "Rodada extra 1: XTools para auditar edições da Wikipédia",
+    "items": [
+      {
+        "id": "wikimedia-xtools",
+        "title": "XTools — Wikimedia"
+      }
+    ],
+    "detail": "Análise de histórico, autoria e padrões de edição, identificada em newsletter Indicator e confirmada na documentação oficial Wikimedia."
+  },
+  {
+    "date": "2026-10-09",
+    "type": "fontes",
+    "title": "Rodada extra 1: fontes oficiais SUS e Wikimedia",
+    "items": [
+      {
+        "id": "portal-dados-abertos-sus",
+        "title": "Portal de Dados Abertos do SUS"
+      },
+      {
+        "id": "wikimedia-xtools-source",
+        "title": "Wikimedia XTools"
+      }
+    ],
+    "detail": "Novas fontes recorrentes, com cadências semanal e mensal."
+  },
+  {
     "date": "2026-10-08",
     "type": "nova-oportunidade",
     "title": "GIJN abre inscrições para bolsas da GIJC27",
