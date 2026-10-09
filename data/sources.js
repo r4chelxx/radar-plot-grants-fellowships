@@ -1,6 +1,42 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.sources=[
   {
+    "name": "IJ4EU",
+    "url": "https://investigativejournalismforeu.net/grants/",
+    "type": "Chamadas e calendário de grants para jornalismo investigativo transfronteiriço europeu",
+    "scope": "Europa / colaboração internacional condicionada",
+    "role": "fonte oficial",
+    "priority": "Alta",
+    "cadence": "semanal",
+    "category": "oportunidades",
+    "lastChecked": "2026-10-09",
+    "checkStatus": "verificada"
+  },
+  {
+    "name": "OECD Data",
+    "url": "https://www.oecd.org/en/data.html",
+    "type": "Indicadores, relatórios, painéis e documentação estatística internacional",
+    "scope": "Global / América Latina / Brasil",
+    "role": "fonte oficial",
+    "priority": "Alta",
+    "cadence": "mensal",
+    "category": "dados/visual",
+    "lastChecked": "2026-10-09",
+    "checkStatus": "verificada"
+  },
+  {
+    "name": "INPE — BiomasBR / DesagregaBiomasBR",
+    "url": "https://data.inpe.br/biomasbr/",
+    "type": "Monitoramento oficial dos biomas brasileiros e ferramentas de acesso a PRODES, DETER, TerraClass e Área Queimada",
+    "scope": "Brasil",
+    "role": "fonte oficial",
+    "priority": "Alta",
+    "cadence": "mensal",
+    "category": "clima/dados",
+    "lastChecked": "2026-10-09",
+    "checkStatus": "verificada"
+  },
+  {
     "name": "GFMD — Funding Opportunities",
     "url": "https://gfmd.info/fundings/",
     "type": "Diretório global de financiamento para jornalismo, organizações de mídia e projetos de desenvolvimento de mídia; filtros por região, tema e prazo",

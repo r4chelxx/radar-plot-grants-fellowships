@@ -1,6 +1,17 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.tools=[
   {
+    "id": "desagrega-biomas-br",
+    "name": "DesagregaBiomasBR",
+    "kind": "plugin QGIS para seleção, recorte e desagregação de dados ambientais oficiais",
+    "url": "https://plugins.qgis.org/plugins/DesagregaBiomasBR/",
+    "desc": "Plugin gratuito desenvolvido no âmbito do AIM4Forests por FAO e INPE. Oferece um assistente guiado no QGIS para acessar e recortar dados oficiais do PRODES, DETER, TerraClass e Área Queimada por estado, município, propriedade, bacia ou área de interesse. A versão estável 1.1 é compatível com QGIS 3.x e o código está disponível no GitHub. Facilita mapas e cruzamentos ambientais, mas não substitui a leitura das metodologias de cada produto; datas de referência, classes, resolução e regras de detecção variam e os resultados devem ser conferidos na fonte original.",
+    "discoveredVia": [
+      "INPE — BiomasBR / DesagregaBiomasBR"
+    ],
+    "discoveryUrl": "https://www.fao.org/in-action/aim4forests/news-and-events/news/news-detail/brazil-and-fao-join-forces-to-chart-the-way-forward-for-the-monitoring-of-brazil-s-forests-and-launch-a-technical-solution-that-simplifies-access-to-geospatial-data/en"
+  },
+  {
     "id": "meaningfully-semantic-search",
     "name": "Meaningfully",
     "kind": "busca semântica local em planilhas e arquivos CSV",
