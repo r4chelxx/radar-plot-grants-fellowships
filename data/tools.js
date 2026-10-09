@@ -160,12 +160,13 @@ window.RADAR_PARTS.tools=[
     "id": "quiteria-azmina",
     "name": "QuitérIA",
     "kind": "monitoramento legislativo de gênero e direitos humanos",
-    "url": "https://codesinfo.com.br/solucoes/quiteria/",
-    "desc": "Ferramenta open-source do Instituto AzMina integrada ao Elas no Congresso para identificar e classificar proposições relacionadas a mulheres, meninas, população negra e pessoas LGBTQIAPN+. Combina coleta legislativa, IA, validação humana e governança; oferece dados reutilizáveis e API pública, mas classificações devem ser lidas com sua metodologia e curadoria.",
+    "url": "https://www.elasnocongresso.com.br/",
+    "desc": "Ferramenta do Instituto AzMina, integrada ao Elas no Congresso, que coleta e classifica proposições da Câmara e do Senado com recorte de gênero, raça e direitos das mulheres e pessoas LGBTQIAPN+. A QuitérIA combina processamento de linguagem natural, dados abertos e validação por organizações parceiras; o código e a metodologia estão disponíveis no GitHub do Instituto AzMina. As avaliações automáticas são pistas editoriais, não prova de impacto jurídico ou intenção parlamentar: confirmar cada proposição nas fontes oficiais e examinar classificações e limitações do modelo.",
     "discoveredVia": [
-      "Codesinfo"
+      "AzMina / Elas no Congresso",
+      "Observatório da Imprensa"
     ],
-    "discoveryUrl": "https://codesinfo.com.br/solucoes/quiteria/"
+    "discoveryUrl": "https://azmina.com.br/reportagens/azmina-lanca-ia-feminista/"
   },
   {
     "id": "world-bank-data360-api",
