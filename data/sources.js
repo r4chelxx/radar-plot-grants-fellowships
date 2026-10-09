@@ -1,6 +1,18 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.sources=[
   {
+    "name": "AzMina / Elas no Congresso",
+    "url": "https://www.elasnocongresso.com.br/",
+    "type": "Monitoramento legislativo de gênero, raça e direitos; plataforma QuitérIA e metodologia aberta",
+    "scope": "Brasil",
+    "role": "fonte oficial",
+    "priority": "Alta",
+    "cadence": "semanal",
+    "category": "dados/visual",
+    "lastChecked": "2026-10-09",
+    "checkStatus": "verificada"
+  },
+  {
     "name": "Wikimedia XTools",
     "url": "https://www.mediawiki.org/wiki/XTools",
     "type": "Documentação oficial e atualização das ferramentas de auditoria e análise de histórico da Wikimedia",
@@ -45,7 +57,7 @@ window.RADAR_PARTS.sources=[
     "priority": "Média",
     "cadence": "semanal",
     "category": "ecossistema/formação",
-    "lastChecked": "2026-10-08",
+    "lastChecked": "2026-10-09",
     "checkStatus": "verificada"
   },
   {
@@ -141,7 +153,7 @@ window.RADAR_PARTS.sources=[
     "priority": "Alta",
     "cadence": "quinzenal",
     "category": "dados/visual",
-    "lastChecked": "2026-10-05",
+    "lastChecked": "2026-10-09",
     "checkStatus": "verificada"
   },
   {
@@ -750,8 +762,8 @@ window.RADAR_PARTS.sources=[
     "url": "https://www.journalismfund.eu/",
     "cadence": "quinzenal",
     "category": "oportunidades",
-    "lastChecked": "2026-09-24",
-    "checkStatus": "auditoria inicial"
+    "lastChecked": "2026-10-09",
+    "checkStatus": "verificada"
   },
   {
     "name": "IJNet",
@@ -761,7 +773,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://ijnet.org/en/opportunities",
     "cadence": "diária",
     "category": "oportunidades",
-    "lastChecked": "2026-10-07",
+    "lastChecked": "2026-10-09",
     "checkStatus": "verificada"
   },
   {
@@ -1015,7 +1027,7 @@ window.RADAR_PARTS.sources=[
     "url": null,
     "cadence": "diária",
     "category": "ecossistema/formação",
-    "lastChecked": "2026-10-08",
+    "lastChecked": "2026-10-09",
     "checkStatus": "verificada"
   },
   {
@@ -1401,7 +1413,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://indicator.media/",
     "cadence": "semanal",
     "category": "tecnologia/política pública",
-    "lastChecked": "2026-10-05",
+    "lastChecked": "2026-10-09",
     "checkStatus": "verificada"
   },
   {
