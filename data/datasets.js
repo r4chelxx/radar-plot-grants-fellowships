@@ -1,6 +1,40 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.datasets=[
   {
+    "id": "sisagua-controle-mensal-parametros-basicos",
+    "name": "SISAGUA — Controle mensal de parâmetros básicos da água",
+    "org": "Ministério da Saúde / SISAGUA / Vigilância da Qualidade da Água para Consumo Humano",
+    "territoryTier": "Brasil",
+    "kind": "dataset",
+    "themes": [
+      "Água",
+      "Saúde pública",
+      "Qualidade da água",
+      "Saneamento",
+      "Meio ambiente",
+      "Transparência",
+      "Geodados"
+    ],
+    "coverage": "Brasil · resultados de análises de baixa complexidade de qualidade da água para consumo humano reportados mensalmente pelos responsáveis por sistemas e soluções alternativas coletivas de abastecimento (SAA e SAC)",
+    "frequency": "Mensal (portal oficial)",
+    "format": "CSV, JSON, XML e API conforme recurso/ano; dicionário de dados ODT",
+    "period": "Séries anuais disponíveis ao menos desde 2014; recursos de 2025 e 2026 atualizados em 02/10/2026",
+    "granularity": "Registro de análise por parâmetro, amostra, forma de abastecimento, localidade e período conforme dicionário",
+    "geoUnit": "Brasil · municípios e formas de abastecimento; recortes adicionais dependem dos campos da base",
+    "api": "https://apidadosabertos.saude.gov.br/v1/#/SISAGUA/get_sisagua_controle_mensal_parametros_basicos",
+    "docs": "https://dadosabertos.saude.gov.br/dataset/sisagua-controle-mensal-parametros-basicos",
+    "limitations": "Mede água destinada ao consumo humano, não captação industrial nem consumo de data centers. Dados são informados por prestadores e não substituem a vigilância sanitária independente. Cobertura e qualidade variam por município, tipo de abastecimento, período e parâmetro; verificar dicionário e comparabilidade, sem inferir conformidade apenas da ausência de registros.",
+    "lastChecked": "2026-10-09",
+    "story": [
+      "data-centers"
+    ],
+    "url": "https://dadosabertos.saude.gov.br/dataset/sisagua-controle-mensal-parametros-basicos",
+    "discoveredVia": [
+      "Portal de Dados Abertos do SUS"
+    ],
+    "discoveryUrl": "https://dadosabertos.saude.gov.br/dataset/sisagua-controle-mensal-parametros-basicos"
+  },
+  {
     "id": "ana-outorgas-federais-geoservico",
     "name": "ANA/SNIRH — Outorgas Federais de Uso da Água (geosserviço)",
     "org": "Agência Nacional de Águas e Saneamento Básico (ANA) / Sistema Nacional de Informações sobre Recursos Hídricos (SNIRH)",
