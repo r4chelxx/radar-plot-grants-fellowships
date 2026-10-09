@@ -1,6 +1,41 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.datasets=[
   {
+    "id": "ana-outorgas-federais-geoservico",
+    "name": "ANA/SNIRH — Outorgas Federais de Uso da Água (geosserviço)",
+    "org": "Agência Nacional de Águas e Saneamento Básico (ANA) / Sistema Nacional de Informações sobre Recursos Hídricos (SNIRH)",
+    "territoryTier": "Brasil",
+    "kind": "dataset",
+    "themes": [
+      "Água",
+      "Recursos hídricos",
+      "Meio ambiente",
+      "Infraestrutura",
+      "Transparência",
+      "Regulação",
+      "Geodados",
+      "Data centers"
+    ],
+    "coverage": "Brasil · outorgas preventivas e de direito de uso de recursos hídricos emitidas pela ANA em corpos d'água de domínio federal, com identificação de usos e referência à resolução da agência",
+    "frequency": "Não informada na documentação pública do serviço; conferir atualização da camada antes de cada uso",
+    "format": "Serviço geográfico ArcGIS FeatureServer com consultas REST em JSON e coordenadas WGS 84 (EPSG:4326)",
+    "period": "Outorgas registradas a partir de 2001, conforme descrição oficial do serviço; data final e completude devem ser conferidas na camada",
+    "granularity": "Registro individual de outorga, uso e localização; campos específicos conforme metadados da camada",
+    "geoUnit": "Brasil; pontos/registros georreferenciados das outorgas federais, com possibilidade de recorte por estado e bacia",
+    "api": "https://www.snirh.gov.br/arcgis/rest/services/SRE/OutorgasDireitodeUso/FeatureServer/0 — camada Outorgas Federais (0), consultas REST JSON; MaxRecordCount 2000 por requisição, exigir paginação",
+    "docs": "https://www.snirh.gov.br/portal/snirh-1/paineis-de-indicadores/regulacao-de-usos-de-recursos-hidricos-1",
+    "limitations": "A base cobre outorgas federais emitidas pela ANA, não a totalidade de captações nem outorgas estaduais, como as administradas pelo INEMA na Bahia. Outorga é autorização, não volume efetivamente captado. Para investigar data centers e disputa por água, cruzar com registros do INEMA, licenciamento ambiental e dados de consumo, validando a vigência e a precisão geográfica dos registros. A documentação não explicita frequência de atualização.",
+    "lastChecked": "2026-10-08",
+    "story": [
+      "data-centers"
+    ],
+    "url": "https://www.snirh.gov.br/arcgis/rest/services/SRE/OutorgasDireitodeUso/FeatureServer/0",
+    "discoveredVia": [
+      "ANA/SNIRH — Geosserviços de Outorgas"
+    ],
+    "discoveryUrl": "https://www.snirh.gov.br/arcgis/rest/services/SRE/OutorgasDireitodeUso/FeatureServer"
+  },
+  {
     "id": "climate-trace-emissions-inventory",
     "name": "Climate TRACE — Inventário Global de Emissões",
     "org": "Climate TRACE Coalition",

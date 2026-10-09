@@ -1,6 +1,62 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
   {
+    "date": "2026-10-08",
+    "type": "nova-oportunidade",
+    "title": "GIJN abre inscrições para bolsas da GIJC27",
+    "items": [
+      {
+        "id": "gijc27",
+        "title": "GIJC27 — fellowship para conferência de jornalismo investigativo"
+      }
+    ],
+    "detail": "Chamada confirmada até 31/01/2027; bolsa integral ou parcial, prioridade ao Sul Global e custos não cobertos discriminados."
+  },
+  {
+    "date": "2026-10-08",
+    "type": "dados",
+    "title": "ANA disponibiliza geosserviço de outorgas federais de uso da água",
+    "items": [
+      {
+        "id": "ana-outorgas-federais-geoservico",
+        "title": "ANA/SNIRH — Outorgas Federais de Uso da Água (geosserviço)"
+      }
+    ],
+    "detail": "Substitui o catálogo ferroviário norte-americano por registros georreferenciados de outorgas federais da ANA desde 2001, acessíveis via ArcGIS REST. Útil para apuração de uso da água, com ressalva de que não cobre outorgas estaduais nem consumo efetivo."
+  },
+  {
+    "date": "2026-10-08",
+    "type": "ferramentas",
+    "title": "JEO Maps entra no catálogo de geojornalismo",
+    "items": [
+      {
+        "id": "infoamazonia-jeo-maps",
+        "title": "JEO Maps — InfoAmazonia"
+      }
+    ],
+    "detail": "Plugin WordPress open-source identificado em newsletter do Observatório da Imprensa de 28/08 e confirmado na documentação oficial."
+  },
+  {
+    "date": "2026-10-08",
+    "type": "fontes",
+    "title": "Três fontes de monitoramento editorial e de dados",
+    "items": [
+      {
+        "id": "ana-snirh-outorgas-geosservicos",
+        "title": "ANA/SNIRH — Geosserviços de Outorgas"
+      },
+      {
+        "id": "jeo-maps-infoamazonia",
+        "title": "JEO Maps / InfoAmazonia"
+      },
+      {
+        "id": "observatorio-da-imprensa",
+        "title": "Observatório da Imprensa"
+      }
+    ],
+    "detail": "Entram ANA/SNIRH — Geosserviços de Outorgas (mensal), JEO Maps / InfoAmazonia (mensal) e Observatório da Imprensa (semanal). A fonte ferroviária norte-americana foi descartada por baixa aderência às pautas PLOT."
+  },
+  {
     "date": "2026-10-07",
     "type": "nova-oportunidade",
     "title": "Our World in Data abre vaga internacional para escrita baseada em dados",

@@ -1449,40 +1449,57 @@ window.RADAR_PARTS.opportunities=[
     "desc": "Arquivado por baixa aderência temática: financiamento é dedicado a investigações cross-border sobre bem-estar de animais de produção."
   },
   {
-    "value": null,
-    "duration": null,
-    "modality": null,
-    "documents": [],
-    "restrictions": [],
+    "value": "Bolsa integral cobre voo internacional, transfer aeroporto-hotel, quatro noites de hotel, inscrição e refeições selecionadas; possibilidade de bolsa parcial. Não cobre visto, diárias nem transporte até aeroporto de origem.",
+    "duration": "Conferência presencial em Rotterdam, de 19 a 23/10/2027.",
+    "modality": "Presencial, Países Baixos",
+    "documents": [
+      "candidatura em inglês",
+      "experiência profissional e justificativa de aproveitamento da formação"
+    ],
+    "restrictions": [
+      "inglês funcional para oficinas e formulário",
+      "prioridade a jornalistas do Sul Global e grupos sub-representados",
+      "após conferência, produzir reportagem relacionada ou compartilhar aprendizado em apresentação",
+      "visto, diárias e transporte doméstico até aeroporto não cobertos"
+    ],
     "opens": null,
     "verificationHistory": [
       {
         "date": "2026-09-25",
         "status": "preparar",
         "source": "https://gijc2027.org/"
+      },
+      {
+        "date": "2026-10-08",
+        "status": "aberta",
+        "source": "https://gijn.org/stories/gijc2027-fellowship-application/"
       }
     ],
     "id": "gijc27",
-    "summary": "Conferência global de jornalismo investigativo com futuras chamadas para fellowships e premiação.",
-    "title": "GIJC27 — fellowships e Global Shining Light Award",
+    "summary": "Bolsas integrais ou parciais para a conferência mundial de jornalismo investigativo GIJC27 em Rotterdam; prazo de candidatura 31/01/2027.",
+    "title": "GIJC27 — fellowship para conferência de jornalismo investigativo",
     "org": "GIJN",
-    "type": "Monitorar",
+    "type": "Fellowship / Formação",
     "themes": [
       "Investigação",
       "Dados",
       "Formação"
     ],
     "scope": "Internacional",
-    "deadline": null,
-    "deadlineStatus": "abertura_futura",
+    "deadline": "2027-01-31",
+    "deadlineStatus": "confirmado",
     "eligibility": "elegível",
     "fit": 9.5,
-    "status": "preparar",
+    "status": "aberta",
     "story": [],
-    "rules": "https://gijc2027.org/",
-    "apply": null,
-    "verified": "2026-09-25",
-    "desc": "GIJC27 será em Rotterdam, 20–23/10/2027. A conferência é internacional e a GIJN anunciou futuras chamadas de fellowships; elegibilidade geral não é o bloqueio, mas regras específicas da fellowship ainda devem ser verificadas quando a chamada abrir."
+    "rules": "https://gijn.org/stories/gijc2027-fellowship-application/",
+    "apply": "https://docs.google.com/forms/d/1BFw81_Kv0nZ94FjNi_0VuQziRLLYyTACK0IKbYbeqV0/viewform?edit_requested=true",
+    "verified": "2026-10-08",
+    "desc": "Chamada aberta a jornalistas profissionais, inclusive freelancers, de países em desenvolvimento ou transição; experiência investigativa ou de dados é diferencial. A GIJN prioriza Sul Global e grupos historicamente sub-representados. Bolsa integral cobre voo, hotel, inscrição e refeições selecionadas; custos de visto e deslocamento doméstico não são cobertos. O Global Shining Light Award é outra seleção, não aberta por este edital.",
+    "discoveredVia": [
+      "GIJN"
+    ],
+    "discoveryUrl": "https://gijn.org/stories/gijc2027-fellowship-application/"
   },
   {
     "value": null,

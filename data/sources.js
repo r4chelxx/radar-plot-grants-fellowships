@@ -1,6 +1,42 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.sources=[
   {
+    "name": "ANA/SNIRH — Geosserviços de Outorgas",
+    "url": "https://www.snirh.gov.br/arcgis/rest/services/SRE/OutorgasDireitodeUso/FeatureServer",
+    "type": "Geosserviço oficial com registros de outorgas federais de uso de recursos hídricos e consultas ArcGIS REST",
+    "scope": "Brasil",
+    "role": "fonte oficial",
+    "priority": "Alta",
+    "cadence": "mensal",
+    "category": "dados/visual",
+    "lastChecked": "2026-10-08",
+    "checkStatus": "verificada"
+  },
+  {
+    "name": "Observatório da Imprensa",
+    "url": "https://www.observatoriodaimprensa.com.br/",
+    "type": "Análise de mídia, jornalismo, tecnologia e ferramentas para redações; newsletter editorial",
+    "scope": "Brasil",
+    "role": "newsletter / descoberta",
+    "priority": "Média",
+    "cadence": "semanal",
+    "category": "ecossistema/formação",
+    "lastChecked": "2026-10-08",
+    "checkStatus": "verificada"
+  },
+  {
+    "name": "JEO Maps / InfoAmazonia",
+    "url": "https://jeowp.org/",
+    "type": "Documentação, lançamentos e código aberto para geojornalismo",
+    "scope": "Global / Brasil",
+    "role": "fonte oficial",
+    "priority": "Média",
+    "cadence": "mensal",
+    "category": "dados/visual",
+    "lastChecked": "2026-10-08",
+    "checkStatus": "verificada"
+  },
+  {
     "name": "Climate TRACE",
     "url": "https://climatetrace.org/data",
     "type": "Inventário global de emissões, API, dados geoespaciais e metodologias setoriais",
@@ -177,7 +213,7 @@ window.RADAR_PARTS.sources=[
     "priority": "Alta",
     "cadence": "semanal",
     "category": "oportunidades",
-    "lastChecked": "2026-10-02",
+    "lastChecked": "2026-10-08",
     "checkStatus": "verificada"
   },
   {
@@ -955,7 +991,7 @@ window.RADAR_PARTS.sources=[
     "url": null,
     "cadence": "diária",
     "category": "ecossistema/formação",
-    "lastChecked": "2026-10-07",
+    "lastChecked": "2026-10-08",
     "checkStatus": "verificada"
   },
   {
@@ -1043,7 +1079,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://fapesp.br/oportunidades/",
     "cadence": "diária",
     "category": "oportunidades",
-    "lastChecked": "2026-10-07",
+    "lastChecked": "2026-10-08",
     "checkStatus": "verificada"
   },
   {
@@ -1219,7 +1255,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://gijn.org/jobs",
     "cadence": "diária",
     "category": "dados/visual",
-    "lastChecked": "2026-10-07",
+    "lastChecked": "2026-10-08",
     "checkStatus": "verificada"
   },
   {
@@ -1230,7 +1266,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://gijn.org/rounduplink/",
     "cadence": "diária",
     "category": "oportunidades",
-    "lastChecked": "2026-10-07",
+    "lastChecked": "2026-10-08",
     "checkStatus": "verificada"
   },
   {
