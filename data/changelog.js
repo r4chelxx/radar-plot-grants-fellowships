@@ -3,6 +3,46 @@ window.RADAR_PARTS.changelog=[
   {
     "date": "2026-10-09",
     "type": "dados",
+    "title": "Rodada extra 2: SISAGUA fora do padrão e revisão SINASC 2026",
+    "items": [
+      {
+        "id": "sisagua-amostras-fora-padrao",
+        "title": "SISAGUA — Amostras de água fora do padrão de potabilidade"
+      },
+      {
+        "id": "sinasc",
+        "title": "SINASC — Sistema de Informações sobre Nascidos Vivos"
+      }
+    ],
+    "detail": "Novo conjunto de amostras fora do padrão atualizado em 02/10; SINASC revalidado com segunda prévia de 2026 e ressalvas sobre revisões de dados."
+  },
+  {
+    "date": "2026-10-09",
+    "type": "ferramentas",
+    "title": "Rodada extra 2: QuitérIA atualizada com fonte e metodologia oficiais",
+    "items": [
+      {
+        "id": "quiteria-azmina",
+        "title": "QuitérIA — AzMina"
+      }
+    ],
+    "detail": "Registro existente revalidado e corrigido para o painel oficial Elas no Congresso, com descrição de IA, código aberto e revisão humana; identificado em newsletter de 11/09."
+  },
+  {
+    "date": "2026-10-09",
+    "type": "fontes",
+    "title": "Rodada extra 2: AzMina / Elas no Congresso",
+    "items": [
+      {
+        "id": "azmina-elas-no-congresso",
+        "title": "AzMina / Elas no Congresso"
+      }
+    ],
+    "detail": "Nova fonte semanal. Triagem complementar do Gmail Radar PLOT. incluiu newsletters de 11–15/09 e 06–09/10; candidaturas encerradas e registros já existentes não foram duplicados."
+  },
+  {
+    "date": "2026-10-09",
+    "type": "dados",
     "title": "Rodada extra 1: análises mensais de qualidade da água no SISAGUA",
     "items": [
       {
