@@ -10,12 +10,12 @@ for(const source of intake.results||[]){
  const title=source.title||'';
  const normalized=normalize(title);
  const duplicates=known.filter(x=>normalize(x.name)===normalized || (x.url&&source.url&&x.url.replace(/\/$/,'')===source.url.replace(/\/$/,'')));
- let classification='needs-review';
+ let classification='source-homepage-only';
  if(source.accessStatus!=='accessible')classification='inaccessible';
  else if(duplicates.length)classification='catalog-match';
  else if(!title)classification='not-extracted';
- report.results.push({source:source.name,url:source.url,classification,possibleMatches:duplicates.slice(0,5),candidateTitle:title||null,deadline:null,eligibility:null,editoriallyVerified:false});
+ report.results.push({source:source.name,url:source.url,classification,possibleMatches:duplicates.slice(0,5),sourcePageTitle:title||null,candidateTitle:null,deadline:null,eligibility:null,editoriallyVerified:false});
 }
 fs.mkdirSync('intake',{recursive:true});
 fs.writeFileSync('intake/candidate-triage.json',JSON.stringify(report,null,2)+'\n');
-console.log(JSON.stringify({checked:report.results.length,matches:report.results.filter(x=>x.classification==='catalog-match').length,unverified:report.results.filter(x=>x.classification==='needs-review').length}));
+console.log(JSON.stringify({checked:report.results.length,matches:report.results.filter(x=>x.classification==='catalog-match').length,homepages:report.results.filter(x=>x.classification==='source-homepage-only').length}));

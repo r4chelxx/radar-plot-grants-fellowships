@@ -3,6 +3,16 @@ on:
   schedule:
     - cron: '30 10 * * *'
   workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/source-intake.js'
+      - 'scripts/triage-candidates.js'
+      - '.github/workflows/source-discovery.yml'
+  pull_request:
+    paths:
+      - 'scripts/source-intake.js'
+      - 'scripts/triage-candidates.js'
+      - '.github/workflows/source-discovery.yml'
 permissions:
   contents: read
   issues: write
@@ -30,6 +40,7 @@ jobs:
             intake/candidate-triage.json
           if-no-files-found: error
       - name: Link report in daily editorial queue
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
