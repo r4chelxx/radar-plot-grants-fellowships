@@ -1,6 +1,39 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.datasets=[
   {
+    "id": "sisagua-amostras-fora-padrao",
+    "name": "SISAGUA — Amostras de água fora do padrão de potabilidade",
+    "org": "Ministério da Saúde / SISAGUA",
+    "territoryTier": "Brasil",
+    "kind": "dataset",
+    "themes": [
+      "Água",
+      "Saúde pública",
+      "Saneamento",
+      "Qualidade da água",
+      "Vigilância sanitária",
+      "Transparência"
+    ],
+    "coverage": "Brasil · registros de análises de qualidade da água para consumo humano informadas por prestadores de abastecimento que não atenderam aos padrões de potabilidade",
+    "frequency": "Mensal (portal oficial)",
+    "format": "Arquivos estruturados CSV, JSON, XML conforme recurso e API documentada; dicionário ODT",
+    "period": "Série e extensão histórica variam por arquivo; recursos publicados/atualizados em 02/10/2026",
+    "granularity": "Registro de amostra fora de padrão, parâmetro, responsável, período e localidade conforme dicionário",
+    "geoUnit": "Brasil · município e local de abastecimento conforme campos disponíveis",
+    "api": "https://apidadosabertos.saude.gov.br/v1/#/SISAGUA/get_sisagua_controle_mensal_amostras_fora_do_padrao",
+    "docs": "https://dadosabertos.saude.gov.br/dataset/sisagua-controle-mensal-amostras-fora-do-padrao",
+    "limitations": "Contém apenas análises registradas fora do padrão, não o universo de amostras. Para calcular proporções ou risco, combinar com amostras totais, planos de amostragem, população abastecida e vigilância independente. Ausência de registro não equivale a água segura. Não mede uso industrial nem captação de data centers.",
+    "lastChecked": "2026-10-09",
+    "story": [
+      "data-centers"
+    ],
+    "url": "https://dadosabertos.saude.gov.br/dataset/sisagua-controle-mensal-amostras-fora-do-padrao",
+    "discoveredVia": [
+      "Portal de Dados Abertos do SUS"
+    ],
+    "discoveryUrl": "https://dadosabertos.saude.gov.br/dataset/sisagua-controle-mensal-amostras-fora-do-padrao"
+  },
+  {
     "id": "sisagua-controle-mensal-parametros-basicos",
     "name": "SISAGUA — Controle mensal de parâmetros básicos da água",
     "org": "Ministério da Saúde / SISAGUA / Vigilância da Qualidade da Água para Consumo Humano",
@@ -2148,13 +2181,13 @@ window.RADAR_PARTS.datasets=[
     "id": "sinasc",
     "territoryTier": "Brasil",
     "kind": "dataset",
-    "period": "1990–presente conforme arquivos publicados; 2025 preliminar e 2026 prévia disponíveis na verificação de 25/09/2026",
+    "period": "1990–presente conforme arquivos disponíveis; recursos 2025 preliminar e 2026 2ª prévia identificados na verificação de 09/10/2026 (metadados atualizados em 02/10/2026)",
     "granularity": "declaração de nascido vivo nos arquivos públicos",
     "geoUnit": "Brasil; residência, ocorrência, estabelecimento e demais atributos territoriais conforme variáveis",
     "api": "Portal de Dados Abertos do SUS; recursos CSV, JSON, XML e API conforme publicação",
     "docs": "Portal de Dados Abertos do SUS — Sinasc; dicionário e recursos anuais",
-    "limitations": "Campos, completude e regras de divulgação variam ao longo da série. Distinguir dados consolidados, preliminares e prévios; para análise obstétrica, preservar ocorrência, residência, estabelecimento e ignorados/não informados.",
-    "lastChecked": "2026-09-25",
+    "limitations": "Campos, completude e regras de divulgação variam ao longo da série. Distinguir dados consolidados, preliminares e prévios; para análise obstétrica, preservar ocorrência, residência, estabelecimento e ignorados/não informados. Os dados de 2026 são prévia sujeita a revisão; evitar comparação direta com séries definitivas sem nota metodológica.",
+    "lastChecked": "2026-10-09",
     "name": "SINASC — Sistema de Informações sobre Nascidos Vivos",
     "org": "Ministério da Saúde",
     "themes": [
