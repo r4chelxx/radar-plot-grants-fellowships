@@ -1,11 +1,10 @@
 {
-  "checkedAt": "2026-10-07T12:19:48.328Z",
+  "checkedAt": "2026-10-09T00:30:42.387Z",
   "policy": "404/410 becomes broken only after appearing as suspect or broken in the previous audit; blocked and network results are inconclusive",
   "counts": {
-    "ok": 261,
+    "ok": 268,
     "blocked": 28,
-    "network": 26,
-    "server": 1
+    "network": 25
   },
   "results": [
     {
@@ -210,11 +209,11 @@
       "type": "opportunity",
       "id": "pulitzer-data",
       "url": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/data-journalism-grants",
-      "status": 200,
+      "status": 403,
       "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/data-journalism-grants",
-      "class": "ok",
+      "class": "blocked",
       "attempts": [
-        200
+        403
       ]
     },
     {
@@ -341,12 +340,12 @@
     {
       "type": "opportunity",
       "id": "gijc27",
-      "url": "https://gijc2027.org/",
-      "status": 200,
-      "finalUrl": "https://gijc2027.org/",
-      "class": "ok",
+      "url": "https://gijn.org/stories/gijc2027-fellowship-application/",
+      "status": 403,
+      "finalUrl": "https://gijn.org/stories/gijc2027-fellowship-application/",
+      "class": "blocked",
       "attempts": [
-        200
+        403
       ]
     },
     {
@@ -683,22 +682,22 @@
       "type": "opportunity",
       "id": "pulitzer-gender",
       "url": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/gender-equality-grant",
-      "status": 403,
+      "status": 200,
       "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/gender-equality-grant",
-      "class": "blocked",
+      "class": "ok",
       "attempts": [
-        403
+        200
       ]
     },
     {
       "type": "opportunity",
       "id": "pulitzer-global",
       "url": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/global-reporting-grants",
-      "status": 403,
+      "status": 200,
       "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/global-reporting-grants",
-      "class": "blocked",
+      "class": "ok",
       "attempts": [
-        403
+        200
       ]
     },
     {
@@ -779,6 +778,17 @@
       ]
     },
     {
+      "type": "dataset",
+      "id": "ana-outorgas-federais-geoservico",
+      "url": "https://www.snirh.gov.br/arcgis/rest/services/SRE/OutorgasDireitodeUso/FeatureServer/0",
+      "status": 200,
+      "finalUrl": "https://www.snirh.gov.br/arcgis/rest/services/SRE/OutorgasDireitodeUso/FeatureServer/0",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
       "type": "source",
       "id": "Climate TRACE",
       "url": "https://climatetrace.org/data",
@@ -786,6 +796,7 @@
       "finalUrl": "https://climatetrace.org/data",
       "class": "ok",
       "attempts": [
+        "TypeError:fetch failed",
         200
       ]
     },
@@ -1819,13 +1830,11 @@
       "type": "dataset",
       "id": "sigtap",
       "url": "https://wiki.datasus.gov.br/sigtap/index.php/P%C3%A1gina_principal",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://wiki.datasus.gov.br/sigtap/index.php/P%C3%A1gina_principal",
+      "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -2217,6 +2226,39 @@
       ]
     },
     {
+      "type": "source",
+      "id": "ANA/SNIRH — Geosserviços de Outorgas",
+      "url": "https://www.snirh.gov.br/arcgis/rest/services/SRE/OutorgasDireitodeUso/FeatureServer",
+      "status": 200,
+      "finalUrl": "https://www.snirh.gov.br/arcgis/rest/services/SRE/OutorgasDireitodeUso/FeatureServer",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Observatório da Imprensa",
+      "url": "https://www.observatoriodaimprensa.com.br/",
+      "status": 200,
+      "finalUrl": "https://www.observatoriodaimprensa.com.br/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "JEO Maps / InfoAmazonia",
+      "url": "https://jeowp.org/",
+      "status": 200,
+      "finalUrl": "https://jeowp.org/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
       "type": "tool",
       "id": "ocrmypdf",
       "url": "https://ocrmypdf.readthedocs.io/en/latest/",
@@ -2506,12 +2548,11 @@
       "type": "source",
       "id": "MapBiomas Alerta",
       "url": "https://alerta.mapbiomas.org/metodo-mapbiomas-alerta/",
-      "status": 503,
+      "status": 200,
       "finalUrl": "https://alerta.mapbiomas.org/metodo-mapbiomas-alerta/",
-      "class": "server",
+      "class": "ok",
       "attempts": [
-        503,
-        503
+        200
       ]
     },
     {
@@ -3268,6 +3309,17 @@
       "url": "https://journaliststudio.google.com/",
       "status": 200,
       "finalUrl": "https://journaliststudio.google.com/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "infoamazonia-jeo-maps",
+      "url": "https://wordpress.org/plugins/jeowp/",
+      "status": 200,
+      "finalUrl": "https://wordpress.org/plugins/jeowp/",
       "class": "ok",
       "attempts": [
         200
