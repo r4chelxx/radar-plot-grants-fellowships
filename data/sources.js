@@ -1,6 +1,30 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.sources=[
   {
+    "name": "Wikimedia XTools",
+    "url": "https://www.mediawiki.org/wiki/XTools",
+    "type": "Documentação oficial e atualização das ferramentas de auditoria e análise de histórico da Wikimedia",
+    "scope": "Global",
+    "role": "fonte oficial",
+    "priority": "Média",
+    "cadence": "mensal",
+    "category": "dados/visual",
+    "lastChecked": "2026-10-09",
+    "checkStatus": "verificada"
+  },
+  {
+    "name": "Portal de Dados Abertos do SUS",
+    "url": "https://dadosabertos.saude.gov.br/dataset",
+    "type": "Conjuntos oficiais de dados de saúde, recursos estruturados e API; lançamentos e atualizações por dataset",
+    "scope": "Brasil",
+    "role": "fonte oficial",
+    "priority": "Alta",
+    "cadence": "semanal",
+    "category": "dados/visual",
+    "lastChecked": "2026-10-09",
+    "checkStatus": "verificada"
+  },
+  {
     "name": "ANA/SNIRH — Geosserviços de Outorgas",
     "url": "https://www.snirh.gov.br/arcgis/rest/services/SRE/OutorgasDireitodeUso/FeatureServer",
     "type": "Geosserviço oficial com registros de outorgas federais de uso de recursos hídricos e consultas ArcGIS REST",
