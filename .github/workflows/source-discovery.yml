@@ -91,6 +91,14 @@ jobs:
           sha=$(gh api "repos/${GITHUB_REPOSITORY}/contents/state/lead-history.json?ref=radar-state" --jq .sha)
           payload=$(base64 -w 0 intake/lead-history-next.json)
           gh api --method PUT "repos/${GITHUB_REPOSITORY}/contents/state/lead-history.json" -f branch=radar-state -f message="Update public lead history from run ${GITHUB_RUN_ID}" -f content="$payload" -f sha="$sha" --silent
+      - name: Verify remote state matches uploaded history
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh api "repos/${GITHUB_REPOSITORY}/contents/state/lead-history.json?ref=radar-state" --jq .content | base64 --decode > intake/lead-history-confirmed.json
+          cmp intake/lead-history-next.json intake/lead-history-confirmed.json
+          echo "### Persistência do Radar confirmada" >> "$GITHUB_STEP_SUMMARY"
+          echo "O conteúdo salvo na branch radar-state corresponde exatamente ao histórico gerado nesta execução." >> "$GITHUB_STEP_SUMMARY"
       - name: Link report in daily editorial queue
         env:
           GH_TOKEN: ${{ github.token }}
