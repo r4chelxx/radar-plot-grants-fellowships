@@ -1,26 +1,16 @@
 // Public-source lead history only. Never ingest Gmail messages or private identifiers.
 const fs=require('node:fs');
-const crypto=require('node:crypto');
+const {identity}=require('./lead-identity');
 const triage=JSON.parse(fs.readFileSync('intake/candidate-triage.json','utf8'));
 const path='intake/lead-history-previous.json';
 const loaded=fs.existsSync(path);
 const previous=loaded?JSON.parse(fs.readFileSync(path,'utf8')):{schemaVersion:1,updatedAt:null,leads:{}};
 if(previous.schemaVersion!==1||!previous.leads||Array.isArray(previous.leads))throw new Error('Unsupported history state');
-function canonical(raw){
- const u=new URL(raw);
- if(!['http:','https:'].includes(u.protocol))throw new Error('Unsupported URL');
- u.hash='';u.hostname=u.hostname.toLowerCase();
- for(const key of [...u.searchParams.keys()])if(/^utm_|^(fbclid|gclid|mc_cid|mc_eid)$/i.test(key))u.searchParams.delete(key);
- u.searchParams.sort();
- if(u.pathname.length>1)u.pathname=u.pathname.replace(/\/+$/,'');
- return u.toString();
-}
 const now=new Date().toISOString(),next={schemaVersion:1,updatedAt:now,leads:{...previous.leads}};
 const delta={new:[],returning:[],changed:[],invalid:[],stateLoaded:loaded};
 const currentIds=new Set();
 for(const lead of triage.leads||[]){
- let url;try{url=canonical(lead.url)}catch{delta.invalid.push({url:String(lead.url||'').slice(0,200)});continue}
- const id=crypto.createHash('sha256').update(url).digest('hex');
+ let url,id;try{({url,id}=identity(lead.url))}catch{delta.invalid.push({url:String(lead.url||'').slice(0,200)});continue}
  if(currentIds.has(id))continue;
  currentIds.add(id);
  const old=next.leads[id];

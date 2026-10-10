@@ -10,6 +10,9 @@ on:
       - 'tests/source-catalog.test.js'
       - 'scripts/triage-candidates.js'
       - 'scripts/update-lead-history.js'
+      - 'scripts/lead-identity.js'
+      - 'scripts/prioritize-editorial-review.js'
+      - 'tests/editorial-priority.test.js'
       - 'scripts/write-run-summary.js'
       - 'tests/lead-history.test.js'
       - 'tests/editorial-review.test.js'
@@ -21,6 +24,10 @@ on:
       - 'scripts/source-intake.js'
       - 'scripts/triage-candidates.js'
       - 'scripts/update-lead-history.js'
+      - 'scripts/lead-identity.js'
+      - 'scripts/prioritize-editorial-review.js'
+      - 'tests/editorial-priority.test.js'
+      - 'tests/editorial-review.test.js'
       - 'scripts/write-run-summary.js'
       - 'tests/lead-history.test.js'
       - '.github/workflows/source-discovery.yml'
@@ -56,6 +63,8 @@ jobs:
           gh api "repos/${GITHUB_REPOSITORY}/contents/state/lead-history.json?ref=radar-state" --jq .content | base64 --decode > intake/lead-history-previous.json
       - name: Compare against persistent public lead history
         run: node scripts/update-lead-history.js
+      - name: Prioritize editorial review from historical changes
+        run: node scripts/prioritize-editorial-review.js
       - name: Publish run summary in GitHub Actions
         run: node scripts/write-run-summary.js
       - uses: actions/upload-artifact@v4
