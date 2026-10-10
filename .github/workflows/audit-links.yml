@@ -21,7 +21,7 @@ on:
       - "scripts/check-links.js"
       - ".github/workflows/audit-links.yml"
 concurrency:
-  group: radar-link-audit-${{ github.ref }}
+  group: radar-link-audit-${{ github.event_name == 'pull_request' && format('pr-{0}', github.event.pull_request.number) || 'main' }}
   cancel-in-progress: true
 permissions:
   contents: write
