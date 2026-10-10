@@ -259,7 +259,7 @@ window.RADAR_PARTS.opportunities=[
     "deadlineStatus": "confirmado",
     "eligibility": "elegível",
     "fit": 7,
-    "status": "aberta",
+    "status": "encerrada",
     "story": [
       "violencia-obstetrica",
       "data-centers"
