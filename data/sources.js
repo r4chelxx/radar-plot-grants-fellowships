@@ -1,6 +1,18 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.sources=[
   {
+    "name": "Amazon Mining Watch",
+    "role": "fonte oficial",
+    "type": "Dados geoespaciais / garimpo / desmatamento / sensoriamento remoto",
+    "scope": "Pan-Amazônia, incluindo Brasil",
+    "priority": "Alta",
+    "url": "https://amazonminingwatch.org/pt",
+    "cadence": "mensal",
+    "category": "clima/dados",
+    "lastChecked": "2026-10-10",
+    "checkStatus": "verificada"
+  },
+  {
     "name": "Open Measures",
     "role": "fonte oficial",
     "type": "OSINT / monitoramento de redes sociais / ferramentas",
@@ -81,7 +93,7 @@ window.RADAR_PARTS.sources=[
     "priority": "Alta",
     "cadence": "diária",
     "category": "oportunidades",
-    "lastChecked": "2026-10-09",
+    "lastChecked": "2026-10-10",
     "checkStatus": "verificada"
   },
   {
@@ -857,7 +869,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://ijnet.org/en/opportunities",
     "cadence": "diária",
     "category": "oportunidades",
-    "lastChecked": "2026-10-09",
+    "lastChecked": "2026-10-10",
     "checkStatus": "verificada"
   },
   {
@@ -978,8 +990,8 @@ window.RADAR_PARTS.sources=[
     "url": "https://www.solutionsjournalism.org/",
     "cadence": "quinzenal",
     "category": "oportunidades",
-    "lastChecked": "2026-09-24",
-    "checkStatus": "auditoria inicial"
+    "lastChecked": "2026-10-10",
+    "checkStatus": "verificada"
   },
   {
     "name": "WFSJ / WCSJ",
@@ -989,7 +1001,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://wfsj.org/",
     "cadence": "semanal",
     "category": "oportunidades",
-    "lastChecked": "2026-10-01",
+    "lastChecked": "2026-10-10",
     "checkStatus": "verificada"
   },
   {
@@ -1044,8 +1056,8 @@ window.RADAR_PARTS.sources=[
     "url": "https://apublica.org/",
     "cadence": "quinzenal",
     "category": "investigação",
-    "lastChecked": "2026-09-24",
-    "checkStatus": "auditoria inicial"
+    "lastChecked": "2026-10-10",
+    "checkStatus": "verificada"
   },
   {
     "name": "Cajueira",
@@ -1111,7 +1123,7 @@ window.RADAR_PARTS.sources=[
     "url": null,
     "cadence": "diária",
     "category": "ecossistema/formação",
-    "lastChecked": "2026-10-09",
+    "lastChecked": "2026-10-10",
     "checkStatus": "verificada"
   },
   {
@@ -1199,7 +1211,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://fapesp.br/oportunidades/",
     "cadence": "diária",
     "category": "oportunidades",
-    "lastChecked": "2026-10-09",
+    "lastChecked": "2026-10-10",
     "checkStatus": "verificada"
   },
   {
@@ -1320,7 +1332,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://www.tarbellcenter.org/",
     "cadence": "semanal",
     "category": "oportunidades",
-    "lastChecked": "2026-10-01",
+    "lastChecked": "2026-10-10",
     "checkStatus": "verificada"
   },
   {
@@ -1375,7 +1387,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://gijn.org/jobs",
     "cadence": "diária",
     "category": "dados/visual",
-    "lastChecked": "2026-10-09",
+    "lastChecked": "2026-10-10",
     "checkStatus": "verificada"
   },
   {
@@ -1386,7 +1398,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://gijn.org/rounduplink/",
     "cadence": "diária",
     "category": "oportunidades",
-    "lastChecked": "2026-10-09",
+    "lastChecked": "2026-10-10",
     "checkStatus": "verificada"
   },
   {
@@ -1497,7 +1509,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://indicator.media/",
     "cadence": "semanal",
     "category": "tecnologia/política pública",
-    "lastChecked": "2026-10-09",
+    "lastChecked": "2026-10-10",
     "checkStatus": "verificada"
   },
   {
