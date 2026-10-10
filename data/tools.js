@@ -1,6 +1,28 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.tools=[
   {
+    "id": "traceon-re",
+    "name": "TRACEON.re",
+    "kind": "busca e monitoramento de inteligência de ameaças no Telegram",
+    "url": "https://traceon.re/",
+    "desc": "Plataforma gratuita que indexa mais de 90 milhões de mensagens de canais e grupos do Telegram e oferece busca por palavra-chave, remetente, canal e data, monitoramento em tempo real, consultas booleanas, linha do tempo, buscas salvas e exportação CSV. Exige conta verificada. A cobertura se limita aos espaços ingeridos pelo serviço e não representa todo o Telegram; identidades, correlações com fóruns e dados pessoais devem ser usados apenas com finalidade legítima, minimização de dano e confirmação independente.",
+    "discoveredVia": [
+      "Indicator"
+    ],
+    "discoveryUrl": "https://indicator.media/p/briefing-us-interferes-in-the-name-of-non-interference"
+  },
+  {
+    "id": "opencheck-world",
+    "name": "OpenCheck",
+    "kind": "pesquisa de empresas, beneficiários e dados societários abertos",
+    "url": "https://opencheck.world/",
+    "desc": "Ferramenta gratuita que reúne dados corporativos de dezenas de registros, listas de sanções, fontes de beneficiários finais e conjuntos investigativos em um grafo compatível com o Beneficial Ownership Data Standard 0.4. Permite pesquisar por empresa, identificador nacional, LEI ou pessoa e executar verificações ao vivo. A presença de um dirigente, acionista registrado ou nome semelhante não comprova beneficiário final nem identidade; cobertura, atualização e acesso variam por jurisdição, e toda relação deve ser confirmada no registro original.",
+    "discoveredVia": [
+      "Indicator"
+    ],
+    "discoveryUrl": "https://indicator.media/p/briefing-us-interferes-in-the-name-of-non-interference"
+  },
+  {
     "id": "genero-numero-do-dado-a-decisao",
     "name": "Gênero e Número — Do dado à decisão",
     "kind": "cartilha metodológica sobre evidências e violência de gênero",
