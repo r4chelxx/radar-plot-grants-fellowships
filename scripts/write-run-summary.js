@@ -20,7 +20,7 @@ const rows=[
  '| Links recorrentes | '+(s.returning??0)+' |',
  '| Links com mudanças detectadas | '+(s.changed??0)+' |',
  '',
- persistent?'**Persistência:** etapa de gravação executada nesta rodada.':'**Persistência:** não gravada (execução de teste/PR).',
+ persistent?'**Persistência:** gravação programada em job separado; confirmar sucesso do job persist.':'**Persistência:** não gravada (execução de teste/PR).',
  !s.stateLoaded?'**Atenção:** não foi carregado histórico anterior; “inédito” significa apenas novo para esta execução.':'Histórico anterior carregado para comparação.',
  '',
  '**Verificação editorial:** nenhuma oportunidade foi automaticamente aprovada ou publicada.',
