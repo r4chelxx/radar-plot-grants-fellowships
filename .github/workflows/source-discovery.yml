@@ -12,6 +12,8 @@ on:
       - 'scripts/update-lead-history.js'
       - 'scripts/write-run-summary.js'
       - 'tests/lead-history.test.js'
+      - 'tests/editorial-review.test.js'
+      - 'scripts/build-editorial-review.js'
       - 'scripts/inspect-lead-pages.js'
       - '.github/workflows/source-discovery.yml'
   pull_request:
@@ -37,7 +39,7 @@ jobs:
         with:
           node-version: '22'
       - name: Test persistent lead history
-        run: node --test tests/lead-history.test.js tests/source-catalog.test.js
+        run: node --test tests/lead-history.test.js tests/source-catalog.test.js tests/editorial-review.test.js
       - name: Inspect monitored source websites
         run: node scripts/source-intake.js
       - name: Compare extracted titles against catalog entries
