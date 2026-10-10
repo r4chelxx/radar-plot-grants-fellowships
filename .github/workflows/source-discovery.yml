@@ -55,7 +55,7 @@ jobs:
         with:
           node-version: '22'
       - name: Test persistent lead history
-        run: node --test tests/lead-history.test.js tests/source-catalog.test.js tests/editorial-review.test.js tests/editorial-priority.test.js tests/inspection-order.test.js tests/lead-privacy.test.js
+        run: node --test tests/lead-history.test.js tests/source-catalog.test.js tests/editorial-review.test.js tests/editorial-priority.test.js tests/inspection-order.test.js tests/lead-privacy.test.js tests/normalize-lead-link.test.js
       - name: Inspect monitored source websites
         run: node scripts/source-intake.js
       - name: Compare extracted titles against catalog entries
