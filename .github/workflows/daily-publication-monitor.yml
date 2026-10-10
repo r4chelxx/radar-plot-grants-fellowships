@@ -30,6 +30,7 @@ jobs:
       - name: Validate published source
         run: node scripts/validate-data.js
       - name: Wait for Pages deployment on push
+        id: pages
         if: github.event_name == 'push'
         env:
           GH_TOKEN: ${{ github.token }}
@@ -37,12 +38,22 @@ jobs:
           for attempt in $(seq 1 20); do
             status=$(gh api "repos/${GITHUB_REPOSITORY}/actions/runs?per_page=20" --jq '[.workflow_runs[] | select(.name == "pages build and deployment" and .head_sha == "'"$GITHUB_SHA"'")] | .[0].conclusion // empty')
             if [ "$status" = success ]; then exit 0; fi
-            if [ "$status" = failure ] || [ "$status" = cancelled ]; then exit 1; fi
+            if [ "$status" = cancelled ]; then
+              latest=$(gh api "repos/${GITHUB_REPOSITORY}/commits/main" --jq .sha)
+              if [ "$latest" != "$GITHUB_SHA" ]; then
+                echo "superseded=true" >> "$GITHUB_OUTPUT"
+                echo "Deployment superseded by newer main commit $latest"
+                exit 0
+              fi
+              exit 1
+            fi
+            if [ "$status" = failure ]; then exit 1; fi
             sleep 15
           done
           echo "Pages deployment did not complete in 5 minutes" >&2
           exit 1
       - name: Check Pages content and freshness
+        if: github.event_name != 'push' || steps.pages.outputs.superseded != 'true'
         env:
           RADAR_URL: https://r4chelxx.github.io/radar-plot-grants-fellowships/
         run: node scripts/check-publication.js
