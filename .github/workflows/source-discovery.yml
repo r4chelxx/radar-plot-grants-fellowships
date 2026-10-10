@@ -6,6 +6,8 @@ on:
   push:
     paths:
       - 'scripts/source-intake.js'
+      - 'scripts/load-source-catalog.js'
+      - 'tests/source-catalog.test.js'
       - 'scripts/triage-candidates.js'
       - 'scripts/update-lead-history.js'
       - 'scripts/write-run-summary.js'
@@ -36,7 +38,7 @@ jobs:
         with:
           node-version: '22'
       - name: Test persistent lead history
-        run: node --test tests/lead-history.test.js
+        run: node --test tests/lead-history.test.js tests/source-catalog.test.js
       - name: Inspect monitored source websites
         run: node scripts/source-intake.js
       - name: Compare extracted titles against catalog entries
