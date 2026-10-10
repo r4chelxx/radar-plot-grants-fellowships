@@ -19,6 +19,7 @@ for(const source of intake.results||[]){
 const classes=report.results.reduce((acc,x)=>(acc[x.classification]=(acc[x.classification]||0)+1,acc),{});
 report.summary={checked:report.results.length,classes,verifiedNewItems:{opportunities:0,datasets:0,tools:0},verificationNote:'No structured opportunities, datasets or tools are extracted from homepages; zeros mean none verified, not none available.'};
 const leads=[];const seenLeads=new Set();
+const sourceUrls=new Set((intake.results||[]).map(s=>String(s.url||'').replace(/\/$/,'')));
 for(const source of intake.results||[])for(const link of source.leads||[]){
  const url=String(link.url||'').replace(/\/$/,'');
  if(!url||seenLeads.has(url))continue;
@@ -28,11 +29,15 @@ for(const source of intake.results||[])for(const link of source.leads||[]){
  const years=[...label.matchAll(/\b20(?:1\d|2\d|3\d)\b/g)].map(x=>Number(x[0]));
  const currentYear=new Date().getUTCFullYear();
  const historical=years.length>0&&Math.max(...years)<currentYear;
+ const homepage=sourceUrls.has(url);
+ const generic=/^(find a grant|grants for journalists|successful applications|stable tools|database tools|mediawiki tools|apply|application|tools|ferramentas)$/i.test(label.trim());
  const category=/grant|fellowship|bolsa|funding|financiamento|edital|call for|apply/i.test(label)?'opportunities':/dataset|dados abertos|open data|base de dados/i.test(label)?'datasets':/tool|ferramenta/i.test(label)?'tools':'uncategorized';
- leads.push({source:source.name,title:label,url,category,classification:matches.length?'catalog-match':historical?'historical-reference':'needs-editorial-review',possibleMatches:matches.slice(0,5),deadline:null,eligibility:null,editoriallyVerified:false});
+ leads.push({source:source.name,title:label,url,category,classification:matches.length?'catalog-match':homepage?'source-homepage-only':generic?'generic-navigation':historical?'historical-reference':'needs-editorial-review',possibleMatches:matches.slice(0,5),deadline:null,eligibility:null,editoriallyVerified:false});
 }
 report.leads=leads;
 report.summary.linkLeads=leads.length;
+report.summary.homepageLinks=leads.filter(x=>x.classification==='source-homepage-only').length;
+report.summary.genericNavigation=leads.filter(x=>x.classification==='generic-navigation').length;
 report.summary.historicalReferences=leads.filter(x=>x.classification==='historical-reference').length;
 report.summary.unverifiedLinkLeads=leads.filter(x=>x.classification==='needs-editorial-review').length;
 fs.mkdirSync('intake',{recursive:true});
