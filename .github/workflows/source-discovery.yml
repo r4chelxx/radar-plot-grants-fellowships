@@ -5,6 +5,7 @@ on:
   workflow_dispatch:
   push:
     paths:
+      - 'data/sources.js'
       - 'scripts/source-intake.js'
       - 'scripts/normalize-lead-link.js'
       - 'tests/normalize-lead-link.test.js'
@@ -26,6 +27,7 @@ on:
       - '.github/workflows/source-discovery.yml'
   pull_request:
     paths:
+      - 'data/sources.js'
       - 'scripts/source-intake.js'
       - 'scripts/normalize-lead-link.js'
       - 'tests/normalize-lead-link.test.js'
