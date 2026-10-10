@@ -1,6 +1,15 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.tools=[
   {
+    "id": "genero-numero-do-dado-a-decisao",
+    "name": "Gênero e Número — Do dado à decisão",
+    "kind": "cartilha metodológica sobre evidências e violência de gênero",
+    "url": "https://www.generonumero.media/artigos/cartilha-violencia-de-genero/",
+    "desc": "Guia de leitura crítica de dados sobre violência de gênero: apresenta bases brasileiras, recortes e limitações, problemas de subnotificação e preenchimento, cuidados no cruzamento de indicadores e checklist de uso responsável. O acesso ao material integral é oferecido pela organização mediante formulário. É um recurso metodológico, não uma base de dados primários nem oportunidade de financiamento.",
+    "discoveredVia": ["Gênero e Número"],
+    "discoveryUrl": "https://www.generonumero.media/artigos/cartilha-violencia-de-genero/"
+  },
+  {
     "id": "open-measures-public-app",
     "name": "Open Measures — Public App e API",
     "kind": "OSINT e análise de redes sociais para desinformação e extremismo",
