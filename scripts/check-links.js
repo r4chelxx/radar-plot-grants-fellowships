@@ -14,7 +14,7 @@ try{previous=JSON.parse(fs.readFileSync("audit/link-audit-latest.json","utf8"))}
 const prior=new Map((previous.results||[]).map(x=>[x.url,x]));
 const pause=ms=>new Promise(resolve=>setTimeout(resolve,ms));
 async function request(url,variant=0){
- const ctrl=new AbortController(),timer=setTimeout(()=>ctrl.abort(),variant?30000:20000);
+ const ctrl=new AbortController(),timer=setTimeout(()=>ctrl.abort(),variant?14000:10000);
  try{
   const headers=variant?{"user-agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/124 Safari/537.36","accept":"text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8","cache-control":"no-cache"}:{"user-agent":"Mozilla/5.0 Radar-PLOT-Link-Audit/2.0","accept":"text/html,application/json;q=0.9,*/*;q=0.8"};
   const r=await fetch(url,{method:"GET",redirect:"follow",signal:ctrl.signal,headers});
@@ -34,13 +34,13 @@ async function check(x){
  const attempts=[await request(x.url,0)];
  let last=attempts[0];
  if(last.status===null||last.status>=500||last.status===429||last.status===404||last.status===410){
-  await pause(500);
+  await pause(250);
   last=await request(x.url,1);attempts.push(last);
  }
  return{...x,status:last.status,finalUrl:last.finalUrl,class:classify(x.url,last),error:last.error||undefined,attempts:attempts.map(a=>a.status??a.error)};
 }
 async function main(){
- const concurrency=4;
+ const concurrency=12;
  for(let i=0;i<unique.length;i+=concurrency)results.push(...await Promise.all(unique.slice(i,i+concurrency).map(check)));
  const counts={};for(const r of results)counts[r.class]=(counts[r.class]||0)+1;
  console.log("Radar PLOT link audit");console.log("Unique URLs:",unique.length,counts);
