@@ -9,7 +9,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://openmeasures.io/platform",
     "cadence": "mensal",
     "category": "ferramentas",
-    "lastChecked": "2026-10-10",
+    "lastChecked": "2026-10-09",
     "checkStatus": "verificada"
   },
   {
