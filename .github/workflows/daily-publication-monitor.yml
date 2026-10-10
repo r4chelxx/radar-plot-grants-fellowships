@@ -3,8 +3,17 @@ on:
   schedule:
     - cron: '20 11 * * *'
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'index.html'
+      - 'app.js'
+      - 'data/changelog.js'
+      - 'scripts/check-publication.js'
+      - '.github/workflows/daily-publication-monitor.yml'
 permissions:
   contents: read
+  actions: read
   issues: write
 concurrency:
   group: radar-publication-monitor
@@ -20,6 +29,19 @@ jobs:
           node-version: '22'
       - name: Validate published source
         run: node scripts/validate-data.js
+      - name: Wait for Pages deployment on push
+        if: github.event_name == 'push'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          for attempt in $(seq 1 20); do
+            status=$(gh api "repos/${GITHUB_REPOSITORY}/actions/runs?per_page=20" --jq '[.workflow_runs[] | select(.name == "pages build and deployment" and .head_sha == "'"$GITHUB_SHA"'")] | .[0].conclusion // empty')
+            if [ "$status" = success ]; then exit 0; fi
+            if [ "$status" = failure ] || [ "$status" = cancelled ]; then exit 1; fi
+            sleep 15
+          done
+          echo "Pages deployment did not complete in 5 minutes" >&2
+          exit 1
       - name: Check Pages content and freshness
         env:
           RADAR_URL: https://r4chelxx.github.io/radar-plot-grants-fellowships/
