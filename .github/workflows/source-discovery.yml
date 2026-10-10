@@ -8,6 +8,7 @@ on:
       - 'scripts/source-intake.js'
       - 'scripts/triage-candidates.js'
       - 'scripts/update-lead-history.js'
+      - 'tests/lead-history.test.js'
       - 'scripts/inspect-lead-pages.js'
       - '.github/workflows/source-discovery.yml'
   pull_request:
@@ -15,6 +16,7 @@ on:
       - 'scripts/source-intake.js'
       - 'scripts/triage-candidates.js'
       - 'scripts/update-lead-history.js'
+      - 'tests/lead-history.test.js'
       - '.github/workflows/source-discovery.yml'
 permissions:
   contents: write
@@ -31,6 +33,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - name: Test persistent lead history
+        run: node --test tests/lead-history.test.js
       - name: Inspect monitored source websites
         run: node scripts/source-intake.js
       - name: Compare extracted titles against catalog entries
