@@ -2,10 +2,7 @@
 const fs = require('node:fs');
 const crypto = require('node:crypto');
 
-const text = fs.readFileSync('data/sources.js','utf8');
-const sources = [...text.matchAll(/"name"\s*:\s*"([^"]+)"[\s\S]*?"url"\s*:\s*"(https?:[^"]+)"/g)]
-  .map(x=>({name:x[1],url:x[2]}));
-const unique = [...new Map(sources.map(s=>[s.url,s])).values()];
+const {sources:unique,registryCount,invalidOrDuplicate}=require('./load-source-catalog').loadSources();
 // Rotate batches across the complete catalog. The report includes coverage metadata.
 const limit = Math.max(1, Number(process.env.SOURCE_LIMIT || 15));
 const batchCount = Math.max(1,Math.ceil(unique.length / limit));
@@ -29,6 +26,6 @@ async function inspect(s) {
   const results=[];
   for (const s of selected) results.push(await inspect(s));
   fs.mkdirSync('intake',{recursive:true});
-  fs.writeFileSync('intake/source-review.json',JSON.stringify({note:'Leads only: no opportunities or deadlines verified. HTTP success does not imply successful content extraction.',coverage:{totalSources:unique.length,batchIndex:batchIndex+1,batchCount,checked:results.length,unreviewed:unique.length-results.length},results},null,2)+'\n');
+  fs.writeFileSync('intake/source-review.json',JSON.stringify({note:'Leads only: no opportunities or deadlines verified. HTTP success does not imply successful content extraction.',coverage:{totalSources:unique.length,registryCount,invalidOrDuplicate,batchIndex:batchIndex+1,batchCount,checked:results.length,unreviewed:unique.length-results.length},results},null,2)+'\n');
   console.log('Sources inspected:',results.length,'of',unique.length,'batch',batchIndex+1,'of',batchCount);
 })().catch(e=>{console.error(e);process.exitCode=1});
