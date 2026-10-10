@@ -11,6 +11,8 @@ on:
       - 'scripts/triage-candidates.js'
       - 'scripts/update-lead-history.js'
       - 'scripts/lead-identity.js'
+      - 'scripts/order-lead-inspection.js'
+      - 'tests/inspection-order.test.js'
       - 'scripts/prioritize-editorial-review.js'
       - 'tests/editorial-priority.test.js'
       - 'scripts/write-run-summary.js'
@@ -51,16 +53,16 @@ jobs:
         run: node scripts/source-intake.js
       - name: Compare extracted titles against catalog entries
         run: node scripts/triage-candidates.js
-      - name: Inspect individual lead pages for evidence
-        run: node scripts/inspect-lead-pages.js
-      - name: Build editorial review queue
-        run: node scripts/build-editorial-review.js
       - name: Restore public lead history
         if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           gh api "repos/${GITHUB_REPOSITORY}/contents/state/lead-history.json?ref=radar-state" --jq .content | base64 --decode > intake/lead-history-previous.json
+      - name: Inspect individual lead pages for evidence
+        run: node scripts/inspect-lead-pages.js
+      - name: Build editorial review queue
+        run: node scripts/build-editorial-review.js
       - name: Compare against persistent public lead history
         run: node scripts/update-lead-history.js
       - name: Prioritize editorial review from historical changes
