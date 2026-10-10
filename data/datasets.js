@@ -1,6 +1,40 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.datasets=[
   {
+    "id": "amazon-mining-watch",
+    "name": "Amazon Mining Watch — mineração de ouro na Amazônia",
+    "org": "Earth Genome / Amazon Conservation Association / Pulitzer Center — Rainforest Investigations Network",
+    "territoryTier": "Outros",
+    "kind": "dataset",
+    "themes": [
+      "Amazônia",
+      "Garimpo",
+      "Mineração",
+      "Desmatamento",
+      "Terras indígenas",
+      "Áreas protegidas",
+      "Sensoriamento remoto",
+      "Jornalismo investigativo"
+    ],
+    "coverage": "Bacia Amazônica em nove países e territórios amazônicos, com recortes por país, áreas protegidas e territórios indígenas",
+    "frequency": "Série anual desde 2018 e trimestral a partir de 2025; atualizações Panorama trimestrais e anuais",
+    "format": "Mapa interativo; detecções em GeoJSON; máscaras raster GeoTIFF; diretórios de resultados e código aberto",
+    "period": "2018–2026 Q2 na versão verificada; detecções anuais de 2018 a 2025 e trimestrais desde 2025",
+    "granularity": "Patches sobre imagens Sentinel-2 de aproximadamente 480 m de lado, com confiança do modelo, período de primeira confirmação e estado confirmado ou provisório; máscaras de cicatriz a 10 m",
+    "geoUnit": "Localização detectada na Bacia Amazônica, agregável por país, unidade de conservação e território indígena",
+    "api": "Downloads programáticos por arquivo em https://data.source.coop/earthgenome/amazon-mining-watch/; não há API transacional documentada",
+    "docs": "https://github.com/earthrise-media/mining-detector",
+    "limitations": "Detecções de IA não comprovam legalidade, autoria ou atividade corrente e precisam ser cruzadas com concessões, fiscalização e apuração local. Há falsos positivos e, com mais frequência, falsos negativos; operações pequenas podem escapar à resolução Sentinel-2. Dados trimestrais recentes são provisórios e podem mudar na consolidação anual. A segmentação é a parte menos madura e superestimou a área anotada nos testes descritos pelo projeto.",
+    "lastChecked": "2026-10-10",
+    "story": [],
+    "url": "https://amazonminingwatch.org/pt",
+    "discoveredVia": [
+      "Radar PLOT. · Gmail",
+      "Agência Pública"
+    ],
+    "discoveryUrl": "https://apublica.org/2026/10/com-flavio-o-brasil-pode-virar-um-grande-garimpo/"
+  },
+  {
     "id": "health-at-a-glance-lac-2026",
     "name": "Health at a Glance: Latin America and the Caribbean 2026",
     "org": "OCDE / Banco Interamericano de Desenvolvimento / Banco Mundial",

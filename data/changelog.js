@@ -2,6 +2,43 @@ window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
   {
     "date": "2026-10-10",
+    "type": "nova-oportunidade",
+    "title": "Tarbell abre grants institucionais globais para jornalismo de IA",
+    "items": [
+      {"id": "tarbell-institutional-grants-2026", "title": "Tarbell Institutional Grants — chamada 2026"}
+    ],
+    "detail": "Chamada mundial para veículos com ou sem fins lucrativos, com grants de US$ 50 mil a US$ 500 mil+ e prazo em 11/12/2026. O registro explicita requisitos de organização, orçamento, equipe, alcance e foco editorial."
+  },
+  {
+    "date": "2026-10-10",
+    "type": "dados",
+    "title": "Amazon Mining Watch: mineração de ouro em toda a Amazônia",
+    "items": [
+      {"id": "amazon-mining-watch", "title": "Amazon Mining Watch — mineração de ouro na Amazônia"}
+    ],
+    "detail": "Mapa e downloads abertos de detecções em GeoJSON e máscaras raster, com série desde 2018, atualizações trimestrais e documentação sobre modelo, resolução, dados provisórios e erros de detecção."
+  },
+  {
+    "date": "2026-10-10",
+    "type": "ferramentas",
+    "title": "Duas ferramentas verificadas para Telegram e dados societários",
+    "items": [
+      {"id": "traceon-re", "title": "TRACEON.re"},
+      {"id": "opencheck-world", "title": "OpenCheck"}
+    ],
+    "detail": "TRACEON.re pesquisa e monitora mensagens públicas do Telegram; OpenCheck cruza registros corporativos, sanções e fontes de beneficiários em padrão BODS. Cobertura, privacidade e confirmação na fonte original foram registradas como limitações."
+  },
+  {
+    "date": "2026-10-10",
+    "type": "fontes",
+    "title": "Nova fonte pan-amazônica de mineração e desmatamento",
+    "items": [
+      {"id": "amazon-mining-watch-source", "title": "Amazon Mining Watch"}
+    ],
+    "detail": "Fonte oficial adicionada com prioridade alta e cadência trimestral para acompanhar dados, metodologia e novos produtos sobre mineração de ouro na Pan-Amazônia."
+  },
+  {
+    "date": "2026-10-10",
     "type": "ferramentas",
     "title": "Guia verificado sobre dados e violência de gênero",
     "items": [{"id":"genero-numero-do-dado-a-decisao","title":"Gênero e Número — Do dado à decisão"}],

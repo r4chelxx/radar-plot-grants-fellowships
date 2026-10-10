@@ -1,6 +1,62 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.opportunities=[
   {
+    "value": "US$ 50 mil–US$ 500 mil+ por organização",
+    "duration": "Em geral 1 ano nesta fase do programa; a organização pode propor a duração no formulário",
+    "modality": "Grant institucional global para veículos, equipes, unidades de investigação, séries ou novos empreendimentos jornalísticos",
+    "documents": [
+      "descrição das atividades e duração pretendida",
+      "orçamento proposto e informação sobre financiamento já existente",
+      "equipe e responsabilidades",
+      "audiência atual ou projetada e exemplos concretos do trabalho a produzir"
+    ],
+    "restrictions": [
+      "a candidatura precisa partir de um veículo ou plataforma de distribuição capaz de receber financiamento",
+      "não é o programa indicado para uma reportagem individual",
+      "a proposta deve ampliar cobertura jornalística rigorosa sobre inteligência artificial em uma das áreas prioritárias",
+      "a chamada é aberta, mas o programa avisa que não conseguirá avaliar formalmente todas as candidaturas"
+    ],
+    "opens": null,
+    "verificationHistory": [
+      {
+        "date": "2026-10-10",
+        "status": "aberta",
+        "source": "https://www.tarbellcenter.org/institutional-grants"
+      }
+    ],
+    "id": "tarbell-institutional-grants-2026",
+    "summary": "Financiamento institucional para veículos do mundo inteiro criarem ou ampliarem equipes, unidades investigativas, verticais, séries ou novos projetos de jornalismo sobre inteligência artificial.",
+    "title": "Tarbell Institutional Grants — chamada 2026",
+    "org": "Tarbell Center for AI Journalism",
+    "type": "Grant institucional",
+    "themes": [
+      "Inteligência artificial",
+      "Jornalismo investigativo",
+      "Tecnologia",
+      "Políticas públicas",
+      "Trabalho",
+      "Accountability"
+    ],
+    "scope": "Global · organizações jornalísticas com ou sem fins lucrativos",
+    "deadline": "2026-12-11",
+    "deadlineStatus": "confirmado",
+    "eligibility": "elegível",
+    "fit": 9,
+    "status": "aberta",
+    "story": [
+      "data-centers"
+    ],
+    "rules": "https://www.tarbellcenter.org/institutional-grants",
+    "apply": "https://www.tarbellcenter.org/institutional-grants",
+    "verified": "2026-10-10",
+    "notes": "O PLOT. pode concorrer se a pessoa jurídica ou plataforma responsável puder receber o grant. A proposta ganha força se transformar a apuração sobre data centers e poder econômico da IA em cobertura continuada, com orçamento, equipe e distribuição verificáveis.",
+    "desc": "O programa financia organizações jornalísticas no mundo inteiro, inclusive com fins lucrativos, sem número mínimo de jornalistas. Prioriza propostas de alto impacto sobre empresas de IA, políticas, lobby, incidentes, trabalho e efeitos sociais; o veículo mantém controle editorial completo.",
+    "discoveredVia": [
+      "Grants for Journalists — LinkedIn"
+    ],
+    "discoveryUrl": "https://www.linkedin.com/company/grants-for-journalists/"
+  },
+  {
     "value": "€ 5.000–50.000 por projeto; € 1,2 milhão previstos para o esquema no ciclo 2026/27",
     "duration": "Segunda chamada abre em 01/12/2026 e encerra em 02/02/2027; projetos financiados têm seis meses para publicação",
     "modality": "Candidatura online em inglês · investigação transfronteiriça com núcleo europeu",
