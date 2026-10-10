@@ -8,6 +8,9 @@ on:
       - "data.js"
       - "data/**"
       - "scripts/validate-data.js"
+      - "scripts/publish-approved-opportunities.js"
+      - "scripts/test-approved-publication.js"
+      - "editorial/approved-opportunities.json"
       - ".github/workflows/validate-data.yml"
   pull_request:
     paths:
@@ -35,3 +38,5 @@ jobs:
           for file in data/*.js; do node --check "$file"; done
       - name: Validate Radar records
         run: node scripts/validate-data.js
+      - name: Test editorial publication gates
+        run: node scripts/test-approved-publication.js
