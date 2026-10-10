@@ -1499,5 +1499,29 @@ window.RADAR_PARTS.sources=[
     "category": "dados/visual",
     "lastChecked": "2026-09-29",
     "checkStatus": "verificada"
+  },
+  {
+    "name": "Equality Fund — Journalism Fellowship",
+    "role": "fonte oficial",
+    "type": "Fellowship / gênero / direitos / soluções locais",
+    "scope": "Países elegíveis a ODA, incluindo Brasil",
+    "priority": "Alta",
+    "url": "https://equalityfund.ca/en/posts/application-journalism-fellowship",
+    "cadence": "semanal",
+    "category": "oportunidades",
+    "lastChecked": "2026-10-09",
+    "checkStatus": "verificada"
+  },
+  {
+    "name": "Global Center for Journalism & Trauma — Fellowships",
+    "role": "fonte oficial",
+    "type": "Fellowship / trauma / ética / violência",
+    "scope": "Global",
+    "priority": "Alta",
+    "url": "https://gcjt.org/resources/call-applications-2027-ochberg-fellowships",
+    "cadence": "semanal",
+    "category": "oportunidades",
+    "lastChecked": "2026-10-09",
+    "checkStatus": "verificada"
   }
 ];
