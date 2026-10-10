@@ -61,7 +61,7 @@ jobs:
       - name: Compare extracted titles against catalog entries
         run: node scripts/triage-candidates.js
       - name: Restore public lead history
-        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        if: github.ref == 'refs/heads/main' && (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' || github.event_name == 'push')
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
@@ -92,7 +92,7 @@ jobs:
     needs: discover
     env:
       GH_REPO: ${{ github.repository }}
-    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    if: github.ref == 'refs/heads/main' && (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' || github.event_name == 'push')
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -115,6 +115,7 @@ jobs:
         run: |
           gh api "repos/${GITHUB_REPOSITORY}/contents/state/lead-history.json?ref=radar-state" --jq .content | base64 --decode > intake/lead-history-confirmed.json
           cmp intake/lead-history-next.json intake/lead-history-confirmed.json
+          node -e "const fs=require('fs');const s=JSON.parse(fs.readFileSync('intake/lead-history-confirmed.json'));if(s.schemaVersion!==1||!s.updatedAt||!s.leads||Array.isArray(s.leads))process.exit(1);console.log('Confirmed persisted leads:',Object.keys(s.leads).length)"
           echo "### Persistência do Radar confirmada" >> "$GITHUB_STEP_SUMMARY"
           echo "O conteúdo salvo na branch radar-state corresponde exatamente ao histórico gerado nesta execução." >> "$GITHUB_STEP_SUMMARY"
       - name: Link report in daily editorial queue
