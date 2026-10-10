@@ -1,5 +1,6 @@
 // Evidence gathering only: NEVER confirms a deadline, eligibility or publication.
 const fs=require('node:fs'),crypto=require('node:crypto');
+const {orderForInspection}=require('./order-lead-inspection');
 const input=JSON.parse(fs.readFileSync('intake/candidate-triage.json','utf8'));
 const limit=Math.min(20,Math.max(1,Number(process.env.LEAD_PAGE_LIMIT||10)));
 function allowed(raw){
@@ -24,10 +25,13 @@ async function inspect(lead){
  finally{clearTimeout(timer)}
 }
 (async()=>{
- const selected=(input.leads||[]).filter(x=>x.classification==='needs-editorial-review').slice(0,limit);
+ const previous=fs.existsSync('intake/lead-history-previous.json')?JSON.parse(fs.readFileSync('intake/lead-history-previous.json','utf8')):null;
+ const eligible=(input.leads||[]).filter(x=>x.classification==='needs-editorial-review');
+ const ordered=orderForInspection(eligible,previous);
+ const selected=ordered.slice(0,limit);
  const results=[];
- for(const lead of selected)results.push(await inspect(lead));
- const out={generatedAt:new Date().toISOString(),policy:'Unverified evidence only. Date mentions are NOT deadlines.',eligibleForPublication:0,inspected:results.length,results};
+ for(const item of selected)results.push({...await inspect(item.lead),historyAtSelection:item.status});
+ const out={generatedAt:new Date().toISOString(),policy:'Unverified evidence only. Date mentions are NOT deadlines.',eligibleForPublication:0,eligibleCandidates:eligible.length,inspected:results.length,selection:{historyLoaded:previous!==null,priorities: selected.reduce((a,x)=>(a[x.status]=(a[x.status]||0)+1,a),{})},results};
  fs.writeFileSync('intake/lead-evidence.json',JSON.stringify(out,null,2)+'\n');
  console.log(JSON.stringify({inspected:results.length,htmlFetched:results.filter(x=>x.pageStatus==='html-fetched').length}));
 })().catch(e=>{console.error(e);process.exitCode=1});
