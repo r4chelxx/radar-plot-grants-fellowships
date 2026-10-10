@@ -3,6 +3,13 @@ window.RADAR_PARTS.changelog=[
   {
     "date": "2026-10-10",
     "type": "ferramentas",
+    "title": "Guia verificado sobre dados e violência de gênero",
+    "items": [{"id":"genero-numero-do-dado-a-decisao","title":"Gênero e Número — Do dado à decisão"}],
+    "detail": "Recurso metodológico oficial sobre bases, lacunas e interpretação responsável de evidências sobre violência de gênero. O material integral é disponibilizado mediante formulário da organização; não é uma oportunidade aberta."
+  },
+  {
+    "date": "2026-10-10",
+    "type": "ferramentas",
     "title": "Duas ferramentas verificadas para investigação e formação",
     "items": [
       {"id": "open-measures-public-app", "title": "Open Measures — Public App e API"},
