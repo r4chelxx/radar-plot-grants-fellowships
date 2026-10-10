@@ -11,6 +11,7 @@ on:
       - 'scripts/triage-candidates.js'
       - 'scripts/update-lead-history.js'
       - 'scripts/lead-identity.js'
+      - 'tests/lead-privacy.test.js'
       - 'scripts/prioritize-editorial-review.js'
       - 'tests/editorial-priority.test.js'
       - 'scripts/write-run-summary.js'
@@ -46,7 +47,7 @@ jobs:
         with:
           node-version: '22'
       - name: Test persistent lead history
-        run: node --test tests/lead-history.test.js tests/source-catalog.test.js tests/editorial-review.test.js
+        run: node --test tests/lead-history.test.js tests/source-catalog.test.js tests/editorial-review.test.js tests/editorial-priority.test.js tests/lead-privacy.test.js
       - name: Inspect monitored source websites
         run: node scripts/source-intake.js
       - name: Compare extracted titles against catalog entries
