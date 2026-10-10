@@ -6,6 +6,8 @@ on:
   push:
     paths:
       - 'scripts/source-intake.js'
+      - 'scripts/normalize-lead-link.js'
+      - 'tests/normalize-lead-link.test.js'
       - 'scripts/load-source-catalog.js'
       - 'tests/source-catalog.test.js'
       - 'scripts/triage-candidates.js'
@@ -25,6 +27,8 @@ on:
   pull_request:
     paths:
       - 'scripts/source-intake.js'
+      - 'scripts/normalize-lead-link.js'
+      - 'tests/normalize-lead-link.test.js'
       - 'scripts/triage-candidates.js'
       - 'scripts/update-lead-history.js'
       - 'scripts/lead-identity.js'

@@ -30,13 +30,19 @@ for(const source of intake.results||[])for(const link of source.leads||[]){
  const currentYear=new Date().getUTCFullYear();
  const historical=years.length>0&&Math.max(...years)<currentYear;
  const homepage=sourceUrls.has(url);
+ const target=new URL(url);
+ const navigation=/^\/(?:signup|login|feed\/hashtag)(?:\/|$)/i.test(target.pathname)&&/(^|\.)linkedin\.com$/i.test(target.hostname);
+ const externalHomepage=(target.pathname==='/'||target.pathname==='')&&!target.search&&/^(?:https?:\/\/|www\.)/i.test(label.trim());
+ const directory=/^(?:scholarships?\s*(?:&|and)\s*fellowships?|grants?\s*(?:&|and)\s*fellowships?|funding opportunities|open calls)(?:\s+[\w.-]+\.(?:org|com|net))?$/i.test(label.trim());
  const generic=/^(find a grant|grants for journalists|successful applications|stable tools|database tools|mediawiki tools|apply|application|tools|ferramentas)$/i.test(label.trim());
  const category=/grant|fellowship|bolsa|funding|financiamento|edital|call for|apply/i.test(label)?'opportunities':/dataset|dados abertos|open data|base de dados/i.test(label)?'datasets':/tool|ferramenta/i.test(label)?'tools':'uncategorized';
- leads.push({source:source.name,title:label,url,category,classification:matches.length?'catalog-match':homepage?'source-homepage-only':generic?'generic-navigation':historical?'historical-reference':'needs-editorial-review',possibleMatches:matches.slice(0,5),deadline:null,eligibility:null,editoriallyVerified:false});
+ leads.push({source:source.name,title:label,url,category,classification:matches.length?'catalog-match':homepage?'source-homepage-only':externalHomepage?'external-homepage-only':navigation||generic?'generic-navigation':directory?'resource-directory':historical?'historical-reference':'needs-editorial-review',possibleMatches:matches.slice(0,5),deadline:null,eligibility:null,editoriallyVerified:false});
 }
 report.leads=leads;
 report.summary.linkLeads=leads.length;
 report.summary.homepageLinks=leads.filter(x=>x.classification==='source-homepage-only').length;
+report.summary.externalHomepages=leads.filter(x=>x.classification==='external-homepage-only').length;
+report.summary.resourceDirectories=leads.filter(x=>x.classification==='resource-directory').length;
 report.summary.genericNavigation=leads.filter(x=>x.classification==='generic-navigation').length;
 report.summary.historicalReferences=leads.filter(x=>x.classification==='historical-reference').length;
 report.summary.unverifiedLinkLeads=leads.filter(x=>x.classification==='needs-editorial-review').length;
