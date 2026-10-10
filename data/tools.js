@@ -1,6 +1,24 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.tools=[
   {
+    "id": "open-measures-public-app",
+    "name": "Open Measures — Public App e API",
+    "kind": "OSINT e análise de redes sociais para desinformação e extremismo",
+    "url": "https://openmeasures.io/platform",
+    "desc": "Plataforma de pesquisa para investigar publicações, redes de influência e circulação de conteúdo em redes sociais, incluindo ambientes alternativos. A modalidade pública oferece interface e API gratuitas com limite de 39 consultas por dia e acesso a dados com pelo menos seis meses de defasagem. É útil para investigações de desinformação e coordenação online; a cobertura das plataformas varia, e dados encontrados exigem contextualização e checagem independente. Recursos avançados são pagos.",
+    "discoveredVia": ["Newsletter A Pública — curadoria de ferramentas"],
+    "discoveryUrl": "https://docs.openmeasures.io/docs/guides/public-app"
+  },
+  {
+    "id": "solutions-journalism-basic-toolkit",
+    "name": "Solutions Journalism Network — Kit de Ferramentas Básicas",
+    "kind": "guia gratuito de metodologia e apuração em jornalismo de soluções",
+    "url": "https://www.solutionsjournalism.org/learning-lab/toolkits-guides/kit-de-ferramentas-basicas",
+    "desc": "Guia em português da Solutions Journalism Network, traduzido em parceria com a Fiocruz. Apresenta critérios, métodos de reportagem, entrevistas, verificação de evidências e construção narrativa para investigar respostas a problemas sociais. Recurso de formação metodológica, não um conjunto de dados nem uma chamada de financiamento; a organização informa disponibilidade do toolkit em 19 idiomas.",
+    "discoveredVia": ["Solutions Journalism Network — newsletter"],
+    "discoveryUrl": "https://www.solutionsjournalism.org/learning-lab/toolkits-guides/basic-toolkit"
+  },
+  {
     "id": "desagrega-biomas-br",
     "name": "DesagregaBiomasBR",
     "kind": "plugin QGIS para seleção, recorte e desagregação de dados ambientais oficiais",
