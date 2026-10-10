@@ -1,6 +1,18 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.sources=[
   {
+    "name": "Open Measures",
+    "role": "fonte oficial",
+    "type": "OSINT / monitoramento de redes sociais / ferramentas",
+    "scope": "Global",
+    "priority": "Média",
+    "url": "https://openmeasures.io/platform",
+    "cadence": "mensal",
+    "category": "ferramentas",
+    "lastChecked": "2026-10-10",
+    "checkStatus": "verificada"
+  },
+  {
     "name": "IJ4EU",
     "url": "https://investigativejournalismforeu.net/grants/",
     "type": "Chamadas e calendário de grants para jornalismo investigativo transfronteiriço europeu",
