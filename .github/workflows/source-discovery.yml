@@ -8,6 +8,7 @@ on:
       - 'scripts/source-intake.js'
       - 'scripts/triage-candidates.js'
       - 'scripts/update-lead-history.js'
+      - 'scripts/write-run-summary.js'
       - 'tests/lead-history.test.js'
       - 'scripts/inspect-lead-pages.js'
       - '.github/workflows/source-discovery.yml'
@@ -16,6 +17,7 @@ on:
       - 'scripts/source-intake.js'
       - 'scripts/triage-candidates.js'
       - 'scripts/update-lead-history.js'
+      - 'scripts/write-run-summary.js'
       - 'tests/lead-history.test.js'
       - '.github/workflows/source-discovery.yml'
 permissions:
@@ -59,6 +61,8 @@ jobs:
           sha=$(gh api "repos/${GITHUB_REPOSITORY}/contents/state/lead-history.json?ref=radar-state" --jq .sha)
           payload=$(base64 -w 0 intake/lead-history-next.json)
           gh api --method PUT "repos/${GITHUB_REPOSITORY}/contents/state/lead-history.json" -f branch=radar-state -f message="Update public lead history from run ${GITHUB_RUN_ID}" -f content="$payload" -f sha="$sha" --silent
+      - name: Publish run summary in GitHub Actions
+        run: node scripts/write-run-summary.js
       - uses: actions/upload-artifact@v4
         with:
           name: source-intake-${{ github.run_id }}
@@ -68,6 +72,7 @@ jobs:
             intake/lead-evidence.json
             intake/editorial-review.json
             intake/lead-history-delta.json
+            intake/run-summary.md
           if-no-files-found: error
       - name: Link report in daily editorial queue
         if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
