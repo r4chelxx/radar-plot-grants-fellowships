@@ -1,6 +1,16 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
   {
+    "date": "2026-10-10",
+    "type": "ferramentas",
+    "title": "Duas ferramentas verificadas para investigação e formação",
+    "items": [
+      {"id": "open-measures-public-app", "title": "Open Measures — Public App e API"},
+      {"id": "solutions-journalism-basic-toolkit", "title": "Solutions Journalism Network — Kit de Ferramentas Básicas"}
+    ],
+    "detail": "Nova fonte monitorada: Open Measures. Open Measures: pesquisa OSINT com acesso público limitado a 39 consultas diárias e dados com seis meses de defasagem. SJN: guia metodológico gratuito disponível em português. Ambos confirmados em fontes oficiais. A Poynter Brain Health Fellowship foi examinada, mas o prazo de 22/09/2026 já encerrou; não foi publicada como oportunidade aberta."
+  },
+  {
     "date": "2026-10-09",
     "type": "nova-oportunidade",
     "title": "IJ4EU 2026/27: duas chamadas futuras para investigação transfronteiriça",
