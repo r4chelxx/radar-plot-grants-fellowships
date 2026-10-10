@@ -3,6 +3,14 @@ on:
   schedule:
     - cron: '20 11 * * *'
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'index.html'
+      - 'app.js'
+      - 'data/changelog.js'
+      - 'scripts/check-publication.js'
+      - '.github/workflows/daily-publication-monitor.yml'
 permissions:
   contents: read
   issues: write
@@ -20,6 +28,9 @@ jobs:
           node-version: '22'
       - name: Validate published source
         run: node scripts/validate-data.js
+      - name: Wait briefly for Pages deployment on push
+        if: github.event_name == 'push'
+        run: sleep 75
       - name: Check Pages content and freshness
         env:
           RADAR_URL: https://r4chelxx.github.io/radar-plot-grants-fellowships/
