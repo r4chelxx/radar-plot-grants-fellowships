@@ -6,7 +6,7 @@ window.RADAR_PARTS.tools=[
     "kind": "OSINT e análise de redes sociais para desinformação e extremismo",
     "url": "https://openmeasures.io/platform",
     "desc": "Plataforma de pesquisa para investigar publicações, redes de influência e circulação de conteúdo em redes sociais, incluindo ambientes alternativos. A modalidade pública oferece interface e API gratuitas com limite de 39 consultas por dia e acesso a dados com pelo menos seis meses de defasagem. É útil para investigações de desinformação e coordenação online; a cobertura das plataformas varia, e dados encontrados exigem contextualização e checagem independente. Recursos avançados são pagos.",
-    "discoveredVia": ["Newsletter A Pública — curadoria de ferramentas"],
+    "discoveredVia": ["Newsletter “A República do Medo” (Radar PLOT.)"],
     "discoveryUrl": "https://docs.openmeasures.io/docs/guides/public-app"
   },
   {
