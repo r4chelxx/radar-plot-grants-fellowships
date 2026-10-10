@@ -7,15 +7,17 @@ on:
     paths:
       - 'scripts/source-intake.js'
       - 'scripts/triage-candidates.js'
+      - 'scripts/update-lead-history.js'
       - 'scripts/inspect-lead-pages.js'
       - '.github/workflows/source-discovery.yml'
   pull_request:
     paths:
       - 'scripts/source-intake.js'
       - 'scripts/triage-candidates.js'
+      - 'scripts/update-lead-history.js'
       - '.github/workflows/source-discovery.yml'
 permissions:
-  contents: read
+  contents: write
   issues: write
 concurrency:
   group: radar-source-discovery
@@ -37,6 +39,22 @@ jobs:
         run: node scripts/inspect-lead-pages.js
       - name: Build editorial review queue
         run: node scripts/build-editorial-review.js
+      - name: Restore public lead history
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh api "repos/${GITHUB_REPOSITORY}/contents/state/lead-history.json?ref=radar-state" --jq .content | base64 --decode > intake/lead-history-previous.json
+      - name: Compare against persistent public lead history
+        run: node scripts/update-lead-history.js
+      - name: Save public lead history
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          sha=$(gh api "repos/${GITHUB_REPOSITORY}/contents/state/lead-history.json?ref=radar-state" --jq .sha)
+          payload=$(base64 -w 0 intake/lead-history-next.json)
+          gh api --method PUT "repos/${GITHUB_REPOSITORY}/contents/state/lead-history.json" -f branch=radar-state -f message="Update public lead history from run ${GITHUB_RUN_ID}" -f content="$payload" -f sha="$sha" --silent
       - uses: actions/upload-artifact@v4
         with:
           name: source-intake-${{ github.run_id }}
@@ -45,6 +63,7 @@ jobs:
             intake/candidate-triage.json
             intake/lead-evidence.json
             intake/editorial-review.json
+            intake/lead-history-delta.json
           if-no-files-found: error
       - name: Link report in daily editorial queue
         if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
