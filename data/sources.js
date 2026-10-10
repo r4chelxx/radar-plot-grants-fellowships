@@ -1499,8 +1499,8 @@ window.RADAR_PARTS.sources=[
     "category": "dados/visual",
     "lastChecked": "2026-09-29",
     "checkStatus": "verificada"
-  }
-  ,{
+  },
+  {
     "name": "Equality Fund — Journalism Fellowship",
     "role": "fonte oficial",
     "type": "Fellowship / gênero / direitos / soluções locais",
