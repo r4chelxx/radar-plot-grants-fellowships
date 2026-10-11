@@ -2,6 +2,13 @@ window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
   {
     "date": "2026-10-11",
+    "type": "ferramentas",
+    "title": "E-book sobre análise de dados educacionais",
+    "items": [{"id":"escola-dados-ebook-analise-educacional","title":"Escola de Dados — Análise de Dados Educacionais"}],
+    "detail": "Material metodológico de 2022 localizado em newsletter histórica e confirmado no domínio oficial da Escola de Dados. Conteúdo formativo; não confundir com base atualizada ou inscrição aberta."
+  },
+  {
+    "date": "2026-10-11",
     "type": "dados",
     "title": "Dados por Direitos reúne 59 recursos para apurações sensíveis",
     "items": [{"id": "dados-por-direitos-data-drops", "title": "Dados por Direitos — recursos sobre tráfico de pessoas, migração e exploração sexual"}],
