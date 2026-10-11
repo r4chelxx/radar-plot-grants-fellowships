@@ -93,7 +93,7 @@ window.RADAR_PARTS.sources=[
     "priority": "Alta",
     "cadence": "diária",
     "category": "oportunidades",
-    "lastChecked": "2026-10-10",
+    "lastChecked": "2026-10-11",
     "checkStatus": "verificada"
   },
   {
@@ -369,7 +369,7 @@ window.RADAR_PARTS.sources=[
     "priority": "Alta",
     "cadence": "semanal",
     "category": "oportunidades",
-    "lastChecked": "2026-10-02",
+    "lastChecked": "2026-10-11",
     "checkStatus": "verificada"
   },
   {
@@ -381,7 +381,7 @@ window.RADAR_PARTS.sources=[
     "priority": "Alta",
     "cadence": "semanal",
     "category": "oportunidades",
-    "lastChecked": "2026-10-02",
+    "lastChecked": "2026-10-11",
     "checkStatus": "verificada"
   },
   {
@@ -597,7 +597,7 @@ window.RADAR_PARTS.sources=[
     "priority": "Alta",
     "cadence": "semanal",
     "category": "dados/visual",
-    "lastChecked": "2026-10-01",
+    "lastChecked": "2026-10-11",
     "checkStatus": "verificada"
   },
   {
@@ -715,7 +715,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://knightcenter.utexas.edu/",
     "cadence": "quinzenal",
     "category": "ecossistema/formação",
-    "lastChecked": "2026-09-24",
+    "lastChecked": "2026-10-11",
     "checkStatus": "auditoria inicial"
   },
   {
@@ -726,7 +726,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://escoladedados.org/",
     "cadence": "quinzenal",
     "category": "dados/visual",
-    "lastChecked": "2026-09-24",
+    "lastChecked": "2026-10-11",
     "checkStatus": "auditoria inicial"
   },
   {
@@ -737,7 +737,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://abraji.org.br/",
     "cadence": "quinzenal",
     "category": "investigação",
-    "lastChecked": "2026-09-24",
+    "lastChecked": "2026-10-11",
     "checkStatus": "auditoria inicial"
   },
   {
@@ -847,7 +847,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://www.iwmf.org/",
     "cadence": "semanal",
     "category": "oportunidades",
-    "lastChecked": "2026-10-01",
+    "lastChecked": "2026-10-11",
     "checkStatus": "verificada"
   },
   {
@@ -869,7 +869,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://ijnet.org/en/opportunities",
     "cadence": "diária",
     "category": "oportunidades",
-    "lastChecked": "2026-10-10",
+    "lastChecked": "2026-10-11",
     "checkStatus": "verificada"
   },
   {
@@ -1123,7 +1123,7 @@ window.RADAR_PARTS.sources=[
     "url": null,
     "cadence": "diária",
     "category": "ecossistema/formação",
-    "lastChecked": "2026-10-10",
+    "lastChecked": "2026-10-11",
     "checkStatus": "verificada"
   },
   {
@@ -1211,7 +1211,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://fapesp.br/oportunidades/",
     "cadence": "diária",
     "category": "oportunidades",
-    "lastChecked": "2026-10-10",
+    "lastChecked": "2026-10-11",
     "checkStatus": "verificada"
   },
   {
@@ -1387,7 +1387,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://gijn.org/jobs",
     "cadence": "diária",
     "category": "dados/visual",
-    "lastChecked": "2026-10-10",
+    "lastChecked": "2026-10-11",
     "checkStatus": "verificada"
   },
   {
@@ -1398,7 +1398,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://gijn.org/rounduplink/",
     "cadence": "diária",
     "category": "oportunidades",
-    "lastChecked": "2026-10-10",
+    "lastChecked": "2026-10-11",
     "checkStatus": "verificada"
   },
   {

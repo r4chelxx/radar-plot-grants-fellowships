@@ -1,6 +1,15 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.tools=[
   {
+    "id": "caixa-ferramentas-jornalismo-dados",
+    "name": "Caixa de Ferramentas do Jornalismo de Dados",
+    "kind": "catálogo colaborativo de ferramentas para jornalismo de dados",
+    "url": "https://kit.jornalismodedados.org.br/",
+    "desc": "Catálogo aberto da Escola de Dados / Open Knowledge Brasil com 226 recursos para visualização, extração, análise, cartografia, limpeza, redes, OSINT, inteligência artificial e bancos de dados. Permite filtrar por categoria, plataforma e código aberto; o conteúdo é licenciado em CC BY 4.0 e mantido de forma colaborativa no GitHub. É uma camada de descoberta: disponibilidade, segurança, preço, licença e qualidade de cada ferramenta indicada precisam ser conferidos no site original antes do uso.",
+    "discoveredVia": ["Radar PLOT. · Gmail", "Escola de Dados / OKBR"],
+    "discoveryUrl": "https://kit.jornalismodedados.org.br/"
+  },
+  {
     "id": "traceon-re",
     "name": "TRACEON.re",
     "kind": "busca e monitoramento de inteligência de ameaças no Telegram",

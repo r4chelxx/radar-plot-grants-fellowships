@@ -1,6 +1,28 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.datasets=[
   {
+    "id": "dados-por-direitos-data-drops",
+    "name": "Dados por Direitos — recursos sobre tráfico de pessoas, migração e exploração sexual",
+    "org": "Escola de Dados / Open Knowledge Brasil",
+    "territoryTier": "Brasil",
+    "kind": "catalog",
+    "themes": ["Direitos humanos", "Migração", "Tráfico de pessoas", "Exploração sexual", "Gênero", "Trabalho escravo", "Lei de Acesso à Informação", "Jornalismo investigativo"],
+    "coverage": "Brasil, com recursos oficiais e públicos sobre tráfico de pessoas, migração, exploração sexual e políticas relacionadas",
+    "frequency": "Três lotes publicados entre fevereiro e março de 2026; não há cadência futura confirmada",
+    "format": "Catálogo editorial online de 59 recursos, incluindo bases, documentos, ferramentas e guias",
+    "period": "Varia conforme a fonte de cada recurso; coleção publicada em 2026",
+    "granularity": "Heterogênea: registros administrativos, indicadores, documentos e materiais metodológicos, conforme o recurso",
+    "geoUnit": "Varia por recurso, de agregados nacionais a recortes estaduais, municipais ou internacionais",
+    "api": "Não há API própria documentada; a coleção aponta para fontes de terceiros, que podem oferecer downloads ou APIs específicas",
+    "docs": "https://escoladedados.org/dados-por-direitos-ultimo-data-drops-expande-base-de-dados-sobre-exploracao-sexual/",
+    "limitations": "É uma curadoria, não uma base uniforme: definição, período, cobertura, atualização, formato e qualidade variam entre os 59 recursos. Dados sobre tráfico de pessoas e exploração sexual envolvem populações vulneráveis; é necessário conferir a fonte original, reduzir riscos de reidentificação e evitar inferências sobre indivíduos ou territórios a partir de registros incompletos.",
+    "lastChecked": "2026-10-11",
+    "story": [],
+    "url": "https://escoladedados.org/tag/dados-por-direitos/",
+    "discoveredVia": ["Radar PLOT. · Gmail", "Escola de Dados / OKBR"],
+    "discoveryUrl": "https://escoladedados.org/dados-por-direitos-ultimo-data-drops-expande-base-de-dados-sobre-exploracao-sexual/"
+  },
+  {
     "id": "amazon-mining-watch",
     "name": "Amazon Mining Watch — mineração de ouro na Amazônia",
     "org": "Earth Genome / Amazon Conservation Association / Pulitzer Center — Rainforest Investigations Network",

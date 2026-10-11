@@ -1,6 +1,27 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
   {
+    "date": "2026-10-11",
+    "type": "dados",
+    "title": "Dados por Direitos reúne 59 recursos para apurações sensíveis",
+    "items": [{"id": "dados-por-direitos-data-drops", "title": "Dados por Direitos — recursos sobre tráfico de pessoas, migração e exploração sexual"}],
+    "detail": "Coleção oficial da Escola de Dados / Open Knowledge Brasil com bases, documentos, ferramentas e guias. O registro explicita a heterogeneidade dos recursos e os cuidados éticos necessários em apurações sobre populações vulneráveis."
+  },
+  {
+    "date": "2026-10-11",
+    "type": "ferramentas",
+    "title": "Caixa de Ferramentas do Jornalismo de Dados",
+    "items": [{"id": "caixa-ferramentas-jornalismo-dados", "title": "Caixa de Ferramentas do Jornalismo de Dados"}],
+    "detail": "Catálogo aberto e colaborativo reúne 226 recursos para visualização, extração, análise, cartografia, limpeza, redes, OSINT, IA e bancos de dados, com filtros por plataforma e código aberto."
+  },
+  {
+    "date": "2026-10-11",
+    "type": "varredura",
+    "title": "Varredura de oportunidades concluída sem nova inclusão",
+    "items": [],
+    "detail": "Fontes diárias e vencidas, buscas independentes no Brasil e no exterior e o lote privado de newsletters foram revisados. Chamadas já catalogadas, encerradas ou sem elegibilidade brasileira confirmada não foram republicadas."
+  },
+  {
     "date": "2026-10-10",
     "type": "nova-oportunidade",
     "title": "Tarbell abre grants institucionais globais para jornalismo de IA",
