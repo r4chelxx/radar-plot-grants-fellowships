@@ -3,6 +3,13 @@ window.RADAR_PARTS.changelog=[
   {
     "date": "2026-10-11",
     "type": "ferramentas",
+    "title": "E-book sobre análise de dados educacionais",
+    "items": [{"id":"escola-dados-ebook-analise-educacional","title":"Escola de Dados — Análise de Dados Educacionais"}],
+    "detail": "Material metodológico de 2022 localizado em newsletter histórica e confirmado no domínio oficial da Escola de Dados. Conteúdo formativo; não confundir com base atualizada ou inscrição aberta."
+  },
+  {
+    "date": "2026-10-11",
+    "type": "ferramentas",
     "title": "Guia GIJN/ICIJ de investigação com criptomoedas",
     "items": [{"id":"gijn-icij-crypto-investigation-guide","title":"GIJN / ICIJ — Guia para investigar criptomoedas"}],
     "detail": "Guia metodológico oficial, com técnicas de rastreamento de carteiras, APIs, verificação de atribuições e análise de fluxos financeiros. Pista verificada a partir de newsletter GIJN de julho."
