@@ -28,7 +28,7 @@ window.RADAR_PARTS.datasets=[
     ],
     "url": "https://www.gov.br/saude/pt-br/acesso-a-informacao/siops/indicadores/indicadores",
     "discoveredVia": [
-      "Ministério da Saúde"
+      "SIOPS — Ministério da Saúde"
     ],
     "discoveryUrl": "https://www.gov.br/saude/pt-br/acesso-a-informacao/siops/siops"
   },
@@ -60,7 +60,7 @@ window.RADAR_PARTS.datasets=[
     ],
     "url": "https://www.gov.br/fnde/pt-br/assuntos/sistemas/siope",
     "discoveredVia": [
-      "FNDE"
+      "SIOPE — FNDE"
     ],
     "discoveryUrl": "https://www.gov.br/fnde/pt-br/assuntos/sistemas/siope/siope-1"
   },
@@ -92,7 +92,7 @@ window.RADAR_PARTS.datasets=[
     ],
     "url": "https://sisab.saude.gov.br/paginas/acessoPublico/faq/IndexFaq.xhtml",
     "discoveredVia": [
-      "Ministério da Saúde / SISAB"
+      "SISAB — Ministério da Saúde"
     ],
     "discoveryUrl": "https://sisab.saude.gov.br/paginas/acessoPublico/faq/IndexFaq.xhtml"
   },
