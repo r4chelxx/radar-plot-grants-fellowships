@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-11T12:03:42.537Z",
+  "checkedAt": "2026-10-11T22:42:35.811Z",
   "policy": "404/410 becomes broken only after appearing as suspect or broken in the previous audit; blocked and network results are inconclusive",
   "counts": {
-    "ok": 289,
-    "blocked": 33,
+    "ok": 291,
+    "blocked": 31,
     "network": 25
   },
   "results": [
@@ -803,11 +803,11 @@
       "type": "opportunity",
       "id": "fire-virtual-newsroom",
       "url": "https://www.firenewsroom.org/about-us/fire-frequently-asked-questions",
-      "status": 403,
+      "status": 200,
       "finalUrl": "https://www.firenewsroom.org/about-us/fire-frequently-asked-questions",
-      "class": "blocked",
+      "class": "ok",
       "attempts": [
-        403
+        200
       ]
     },
     {
@@ -1275,6 +1275,7 @@
       "finalUrl": "https://www.transparencia.ba.gov.br/Portal",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -1561,6 +1562,7 @@
       "finalUrl": "https://www.ba.gov.br/saude/suvisa/vigilancia-epidemiologica",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -3058,11 +3060,11 @@
       "type": "source",
       "id": "WFSJ / WCSJ",
       "url": "https://wfsj.org/",
-      "status": 403,
+      "status": 200,
       "finalUrl": "https://wfsj.org/",
-      "class": "blocked",
+      "class": "ok",
       "attempts": [
-        403
+        200
       ]
     },
     {
