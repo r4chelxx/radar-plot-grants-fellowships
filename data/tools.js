@@ -7,7 +7,7 @@ window.RADAR_PARTS.tools=[
     "url": "https://escoladedados.org/wp-content/uploads/2022/01/Ebook-DadosEducacionais.pdf",
     "desc": "E-book Análise de dados educacionais: Aplicando evidências na gestão pública, da Escola de Dados com parceiros, lançado em 2022. Introduz obtenção, leitura, interpretação e aplicação de indicadores educacionais no planejamento e avaliação de políticas. Útil como referência de formação para a pauta de desigualdade entre escolas; verificar ano, metodologia e atualidade das bases citadas. É material metodológico, não uma base atualizada nem edital.",
     "discoveredVia": [
-      "Escola de Dados"
+      "Escola de Dados / OKBR"
     ],
     "discoveryUrl": "https://escoladedados.org/wp-content/uploads/2022/01/Ebook-DadosEducacionais.pdf"
   },
