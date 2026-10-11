@@ -1,6 +1,17 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.tools=[
   {
+    "id": "gijn-icij-crypto-investigation-guide",
+    "name": "GIJN / ICIJ — Guia para investigar criptomoedas",
+    "kind": "guia metodológico de investigação financeira e análise de blockchain",
+    "url": "https://gijn.org/resource/reporters-guide-to-investigating-cryptocurrency/",
+    "desc": "Guia gratuito de investigação jornalística sobre transações em criptoativos, identificação e verificação de carteiras, rastreamento de fluxos, uso de exploradores e APIs, checagem com especialistas e cuidados para evitar atribuições incorretas e dupla contagem. Produzido em colaboração com o ICIJ a partir de experiências da investigação Coin Laundry. Recurso metodológico, não um conjunto de dados original nem uma oportunidade de financiamento.",
+    "discoveredVia": [
+      "GIJN"
+    ],
+    "discoveryUrl": "https://gijn.org/resource/reporters-guide-to-investigating-cryptocurrency/"
+  },
+  {
     "id": "caixa-ferramentas-jornalismo-dados",
     "name": "Caixa de Ferramentas do Jornalismo de Dados",
     "kind": "catálogo colaborativo de ferramentas para jornalismo de dados",
