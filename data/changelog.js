@@ -3,6 +3,17 @@ window.RADAR_PARTS.changelog=[
   {
     "date": "2026-10-11",
     "type": "dados",
+    "title": "Três sistemas oficiais de saúde e educação",
+    "items": [
+      {"id":"siops-orcamentos-saude","title":"SIOPS — Orçamentos Públicos em Saúde"},
+      {"id":"siope-orcamentos-educacao","title":"SIOPE — Orçamentos Públicos em Educação"},
+      {"id":"sisab-atencao-primaria","title":"SISAB — Atenção Primária"}
+    ],
+    "detail": "Fontes federais para orçamento de saúde e educação e indicadores da atenção primária, com ressalvas sobre declarações, sub-registro, atrasos e granularidade. Associadas às investigações de violência obstétrica e educação."
+  },
+  {
+    "date": "2026-10-11",
+    "type": "dados",
     "title": "Dados por Direitos reúne 59 recursos para apurações sensíveis",
     "items": [{"id": "dados-por-direitos-data-drops", "title": "Dados por Direitos — recursos sobre tráfico de pessoas, migração e exploração sexual"}],
     "detail": "Coleção oficial da Escola de Dados / Open Knowledge Brasil com bases, documentos, ferramentas e guias. O registro explicita a heterogeneidade dos recursos e os cuidados éticos necessários em apurações sobre populações vulneráveis."
