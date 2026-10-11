@@ -56,7 +56,7 @@ window.RADAR_PARTS.datasets=[
     "limitations": "Dados declaratórios sujeitos a ausência, atraso e retificação; gastos municipais não podem ser atribuídos diretamente a escolas individuais. Para pauta CEP-escola, cruzar com INEP e fontes municipais sem inferir causalidade.",
     "lastChecked": "2026-10-11",
     "story": [
-      "cep-escola"
+      "educacao"
     ],
     "url": "https://www.gov.br/fnde/pt-br/assuntos/sistemas/siope",
     "discoveredVia": [
