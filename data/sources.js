@@ -1,6 +1,42 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.sources=[
   {
+    "name": "SIOPS — Ministério da Saúde",
+    "role": "fonte oficial",
+    "type": "Orçamentos e demonstrativos públicos de saúde",
+    "scope": "Brasil · União, estados e municípios",
+    "priority": "Alta",
+    "url": "https://www.gov.br/saude/pt-br/acesso-a-informacao/siops/siops",
+    "cadence": "mensal",
+    "category": "dados",
+    "lastChecked": "2026-10-11",
+    "checkStatus": "verificada"
+  },
+  {
+    "name": "SIOPE — FNDE",
+    "role": "fonte oficial",
+    "type": "Orçamentos e demonstrativos públicos de educação",
+    "scope": "Brasil · União, estados e municípios",
+    "priority": "Alta",
+    "url": "https://www.gov.br/fnde/pt-br/assuntos/sistemas/siope",
+    "cadence": "mensal",
+    "category": "dados",
+    "lastChecked": "2026-10-11",
+    "checkStatus": "verificada"
+  },
+  {
+    "name": "SISAB — Ministério da Saúde",
+    "role": "fonte oficial",
+    "type": "Relatórios e indicadores da atenção primária",
+    "scope": "Brasil · municípios e equipes",
+    "priority": "Alta",
+    "url": "https://sisab.saude.gov.br/paginas/acessoPublico/faq/IndexFaq.xhtml",
+    "cadence": "mensal",
+    "category": "dados",
+    "lastChecked": "2026-10-11",
+    "checkStatus": "verificada"
+  },
+  {
     "name": "Amazon Mining Watch",
     "role": "fonte oficial",
     "type": "Dados geoespaciais / garimpo / desmatamento / sensoriamento remoto",

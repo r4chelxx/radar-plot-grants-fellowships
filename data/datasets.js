@@ -1,6 +1,102 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.datasets=[
   {
+    "id": "siops-orcamentos-saude",
+    "name": "SIOPS — Orçamentos Públicos em Saúde",
+    "org": "Ministério da Saúde / Fundo Nacional de Saúde",
+    "territoryTier": "Brasil",
+    "kind": "system",
+    "themes": [
+      "Orçamento público",
+      "Saúde pública",
+      "Financiamento do SUS",
+      "Transparência",
+      "Desigualdades"
+    ],
+    "coverage": "Receitas e despesas públicas em saúde declaradas por União, estados, Distrito Federal e municípios",
+    "frequency": "Declaração bimestral pelos entes federados; consultar atraso e retificações",
+    "format": "Demonstrativos públicos, indicadores, relatórios e tabulações",
+    "period": "Séries históricas variáveis por demonstrativo e ente; verificar exercício e bimestre",
+    "granularity": "Receita, despesa, fonte de recursos, categoria e subfunção, conforme relatório",
+    "geoUnit": "União, UF, Distrito Federal e município",
+    "api": "Não foi confirmada API pública oficial nesta verificação; consultas e tabulações disponíveis no portal",
+    "docs": "https://www.gov.br/saude/pt-br/acesso-a-informacao/siops/siops",
+    "limitations": "Informações declaradas pelos entes; conferir atrasos, retificações, comparabilidade contábil, inflação e população. Gasto em saúde não mede isoladamente qualidade do atendimento ou incidência de violência obstétrica.",
+    "lastChecked": "2026-10-11",
+    "story": [
+      "violencia-obstetrica"
+    ],
+    "url": "https://www.gov.br/saude/pt-br/acesso-a-informacao/siops/indicadores/indicadores",
+    "discoveredVia": [
+      "SIOPS — Ministério da Saúde"
+    ],
+    "discoveryUrl": "https://www.gov.br/saude/pt-br/acesso-a-informacao/siops/siops"
+  },
+  {
+    "id": "siope-orcamentos-educacao",
+    "name": "SIOPE — Orçamentos Públicos em Educação",
+    "org": "Fundo Nacional de Desenvolvimento da Educação (FNDE)",
+    "territoryTier": "Brasil",
+    "kind": "system",
+    "themes": [
+      "Educação",
+      "Orçamento público",
+      "Financiamento educacional",
+      "Fundeb",
+      "Transparência"
+    ],
+    "coverage": "Receitas e despesas públicas em educação declaradas por União, estados, Distrito Federal e municípios",
+    "frequency": "Declarações por exercício; verificar calendário e atualização do ente",
+    "format": "Relatórios públicos e demonstrativos detalhados; consultas e downloads conforme seção do portal",
+    "period": "Séries históricas por exercício e ente; verificar disponibilidade na consulta",
+    "granularity": "Receitas, despesas e indicadores de manutenção e desenvolvimento do ensino e Fundeb",
+    "geoUnit": "União, UF, Distrito Federal e município",
+    "api": "API pública não confirmada nesta verificação; acesso público a relatórios sem senha",
+    "docs": "https://www.gov.br/fnde/pt-br/assuntos/sistemas/siope/siope-1",
+    "limitations": "Dados declaratórios sujeitos a ausência, atraso e retificação; gastos municipais não podem ser atribuídos diretamente a escolas individuais. Para pauta CEP-escola, cruzar com INEP e fontes municipais sem inferir causalidade.",
+    "lastChecked": "2026-10-11",
+    "story": [
+      "educacao"
+    ],
+    "url": "https://www.gov.br/fnde/pt-br/assuntos/sistemas/siope",
+    "discoveredVia": [
+      "SIOPE — FNDE"
+    ],
+    "discoveryUrl": "https://www.gov.br/fnde/pt-br/assuntos/sistemas/siope/siope-1"
+  },
+  {
+    "id": "sisab-atencao-primaria",
+    "name": "SISAB — Sistema de Informação em Saúde para a Atenção Básica",
+    "org": "Ministério da Saúde / Secretaria de Atenção Primária à Saúde",
+    "territoryTier": "Brasil",
+    "kind": "system",
+    "themes": [
+      "Atenção primária",
+      "Saúde pública",
+      "Pré-natal",
+      "Saúde materna",
+      "Indicadores"
+    ],
+    "coverage": "Dados e indicadores derivados de registros da Atenção Primária à Saúde enviados pelos municípios via e-SUS APS",
+    "frequency": "Competências mensais; relatórios após processamento e validação dos envios",
+    "format": "Relatórios e painéis de consulta pública; acesso restrito a algumas funcionalidades",
+    "period": "Disponibilidade por relatório e competência; verificar mudanças metodológicas",
+    "granularity": "Produção e indicadores agregados por equipe e recorte territorial, conforme relatório público",
+    "geoUnit": "Brasil, UF, município e equipe conforme relatório e regras de acesso",
+    "api": "API pública oficial não confirmada; relatórios disponíveis no sistema",
+    "docs": "https://sisab.saude.gov.br/paginas/acessoPublico/faq/IndexFaq.xhtml",
+    "limitations": "Dados enviados pelos municípios passam por validação e podem divergir dos registros locais; há atrasos, rejeição de fichas, sub-registro e restrições de acesso por LGPD. Indicadores de pré-natal não equivalem a registros de violência obstétrica ou a medidas de qualidade individual.",
+    "lastChecked": "2026-10-11",
+    "story": [
+      "violencia-obstetrica"
+    ],
+    "url": "https://sisab.saude.gov.br/paginas/acessoPublico/faq/IndexFaq.xhtml",
+    "discoveredVia": [
+      "SISAB — Ministério da Saúde"
+    ],
+    "discoveryUrl": "https://sisab.saude.gov.br/paginas/acessoPublico/faq/IndexFaq.xhtml"
+  },
+  {
     "id": "dados-por-direitos-data-drops",
     "name": "Dados por Direitos — recursos sobre tráfico de pessoas, migração e exploração sexual",
     "org": "Escola de Dados / Open Knowledge Brasil",
