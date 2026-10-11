@@ -5,7 +5,7 @@ window.RADAR_PARTS.datasets=[
     "name": "SIOPS — Orçamentos Públicos em Saúde",
     "org": "Ministério da Saúde / Fundo Nacional de Saúde",
     "territoryTier": "Brasil",
-    "kind": "official",
+    "kind": "system",
     "themes": [
       "Orçamento público",
       "Saúde pública",
@@ -37,7 +37,7 @@ window.RADAR_PARTS.datasets=[
     "name": "SIOPE — Orçamentos Públicos em Educação",
     "org": "Fundo Nacional de Desenvolvimento da Educação (FNDE)",
     "territoryTier": "Brasil",
-    "kind": "official",
+    "kind": "system",
     "themes": [
       "Educação",
       "Orçamento público",
@@ -69,7 +69,7 @@ window.RADAR_PARTS.datasets=[
     "name": "SISAB — Sistema de Informação em Saúde para a Atenção Básica",
     "org": "Ministério da Saúde / Secretaria de Atenção Primária à Saúde",
     "territoryTier": "Brasil",
-    "kind": "official",
+    "kind": "system",
     "themes": [
       "Atenção primária",
       "Saúde pública",
