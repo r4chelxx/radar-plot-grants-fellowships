@@ -2,6 +2,13 @@ window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
   {
     "date": "2026-10-11",
+    "type": "ferramentas",
+    "title": "Guia GIJN/ICIJ de investigação com criptomoedas",
+    "items": [{"id":"gijn-icij-crypto-investigation-guide","title":"GIJN / ICIJ — Guia para investigar criptomoedas"}],
+    "detail": "Guia metodológico oficial, com técnicas de rastreamento de carteiras, APIs, verificação de atribuições e análise de fluxos financeiros. Pista verificada a partir de newsletter GIJN de julho."
+  },
+  {
+    "date": "2026-10-11",
     "type": "dados",
     "title": "Dados por Direitos reúne 59 recursos para apurações sensíveis",
     "items": [{"id": "dados-por-direitos-data-drops", "title": "Dados por Direitos — recursos sobre tráfico de pessoas, migração e exploração sexual"}],
