@@ -7,7 +7,7 @@ window.RADAR_PARTS.sources=[
     "scope": "Brasil · União, estados e municípios",
     "priority": "Alta",
     "url": "https://www.gov.br/saude/pt-br/acesso-a-informacao/siops/siops",
-    "cadence": "bimestral",
+    "cadence": "mensal",
     "category": "dados",
     "lastChecked": "2026-10-11",
     "checkStatus": "verificada"
@@ -19,7 +19,7 @@ window.RADAR_PARTS.sources=[
     "scope": "Brasil · União, estados e municípios",
     "priority": "Alta",
     "url": "https://www.gov.br/fnde/pt-br/assuntos/sistemas/siope",
-    "cadence": "anual",
+    "cadence": "mensal",
     "category": "dados",
     "lastChecked": "2026-10-11",
     "checkStatus": "verificada"
