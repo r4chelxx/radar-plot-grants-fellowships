@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-11T22:54:27.583Z",
+  "updatedAt": "2026-10-12T12:15:02.955Z",
   "leads": {
     "21d08dec9013d505e3e682633dc64ac66d18d9ce040e2b381ea738cf297fd16d": {
       "url": "https://data.inpe.br/biomasbr/sala-de-situacao-municipal-e-a-nova-ferramenta-do-terrabrasilis-para-apoiar-estados-e-municipios-no-controle-do-desmatamento-e-fogo",
@@ -1044,6 +1044,72 @@
       "classification": "needs-editorial-review",
       "firstSeen": "2026-10-11T22:54:27.583Z",
       "lastSeen": "2026-10-11T22:54:27.583Z",
+      "seenCount": 1,
+      "editorialStatus": "unverified"
+    },
+    "c7263713c60adf4d136c4f1bdf2538949b2dfc36663a1992fbe7e0ac288a08ff": {
+      "url": "https://resources.rsf.org/fellowship",
+      "title": "Fellowship opportunities",
+      "source": "Repórteres sem Fronteiras — Fellowships e oportunidades",
+      "category": "opportunities",
+      "classification": "needs-editorial-review",
+      "firstSeen": "2026-10-12T12:15:02.955Z",
+      "lastSeen": "2026-10-12T12:15:02.955Z",
+      "seenCount": 1,
+      "editorialStatus": "unverified"
+    },
+    "94c53f05fbc1d9319075f87654f310d7247d3bee07e85d1f9d4f28eac787dea4": {
+      "url": "https://resources.rsf.org/rsf-spain-fellowships-2025-2026-call-for-applications-open-until-11-07-2025",
+      "title": "RSF Spain fellowships 2025-2026",
+      "source": "Repórteres sem Fronteiras — Fellowships e oportunidades",
+      "category": "opportunities",
+      "classification": "needs-editorial-review",
+      "firstSeen": "2026-10-12T12:15:02.955Z",
+      "lastSeen": "2026-10-12T12:15:02.955Z",
+      "seenCount": 1,
+      "editorialStatus": "unverified"
+    },
+    "f193abd2e7d5e0da5764e5d75003f52cd0c555b5fdffee2a4e667b20f45ea2c3": {
+      "url": "https://resources.rsf.org/rsf-germany-fellowships-2025-open-call-for-applications",
+      "title": "RSF Germany fellowships 2025",
+      "source": "Repórteres sem Fronteiras — Fellowships e oportunidades",
+      "category": "opportunities",
+      "classification": "historical-reference",
+      "firstSeen": "2026-10-12T12:15:02.955Z",
+      "lastSeen": "2026-10-12T12:15:02.955Z",
+      "seenCount": 1,
+      "editorialStatus": "unverified"
+    },
+    "cb67d9519caff4982c7365cb994176e751f8a6b020c41b31ec5b80de78aea320": {
+      "url": "https://resources.rsf.org/2024-rsf-fellowship-programme-on-digital-security-in-berlin-applications-open-until-4-december-2023",
+      "title": "RSF fellowship programme on digital security 2024",
+      "source": "Repórteres sem Fronteiras — Fellowships e oportunidades",
+      "category": "opportunities",
+      "classification": "historical-reference",
+      "firstSeen": "2026-10-12T12:15:02.955Z",
+      "lastSeen": "2026-10-12T12:15:02.955Z",
+      "seenCount": 1,
+      "editorialStatus": "unverified"
+    },
+    "0d0d194beaec12d64a7bea93b377efede95cface19d722c4f82a019b54b274c6": {
+      "url": "https://resources.rsf.org/rsf-germany-fellowships-2024-open-call-for-applications",
+      "title": "RSF Germany fellowships 2024",
+      "source": "Repórteres sem Fronteiras — Fellowships e oportunidades",
+      "category": "opportunities",
+      "classification": "historical-reference",
+      "firstSeen": "2026-10-12T12:15:02.955Z",
+      "lastSeen": "2026-10-12T12:15:02.955Z",
+      "seenCount": 1,
+      "editorialStatus": "unverified"
+    },
+    "d295bd2cd91cd09285b45b5d7e72bc697cb312fa0d24d32f1ec491da2a4a86a3": {
+      "url": "https://resources.rsf.org/ecosint-2-2-tools-for-investigating-environmental-issues",
+      "title": "ECOSINT (2/2): Tools for Investigating Environmental Issues",
+      "source": "Repórteres sem Fronteiras — Fellowships e oportunidades",
+      "category": "tools",
+      "classification": "needs-editorial-review",
+      "firstSeen": "2026-10-12T12:15:02.955Z",
+      "lastSeen": "2026-10-12T12:15:02.955Z",
       "seenCount": 1,
       "editorialStatus": "unverified"
     }
