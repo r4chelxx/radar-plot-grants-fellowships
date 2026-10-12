@@ -1,6 +1,17 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.tools=[
   {
+    "id": "yt-dlp",
+    "name": "yt-dlp",
+    "kind": "coleta e preservação de áudio e vídeo online por linha de comando",
+    "url": "https://github.com/yt-dlp/yt-dlp",
+    "desc": "Ferramenta livre de linha de comando para baixar vídeo, áudio, legendas e metadados de milhares de sites, útil na preservação de evidências audiovisuais públicas e na documentação de investigações. Os extratores podem quebrar quando as plataformas mudam e alguns recursos dependem de FFmpeg e de um runtime JavaScript; registre URL, data, hash e contexto da coleta, confira o conteúdo e respeite termos de uso, direitos autorais, privacidade e controles de acesso.",
+    "discoveredVia": [
+      "Radar PLOT. · Gmail",
+      "Escola de Dados / OKBR"
+    ]
+  },
+  {
     "id": "gijn-icij-crypto-investigation-guide",
     "name": "GIJN / ICIJ — Guia para investigar criptomoedas",
     "kind": "guia metodológico de investigação financeira e análise de blockchain",

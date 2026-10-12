@@ -1,6 +1,41 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
   {
+    "date": "2026-10-12",
+    "type": "dados",
+    "title": "Telegram antivacina no Brasil e desertos de notícias na América Latina",
+    "items": [
+      {"id":"telegram-antivacina-brasil-2020-2025","title":"Brazilian Social Media Anti-vaccine Information Disorder Dataset — Telegram (2020–2025)"},
+      {"id":"fundacion-gabo-desiertos-noticias-locales","title":"Desiertos de Noticias Locales — América Latina"}
+    ],
+    "detail": "Dois recursos oficialmente verificados: corpus acadêmico de quase 4 milhões de mensagens públicas do Telegram no ecossistema antivacina brasileiro e portal regional sobre disponibilidade e qualidade da informação local em cinco países latino-americanos. Amostragem, acesso, ética e comparabilidade foram registrados como limitações."
+  },
+  {
+    "date": "2026-10-12",
+    "type": "ferramentas",
+    "title": "yt-dlp para coleta e preservação audiovisual",
+    "items": [
+      {"id":"yt-dlp","title":"yt-dlp"}
+    ],
+    "detail": "Ferramenta livre de linha de comando para baixar vídeo, áudio, legendas e metadados de milhares de sites, com ressalvas sobre mudanças nas plataformas, dependências, documentação da coleta, direitos autorais, privacidade e controles de acesso."
+  },
+  {
+    "date": "2026-10-12",
+    "type": "fontes",
+    "title": "Nova fonte institucional de dados de pesquisa",
+    "items": [
+      {"id":"redu-unicamp-source","title":"Repositório de Dados de Pesquisa da Unicamp (REDU)"}
+    ],
+    "detail": "O repositório institucional da Unicamp passa a ser acompanhado mensalmente para descoberta de dados, códigos e materiais de reprodutibilidade."
+  },
+  {
+    "date": "2026-10-12",
+    "type": "varredura",
+    "title": "Varredura de oportunidades concluída sem nova inclusão",
+    "items": [],
+    "detail": "Fontes diárias e vencidas, pesquisas independentes no Brasil e no exterior e o lote privado de newsletters foram revisados. Chamadas encerradas, já catalogadas ou sem elegibilidade brasileira confirmada não foram republicadas."
+  },
+  {
     "date": "2026-10-11",
     "type": "ferramentas",
     "title": "Guia GIJN/ICIJ de investigação com criptomoedas",
