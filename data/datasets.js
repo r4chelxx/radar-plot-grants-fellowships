@@ -1,6 +1,62 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.datasets=[
   {
+    "id": "telegram-antivacina-brasil-2020-2025",
+    "name": "Brazilian Social Media Anti-vaccine Information Disorder Dataset — Telegram (2020–2025)",
+    "org": "Recod.ai / Unicamp, UFMG e Unesp",
+    "territoryTier": "Brasil",
+    "kind": "dataset",
+    "themes": [
+      "Saúde pública",
+      "Vacinas",
+      "Desinformação",
+      "Telegram",
+      "Inteligência artificial"
+    ],
+    "coverage": "3.998.633 mensagens de 119 canais e grupos públicos brasileiros do Telegram associados ao ecossistema antivacina, com 71.672 usuários anonimizados",
+    "frequency": "Arquivo de pesquisa versionado; coleta encerrada em junho de 2025",
+    "format": "JSON Lines (.jsonl), um objeto por mensagem; arquivos de mídia sob termo ético específico",
+    "period": "Janeiro de 2020 a junho de 2025",
+    "granularity": "Mensagem, usuário anonimizado, canal ou grupo e metadados de resposta, encaminhamento, visualização, reação, mídia, idioma e classificação temática",
+    "geoUnit": "Brasil / ecossistema público online; sem unidade geográfica subnacional sistemática",
+    "api": "Não há API documentada; arquivos selecionados podem ser baixados no repositório Dataverse da Unicamp",
+    "docs": "https://arxiv.org/html/2601.18622",
+    "limitations": "A amostra não é probabilística: os espaços foram selecionados por termos, sementes e expansão em rede, limitados a canais e grupos públicos com ao menos mil membros. A classificação automática de conteúdo relacionado a vacinas tem incerteza e parte do corpus não foi classificada; visualizações são aproximadas. Licença CC BY-NC 4.0 para pesquisa não comercial, mídia sob acordo ético, e proibição de tentar reidentificar usuários.",
+    "lastChecked": "2026-10-12",
+    "story": [],
+    "url": "https://redu.unicamp.br/dataset.xhtml?persistentId=doi%3A10.25824%2Fredu%2F5JIVDT"
+  },
+  {
+    "id": "fundacion-gabo-desiertos-noticias-locales",
+    "name": "Desiertos de Noticias Locales — América Latina",
+    "org": "Fundación Gabo, FOPEA, CIP-UDP, FLIP, Quinto Elemento Lab e UPC",
+    "territoryTier": "Outros",
+    "kind": "portal",
+    "themes": [
+      "Jornalismo local",
+      "Ecossistemas de mídia",
+      "Liberdade de imprensa",
+      "Políticas públicas",
+      "América Latina"
+    ],
+    "coverage": "6.133 projetos jornalísticos pesquisados na Argentina, Chile, Colômbia, México e Peru, classificados por disponibilidade e qualidade da informação local",
+    "frequency": "Edição 2025; a página não informa uma cadência fixa de atualização",
+    "format": "Mapa e painéis interativos, fichas territoriais e relatórios metodológicos por país",
+    "period": "Edição 2025; a Argentina inclui comparação com o levantamento de 2021",
+    "granularity": "Projeto jornalístico e território; a Colômbia usa amostra municipal e componente qualitativo",
+    "geoUnit": "Município, província ou região, conforme o país e a metodologia local",
+    "api": "Não foi documentada API pública nem download estruturado integral nesta verificação",
+    "docs": "https://desiertosdenoticiaslocales.fundaciongabo.org/",
+    "limitations": "O Brasil não está incluído. Cobertura, amostragem e instrumentos diferem entre países: a Colômbia cobre 34 municípios com método distinto e o México abrange parte do território. Respostas declaradas, ausência de universo completo em alguns países e diferenças metodológicas limitam comparações diretas; o portal não oferece arquivo estruturado integral nem API documentada.",
+    "lastChecked": "2026-10-12",
+    "story": [],
+    "url": "https://desiertosdenoticiaslocales.fundaciongabo.org/dashboard/",
+    "discoveredVia": [
+      "Fundación Gabo"
+    ],
+    "discoveryUrl": "https://desiertosdenoticiaslocales.fundaciongabo.org/"
+  },
+  {
     "id": "siops-orcamentos-saude",
     "name": "SIOPS — Orçamentos Públicos em Saúde",
     "org": "Ministério da Saúde / Fundo Nacional de Saúde",

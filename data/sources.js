@@ -1,6 +1,18 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.sources=[
   {
+    "name": "Repositório de Dados de Pesquisa da Unicamp (REDU)",
+    "role": "repositório institucional",
+    "type": "Dados de pesquisa, códigos e materiais de reprodutibilidade",
+    "scope": "Brasil / internacional conforme o projeto",
+    "priority": "Alta",
+    "url": "https://redu.unicamp.br/",
+    "cadence": "mensal",
+    "category": "dados/visual",
+    "lastChecked": "2026-10-12",
+    "checkStatus": "verificada"
+  },
+  {
     "name": "SIOPS — Ministério da Saúde",
     "role": "fonte oficial",
     "type": "Orçamentos e demonstrativos públicos de saúde",
@@ -129,7 +141,7 @@ window.RADAR_PARTS.sources=[
     "priority": "Alta",
     "cadence": "diária",
     "category": "oportunidades",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "checkStatus": "verificada"
   },
   {
@@ -784,7 +796,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://www.icij.org/",
     "cadence": "quinzenal",
     "category": "investigação",
-    "lastChecked": "2026-09-24",
+    "lastChecked": "2026-10-12",
     "checkStatus": "auditoria inicial"
   },
   {
@@ -817,7 +829,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://pudding.cool/",
     "cadence": "quinzenal",
     "category": "dados/visual",
-    "lastChecked": "2026-09-24",
+    "lastChecked": "2026-10-12",
     "checkStatus": "auditoria inicial"
   },
   {
@@ -828,7 +840,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://www.techpolicy.press/",
     "cadence": "quinzenal",
     "category": "tecnologia/política pública",
-    "lastChecked": "2026-09-24",
+    "lastChecked": "2026-10-12",
     "checkStatus": "auditoria inicial"
   },
   {
@@ -839,7 +851,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://www.agenciatatu.com.br/",
     "cadence": "quinzenal",
     "category": "dados/visual",
-    "lastChecked": "2026-09-24",
+    "lastChecked": "2026-10-12",
     "checkStatus": "auditoria inicial"
   },
   {
@@ -850,7 +862,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://www.generonumero.media/",
     "cadence": "quinzenal",
     "category": "dados/visual",
-    "lastChecked": "2026-09-24",
+    "lastChecked": "2026-10-12",
     "checkStatus": "auditoria inicial"
   },
   {
@@ -872,7 +884,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://www.icfj.org/our-programs",
     "cadence": "semanal",
     "category": "oportunidades",
-    "lastChecked": "2026-10-01",
+    "lastChecked": "2026-10-12",
     "checkStatus": "verificada"
   },
   {
@@ -905,7 +917,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://ijnet.org/en/opportunities",
     "cadence": "diária",
     "category": "oportunidades",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "checkStatus": "verificada"
   },
   {
@@ -916,7 +928,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://fundaciongabo.org/es/convocatorias",
     "cadence": "semanal",
     "category": "oportunidades",
-    "lastChecked": "2026-10-01",
+    "lastChecked": "2026-10-12",
     "checkStatus": "verificada"
   },
   {
@@ -938,7 +950,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://wallacehouse.umich.edu/knight-wallace/",
     "cadence": "semanal",
     "category": "oportunidades",
-    "lastChecked": "2026-10-01",
+    "lastChecked": "2026-10-12",
     "checkStatus": "verificada"
   },
   {
@@ -960,7 +972,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://coveringclimatenow.org/",
     "cadence": "quinzenal",
     "category": "clima/ambiente",
-    "lastChecked": "2026-09-24",
+    "lastChecked": "2026-10-12",
     "checkStatus": "auditoria inicial"
   },
   {
@@ -971,7 +983,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://climatetracker.org/",
     "cadence": "quinzenal",
     "category": "clima/ambiente",
-    "lastChecked": "2026-09-24",
+    "lastChecked": "2026-10-12",
     "checkStatus": "auditoria inicial"
   },
   {
@@ -982,7 +994,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://datavisualizationsociety.org/",
     "cadence": "semanal",
     "category": "dados/visual",
-    "lastChecked": "2026-10-01",
+    "lastChecked": "2026-10-12",
     "checkStatus": "verificada"
   },
   {
@@ -993,7 +1005,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://www.ire.org/",
     "cadence": "quinzenal",
     "category": "dados/visual",
-    "lastChecked": "2026-09-24",
+    "lastChecked": "2026-10-12",
     "checkStatus": "auditoria inicial"
   },
   {
@@ -1004,7 +1016,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://restofworld.org/",
     "cadence": "quinzenal",
     "category": "tecnologia/política pública",
-    "lastChecked": "2026-09-24",
+    "lastChecked": "2026-10-12",
     "checkStatus": "auditoria inicial"
   },
   {
@@ -1015,7 +1027,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://dialogue.earth/",
     "cadence": "quinzenal",
     "category": "clima/ambiente",
-    "lastChecked": "2026-09-24",
+    "lastChecked": "2026-10-12",
     "checkStatus": "auditoria inicial"
   },
   {
@@ -1048,7 +1060,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://www.mozillafoundation.org/",
     "cadence": "quinzenal",
     "category": "tecnologia/política pública",
-    "lastChecked": "2026-09-24",
+    "lastChecked": "2026-10-12",
     "checkStatus": "auditoria inicial"
   },
   {
@@ -1059,7 +1071,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://ok.org.br/",
     "cadence": "quinzenal",
     "category": "dados/visual",
-    "lastChecked": "2026-09-24",
+    "lastChecked": "2026-10-12",
     "checkStatus": "auditoria inicial"
   },
   {
@@ -1081,7 +1093,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://nucleo.jor.br/",
     "cadence": "quinzenal",
     "category": "ecossistema/formação",
-    "lastChecked": "2026-09-25",
+    "lastChecked": "2026-10-12",
     "checkStatus": "verificada"
   },
   {
@@ -1103,7 +1115,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://redecajueira.com.br/",
     "cadence": "quinzenal",
     "category": "tecnologia/política pública",
-    "lastChecked": "2026-09-25",
+    "lastChecked": "2026-10-12",
     "checkStatus": "verificada"
   },
   {
@@ -1159,7 +1171,7 @@ window.RADAR_PARTS.sources=[
     "url": null,
     "cadence": "diária",
     "category": "ecossistema/formação",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "checkStatus": "verificada"
   },
   {
@@ -1170,7 +1182,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://www.theopennotebook.com/",
     "cadence": "quinzenal",
     "category": "clima/ambiente",
-    "lastChecked": "2026-09-24",
+    "lastChecked": "2026-10-12",
     "checkStatus": "auditoria inicial"
   },
   {
@@ -1181,7 +1193,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://healthjournalism.org/",
     "cadence": "quinzenal",
     "category": "saúde",
-    "lastChecked": "2026-09-24",
+    "lastChecked": "2026-10-12",
     "checkStatus": "auditoria inicial"
   },
   {
@@ -1192,7 +1204,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://internews.org/",
     "cadence": "quinzenal",
     "category": "oportunidades",
-    "lastChecked": "2026-09-24",
+    "lastChecked": "2026-10-12",
     "checkStatus": "auditoria inicial"
   },
   {
@@ -1203,7 +1215,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://www.berthafoundation.org/",
     "cadence": "quinzenal",
     "category": "investigação",
-    "lastChecked": "2026-09-24",
+    "lastChecked": "2026-10-12",
     "checkStatus": "auditoria inicial"
   },
   {
@@ -1214,7 +1226,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://opendatacharter.org/",
     "cadence": "quinzenal",
     "category": "dados/visual",
-    "lastChecked": "2026-09-24",
+    "lastChecked": "2026-10-12",
     "checkStatus": "auditoria inicial"
   },
   {
@@ -1225,7 +1237,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://www.mcgrawcenter.org/",
     "cadence": "semanal",
     "category": "oportunidades",
-    "lastChecked": "2026-10-02",
+    "lastChecked": "2026-10-12",
     "checkStatus": "verificada"
   },
   {
@@ -1236,7 +1248,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://centerforhealthjournalism.org/",
     "cadence": "semanal",
     "category": "dados/visual",
-    "lastChecked": "2026-10-01",
+    "lastChecked": "2026-10-12",
     "checkStatus": "verificada"
   },
   {
@@ -1247,7 +1259,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://fapesp.br/oportunidades/",
     "cadence": "diária",
     "category": "oportunidades",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "checkStatus": "verificada"
   },
   {
@@ -1258,7 +1270,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://leibniz-ifl.de/",
     "cadence": "quinzenal",
     "category": "dados/visual",
-    "lastChecked": "2026-09-24",
+    "lastChecked": "2026-10-12",
     "checkStatus": "auditoria inicial"
   },
   {
@@ -1269,7 +1281,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://www.allardpierson.nl/",
     "cadence": "quinzenal",
     "category": "dados/visual",
-    "lastChecked": "2026-09-24",
+    "lastChecked": "2026-10-12",
     "checkStatus": "auditoria inicial"
   },
   {
@@ -1280,7 +1292,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://www.catchlight.io/",
     "cadence": "quinzenal",
     "category": "dados/visual",
-    "lastChecked": "2026-09-24",
+    "lastChecked": "2026-10-12",
     "checkStatus": "auditoria inicial"
   },
   {
@@ -1291,7 +1303,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://www.sej.org/",
     "cadence": "quinzenal",
     "category": "clima/ambiente",
-    "lastChecked": "2026-09-24",
+    "lastChecked": "2026-10-12",
     "checkStatus": "auditoria inicial"
   },
   {
@@ -1302,7 +1314,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://centerforcooperativemedia.org/",
     "cadence": "quinzenal",
     "category": "oportunidades",
-    "lastChecked": "2026-09-24",
+    "lastChecked": "2026-10-12",
     "checkStatus": "auditoria inicial"
   },
   {
@@ -1313,7 +1325,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://biglocalnews.org/",
     "cadence": "quinzenal",
     "category": "dados/visual",
-    "lastChecked": "2026-09-24",
+    "lastChecked": "2026-10-12",
     "checkStatus": "auditoria inicial"
   },
   {
@@ -1324,7 +1336,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://rjionline.org/",
     "cadence": "quinzenal",
     "category": "oportunidades",
-    "lastChecked": "2026-09-24",
+    "lastChecked": "2026-10-12",
     "checkStatus": "auditoria inicial"
   },
   {
@@ -1335,7 +1347,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://www.sigmaawards.org/",
     "cadence": "semanal",
     "category": "dados/visual",
-    "lastChecked": "2026-10-01",
+    "lastChecked": "2026-10-12",
     "checkStatus": "verificada"
   },
   {
@@ -1346,7 +1358,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://awards.journalists.org/",
     "cadence": "semanal",
     "category": "dados/visual",
-    "lastChecked": "2026-10-01",
+    "lastChecked": "2026-10-12",
     "checkStatus": "verificada"
   },
   {
@@ -1357,7 +1369,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://www.exposingtheinvisible.org/",
     "cadence": "semanal",
     "category": "dados/visual",
-    "lastChecked": "2026-10-01",
+    "lastChecked": "2026-10-12",
     "checkStatus": "verificada"
   },
   {
@@ -1379,7 +1391,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://www.usccmf.org/",
     "cadence": "quinzenal",
     "category": "tecnologia/política pública",
-    "lastChecked": "2026-09-24",
+    "lastChecked": "2026-10-12",
     "checkStatus": "auditoria inicial"
   },
   {
@@ -1390,7 +1402,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://citp.princeton.edu/",
     "cadence": "quinzenal",
     "category": "tecnologia/política pública",
-    "lastChecked": "2026-09-24",
+    "lastChecked": "2026-10-12",
     "checkStatus": "auditoria inicial"
   },
   {
@@ -1401,7 +1413,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://www.swissviz.org/",
     "cadence": "semanal",
     "category": "dados/visual",
-    "lastChecked": "2026-10-01",
+    "lastChecked": "2026-10-12",
     "checkStatus": "verificada"
   },
   {
@@ -1412,7 +1424,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://www.pressclubinstitute.org/",
     "cadence": "quinzenal",
     "category": "dados/visual",
-    "lastChecked": "2026-09-24",
+    "lastChecked": "2026-10-12",
     "checkStatus": "auditoria inicial"
   },
   {
@@ -1423,7 +1435,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://gijn.org/jobs",
     "cadence": "diária",
     "category": "dados/visual",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "checkStatus": "verificada"
   },
   {
@@ -1434,7 +1446,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://gijn.org/rounduplink/",
     "cadence": "diária",
     "category": "oportunidades",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "checkStatus": "verificada"
   },
   {
@@ -1456,7 +1468,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://agencia.petrobras.com.br/selecao",
     "cadence": "semanal",
     "category": "clima/ambiente",
-    "lastChecked": "2026-10-01",
+    "lastChecked": "2026-10-12",
     "checkStatus": "verificada"
   },
   {
@@ -1467,7 +1479,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://source.opennews.org/",
     "cadence": "quinzenal",
     "category": "dados/visual",
-    "lastChecked": "2026-09-24",
+    "lastChecked": "2026-10-12",
     "checkStatus": "auditoria inicial"
   },
   {
@@ -1478,7 +1490,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://dartcenter.org/",
     "cadence": "quinzenal",
     "category": "saúde",
-    "lastChecked": "2026-09-24",
+    "lastChecked": "2026-10-12",
     "checkStatus": "auditoria inicial"
   },
   {
@@ -1489,7 +1501,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://www.cartercenter.org/",
     "cadence": "quinzenal",
     "category": "saúde",
-    "lastChecked": "2026-09-24",
+    "lastChecked": "2026-10-12",
     "checkStatus": "auditoria inicial"
   },
   {
@@ -1511,7 +1523,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://www.ctrl-j.info/",
     "cadence": "semanal",
     "category": "tecnologia/política pública",
-    "lastChecked": "2026-10-04",
+    "lastChecked": "2026-10-12",
     "checkStatus": "verificada"
   },
   {
@@ -1522,7 +1534,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://resources.rsf.org/fellowship-opportunities/",
     "cadence": "quinzenal",
     "category": "oportunidades",
-    "lastChecked": "2026-09-25",
+    "lastChecked": "2026-10-12",
     "checkStatus": "verificada"
   },
   {
