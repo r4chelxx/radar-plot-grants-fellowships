@@ -1,10 +1,11 @@
 {
-  "checkedAt": "2026-10-11T22:58:40.459Z",
+  "checkedAt": "2026-10-12T12:18:10.076Z",
   "policy": "404/410 becomes broken only after appearing as suspect or broken in the previous audit; blocked and network results are inconclusive",
   "counts": {
-    "ok": 273,
-    "network": 45,
-    "blocked": 34
+    "ok": 290,
+    "blocked": 32,
+    "server": 9,
+    "network": 25
   },
   "results": [
     {
@@ -77,13 +78,11 @@
       "type": "opportunity",
       "id": "npf-rare-disease-2026",
       "url": "https://nationalpress.org/training/apply-2026-rare-disease-reporting-fellowship-and-grants/",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://nationalpress.org/training/apply-2026-rare-disease-reporting-fellowship-and-grants/",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -244,11 +243,11 @@
       "type": "opportunity",
       "id": "pulitzer-data",
       "url": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/data-journalism-grants",
-      "status": 403,
+      "status": 200,
       "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/data-journalism-grants",
-      "class": "blocked",
+      "class": "ok",
       "attempts": [
-        403
+        200
       ]
     },
     {
@@ -475,11 +474,11 @@
       "type": "opportunity",
       "id": "persephone-2027",
       "url": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/persephone-miel-fellowships",
-      "status": 403,
+      "status": 200,
       "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/persephone-miel-fellowships",
-      "class": "blocked",
+      "class": "ok",
       "attempts": [
-        403
+        200
       ]
     },
     {
@@ -814,6 +813,28 @@
     },
     {
       "type": "dataset",
+      "id": "telegram-antivacina-brasil-2020-2025",
+      "url": "https://redu.unicamp.br/dataset.xhtml?persistentId=doi%3A10.25824%2Fredu%2F5JIVDT",
+      "status": 200,
+      "finalUrl": "https://redu.unicamp.br/dataset.xhtml?persistentId=doi%3A10.25824%2Fredu%2F5JIVDT",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "fundacion-gabo-desiertos-noticias-locales",
+      "url": "https://desiertosdenoticiaslocales.fundaciongabo.org/dashboard/",
+      "status": 200,
+      "finalUrl": "https://desiertosdenoticiaslocales.fundaciongabo.org/dashboard/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
       "id": "siops-orcamentos-saude",
       "url": "https://www.gov.br/saude/pt-br/acesso-a-informacao/siops/indicadores/indicadores",
       "status": 200,
@@ -893,22 +914,24 @@
       "type": "dataset",
       "id": "sisagua-amostras-fora-padrao",
       "url": "https://dadosabertos.saude.gov.br/dataset/sisagua-controle-mensal-amostras-fora-do-padrao",
-      "status": 200,
+      "status": 500,
       "finalUrl": "https://dadosabertos.saude.gov.br/dataset/sisagua-controle-mensal-amostras-fora-do-padrao",
-      "class": "ok",
+      "class": "server",
       "attempts": [
-        200
+        500,
+        500
       ]
     },
     {
       "type": "dataset",
       "id": "sisagua-controle-mensal-parametros-basicos",
       "url": "https://dadosabertos.saude.gov.br/dataset/sisagua-controle-mensal-parametros-basicos",
-      "status": 200,
+      "status": 500,
       "finalUrl": "https://dadosabertos.saude.gov.br/dataset/sisagua-controle-mensal-parametros-basicos",
-      "class": "ok",
+      "class": "server",
       "attempts": [
-        200
+        500,
+        500
       ]
     },
     {
@@ -1249,52 +1272,47 @@
       "type": "dataset",
       "id": "sei-geoportal-rest",
       "url": "https://map.geo.sei.ba.gov.br/arcgis/rest/services",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://map.geo.sei.ba.gov.br/arcgis/rest/services",
+      "class": "ok",
       "attempts": [
         "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
       "type": "dataset",
       "id": "sei-regionalizacao",
       "url": "https://map.geo.sei.ba.gov.br/arcgis/rest/services/servicos_sei/REGIONALIZACAO_VIGENTE/FeatureServer",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://map.geo.sei.ba.gov.br/arcgis/rest/services/servicos_sei/REGIONALIZACAO_VIGENTE/FeatureServer",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
       "type": "dataset",
       "id": "sei-localidades",
       "url": "https://map.geo.sei.ba.gov.br/arcgis/rest/services/servicos_sei/LOCALIDADE_BAHIA/MapServer",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://map.geo.sei.ba.gov.br/arcgis/rest/services/servicos_sei/LOCALIDADE_BAHIA/MapServer",
+      "class": "ok",
       "attempts": [
         "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
       "type": "dataset",
       "id": "sei-divisao-municipal",
       "url": "https://map.geo.sei.ba.gov.br/arcgis/rest/services/servicos_sei/DPA_A_100K_VIGENTE_GCS_SIR_SEI/FeatureServer/0",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://map.geo.sei.ba.gov.br/arcgis/rest/services/servicos_sei/DPA_A_100K_VIGENTE_GCS_SIR_SEI/FeatureServer/0",
+      "class": "ok",
       "attempts": [
         "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -1314,39 +1332,34 @@
       "type": "dataset",
       "id": "bahia-transparencia",
       "url": "https://www.transparencia.ba.gov.br/Portal",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://www.transparencia.ba.gov.br/Portal",
+      "class": "ok",
       "attempts": [
         "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
       "type": "dataset",
       "id": "sspba-estatisticas",
       "url": "https://www.ba.gov.br/ssp/publicacoes",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://www.ba.gov.br/ssp/publicacoes",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
       "type": "dataset",
       "id": "sspba-dados-abertos",
       "url": "https://www.ba.gov.br/ssp/dados-abertos",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://www.ba.gov.br/ssp/dados-abertos",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -1441,33 +1454,36 @@
       "type": "dataset",
       "id": "ouvidorsus",
       "url": "https://dadosabertos.saude.gov.br/dataset/ouvidorsus",
-      "status": 200,
+      "status": 500,
       "finalUrl": "https://dadosabertos.saude.gov.br/dataset/ouvidorsus",
-      "class": "ok",
+      "class": "server",
       "attempts": [
-        200
+        500,
+        500
       ]
     },
     {
       "type": "dataset",
       "id": "cnes",
       "url": "https://dadosabertos.saude.gov.br/dataset/cnes-cadastro-nacional-de-estabelecimentos-de-saude",
-      "status": 200,
+      "status": 500,
       "finalUrl": "https://dadosabertos.saude.gov.br/dataset/cnes-cadastro-nacional-de-estabelecimentos-de-saude",
-      "class": "ok",
+      "class": "server",
       "attempts": [
-        200
+        500,
+        500
       ]
     },
     {
       "type": "dataset",
       "id": "sisagua-captacao",
       "url": "https://dadosabertos.saude.gov.br/dataset/sisagua-pontos-de-captacao",
-      "status": 200,
+      "status": 500,
       "finalUrl": "https://dadosabertos.saude.gov.br/dataset/sisagua-pontos-de-captacao",
-      "class": "ok",
+      "class": "server",
       "attempts": [
-        200
+        500,
+        500
       ]
     },
     {
@@ -1540,26 +1556,22 @@
       "type": "dataset",
       "id": "inema-geobahia",
       "url": "https://www.ba.gov.br/inema/servicos/dados-geoespaciais",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://www.ba.gov.br/inema/servicos/dados-geoespaciais",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
       "type": "dataset",
       "id": "inema-atos-outorga",
       "url": "https://www.ba.gov.br/inema/atende/outorga",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://www.ba.gov.br/inema/atende/outorga",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -1605,13 +1617,11 @@
       "type": "dataset",
       "id": "sesab-obitos",
       "url": "https://www.saude.ba.gov.br/suvisa/vigilancia-epidemiologica/",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://www.ba.gov.br/saude/suvisa/vigilancia-epidemiologica",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -1708,35 +1718,35 @@
       "type": "dataset",
       "id": "sigeduc-escolas-ba",
       "url": "https://sigeduc.educacao.ba.gov.br/sigeduc/public/transparencia/pages/consulta/relatorio_escolas/relEscolasEtapaModalidadeAnalitico.jsf",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://sigeduc.educacao.ba.gov.br/sigeduc/public/transparencia/pages/consulta/relatorio_escolas/relEscolasEtapaModalidadeAnalitico.jsf",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
       "type": "dataset",
       "id": "sinasc",
       "url": "https://dadosabertos.saude.gov.br/dataset/sistema-de-informacao-sobre-nascidos-vivos-sinasc",
-      "status": 200,
+      "status": 500,
       "finalUrl": "https://dadosabertos.saude.gov.br/dataset/sistema-de-informacao-sobre-nascidos-vivos-sinasc",
-      "class": "ok",
+      "class": "server",
       "attempts": [
-        200
+        500,
+        500
       ]
     },
     {
       "type": "dataset",
       "id": "sim-mortalidade",
       "url": "https://dadosabertos.saude.gov.br/dataset/sim",
-      "status": 200,
+      "status": 500,
       "finalUrl": "https://dadosabertos.saude.gov.br/dataset/sim",
-      "class": "ok",
+      "class": "server",
       "attempts": [
-        200
+        500,
+        500
       ]
     },
     {
@@ -1831,7 +1841,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "AbortError:This operation was aborted",
+        "TypeError:fetch failed",
         "TypeError:fetch failed"
       ]
     },
@@ -1844,7 +1854,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "AbortError:This operation was aborted",
+        "TypeError:fetch failed",
         "TypeError:fetch failed"
       ]
     },
@@ -1857,7 +1867,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "AbortError:This operation was aborted",
+        "TypeError:fetch failed",
         "TypeError:fetch failed"
       ]
     },
@@ -1870,7 +1880,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "AbortError:This operation was aborted",
+        "TypeError:fetch failed",
         "TypeError:fetch failed"
       ]
     },
@@ -1883,7 +1893,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "AbortError:This operation was aborted",
+        "TypeError:fetch failed",
         "TypeError:fetch failed"
       ]
     },
@@ -1896,7 +1906,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "AbortError:This operation was aborted",
+        "TypeError:fetch failed",
         "TypeError:fetch failed"
       ]
     },
@@ -1909,7 +1919,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "AbortError:This operation was aborted",
+        "TypeError:fetch failed",
         "TypeError:fetch failed"
       ]
     },
@@ -1922,7 +1932,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "AbortError:This operation was aborted",
+        "TypeError:fetch failed",
         "TypeError:fetch failed"
       ]
     },
@@ -1952,26 +1962,22 @@
       "type": "dataset",
       "id": "sesab-mortalidade-materna",
       "url": "https://biobr.saude.ba.gov.br/static/obitomaterno.php",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://biobr.saude.ba.gov.br/static/obitomaterno.php",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
       "type": "dataset",
       "id": "sesab-sinasc-perfil",
       "url": "https://www.saude.ba.gov.br/",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://www.ba.gov.br/saude/",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -2035,39 +2041,33 @@
       "type": "dataset",
       "id": "inema-consulta-processos",
       "url": "https://www.ba.gov.br/inema/banner/consulta-de-processos",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://www.ba.gov.br/inema/banner/consulta-de-processos",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
       "type": "dataset",
       "id": "inema-formularios-outorga",
       "url": "https://www.ba.gov.br/inema/atende/formularios/outorga",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://www.ba.gov.br/inema/atende/formularios/outorga",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
       "type": "dataset",
       "id": "inema-normas-licenciamento",
       "url": "https://www.ba.gov.br/inema/legislacao/normas-tecnicas-e-portarias",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://www.ba.gov.br/inema/legislacao/normas-tecnicas-e-portarias",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -2098,13 +2098,11 @@
       "type": "dataset",
       "id": "apeb-aforamentos-codices",
       "url": "https://www.ba.gov.br/fpc/arquivo-publico-acervo",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://www.ba.gov.br/fpc/arquivo-publico-acervo",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -2133,13 +2131,11 @@
       "type": "dataset",
       "id": "bahia-sde-incentivos",
       "url": "https://www.ba.gov.br/sde/incentivos",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://www.ba.gov.br/sde/incentivos",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -2365,11 +2361,12 @@
       "type": "dataset",
       "id": "plataforma-brasil-dados-abertos",
       "url": "https://dadosabertos.saude.gov.br/dataset/plataforma_brasil",
-      "status": 200,
+      "status": 500,
       "finalUrl": "https://dadosabertos.saude.gov.br/dataset/plataforma_brasil",
-      "class": "ok",
+      "class": "server",
       "attempts": [
-        200
+        500,
+        500
       ]
     },
     {
@@ -2389,6 +2386,17 @@
       "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/dados-abertos/cadastros",
       "status": 200,
       "finalUrl": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/dados-abertos/cadastros",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Repositório de Dados de Pesquisa da Unicamp (REDU)",
+      "url": "https://redu.unicamp.br/",
+      "status": 200,
+      "finalUrl": "https://redu.unicamp.br/",
       "class": "ok",
       "attempts": [
         200
@@ -2508,11 +2516,12 @@
       "type": "source",
       "id": "Portal de Dados Abertos do SUS",
       "url": "https://dadosabertos.saude.gov.br/dataset",
-      "status": 200,
+      "status": 500,
       "finalUrl": "https://dadosabertos.saude.gov.br/dataset",
-      "class": "ok",
+      "class": "server",
       "attempts": [
-        200
+        500,
+        500
       ]
     },
     {
@@ -2662,13 +2671,11 @@
       "type": "source",
       "id": "National Press Foundation",
       "url": "https://nationalpress.org/programs/",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://nationalpress.org/programs/",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -3570,6 +3577,7 @@
       "finalUrl": "https://resources.rsf.org/fellowship-opportunities/",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -3601,6 +3609,17 @@
       "url": "https://journaliststudio.google.com/",
       "status": 200,
       "finalUrl": "https://journaliststudio.google.com/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "yt-dlp",
+      "url": "https://github.com/yt-dlp/yt-dlp",
+      "status": 200,
+      "finalUrl": "https://github.com/yt-dlp/yt-dlp",
       "class": "ok",
       "attempts": [
         200
