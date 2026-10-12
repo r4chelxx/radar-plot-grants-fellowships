@@ -1,10 +1,9 @@
 {
-  "checkedAt": "2026-10-12T12:18:10.076Z",
+  "checkedAt": "2026-10-12T20:13:34.717Z",
   "policy": "404/410 becomes broken only after appearing as suspect or broken in the previous audit; blocked and network results are inconclusive",
   "counts": {
-    "ok": 290,
+    "ok": 299,
     "blocked": 32,
-    "server": 9,
     "network": 25
   },
   "results": [
@@ -914,24 +913,22 @@
       "type": "dataset",
       "id": "sisagua-amostras-fora-padrao",
       "url": "https://dadosabertos.saude.gov.br/dataset/sisagua-controle-mensal-amostras-fora-do-padrao",
-      "status": 500,
+      "status": 200,
       "finalUrl": "https://dadosabertos.saude.gov.br/dataset/sisagua-controle-mensal-amostras-fora-do-padrao",
-      "class": "server",
+      "class": "ok",
       "attempts": [
-        500,
-        500
+        200
       ]
     },
     {
       "type": "dataset",
       "id": "sisagua-controle-mensal-parametros-basicos",
       "url": "https://dadosabertos.saude.gov.br/dataset/sisagua-controle-mensal-parametros-basicos",
-      "status": 500,
+      "status": 200,
       "finalUrl": "https://dadosabertos.saude.gov.br/dataset/sisagua-controle-mensal-parametros-basicos",
-      "class": "server",
+      "class": "ok",
       "attempts": [
-        500,
-        500
+        200
       ]
     },
     {
@@ -1276,7 +1273,6 @@
       "finalUrl": "https://map.geo.sei.ba.gov.br/arcgis/rest/services",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -1454,36 +1450,33 @@
       "type": "dataset",
       "id": "ouvidorsus",
       "url": "https://dadosabertos.saude.gov.br/dataset/ouvidorsus",
-      "status": 500,
+      "status": 200,
       "finalUrl": "https://dadosabertos.saude.gov.br/dataset/ouvidorsus",
-      "class": "server",
+      "class": "ok",
       "attempts": [
-        500,
-        500
+        200
       ]
     },
     {
       "type": "dataset",
       "id": "cnes",
       "url": "https://dadosabertos.saude.gov.br/dataset/cnes-cadastro-nacional-de-estabelecimentos-de-saude",
-      "status": 500,
+      "status": 200,
       "finalUrl": "https://dadosabertos.saude.gov.br/dataset/cnes-cadastro-nacional-de-estabelecimentos-de-saude",
-      "class": "server",
+      "class": "ok",
       "attempts": [
-        500,
-        500
+        200
       ]
     },
     {
       "type": "dataset",
       "id": "sisagua-captacao",
       "url": "https://dadosabertos.saude.gov.br/dataset/sisagua-pontos-de-captacao",
-      "status": 500,
+      "status": 200,
       "finalUrl": "https://dadosabertos.saude.gov.br/dataset/sisagua-pontos-de-captacao",
-      "class": "server",
+      "class": "ok",
       "attempts": [
-        500,
-        500
+        200
       ]
     },
     {
@@ -1621,6 +1614,7 @@
       "finalUrl": "https://www.ba.gov.br/saude/suvisa/vigilancia-epidemiologica",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -1729,24 +1723,22 @@
       "type": "dataset",
       "id": "sinasc",
       "url": "https://dadosabertos.saude.gov.br/dataset/sistema-de-informacao-sobre-nascidos-vivos-sinasc",
-      "status": 500,
+      "status": 200,
       "finalUrl": "https://dadosabertos.saude.gov.br/dataset/sistema-de-informacao-sobre-nascidos-vivos-sinasc",
-      "class": "server",
+      "class": "ok",
       "attempts": [
-        500,
-        500
+        200
       ]
     },
     {
       "type": "dataset",
       "id": "sim-mortalidade",
       "url": "https://dadosabertos.saude.gov.br/dataset/sim",
-      "status": 500,
+      "status": 200,
       "finalUrl": "https://dadosabertos.saude.gov.br/dataset/sim",
-      "class": "server",
+      "class": "ok",
       "attempts": [
-        500,
-        500
+        200
       ]
     },
     {
@@ -2113,6 +2105,7 @@
       "finalUrl": "https://dadosabertos.aneel.gov.br/dataset/sistema-de-gestao-da-transmissao-siget",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -2361,12 +2354,11 @@
       "type": "dataset",
       "id": "plataforma-brasil-dados-abertos",
       "url": "https://dadosabertos.saude.gov.br/dataset/plataforma_brasil",
-      "status": 500,
+      "status": 200,
       "finalUrl": "https://dadosabertos.saude.gov.br/dataset/plataforma_brasil",
-      "class": "server",
+      "class": "ok",
       "attempts": [
-        500,
-        500
+        200
       ]
     },
     {
@@ -2516,12 +2508,11 @@
       "type": "source",
       "id": "Portal de Dados Abertos do SUS",
       "url": "https://dadosabertos.saude.gov.br/dataset",
-      "status": 500,
+      "status": 200,
       "finalUrl": "https://dadosabertos.saude.gov.br/dataset",
-      "class": "server",
+      "class": "ok",
       "attempts": [
-        500,
-        500
+        200
       ]
     },
     {
@@ -3577,7 +3568,6 @@
       "finalUrl": "https://resources.rsf.org/fellowship-opportunities/",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
