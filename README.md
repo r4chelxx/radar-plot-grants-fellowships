@@ -24,3 +24,12 @@ O carregamento de `editorial_state` é filtrado pelo usuário autenticado. Respo
 A auditoria executa uma requisição real, repete falhas transitórias com tempo maior e preserva resultados bloqueados ou de rede como inconclusivos. Respostas 401, 403, 405, 406 e 429 não significam link quebrado. Um 404/410 aparece primeiro como suspeita e só bloqueia a integração se persistir na auditoria seguinte. Registros internos sem URL pública permanecem catalogados, mas não entram no teste nem exibem botão de acesso.
 
 O relatório mais recente fica em `audit/link-audit-latest.json`. A rotina roda em mudanças de links, em pull requests e semanalmente; execuções concorrentes do mesmo ramo são canceladas para evitar disputa na publicação do relatório.
+
+
+## Auditoria de qualidade — 13/10/2026
+
+A verificação de interface começa com `node scripts/test-ui-static.js`, executado no CI junto à validação editorial. Este teste verifica dependências de scripts, sintaxe, estrutura básica de navegação, viewport, idioma e CSS responsivo. **Não equivale a um teste de navegador.**
+
+Próximas verificações: testes Playwright em viewport móvel e desktop (navegação de páginas e pautas, filtros, autenticação e estado pessoal), teste de acessibilidade por teclado/leitor de tela, revisão de políticas RLS no Supabase e tratamento de erros de sincronização. As credenciais publicáveis do Supabase no cliente são esperadas; a segurança dos dados depende de políticas RLS efetivas, que não podem ser certificadas apenas pelo repositório.
+
+Regra de publicação: validar dados, regressão de interface e links antes do merge. Depois do merge, confirmar o deploy e a leitura pública. Uma falha intermediária não deve ser reportada como falha final sem conferir a execução de recuperação.
