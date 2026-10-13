@@ -8,6 +8,7 @@ on:
       - "data.js"
       - "data/**"
       - "scripts/validate-data.js"
+      - "scripts/test-ui-static.js"
       - "scripts/publish-approved-opportunities.js"
       - "scripts/test-approved-publication.js"
       - "editorial/approved-opportunities.json"
@@ -36,6 +37,8 @@ jobs:
           node --check app.js
           node --check data.js
           for file in data/*.js; do node --check "$file"; done
+      - name: Static UI regression checks
+        run: node scripts/test-ui-static.js
       - name: Validate Radar records
         run: node scripts/validate-data.js
       - name: Test editorial publication gates
