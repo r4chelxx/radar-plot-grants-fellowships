@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-12T19:58:23.799Z",
+  "updatedAt": "2026-10-13T17:45:31.642Z",
   "leads": {
     "21d08dec9013d505e3e682633dc64ac66d18d9ce040e2b381ea738cf297fd16d": {
       "url": "https://data.inpe.br/biomasbr/sala-de-situacao-municipal-e-a-nova-ferramenta-do-terrabrasilis-para-apoiar-estados-e-municipios-no-controle-do-desmatamento-e-fogo",
@@ -1111,6 +1111,28 @@
       "firstSeen": "2026-10-12T12:15:02.955Z",
       "lastSeen": "2026-10-12T19:58:23.799Z",
       "seenCount": 2,
+      "editorialStatus": "unverified"
+    },
+    "9f8d6df724e910c67b651b01656f639bdc8a1eb8f910ae12f190f34607bd8e57": {
+      "url": "https://journaliststudio.google.com/",
+      "title": "Journalist Studio About Featured Tools for Reporters Training Other Tools A collection of tools to empower journalists to do their work more efficiently, creati",
+      "source": "Google Journalist Studio",
+      "category": "tools",
+      "classification": "source-homepage-only",
+      "firstSeen": "2026-10-13T17:45:31.642Z",
+      "lastSeen": "2026-10-13T17:45:31.642Z",
+      "seenCount": 1,
+      "editorialStatus": "unverified"
+    },
+    "bf4bfdfdb5f25829bc761b00697515a5e8ca142788e3c6f060da05b1f5572b54": {
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSem0kc9i25IphLwxfPuUha08LPgrPJwIdw6AZVkvsN1vI-t_g/viewform",
+      "title": "CLICK TO APPLY",
+      "source": "Equality Fund — Journalism Fellowship",
+      "category": "opportunities",
+      "classification": "needs-editorial-review",
+      "firstSeen": "2026-10-13T17:45:31.642Z",
+      "lastSeen": "2026-10-13T17:45:31.642Z",
+      "seenCount": 1,
       "editorialStatus": "unverified"
     }
   }
