@@ -33,3 +33,11 @@ test('no horizontal overflow on core pages',async ({page})=>{
   expect(dims.scroll,hash+' horizontal overflow').toBeLessThanOrEqual(dims.viewport+2);
  }
 });
+
+test('keyboard focus is visible on navigation',async ({page})=>{
+ await page.goto('/#visao');
+ await page.keyboard.press('Tab');
+ const focus=await page.evaluate(()=>({tag:document.activeElement?.tagName,outline:getComputedStyle(document.activeElement).outlineStyle}));
+ expect(focus.tag).toBe('A');
+ expect(focus.outline).not.toBe('none');
+});
