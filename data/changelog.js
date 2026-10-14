@@ -1,6 +1,13 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
   {
+    "date": "2026-10-14",
+    "type": "ferramentas",
+    "title": "Recuperado guia de análise de dados educacionais",
+    "items": [{"id":"escola-dados-ebook-analise-educacional","title":"Escola de Dados — Análise de Dados Educacionais"}],
+    "detail": "Inclusão editorial recuperada do PR #96, pendente desde 11/10. E-book metodológico publicado em 2022, não é base de dados atualizada nem oportunidade de inscrição. URL oficial registrada; acesso automatizado ao PDF pode ser bloqueado pelo servidor."
+  },
+  {
     "date": "2026-10-12",
     "type": "dados",
     "title": "Telegram antivacina no Brasil e desertos de notícias na América Latina",
