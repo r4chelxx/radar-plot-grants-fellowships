@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-13T17:45:31.642Z",
+  "updatedAt": "2026-10-14T15:24:04.091Z",
   "leads": {
     "21d08dec9013d505e3e682633dc64ac66d18d9ce040e2b381ea738cf297fd16d": {
       "url": "https://data.inpe.br/biomasbr/sala-de-situacao-municipal-e-a-nova-ferramenta-do-terrabrasilis-para-apoiar-estados-e-municipios-no-controle-do-desmatamento-e-fogo",
@@ -9,8 +9,8 @@
       "category": "tools",
       "classification": "needs-editorial-review",
       "firstSeen": "2026-10-10T01:30:34.006Z",
-      "lastSeen": "2026-10-10T15:56:28.501Z",
-      "seenCount": 6,
+      "lastSeen": "2026-10-14T15:24:04.091Z",
+      "seenCount": 7,
       "editorialStatus": "unverified"
     },
     "8f50f02952b7136b5d302ef5c1a4b681c4e4696b24866fb4c28b54b72c625673": {
@@ -20,8 +20,8 @@
       "category": "opportunities",
       "classification": "generic-navigation",
       "firstSeen": "2026-10-10T01:30:34.006Z",
-      "lastSeen": "2026-10-10T15:56:28.501Z",
-      "seenCount": 6,
+      "lastSeen": "2026-10-14T15:24:04.091Z",
+      "seenCount": 7,
       "editorialStatus": "unverified"
     },
     "2af6c5dfc3a9696eafd9d9ec008b9cb665fdb1e0ccd1092d6385dd79d64f4d2c": {
@@ -31,8 +31,8 @@
       "category": "uncategorized",
       "classification": "generic-navigation",
       "firstSeen": "2026-10-10T01:30:34.006Z",
-      "lastSeen": "2026-10-10T15:56:28.501Z",
-      "seenCount": 6,
+      "lastSeen": "2026-10-14T15:24:04.091Z",
+      "seenCount": 7,
       "editorialStatus": "unverified"
     },
     "d7bdb6c6d9745d8c0ccf7f7d4ccba67e1074fb7f549774d69bddea0190a8eeea": {
@@ -42,8 +42,8 @@
       "category": "opportunities",
       "classification": "source-homepage-only",
       "firstSeen": "2026-10-10T01:30:34.006Z",
-      "lastSeen": "2026-10-10T15:56:28.501Z",
-      "seenCount": 6,
+      "lastSeen": "2026-10-14T15:24:04.091Z",
+      "seenCount": 7,
       "editorialStatus": "unverified"
     },
     "8f2786a061b19cbd83afed9ed94b35b1e956013dbc80550ea05ec32ed42e6313": {
@@ -53,8 +53,8 @@
       "category": "opportunities",
       "classification": "generic-navigation",
       "firstSeen": "2026-10-10T01:30:34.006Z",
-      "lastSeen": "2026-10-10T15:56:28.501Z",
-      "seenCount": 6,
+      "lastSeen": "2026-10-14T15:24:04.091Z",
+      "seenCount": 7,
       "editorialStatus": "unverified"
     },
     "e044fb8e86d93b80aaa63423bbcb571b38db8275f41e3896160a0102dbf68b87": {
@@ -97,8 +97,8 @@
       "category": "tools",
       "classification": "needs-editorial-review",
       "firstSeen": "2026-10-10T01:30:34.006Z",
-      "lastSeen": "2026-10-10T15:56:28.501Z",
-      "seenCount": 6,
+      "lastSeen": "2026-10-14T15:24:04.091Z",
+      "seenCount": 7,
       "editorialStatus": "unverified"
     },
     "c89f3645fdbef244fe7f0ff71252a9b9c348178298db95838e67f8eb5c751ea9": {
@@ -108,8 +108,8 @@
       "category": "tools",
       "classification": "catalog-match",
       "firstSeen": "2026-10-10T01:30:34.006Z",
-      "lastSeen": "2026-10-10T15:56:28.501Z",
-      "seenCount": 6,
+      "lastSeen": "2026-10-14T15:24:04.091Z",
+      "seenCount": 7,
       "editorialStatus": "unverified"
     },
     "5dd034ac9879779f8471eba305efa8fcb88b503dc56af83ecfd42205589ba97c": {
@@ -119,8 +119,8 @@
       "category": "tools",
       "classification": "historical-reference",
       "firstSeen": "2026-10-10T01:30:34.006Z",
-      "lastSeen": "2026-10-10T15:56:28.501Z",
-      "seenCount": 6,
+      "lastSeen": "2026-10-14T15:24:04.091Z",
+      "seenCount": 7,
       "editorialStatus": "unverified"
     },
     "f42cc909f60928300764e2630ca8c74fb9eb40c83de20bffc32fe6fef7509681": {
@@ -130,8 +130,8 @@
       "category": "tools",
       "classification": "needs-editorial-review",
       "firstSeen": "2026-10-10T01:30:34.006Z",
-      "lastSeen": "2026-10-10T15:56:28.501Z",
-      "seenCount": 6,
+      "lastSeen": "2026-10-14T15:24:04.091Z",
+      "seenCount": 7,
       "editorialStatus": "unverified"
     },
     "78422872107048ddf8abfd3fc1bd999ac4c23b06cbab79e3e287e8a6a08f0805": {
@@ -141,8 +141,8 @@
       "category": "tools",
       "classification": "needs-editorial-review",
       "firstSeen": "2026-10-10T01:30:34.006Z",
-      "lastSeen": "2026-10-10T15:56:28.501Z",
-      "seenCount": 6,
+      "lastSeen": "2026-10-14T15:24:04.091Z",
+      "seenCount": 7,
       "editorialStatus": "unverified"
     },
     "7e93a835fcb4f7d6911d2c9924d405474014b6a8a065c927d1ccabdc34747e3c": {
@@ -152,8 +152,8 @@
       "category": "tools",
       "classification": "needs-editorial-review",
       "firstSeen": "2026-10-10T01:30:34.006Z",
-      "lastSeen": "2026-10-10T15:56:28.501Z",
-      "seenCount": 6,
+      "lastSeen": "2026-10-14T15:24:04.091Z",
+      "seenCount": 7,
       "editorialStatus": "unverified"
     },
     "c1b1a93021d7e11d12a7261bb26e7c309de03e2039e1e681a8d85f5ff288f794": {
@@ -163,19 +163,19 @@
       "category": "tools",
       "classification": "needs-editorial-review",
       "firstSeen": "2026-10-10T01:30:34.006Z",
-      "lastSeen": "2026-10-10T15:56:28.501Z",
-      "seenCount": 6,
+      "lastSeen": "2026-10-14T15:24:04.091Z",
+      "seenCount": 7,
       "editorialStatus": "unverified"
     },
     "e04f24e5e606beb79a849c04d398a224afd25d8d68144a9c098d170c63fef1d7": {
       "url": "https://www.mediawiki.org/w/index.php",
-      "title": "https://www.mediawiki.org/w/index.php?title=XTools&oldid=8626113",
+      "title": "https://www.mediawiki.org/w/index.php?title=XTools&oldid=8649892",
       "source": "Wikimedia XTools",
       "category": "tools",
       "classification": "needs-editorial-review",
       "firstSeen": "2026-10-10T01:30:34.006Z",
-      "lastSeen": "2026-10-10T15:56:28.501Z",
-      "seenCount": 6,
+      "lastSeen": "2026-10-14T15:24:04.091Z",
+      "seenCount": 7,
       "editorialStatus": "unverified"
     },
     "08c4952b65725fc75a74c29731a46f30f37c09e9c9d0b33a8bf7397915b34179": {
@@ -185,8 +185,8 @@
       "category": "tools",
       "classification": "generic-navigation",
       "firstSeen": "2026-10-10T01:30:34.006Z",
-      "lastSeen": "2026-10-10T15:56:28.501Z",
-      "seenCount": 6,
+      "lastSeen": "2026-10-14T15:24:04.091Z",
+      "seenCount": 7,
       "editorialStatus": "unverified"
     },
     "b3226d20d1a10fc76e2030f71c6703a18aa9f3da6a2606beabf350cb91f425dd": {
@@ -196,8 +196,8 @@
       "category": "tools",
       "classification": "generic-navigation",
       "firstSeen": "2026-10-10T01:30:34.006Z",
-      "lastSeen": "2026-10-10T15:56:28.501Z",
-      "seenCount": 6,
+      "lastSeen": "2026-10-14T15:24:04.091Z",
+      "seenCount": 7,
       "editorialStatus": "unverified"
     },
     "d8af75d67e6fc5a0bbe3c3572db24a8cb9858c82291f362df5cb05191db5dabf": {
@@ -207,8 +207,8 @@
       "category": "tools",
       "classification": "generic-navigation",
       "firstSeen": "2026-10-10T01:30:34.006Z",
-      "lastSeen": "2026-10-10T15:56:28.501Z",
-      "seenCount": 6,
+      "lastSeen": "2026-10-14T15:24:04.091Z",
+      "seenCount": 7,
       "editorialStatus": "unverified"
     },
     "3c34e473cd08f7d3b05e97292bda199dd7e2f65a4d6d7e9696f98b553e2f0e11": {
@@ -218,8 +218,8 @@
       "category": "datasets",
       "classification": "catalog-match",
       "firstSeen": "2026-10-10T01:30:34.006Z",
-      "lastSeen": "2026-10-10T15:56:28.501Z",
-      "seenCount": 6,
+      "lastSeen": "2026-10-14T15:24:04.091Z",
+      "seenCount": 7,
       "editorialStatus": "unverified"
     },
     "4aaed3fceb0de3341f0a42fd5e51c6fc11a0e5f512b9a12e42e160773aa56e0f": {
@@ -229,8 +229,8 @@
       "category": "datasets",
       "classification": "needs-editorial-review",
       "firstSeen": "2026-10-10T01:30:34.006Z",
-      "lastSeen": "2026-10-10T15:56:28.501Z",
-      "seenCount": 6,
+      "lastSeen": "2026-10-14T15:24:04.091Z",
+      "seenCount": 7,
       "editorialStatus": "unverified"
     },
     "f20c80ad813acef9ee8e5d9b2695a0be71eee0f2488a1f061711d978ef31bd7e": {
@@ -240,8 +240,8 @@
       "category": "datasets",
       "classification": "needs-editorial-review",
       "firstSeen": "2026-10-10T01:30:34.006Z",
-      "lastSeen": "2026-10-10T15:56:28.501Z",
-      "seenCount": 6,
+      "lastSeen": "2026-10-14T15:24:04.091Z",
+      "seenCount": 7,
       "editorialStatus": "unverified"
     },
     "5b05e819f7f1de778ae497ee313ea9dc109fb7d2f01bb37ee8917d3999cc3f0a": {
@@ -251,8 +251,8 @@
       "category": "datasets",
       "classification": "needs-editorial-review",
       "firstSeen": "2026-10-10T01:30:34.006Z",
-      "lastSeen": "2026-10-10T15:56:28.501Z",
-      "seenCount": 6,
+      "lastSeen": "2026-10-14T15:24:04.091Z",
+      "seenCount": 7,
       "editorialStatus": "unverified"
     },
     "593e17f4fd890d3314039a2f06f2e7523c2f8588afd784958be51bbc0bcf9b5d": {
@@ -262,8 +262,8 @@
       "category": "datasets",
       "classification": "needs-editorial-review",
       "firstSeen": "2026-10-10T01:30:34.006Z",
-      "lastSeen": "2026-10-10T15:56:28.501Z",
-      "seenCount": 6,
+      "lastSeen": "2026-10-14T15:24:04.091Z",
+      "seenCount": 7,
       "editorialStatus": "unverified"
     },
     "49d353376a784dc0db44430d5f7cfe4343cc3f55b2d4a3a6289b40b251ab84fd": {
@@ -273,8 +273,8 @@
       "category": "datasets",
       "classification": "historical-reference",
       "firstSeen": "2026-10-10T01:30:34.006Z",
-      "lastSeen": "2026-10-10T15:56:28.501Z",
-      "seenCount": 6,
+      "lastSeen": "2026-10-14T15:24:04.091Z",
+      "seenCount": 7,
       "editorialStatus": "unverified"
     },
     "ca1ff16dca1c42cf15bcaeabb6053aa21f47b232078b3afd63eb35602b0368f3": {
@@ -284,8 +284,8 @@
       "category": "datasets",
       "classification": "historical-reference",
       "firstSeen": "2026-10-10T01:30:34.006Z",
-      "lastSeen": "2026-10-10T15:56:28.501Z",
-      "seenCount": 6,
+      "lastSeen": "2026-10-14T15:24:04.091Z",
+      "seenCount": 7,
       "editorialStatus": "unverified"
     },
     "5939ff9cc00aa7026b57842753ce18e5401226585df4a96ebbf20fb68090728b": {
@@ -295,8 +295,8 @@
       "category": "datasets",
       "classification": "historical-reference",
       "firstSeen": "2026-10-10T01:30:34.006Z",
-      "lastSeen": "2026-10-10T15:56:28.501Z",
-      "seenCount": 6,
+      "lastSeen": "2026-10-14T15:24:04.091Z",
+      "seenCount": 7,
       "editorialStatus": "unverified"
     },
     "9bd216a1ce7360312aa62926f2be25690ee0bddab306d4d0a0c38a1736cddb67": {
@@ -511,23 +511,23 @@
     "7b49a950efa6b80f865ce6a22cf70c5ce85aab554f80174ce31c380cf93b32b1": {
       "url": "https://www.gov.br/pt-br/temas/servicos-para-imigrantes",
       "title": "Serviços para Imigrantes",
-      "source": "Compras.gov.br — Dados Abertos",
+      "source": "SIOPS — Ministério da Saúde",
       "category": "opportunities",
       "classification": "needs-editorial-review",
       "firstSeen": "2026-10-11T12:00:43.913Z",
-      "lastSeen": "2026-10-11T16:24:32.034Z",
-      "seenCount": 2,
+      "lastSeen": "2026-10-14T15:24:04.091Z",
+      "seenCount": 3,
       "editorialStatus": "unverified"
     },
     "08b02e885bbc824485480b21baf98ac99e00c1eff5277db41687d6941faddd36": {
       "url": "https://www.gov.br/governodigital/pt-br/dados-abertos",
       "title": "Dados Abertos",
-      "source": "Compras.gov.br — Dados Abertos",
+      "source": "SIOPS — Ministério da Saúde",
       "category": "datasets",
       "classification": "needs-editorial-review",
       "firstSeen": "2026-10-11T12:00:43.913Z",
-      "lastSeen": "2026-10-11T16:24:32.034Z",
-      "seenCount": 2,
+      "lastSeen": "2026-10-14T15:24:04.091Z",
+      "seenCount": 3,
       "editorialStatus": "unverified"
     },
     "7690be58812b0886d7f1fa1be616048f22430dfb0fdd6ed360d9f781829bd99b": {
@@ -1132,6 +1132,83 @@
       "classification": "needs-editorial-review",
       "firstSeen": "2026-10-13T17:45:31.642Z",
       "lastSeen": "2026-10-13T17:45:31.642Z",
+      "seenCount": 1,
+      "editorialStatus": "unverified"
+    },
+    "571154e429d685d69262062c24c71289d64bac65a7849b826b6a5caaa434c573": {
+      "url": "https://redu.unicamp.br/dataverse/redu;jsessionid=b03321ae6b172097707541ba7e46?page=1",
+      "title": "Datasets (2,271)",
+      "source": "Repositório de Dados de Pesquisa da Unicamp (REDU)",
+      "category": "datasets",
+      "classification": "needs-editorial-review",
+      "firstSeen": "2026-10-14T15:24:04.091Z",
+      "lastSeen": "2026-10-14T15:24:04.091Z",
+      "seenCount": 1,
+      "editorialStatus": "unverified"
+    },
+    "04d8993f5c27a7e1fd89b87ea80083a63ac3dde8d557b2e3f68cdced599eb782": {
+      "url": "https://redu.unicamp.br/dataset.xhtml",
+      "title": "Datasets and source code associated with the study of topic-level sentiment in earnings call transcripts of Brazilian banks and its relation to next-quarter ban",
+      "source": "Repositório de Dados de Pesquisa da Unicamp (REDU)",
+      "category": "datasets",
+      "classification": "needs-editorial-review",
+      "firstSeen": "2026-10-14T15:24:04.091Z",
+      "lastSeen": "2026-10-14T15:24:04.091Z",
+      "seenCount": 1,
+      "editorialStatus": "unverified"
+    },
+    "fe7338851d474150383f68bc629067ddb9b374aef55beb6e2c4d7569123dd6ab": {
+      "url": "https://www.gov.br/saude/pt-br/acesso-a-informacao/dados-abertos",
+      "title": "Dados Abertos",
+      "source": "SIOPS — Ministério da Saúde",
+      "category": "datasets",
+      "classification": "needs-editorial-review",
+      "firstSeen": "2026-10-14T15:24:04.091Z",
+      "lastSeen": "2026-10-14T15:24:04.091Z",
+      "seenCount": 1,
+      "editorialStatus": "unverified"
+    },
+    "d576dbe8311d1f683e7e39ccc470db67baefb1eee1f3d83558598c1e72a1ec8f": {
+      "url": "https://www.gov.br/fnde/pt-br/acesso-a-informacao/dados-abertos",
+      "title": "Dados abertos",
+      "source": "SIOPE — FNDE",
+      "category": "datasets",
+      "classification": "needs-editorial-review",
+      "firstSeen": "2026-10-14T15:24:04.091Z",
+      "lastSeen": "2026-10-14T15:24:04.091Z",
+      "seenCount": 1,
+      "editorialStatus": "unverified"
+    },
+    "e577b40670cdb270beeb26571be87ad4a5c4368b75f3c9ae68958282242c09a0": {
+      "url": "https://www.linkedin.com/school/jskstanford",
+      "title": "John S. Knight Journalism Fellowships at Stanford",
+      "source": "Grants for Journalists — LinkedIn",
+      "category": "opportunities",
+      "classification": "needs-editorial-review",
+      "firstSeen": "2026-10-14T15:24:04.091Z",
+      "lastSeen": "2026-10-14T15:24:04.091Z",
+      "seenCount": 1,
+      "editorialStatus": "unverified"
+    },
+    "6b46a340686ac074de91b83239a4055bbb16371dee567c9fa033ad4cda856cfb": {
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSdl9rLqLT74xOVV3EmoQmun1_007ukHXZRd3_YbJon7G0b6WA/viewform",
+      "title": "Springboard 2027 Cohort Application Form docs.google.com",
+      "source": "Grants for Journalists — LinkedIn",
+      "category": "uncategorized",
+      "classification": "needs-editorial-review",
+      "firstSeen": "2026-10-14T15:24:04.091Z",
+      "lastSeen": "2026-10-14T15:24:04.091Z",
+      "seenCount": 1,
+      "editorialStatus": "unverified"
+    },
+    "4300b75ba0e4012a08451c6e68efba4eb50a4509fc7ede28dd8040e57e629517": {
+      "url": "https://www.nationalgeographic.org/explore/grants-investments",
+      "title": "Grants and Investments - National Geographic Society nationalgeographic.org",
+      "source": "Grants for Journalists — LinkedIn",
+      "category": "opportunities",
+      "classification": "needs-editorial-review",
+      "firstSeen": "2026-10-14T15:24:04.091Z",
+      "lastSeen": "2026-10-14T15:24:04.091Z",
       "seenCount": 1,
       "editorialStatus": "unverified"
     }
