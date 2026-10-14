@@ -41,3 +41,9 @@ test('keyboard focus is visible on navigation',async ({page})=>{
  expect(focus.tag).toBe('A');
  expect(focus.outline).not.toBe('none');
 });
+
+test('logged-out editorial access has an accessible button',async ({page})=>{
+ await page.goto('/#visao');
+ const button=page.getByRole('button',{name:'Minhas decisões'});
+ await expect(button).toBeVisible();
+});
