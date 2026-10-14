@@ -19,5 +19,8 @@ async function get(path) {
   if (remote !== changelog) throw new Error('Pages changelog differs from main');
   const ageDays = Math.floor((Date.parse(today) - Date.parse(latest)) / 86400000);
   console.log(JSON.stringify({latestChangelogDate:latest, ageDays, pages:base, deployed:true}));
-  if (ageDays > 1) console.warn('Editorial review recommended: changelog is ' + ageDays + ' days old; no automatic publication is inferred');
+  if (ageDays > 1) {
+    console.warn('EDITORIAL_STALE: changelog is ' + ageDays + ' days old; technical deployment succeeded but editorial publication is stale');
+    if (process.env.FAIL_ON_EDITORIAL_STALE === 'true') process.exitCode = 2;
+  }
 })().catch(error => {console.error(error); process.exitCode=1;});

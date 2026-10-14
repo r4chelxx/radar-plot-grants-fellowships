@@ -56,6 +56,7 @@ jobs:
         if: github.event_name != 'push' || steps.pages.outputs.superseded != 'true'
         env:
           RADAR_URL: https://r4chelxx.github.io/radar-plot-grants-fellowships/
+          FAIL_ON_EDITORIAL_STALE: ${{ github.event_name == 'schedule' && 'true' || 'false' }}
         run: node scripts/check-publication.js
       - name: Create or update a single failure issue
         if: failure()
@@ -63,7 +64,7 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           issue=$(gh issue list --state open --label radar-monitor --json number --jq '.[0].number' || true)
-          message="Radar monitor failed on $(date -u +%FT%TZ). Check run: https://github.com/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}. This does not confirm a daily editorial update."
+          message="Radar publication monitor flagged a failure or editorial catalog older than one day on $(date -u +%FT%TZ). Inspect run: https://github.com/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}. Technical checks alone do not confirm an editorial publication; investigate whether a full editorial sweep found no new verified records or whether publication is blocked."
           if [ -n "$issue" ]; then
             gh issue comment "$issue" --body "$message"
           else
