@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-12T20:13:34.717Z",
+  "checkedAt": "2026-10-14T14:48:01.547Z",
   "policy": "404/410 becomes broken only after appearing as suspect or broken in the previous audit; blocked and network results are inconclusive",
   "counts": {
     "ok": 299,
-    "blocked": 32,
+    "blocked": 33,
     "network": 25
   },
   "results": [
@@ -1295,7 +1295,6 @@
       "finalUrl": "https://map.geo.sei.ba.gov.br/arcgis/rest/services/servicos_sei/LOCALIDADE_BAHIA/MapServer",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -1307,7 +1306,6 @@
       "finalUrl": "https://map.geo.sei.ba.gov.br/arcgis/rest/services/servicos_sei/DPA_A_100K_VIGENTE_GCS_SIR_SEI/FeatureServer/0",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -1320,7 +1318,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "AbortError:This operation was aborted",
+        "TypeError:fetch failed",
         "TypeError:fetch failed"
       ]
     },
@@ -1614,7 +1612,6 @@
       "finalUrl": "https://www.ba.gov.br/saude/suvisa/vigilancia-epidemiologica",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -2105,7 +2102,6 @@
       "finalUrl": "https://dadosabertos.aneel.gov.br/dataset/sistema-de-gestao-da-transmissao-siget",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -2253,6 +2249,7 @@
       "finalUrl": "https://inside.fifa.com/womens-football/fifa-benchmarking-report",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -3564,11 +3561,11 @@
       "type": "source",
       "id": "Repórteres sem Fronteiras — Fellowships e oportunidades",
       "url": "https://resources.rsf.org/fellowship-opportunities/",
-      "status": 200,
+      "status": 403,
       "finalUrl": "https://resources.rsf.org/fellowship-opportunities/",
-      "class": "ok",
+      "class": "blocked",
       "attempts": [
-        200
+        403
       ]
     },
     {
@@ -3599,6 +3596,17 @@
       "url": "https://journaliststudio.google.com/",
       "status": 200,
       "finalUrl": "https://journaliststudio.google.com/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "escola-dados-ebook-analise-educacional",
+      "url": "https://escoladedados.org/wp-content/uploads/2022/01/Ebook-DadosEducacionais.pdf",
+      "status": 200,
+      "finalUrl": "https://escoladedados.org/wp-content/uploads/2022/01/Ebook-DadosEducacionais.pdf",
       "class": "ok",
       "attempts": [
         200
