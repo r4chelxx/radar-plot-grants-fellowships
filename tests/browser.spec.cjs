@@ -47,3 +47,10 @@ test('logged-out editorial access has an accessible button',async ({page})=>{
  const button=page.getByRole('button',{name:'Minhas decisões'});
  await expect(button).toBeVisible();
 });
+
+test('catalog remains usable when Supabase SDK is unavailable',async ({page})=>{
+ await page.route('https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2',route=>route.abort());
+ await page.goto('/#visao');
+ await expect(page.locator('#app')).not.toBeEmpty();
+ await expect(page.getByRole('alert')).toContainText('Conexão indisponível');
+});
