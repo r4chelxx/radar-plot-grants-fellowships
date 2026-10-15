@@ -1,6 +1,18 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.sources=[
   {
+    "name": "True Story Award",
+    "role": "fonte oficial",
+    "type": "Prêmio internacional de jornalismo escrito nas categorias pesquisa, narrativa e impacto",
+    "scope": "Global, incluindo textos em português",
+    "priority": "Alta",
+    "url": "https://truestoryfestival.org/en/award",
+    "cadence": "mensal",
+    "category": "oportunidades",
+    "lastChecked": "2026-10-15",
+    "checkStatus": "verificada"
+  },
+  {
     "name": "Repositório de Dados de Pesquisa da Unicamp (REDU)",
     "role": "repositório institucional",
     "type": "Dados de pesquisa, códigos e materiais de reprodutibilidade",
@@ -105,7 +117,7 @@ window.RADAR_PARTS.sources=[
     "priority": "Alta",
     "cadence": "mensal",
     "category": "clima/dados",
-    "lastChecked": "2026-10-09",
+    "lastChecked": "2026-10-15",
     "checkStatus": "verificada"
   },
   {
@@ -117,7 +129,7 @@ window.RADAR_PARTS.sources=[
     "priority": "Alta",
     "cadence": "semanal",
     "category": "oportunidades",
-    "lastChecked": "2026-10-09",
+    "lastChecked": "2026-10-15",
     "checkStatus": "verificada"
   },
   {
@@ -141,7 +153,7 @@ window.RADAR_PARTS.sources=[
     "priority": "Alta",
     "cadence": "diária",
     "category": "oportunidades",
-    "lastChecked": "2026-10-12",
+    "lastChecked": "2026-10-15",
     "checkStatus": "verificada"
   },
   {
@@ -752,7 +764,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://gijn.org/",
     "cadence": "quinzenal",
     "category": "oportunidades",
-    "lastChecked": "2026-10-09",
+    "lastChecked": "2026-10-15",
     "checkStatus": "verificada"
   },
   {
@@ -807,7 +819,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://www.occrp.org/",
     "cadence": "quinzenal",
     "category": "investigação",
-    "lastChecked": "2026-09-29",
+    "lastChecked": "2026-10-15",
     "checkStatus": "verificada"
   },
   {
@@ -818,7 +830,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://fiquemsabendo.com.br/",
     "cadence": "quinzenal",
     "category": "dados/visual",
-    "lastChecked": "2026-09-29",
+    "lastChecked": "2026-10-15",
     "checkStatus": "verificada"
   },
   {
@@ -873,7 +885,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://pulitzercenter.org/grants-fellowships",
     "cadence": "semanal",
     "category": "dados/visual",
-    "lastChecked": "2026-10-06",
+    "lastChecked": "2026-10-15",
     "checkStatus": "verificada"
   },
   {
@@ -917,7 +929,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://ijnet.org/en/opportunities",
     "cadence": "diária",
     "category": "oportunidades",
-    "lastChecked": "2026-10-12",
+    "lastChecked": "2026-10-15",
     "checkStatus": "verificada"
   },
   {
@@ -1082,7 +1094,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://garimpo.news/",
     "cadence": "semanal",
     "category": "tecnologia/política pública",
-    "lastChecked": "2026-10-06",
+    "lastChecked": "2026-10-15",
     "checkStatus": "verificada"
   },
   {
@@ -1138,7 +1150,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://quantumofsollazzo.com/",
     "cadence": "semanal",
     "category": "dados/visual",
-    "lastChecked": "2026-10-06",
+    "lastChecked": "2026-10-15",
     "checkStatus": "verificada"
   },
   {
@@ -1149,7 +1161,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://www.cjr.org/",
     "cadence": "quinzenal",
     "category": "ecossistema/formação",
-    "lastChecked": "2026-09-24",
+    "lastChecked": "2026-10-15",
     "checkStatus": "auditoria inicial"
   },
   {
@@ -1171,7 +1183,7 @@ window.RADAR_PARTS.sources=[
     "url": null,
     "cadence": "diária",
     "category": "ecossistema/formação",
-    "lastChecked": "2026-10-12",
+    "lastChecked": "2026-10-15",
     "checkStatus": "verificada"
   },
   {
@@ -1259,7 +1271,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://fapesp.br/oportunidades/",
     "cadence": "diária",
     "category": "oportunidades",
-    "lastChecked": "2026-10-12",
+    "lastChecked": "2026-10-15",
     "checkStatus": "verificada"
   },
   {
@@ -1435,7 +1447,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://gijn.org/jobs",
     "cadence": "diária",
     "category": "dados/visual",
-    "lastChecked": "2026-10-12",
+    "lastChecked": "2026-10-15",
     "checkStatus": "verificada"
   },
   {
@@ -1446,7 +1458,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://gijn.org/rounduplink/",
     "cadence": "diária",
     "category": "oportunidades",
-    "lastChecked": "2026-10-12",
+    "lastChecked": "2026-10-15",
     "checkStatus": "verificada"
   },
   {
@@ -1457,7 +1469,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://mediaparty.org/",
     "cadence": "semanal",
     "category": "dados/visual",
-    "lastChecked": "2026-10-02",
+    "lastChecked": "2026-10-15",
     "checkStatus": "verificada"
   },
   {
