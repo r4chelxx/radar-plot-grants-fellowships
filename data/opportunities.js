@@ -1,6 +1,59 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.opportunities=[
   {
+    "id": "true-story-award-2027",
+    "summary": "Prêmio internacional para reportagens escritas publicadas entre outubro de 2025 e setembro de 2026, com categorias de Pesquisa, Narrativa e Impacto.",
+    "title": "True Story Award 2027",
+    "org": "True Story Foundation",
+    "type": "Prêmio de jornalismo",
+    "themes": [
+      "Jornalismo investigativo",
+      "Jornalismo narrativo",
+      "Impacto",
+      "Direitos humanos",
+      "Políticas públicas"
+    ],
+    "scope": "Global · reportagens escritas publicadas em veículos jornalísticos",
+    "deadline": "2026-10-31",
+    "deadlineStatus": "confirmado",
+    "eligibility": "elegível",
+    "fit": 8.5,
+    "status": "aberta",
+    "story": [],
+    "value": "US$ 20 mil para cada vencedor nas categorias Pesquisa, Narrativa e Impacto",
+    "duration": "Seleção para a edição 2027; 36 pessoas nominadas são convidadas para a cerimônia e o festival em Berna",
+    "modality": "Inscrição online de uma reportagem escrita já publicada; textos em português são aceitos",
+    "documents": [
+      "texto publicado entre 01/10/2025 e 30/09/2026",
+      "link ou comprovante de publicação em jornal diário ou semanal, revista ou veículo online",
+      "texto de 15 mil a 85 mil caracteres, incluindo espaços",
+      "dados do autor ou da equipe editorial responsável pela inscrição"
+    ],
+    "restrictions": [
+      "cada autor pode inscrever apenas um texto",
+      "livros, manuscritos inéditos, trabalhos acadêmicos e textos puramente factuais não são elegíveis",
+      "obras visuais e audiovisuais não são aceitas",
+      "em caso de nominação, o autor concede direitos de publicação no site da fundação e em veículos parceiros nas condições do regulamento"
+    ],
+    "opens": null,
+    "verificationHistory": [
+      {
+        "date": "2026-10-15",
+        "status": "aberta",
+        "source": "https://truestoryfestival.org/en/award"
+      }
+    ],
+    "rules": "https://truestoryfestival.org/en/award",
+    "apply": "https://apply.truestoryfestival.org/",
+    "verified": "2026-10-15",
+    "notes": "A elegibilidade brasileira é direta e o português está entre os nove idiomas aceitos. Recomenda-se selecionar uma única reportagem longa, já publicada no período elegível, que combine apuração demonstrável, qualidade narrativa e efeito público; o prazo oficial é 31/10/2026 às 12h UTC.",
+    "desc": "Prêmio mundial para jornalismo escrito. A banca seleciona 36 trabalhos para o festival de 2027 em Berna e três vencedores, um em cada categoria. A avaliação considera profundidade da pesquisa, qualidade da escrita e relevância social, com contexto local levado em conta.",
+    "discoveredVia": [
+      "GIJN"
+    ],
+    "discoveryUrl": "https://mailchi.mp/gijn/behind-the-scenes-of-ocean-climate-exposs-finding-experts-documents-on-any-topic-reporting-in-exile"
+  },
+  {
     "value": "US$ 50 mil–US$ 500 mil+ por organização",
     "duration": "Em geral 1 ano nesta fase do programa; a organização pode propor a duração no formulário",
     "modality": "Grant institucional global para veículos, equipes, unidades de investigação, séries ou novos empreendimentos jornalísticos",
@@ -786,6 +839,11 @@ window.RADAR_PARTS.opportunities=[
         "date": "2026-10-02",
         "status": "aberta",
         "source": "https://www.climatexc.org/grants/climate-action-in-your-community"
+      },
+      {
+        "date": "2026-10-15",
+        "status": "encerrada",
+        "source": "https://www.climatexc.org/grants/climate-action-in-your-community"
       }
     ],
     "id": "climatexc-story-to-life-2026",
@@ -805,13 +863,13 @@ window.RADAR_PARTS.opportunities=[
     "deadlineStatus": "confirmado",
     "eligibility": "elegível",
     "fit": 8,
-    "status": "aberta",
+    "status": "encerrada",
     "story": [
       "data-centers"
     ],
     "rules": "https://www.climatexc.org/grants/climate-action-in-your-community",
     "apply": "https://www.climatexc.org/grants/climate-action-in-your-community",
-    "verified": "2026-10-02",
+    "verified": "2026-10-15",
     "desc": "Aceita jornalista individual ou equipe no mundo, desde que vinculada a uma organização jornalística; a reportagem pode sair em qualquer idioma. O recorte de data centers só é adequado se partir de ação comunitária concreta e preservar o eixo investigativo sem deformá-lo para o edital."
   },
   {
