@@ -1,6 +1,28 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.tools=[
   {
+    "id": "gijn-international-research-guide",
+    "name": "GIJN — International Research Guide",
+    "kind": "guia metodológico de pesquisa internacional, documentos ocultos e OSINT",
+    "url": "https://gijn.org/resource/henk-van-ess-international-research-guide-online",
+    "desc": "Guia gratuito de Henk van Ess, publicado pela GIJN em 14/10/2026, para encontrar especialistas e documentos difíceis em temas internacionais. Combina descoberta horizontal de fontes com buscas verticais por domínio nacional e governamental, operadores de arquivo, pesquisa multilíngue, recuperação de links mortos no Wayback Machine e alertas. Também mostra como usar IA para triagem documental mantendo conferência no original e tradução oficial; resultados de busca, arquivo e modelos podem estar incompletos ou enquadrar evidências de modo exagerado, por isso cada afirmação precisa ser validada na fonte primária.",
+    "discoveredVia": [
+      "GIJN"
+    ],
+    "discoveryUrl": "https://mailchi.mp/gijn/behind-the-scenes-of-ocean-climate-exposs-finding-experts-documents-on-any-topic-reporting-in-exile"
+  },
+  {
+    "id": "terrabrasilis-sala-situacao-municipal",
+    "name": "TerraBrasilis — Sala de Situação Municipal",
+    "kind": "painel territorial de desmatamento, degradação, mineração e fogo",
+    "url": "https://terrabrasilis.dpi.inpe.br/ams/",
+    "desc": "Painel oficial do INPE que integra indicadores dos projetos PRODES, DETER e Queimadas e permite observar áreas críticas por estado, município, células de 25 × 25 km ou 150 × 150 km e diferentes períodos. A versão municipal detalha células de 5 × 5 km e gera um link estável por cidade; usuários cadastrados também podem consultar um indicador de risco de desmatamento de curto prazo desenvolvido pelo Ibama. Os agregados podem variar em relação a outros painéis por diferenças metodológicas, DETER não é taxa anual consolidada e alertas ou risco futuro não comprovam infração sem verificação de campo e documentos oficiais.",
+    "discoveredVia": [
+      "INPE — BiomasBR / DesagregaBiomasBR"
+    ],
+    "discoveryUrl": "https://data.inpe.br/biomasbr/sala-de-situacao-municipal-e-a-nova-ferramenta-do-terrabrasilis-para-apoiar-estados-e-municipios-no-controle-do-desmatamento-e-fogo/"
+  },
+  {
     "id": "escola-dados-ebook-analise-educacional",
     "name": "Escola de Dados — Análise de Dados Educacionais (e-book)",
     "kind": "guia gratuito de análise de dados e políticas educacionais",
