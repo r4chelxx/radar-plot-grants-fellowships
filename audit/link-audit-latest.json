@@ -1,12 +1,23 @@
 {
-  "checkedAt": "2026-10-14T14:48:01.547Z",
+  "checkedAt": "2026-10-15T11:41:52.727Z",
   "policy": "404/410 becomes broken only after appearing as suspect or broken in the previous audit; blocked and network results are inconclusive",
   "counts": {
-    "ok": 299,
-    "blocked": 33,
+    "ok": 302,
+    "blocked": 34,
     "network": 25
   },
   "results": [
+    {
+      "type": "source",
+      "id": "True Story Award",
+      "url": "https://truestoryfestival.org/en/award",
+      "status": 200,
+      "finalUrl": "https://truestoryfestival.org/en/award",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
     {
       "type": "opportunity",
       "id": "tarbell-institutional-grants-2026",
@@ -812,6 +823,17 @@
     },
     {
       "type": "dataset",
+      "id": "midr-recuperacao-pos-desastres-2023-2026",
+      "url": "https://drive.google.com/drive/folders/1r1UxTEy0exMN4vg-EvHaAmA_Sy-R0PFJ",
+      "status": 200,
+      "finalUrl": "https://drive.google.com/drive/folders/1r1UxTEy0exMN4vg-EvHaAmA_Sy-R0PFJ",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
       "id": "telegram-antivacina-brasil-2020-2025",
       "url": "https://redu.unicamp.br/dataset.xhtml?persistentId=doi%3A10.25824%2Fredu%2F5JIVDT",
       "status": 200,
@@ -1273,6 +1295,7 @@
       "finalUrl": "https://map.geo.sei.ba.gov.br/arcgis/rest/services",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -1284,6 +1307,7 @@
       "finalUrl": "https://map.geo.sei.ba.gov.br/arcgis/rest/services/servicos_sei/REGIONALIZACAO_VIGENTE/FeatureServer",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -1295,6 +1319,7 @@
       "finalUrl": "https://map.geo.sei.ba.gov.br/arcgis/rest/services/servicos_sei/LOCALIDADE_BAHIA/MapServer",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -1306,6 +1331,7 @@
       "finalUrl": "https://map.geo.sei.ba.gov.br/arcgis/rest/services/servicos_sei/DPA_A_100K_VIGENTE_GCS_SIR_SEI/FeatureServer/0",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -1330,7 +1356,6 @@
       "finalUrl": "https://www.transparencia.ba.gov.br/Portal",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -1612,6 +1637,7 @@
       "finalUrl": "https://www.ba.gov.br/saude/suvisa/vigilancia-epidemiologica",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -2249,7 +2275,6 @@
       "finalUrl": "https://inside.fifa.com/womens-football/fifa-benchmarking-report",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -2971,6 +2996,7 @@
       "finalUrl": "https://www.generonumero.media/",
       "class": "ok",
       "attempts": [
+        "TypeError:fetch failed",
         200
       ]
     },
@@ -3596,6 +3622,28 @@
       "url": "https://journaliststudio.google.com/",
       "status": 200,
       "finalUrl": "https://journaliststudio.google.com/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "gijn-international-research-guide",
+      "url": "https://gijn.org/resource/henk-van-ess-international-research-guide-online",
+      "status": 403,
+      "finalUrl": "https://gijn.org/resource/henk-van-ess-international-research-guide-online",
+      "class": "blocked",
+      "attempts": [
+        403
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "terrabrasilis-sala-situacao-municipal",
+      "url": "https://terrabrasilis.dpi.inpe.br/ams/",
+      "status": 200,
+      "finalUrl": "https://terrabrasilis.dpi.inpe.br/ams/",
       "class": "ok",
       "attempts": [
         200
