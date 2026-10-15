@@ -1,6 +1,52 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
   {
+    "date": "2026-10-15",
+    "type": "nova-oportunidade",
+    "title": "True Story Award 2027 aceita reportagens em português",
+    "items": [
+      {"id":"true-story-award-2027","title":"True Story Award 2027"}
+    ],
+    "detail": "Prêmio global para reportagens escritas publicadas entre 01/10/2025 e 30/09/2026. Há três categorias de US$ 20 mil, inscrição em português e prazo oficial em 31/10/2026 às 12h UTC."
+  },
+  {
+    "date": "2026-10-15",
+    "type": "dados",
+    "title": "Gastos federais com recuperação de infraestrutura pós-desastres",
+    "items": [
+      {"id":"midr-recuperacao-pos-desastres-2023-2026","title":"Gastos federais com recuperação de infraestrutura pós-desastres (2023–2026)"}
+    ],
+    "detail": "Planilha obtida por LAI pela Fiquem Sabendo detalha transferências, municípios, tipos de desastre, objetos, documentos e etapas da despesa entre 2023 e setembro de 2026. O registro diferencia empenho de pagamento e alerta que os dados não comprovam execução física."
+  },
+  {
+    "date": "2026-10-15",
+    "type": "ferramentas",
+    "title": "Pesquisa internacional e monitoramento ambiental municipal",
+    "items": [
+      {"id":"gijn-international-research-guide","title":"GIJN — International Research Guide"},
+      {"id":"terrabrasilis-sala-situacao-municipal","title":"TerraBrasilis — Sala de Situação Municipal"}
+    ],
+    "detail": "O guia da GIJN reúne métodos multilíngues para localizar fontes e documentos oficiais; a ferramenta do INPE organiza indicadores de desmatamento, degradação, mineração e fogo por município e células territoriais. Limitações de busca, IA, metodologia e interpretação de alertas foram registradas."
+  },
+  {
+    "date": "2026-10-15",
+    "type": "fontes",
+    "title": "True Story Award entra no monitoramento recorrente",
+    "items": [
+      {"id":"true-story-award-source","title":"True Story Award"}
+    ],
+    "detail": "A página oficial do prêmio passa a ser acompanhada mensalmente para novas edições, alterações de regulamento e prazos."
+  },
+  {
+    "date": "2026-10-15",
+    "type": "prazo",
+    "title": "Prazo do Story to Life encerrado",
+    "items": [
+      {"id":"climatexc-story-to-life-2026","title":"Story to Life — Climate Action in Your Community Grant 2026"}
+    ],
+    "detail": "A fonte oficial manteve o fechamento em 14/10/2026 às 23h59 GMT; o registro foi movido de aberto para encerrado."
+  },
+  {
     "date": "2026-10-14",
     "type": "ferramentas",
     "title": "Recuperado guia de análise de dados educacionais",
