@@ -1,6 +1,37 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.datasets=[
   {
+    "id": "midr-recuperacao-pos-desastres-2023-2026",
+    "name": "Gastos federais com recuperação de infraestrutura pós-desastres (2023–2026)",
+    "org": "Secretaria Nacional de Proteção e Defesa Civil / MIDR, obtido e publicado pela Fiquem Sabendo",
+    "territoryTier": "Brasil",
+    "kind": "dataset",
+    "themes": [
+      "Desastres",
+      "Clima",
+      "Infraestrutura",
+      "Orçamento público",
+      "Transferências federais",
+      "Transparência"
+    ],
+    "coverage": "Repasses federais para recuperação de infraestrutura atingida por desastres, com mais de R$ 1,1 bilhão pago no período divulgado",
+    "frequency": "Resposta pontual à Lei de Acesso à Informação, publicada em 13/10/2026; não há atualização automática confirmada",
+    "format": "Planilha em pasta pública do Google Drive",
+    "period": "Janeiro de 2023 a setembro de 2026",
+    "granularity": "Transferência e objeto financiado, com UF, município, tipo e data do desastre, portaria, processo, ordem bancária, notas de crédito e empenho e valores anuais empenhados, cancelados, destacados, devolvidos e pagos",
+    "geoUnit": "UF e município de destino",
+    "api": "Não há API; download manual da planilha publicada pela Fiquem Sabendo",
+    "docs": "https://news.fiquemsabendo.com.br/p/governo-federal-infraestrutura-desastres",
+    "limitations": "A base é uma fotografia de resposta à LAI e pode não incorporar retificações ou pagamentos posteriores a setembro de 2026. Valores empenhados, liquidados e pagos representam etapas diferentes; a destinação registrada não comprova execução física, qualidade da obra ou nexo causal sem consulta aos processos, portarias e documentos locais. Republicações devem creditar a Fiquem Sabendo conforme a licença CC BY 4.0.",
+    "lastChecked": "2026-10-15",
+    "story": [],
+    "url": "https://drive.google.com/drive/folders/1r1UxTEy0exMN4vg-EvHaAmA_Sy-R0PFJ",
+    "discoveredVia": [
+      "Fiquem Sabendo"
+    ],
+    "discoveryUrl": "https://news.fiquemsabendo.com.br/p/governo-federal-infraestrutura-desastres"
+  },
+  {
     "id": "telegram-antivacina-brasil-2020-2025",
     "name": "Brazilian Social Media Anti-vaccine Information Disorder Dataset — Telegram (2020–2025)",
     "org": "Recod.ai / Unicamp, UFMG e Unesp",
