@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-14T15:24:04.091Z",
+  "updatedAt": "2026-10-15T11:39:42.631Z",
   "leads": {
     "21d08dec9013d505e3e682633dc64ac66d18d9ce040e2b381ea738cf297fd16d": {
       "url": "https://data.inpe.br/biomasbr/sala-de-situacao-municipal-e-a-nova-ferramenta-do-terrabrasilis-para-apoiar-estados-e-municipios-no-controle-do-desmatamento-e-fogo",
@@ -218,8 +218,8 @@
       "category": "datasets",
       "classification": "catalog-match",
       "firstSeen": "2026-10-10T01:30:34.006Z",
-      "lastSeen": "2026-10-14T15:24:04.091Z",
-      "seenCount": 7,
+      "lastSeen": "2026-10-15T11:39:42.631Z",
+      "seenCount": 8,
       "editorialStatus": "unverified"
     },
     "4aaed3fceb0de3341f0a42fd5e51c6fc11a0e5f512b9a12e42e160773aa56e0f": {
@@ -229,8 +229,8 @@
       "category": "datasets",
       "classification": "needs-editorial-review",
       "firstSeen": "2026-10-10T01:30:34.006Z",
-      "lastSeen": "2026-10-14T15:24:04.091Z",
-      "seenCount": 7,
+      "lastSeen": "2026-10-15T11:39:42.631Z",
+      "seenCount": 8,
       "editorialStatus": "unverified"
     },
     "f20c80ad813acef9ee8e5d9b2695a0be71eee0f2488a1f061711d978ef31bd7e": {
@@ -240,8 +240,8 @@
       "category": "datasets",
       "classification": "needs-editorial-review",
       "firstSeen": "2026-10-10T01:30:34.006Z",
-      "lastSeen": "2026-10-14T15:24:04.091Z",
-      "seenCount": 7,
+      "lastSeen": "2026-10-15T11:39:42.631Z",
+      "seenCount": 8,
       "editorialStatus": "unverified"
     },
     "5b05e819f7f1de778ae497ee313ea9dc109fb7d2f01bb37ee8917d3999cc3f0a": {
@@ -251,8 +251,8 @@
       "category": "datasets",
       "classification": "needs-editorial-review",
       "firstSeen": "2026-10-10T01:30:34.006Z",
-      "lastSeen": "2026-10-14T15:24:04.091Z",
-      "seenCount": 7,
+      "lastSeen": "2026-10-15T11:39:42.631Z",
+      "seenCount": 8,
       "editorialStatus": "unverified"
     },
     "593e17f4fd890d3314039a2f06f2e7523c2f8588afd784958be51bbc0bcf9b5d": {
@@ -262,8 +262,8 @@
       "category": "datasets",
       "classification": "needs-editorial-review",
       "firstSeen": "2026-10-10T01:30:34.006Z",
-      "lastSeen": "2026-10-14T15:24:04.091Z",
-      "seenCount": 7,
+      "lastSeen": "2026-10-15T11:39:42.631Z",
+      "seenCount": 8,
       "editorialStatus": "unverified"
     },
     "49d353376a784dc0db44430d5f7cfe4343cc3f55b2d4a3a6289b40b251ab84fd": {
@@ -273,8 +273,8 @@
       "category": "datasets",
       "classification": "historical-reference",
       "firstSeen": "2026-10-10T01:30:34.006Z",
-      "lastSeen": "2026-10-14T15:24:04.091Z",
-      "seenCount": 7,
+      "lastSeen": "2026-10-15T11:39:42.631Z",
+      "seenCount": 8,
       "editorialStatus": "unverified"
     },
     "ca1ff16dca1c42cf15bcaeabb6053aa21f47b232078b3afd63eb35602b0368f3": {
@@ -284,8 +284,8 @@
       "category": "datasets",
       "classification": "historical-reference",
       "firstSeen": "2026-10-10T01:30:34.006Z",
-      "lastSeen": "2026-10-14T15:24:04.091Z",
-      "seenCount": 7,
+      "lastSeen": "2026-10-15T11:39:42.631Z",
+      "seenCount": 8,
       "editorialStatus": "unverified"
     },
     "5939ff9cc00aa7026b57842753ce18e5401226585df4a96ebbf20fb68090728b": {
@@ -295,8 +295,8 @@
       "category": "datasets",
       "classification": "historical-reference",
       "firstSeen": "2026-10-10T01:30:34.006Z",
-      "lastSeen": "2026-10-14T15:24:04.091Z",
-      "seenCount": 7,
+      "lastSeen": "2026-10-15T11:39:42.631Z",
+      "seenCount": 8,
       "editorialStatus": "unverified"
     },
     "9bd216a1ce7360312aa62926f2be25690ee0bddab306d4d0a0c38a1736cddb67": {
@@ -306,8 +306,8 @@
       "category": "tools",
       "classification": "needs-editorial-review",
       "firstSeen": "2026-10-11T12:00:43.913Z",
-      "lastSeen": "2026-10-11T16:24:32.034Z",
-      "seenCount": 2,
+      "lastSeen": "2026-10-15T11:39:42.631Z",
+      "seenCount": 3,
       "editorialStatus": "unverified"
     },
     "8e1e06c0c8dcbb58eab56faf8743d76136d343b55dcabeddcac4ef9087abc4c4": {
@@ -317,8 +317,8 @@
       "category": "datasets",
       "classification": "needs-editorial-review",
       "firstSeen": "2026-10-11T12:00:43.913Z",
-      "lastSeen": "2026-10-11T16:24:32.034Z",
-      "seenCount": 2,
+      "lastSeen": "2026-10-15T11:39:42.631Z",
+      "seenCount": 3,
       "editorialStatus": "unverified"
     },
     "364dc52376831971b5bf063139e7d0aa3ec288e6a0bee921001a81f2bb255911": {
@@ -328,8 +328,8 @@
       "category": "datasets",
       "classification": "needs-editorial-review",
       "firstSeen": "2026-10-11T12:00:43.913Z",
-      "lastSeen": "2026-10-11T16:24:32.034Z",
-      "seenCount": 2,
+      "lastSeen": "2026-10-15T11:39:42.631Z",
+      "seenCount": 3,
       "editorialStatus": "unverified"
     },
     "69384b2b8d1fe30c82acb55e64ea7078a78897e8b35c34017efed728cdc2f079": {
@@ -339,8 +339,8 @@
       "category": "opportunities",
       "classification": "needs-editorial-review",
       "firstSeen": "2026-10-11T12:00:43.913Z",
-      "lastSeen": "2026-10-11T16:24:32.034Z",
-      "seenCount": 2,
+      "lastSeen": "2026-10-15T11:39:42.631Z",
+      "seenCount": 3,
       "editorialStatus": "unverified"
     },
     "bc740c785012fa580e1d9c841108b1234e9a3d4c6fabb61b4395d923a4a3af5b": {
@@ -350,8 +350,8 @@
       "category": "tools",
       "classification": "needs-editorial-review",
       "firstSeen": "2026-10-11T12:00:43.913Z",
-      "lastSeen": "2026-10-11T16:24:32.034Z",
-      "seenCount": 2,
+      "lastSeen": "2026-10-15T11:39:42.631Z",
+      "seenCount": 3,
       "editorialStatus": "unverified"
     },
     "e8d1848a47f41fc92f917242636907557346b7d1180dd889c55d76a5d8b33e3c": {
@@ -361,8 +361,8 @@
       "category": "datasets",
       "classification": "needs-editorial-review",
       "firstSeen": "2026-10-11T12:00:43.913Z",
-      "lastSeen": "2026-10-11T16:24:32.034Z",
-      "seenCount": 2,
+      "lastSeen": "2026-10-15T11:39:42.631Z",
+      "seenCount": 3,
       "editorialStatus": "unverified"
     },
     "3395063258fdb27b93185e11b279537ccd521908ebee520c4d6366052c89ec54": {
@@ -372,8 +372,8 @@
       "category": "tools",
       "classification": "needs-editorial-review",
       "firstSeen": "2026-10-11T12:00:43.913Z",
-      "lastSeen": "2026-10-11T16:24:32.034Z",
-      "seenCount": 2,
+      "lastSeen": "2026-10-15T11:39:42.631Z",
+      "seenCount": 3,
       "editorialStatus": "unverified"
     },
     "5a4736d9f0afd3c48cdb5eab3e7c4fffef8e6386ea5e535df55023de0be50ca1": {
@@ -383,8 +383,8 @@
       "category": "tools",
       "classification": "needs-editorial-review",
       "firstSeen": "2026-10-11T12:00:43.913Z",
-      "lastSeen": "2026-10-11T16:24:32.034Z",
-      "seenCount": 2,
+      "lastSeen": "2026-10-15T11:39:42.631Z",
+      "seenCount": 3,
       "editorialStatus": "unverified"
     },
     "0f78a1e5a8e7c668bd5eba5fae1c89ad4f48e63bb498a2a373392c17562352fb": {
@@ -394,8 +394,8 @@
       "category": "tools",
       "classification": "needs-editorial-review",
       "firstSeen": "2026-10-11T12:00:43.913Z",
-      "lastSeen": "2026-10-11T16:24:32.034Z",
-      "seenCount": 2,
+      "lastSeen": "2026-10-15T11:39:42.631Z",
+      "seenCount": 3,
       "editorialStatus": "unverified"
     },
     "78bc06a1e7d93395e85c81929b82f94dc2ff16deb81c5115aa41948f414ef1ca": {
@@ -405,8 +405,8 @@
       "category": "tools",
       "classification": "needs-editorial-review",
       "firstSeen": "2026-10-11T12:00:43.913Z",
-      "lastSeen": "2026-10-11T16:24:32.034Z",
-      "seenCount": 2,
+      "lastSeen": "2026-10-15T11:39:42.631Z",
+      "seenCount": 3,
       "editorialStatus": "unverified"
     },
     "69f45a6d12d19e9e33355c6545d76b0d4bd750c4892213448608bf4c871b19da": {
@@ -416,8 +416,8 @@
       "category": "tools",
       "classification": "needs-editorial-review",
       "firstSeen": "2026-10-11T12:00:43.913Z",
-      "lastSeen": "2026-10-11T16:24:32.034Z",
-      "seenCount": 2,
+      "lastSeen": "2026-10-15T11:39:42.631Z",
+      "seenCount": 3,
       "editorialStatus": "unverified"
     },
     "b6a57561c37b794b8fba455fb3d311292c3f19af6aa408296e3609596103ba2a": {
