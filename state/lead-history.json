@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-16T12:08:11.392Z",
+  "updatedAt": "2026-10-16T14:59:17.726Z",
   "leads": {
     "21d08dec9013d505e3e682633dc64ac66d18d9ce040e2b381ea738cf297fd16d": {
       "url": "https://data.inpe.br/biomasbr/sala-de-situacao-municipal-e-a-nova-ferramenta-do-terrabrasilis-para-apoiar-estados-e-municipios-no-controle-do-desmatamento-e-fogo",
@@ -372,8 +372,8 @@
       "category": "tools",
       "classification": "needs-editorial-review",
       "firstSeen": "2026-10-11T12:00:43.913Z",
-      "lastSeen": "2026-10-16T12:08:11.392Z",
-      "seenCount": 5,
+      "lastSeen": "2026-10-16T14:59:17.726Z",
+      "seenCount": 6,
       "editorialStatus": "unverified"
     },
     "5a4736d9f0afd3c48cdb5eab3e7c4fffef8e6386ea5e535df55023de0be50ca1": {
@@ -383,8 +383,8 @@
       "category": "tools",
       "classification": "needs-editorial-review",
       "firstSeen": "2026-10-11T12:00:43.913Z",
-      "lastSeen": "2026-10-16T12:08:11.392Z",
-      "seenCount": 5,
+      "lastSeen": "2026-10-16T14:59:17.726Z",
+      "seenCount": 6,
       "editorialStatus": "unverified"
     },
     "0f78a1e5a8e7c668bd5eba5fae1c89ad4f48e63bb498a2a373392c17562352fb": {
@@ -394,8 +394,8 @@
       "category": "tools",
       "classification": "needs-editorial-review",
       "firstSeen": "2026-10-11T12:00:43.913Z",
-      "lastSeen": "2026-10-16T12:08:11.392Z",
-      "seenCount": 5,
+      "lastSeen": "2026-10-16T14:59:17.726Z",
+      "seenCount": 6,
       "editorialStatus": "unverified"
     },
     "78bc06a1e7d93395e85c81929b82f94dc2ff16deb81c5115aa41948f414ef1ca": {
@@ -405,8 +405,8 @@
       "category": "tools",
       "classification": "needs-editorial-review",
       "firstSeen": "2026-10-11T12:00:43.913Z",
-      "lastSeen": "2026-10-16T12:08:11.392Z",
-      "seenCount": 5,
+      "lastSeen": "2026-10-16T14:59:17.726Z",
+      "seenCount": 6,
       "editorialStatus": "unverified"
     },
     "69f45a6d12d19e9e33355c6545d76b0d4bd750c4892213448608bf4c871b19da": {
@@ -416,8 +416,8 @@
       "category": "tools",
       "classification": "needs-editorial-review",
       "firstSeen": "2026-10-11T12:00:43.913Z",
-      "lastSeen": "2026-10-16T12:08:11.392Z",
-      "seenCount": 5,
+      "lastSeen": "2026-10-16T14:59:17.726Z",
+      "seenCount": 6,
       "editorialStatus": "unverified"
     },
     "b6a57561c37b794b8fba455fb3d311292c3f19af6aa408296e3609596103ba2a": {
@@ -427,8 +427,8 @@
       "category": "datasets",
       "classification": "needs-editorial-review",
       "firstSeen": "2026-10-11T12:00:43.913Z",
-      "lastSeen": "2026-10-16T12:08:11.392Z",
-      "seenCount": 3,
+      "lastSeen": "2026-10-16T14:59:17.726Z",
+      "seenCount": 4,
       "editorialStatus": "unverified"
     },
     "cade05fbdb3c89c9ddb0fd1c846f10ca4dd36f1a653513fa932e5dcf7ea73eb8": {
@@ -438,8 +438,8 @@
       "category": "tools",
       "classification": "needs-editorial-review",
       "firstSeen": "2026-10-11T12:00:43.913Z",
-      "lastSeen": "2026-10-16T12:08:11.392Z",
-      "seenCount": 3,
+      "lastSeen": "2026-10-16T14:59:17.726Z",
+      "seenCount": 4,
       "editorialStatus": "unverified"
     },
     "5f6e30cef9522197f1d68be0e5f5730d7497671c66063a14f68140d9c3695fc3": {
@@ -449,8 +449,8 @@
       "category": "datasets",
       "classification": "needs-editorial-review",
       "firstSeen": "2026-10-11T12:00:43.913Z",
-      "lastSeen": "2026-10-16T12:08:11.392Z",
-      "seenCount": 3,
+      "lastSeen": "2026-10-16T14:59:17.726Z",
+      "seenCount": 4,
       "editorialStatus": "unverified"
     },
     "f547c2d5ee94b0ef1d250abd4ce54986e5861793fdb4a6bc625ad56eeff73d96": {
@@ -460,8 +460,8 @@
       "category": "datasets",
       "classification": "needs-editorial-review",
       "firstSeen": "2026-10-11T12:00:43.913Z",
-      "lastSeen": "2026-10-16T12:08:11.392Z",
-      "seenCount": 3,
+      "lastSeen": "2026-10-16T14:59:17.726Z",
+      "seenCount": 4,
       "editorialStatus": "unverified"
     },
     "3bf0a70d4796df9f2561631bf38aa293a3c813a1ede6a0f7051b56332c85f2de": {
@@ -471,8 +471,8 @@
       "category": "tools",
       "classification": "needs-editorial-review",
       "firstSeen": "2026-10-11T12:00:43.913Z",
-      "lastSeen": "2026-10-16T12:08:11.392Z",
-      "seenCount": 3,
+      "lastSeen": "2026-10-16T14:59:17.726Z",
+      "seenCount": 4,
       "editorialStatus": "unverified"
     },
     "088cd0fca89f3c667e8253190dc8a5e72df2162a115a4ffbd6c3b95f69780286": {
@@ -482,8 +482,8 @@
       "category": "datasets",
       "classification": "needs-editorial-review",
       "firstSeen": "2026-10-11T12:00:43.913Z",
-      "lastSeen": "2026-10-16T12:08:11.392Z",
-      "seenCount": 3,
+      "lastSeen": "2026-10-16T14:59:17.726Z",
+      "seenCount": 4,
       "editorialStatus": "unverified"
     },
     "6d00feecdafd6a03ef69d1db67cd18787c7f7c21ab4849a1ea57f8b802f9d846": {
@@ -493,8 +493,8 @@
       "category": "datasets",
       "classification": "needs-editorial-review",
       "firstSeen": "2026-10-11T12:00:43.913Z",
-      "lastSeen": "2026-10-16T12:08:11.392Z",
-      "seenCount": 3,
+      "lastSeen": "2026-10-16T14:59:17.726Z",
+      "seenCount": 4,
       "editorialStatus": "unverified"
     },
     "4fb9386412a77ac9074a7419c9bb0a8da6a8c557528b15bcdd4612530ec05331": {
@@ -504,8 +504,8 @@
       "category": "datasets",
       "classification": "needs-editorial-review",
       "firstSeen": "2026-10-11T12:00:43.913Z",
-      "lastSeen": "2026-10-16T12:08:11.392Z",
-      "seenCount": 3,
+      "lastSeen": "2026-10-16T14:59:17.726Z",
+      "seenCount": 4,
       "editorialStatus": "unverified"
     },
     "7b49a950efa6b80f865ce6a22cf70c5ce85aab554f80174ce31c380cf93b32b1": {
@@ -515,8 +515,8 @@
       "category": "opportunities",
       "classification": "needs-editorial-review",
       "firstSeen": "2026-10-11T12:00:43.913Z",
-      "lastSeen": "2026-10-16T12:08:11.392Z",
-      "seenCount": 4,
+      "lastSeen": "2026-10-16T14:59:17.726Z",
+      "seenCount": 5,
       "editorialStatus": "unverified"
     },
     "08b02e885bbc824485480b21baf98ac99e00c1eff5277db41687d6941faddd36": {
@@ -526,8 +526,8 @@
       "category": "datasets",
       "classification": "needs-editorial-review",
       "firstSeen": "2026-10-11T12:00:43.913Z",
-      "lastSeen": "2026-10-16T12:08:11.392Z",
-      "seenCount": 4,
+      "lastSeen": "2026-10-16T14:59:17.726Z",
+      "seenCount": 5,
       "editorialStatus": "unverified"
     },
     "7690be58812b0886d7f1fa1be616048f22430dfb0fdd6ed360d9f781829bd99b": {
@@ -537,8 +537,8 @@
       "category": "opportunities",
       "classification": "needs-editorial-review",
       "firstSeen": "2026-10-11T12:00:43.913Z",
-      "lastSeen": "2026-10-16T12:08:11.392Z",
-      "seenCount": 3,
+      "lastSeen": "2026-10-16T14:59:17.726Z",
+      "seenCount": 4,
       "editorialStatus": "unverified"
     },
     "865b92e812506b23515182199742652d210cca7c46103ec9ef7cc10db3cb0ba0": {
@@ -548,8 +548,8 @@
       "category": "opportunities",
       "classification": "needs-editorial-review",
       "firstSeen": "2026-10-11T12:00:43.913Z",
-      "lastSeen": "2026-10-16T12:08:11.392Z",
-      "seenCount": 3,
+      "lastSeen": "2026-10-16T14:59:17.726Z",
+      "seenCount": 4,
       "editorialStatus": "unverified"
     },
     "504089496e25001f03d585f33ce9f0f3082e9ce9b7a2d3c72abf150baa6197a5": {
@@ -559,8 +559,8 @@
       "category": "datasets",
       "classification": "needs-editorial-review",
       "firstSeen": "2026-10-11T12:00:43.913Z",
-      "lastSeen": "2026-10-16T12:08:11.392Z",
-      "seenCount": 3,
+      "lastSeen": "2026-10-16T14:59:17.726Z",
+      "seenCount": 4,
       "editorialStatus": "unverified"
     },
     "f2383b05d3db010ea6a84489cd0545db085156ec10e657f091156d63fb098df5": {
@@ -570,8 +570,8 @@
       "category": "opportunities",
       "classification": "catalog-match",
       "firstSeen": "2026-10-11T12:00:43.913Z",
-      "lastSeen": "2026-10-16T12:08:11.392Z",
-      "seenCount": 3,
+      "lastSeen": "2026-10-16T14:59:17.726Z",
+      "seenCount": 4,
       "editorialStatus": "unverified"
     },
     "5e8603c39bfb6acb5df19e1e72b34709e4408f4b9b12b3c7fa9da6037ead6684": {
@@ -581,8 +581,8 @@
       "category": "opportunities",
       "classification": "needs-editorial-review",
       "firstSeen": "2026-10-11T12:00:43.913Z",
-      "lastSeen": "2026-10-16T12:08:11.392Z",
-      "seenCount": 3,
+      "lastSeen": "2026-10-16T14:59:17.726Z",
+      "seenCount": 4,
       "editorialStatus": "unverified"
     },
     "dbad960d1cfeaf8d34c72f6959d333e411e030eceaf95bddc10a37ab7da3712f": {
@@ -592,8 +592,8 @@
       "category": "opportunities",
       "classification": "needs-editorial-review",
       "firstSeen": "2026-10-11T12:00:43.913Z",
-      "lastSeen": "2026-10-16T12:08:11.392Z",
-      "seenCount": 3,
+      "lastSeen": "2026-10-16T14:59:17.726Z",
+      "seenCount": 4,
       "editorialStatus": "unverified"
     },
     "c68a0b0349404f1048446164dd2276db0e0925703229394da557fdaf3eddb25a": {
@@ -1219,8 +1219,8 @@
       "category": "opportunities",
       "classification": "needs-editorial-review",
       "firstSeen": "2026-10-16T12:08:11.392Z",
-      "lastSeen": "2026-10-16T12:08:11.392Z",
-      "seenCount": 1,
+      "lastSeen": "2026-10-16T14:59:17.726Z",
+      "seenCount": 2,
       "editorialStatus": "unverified"
     },
     "83e4332c60dac292c8592e2edd9ef2ca75754790deb8c3a9bb4ebfdfd9d5906e": {
@@ -1230,8 +1230,8 @@
       "category": "uncategorized",
       "classification": "needs-editorial-review",
       "firstSeen": "2026-10-16T12:08:11.392Z",
-      "lastSeen": "2026-10-16T12:08:11.392Z",
-      "seenCount": 1,
+      "lastSeen": "2026-10-16T14:59:17.726Z",
+      "seenCount": 2,
       "editorialStatus": "unverified"
     },
     "31482296b77f865afca1945d7a8135e9419b66bc828ef3eb3ff24b8f7e08d9ba": {
@@ -1241,8 +1241,8 @@
       "category": "opportunities",
       "classification": "needs-editorial-review",
       "firstSeen": "2026-10-16T12:08:11.392Z",
-      "lastSeen": "2026-10-16T12:08:11.392Z",
-      "seenCount": 1,
+      "lastSeen": "2026-10-16T14:59:17.726Z",
+      "seenCount": 2,
       "editorialStatus": "unverified"
     },
     "ea5a63afd603b45afd5bf9f1dc0056d9600094d7ec53c9dcda26fb862f38785b": {
@@ -1252,8 +1252,8 @@
       "category": "uncategorized",
       "classification": "needs-editorial-review",
       "firstSeen": "2026-10-16T12:08:11.392Z",
-      "lastSeen": "2026-10-16T12:08:11.392Z",
-      "seenCount": 1,
+      "lastSeen": "2026-10-16T14:59:17.726Z",
+      "seenCount": 2,
       "editorialStatus": "unverified"
     },
     "63aff7612c214866866e615cb450dfc4fc3ac881fdf603ed348436e70395334a": {
@@ -1263,8 +1263,8 @@
       "category": "opportunities",
       "classification": "catalog-match",
       "firstSeen": "2026-10-16T12:08:11.392Z",
-      "lastSeen": "2026-10-16T12:08:11.392Z",
-      "seenCount": 1,
+      "lastSeen": "2026-10-16T14:59:17.726Z",
+      "seenCount": 2,
       "editorialStatus": "unverified"
     },
     "9c32505cd78942749f4c2bd0a24b804469a45725f7f5c421a642a371d671922d": {
@@ -1274,8 +1274,8 @@
       "category": "opportunities",
       "classification": "needs-editorial-review",
       "firstSeen": "2026-10-16T12:08:11.392Z",
-      "lastSeen": "2026-10-16T12:08:11.392Z",
-      "seenCount": 1,
+      "lastSeen": "2026-10-16T14:59:17.726Z",
+      "seenCount": 2,
       "editorialStatus": "unverified"
     },
     "2b886dc4c3ce401c82a598d25802ad30a5dd16616efdead8ffcb0d1b52d991ec": {
@@ -1285,8 +1285,8 @@
       "category": "datasets",
       "classification": "needs-editorial-review",
       "firstSeen": "2026-10-16T12:08:11.392Z",
-      "lastSeen": "2026-10-16T12:08:11.392Z",
-      "seenCount": 1,
+      "lastSeen": "2026-10-16T14:59:17.726Z",
+      "seenCount": 2,
       "editorialStatus": "unverified"
     },
     "d3348a7817df326f8714d0948077c0f119561ec5ff4148136d0f31bde01496a6": {
@@ -1296,8 +1296,8 @@
       "category": "tools",
       "classification": "needs-editorial-review",
       "firstSeen": "2026-10-16T12:08:11.392Z",
-      "lastSeen": "2026-10-16T12:08:11.392Z",
-      "seenCount": 1,
+      "lastSeen": "2026-10-16T14:59:17.726Z",
+      "seenCount": 2,
       "editorialStatus": "unverified"
     },
     "b5663b885bfff74c59f29316cdcab9abff040c042cf5c10213092afd69d0003a": {
@@ -1307,8 +1307,8 @@
       "category": "tools",
       "classification": "needs-editorial-review",
       "firstSeen": "2026-10-16T12:08:11.392Z",
-      "lastSeen": "2026-10-16T12:08:11.392Z",
-      "seenCount": 1,
+      "lastSeen": "2026-10-16T14:59:17.726Z",
+      "seenCount": 2,
       "editorialStatus": "unverified"
     },
     "e1d840ecadadc625653eeb39d595da48d4c596bbc616c9bbf08c14ae6857d0e5": {
@@ -1318,8 +1318,8 @@
       "category": "tools",
       "classification": "needs-editorial-review",
       "firstSeen": "2026-10-16T12:08:11.392Z",
-      "lastSeen": "2026-10-16T12:08:11.392Z",
-      "seenCount": 1,
+      "lastSeen": "2026-10-16T14:59:17.726Z",
+      "seenCount": 2,
       "editorialStatus": "unverified"
     }
   }
