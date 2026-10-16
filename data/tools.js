@@ -1,6 +1,15 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.tools=[
   {
+    "id": "gijn-investigative-impact",
+    "name": "GIJN — Investigative Impact",
+    "kind": "guia e acervo de planejamento e avaliação de impacto jornalístico",
+    "url": "https://impact.gijn.org/",
+    "desc": "Recurso gratuito da GIJN para estudar como investigações geram mudanças públicas. Reúne dez estudos de caso — incluindo Brasil, Costa Rica, México e investigações transnacionais —, entrevistas com jornalistas de 20 países, relatório, infográfico e referências. É útil para formular teoria de mudança, distribuição e indicadores de impacto, mas os casos são exemplos históricos e não fornecem uma métrica causal universal; resultados e atribuição precisam ser documentados no contexto de cada projeto.",
+    "discoveredVia": ["GIJN"],
+    "discoveryUrl": "https://impact.gijn.org/"
+  },
+  {
     "id": "gijn-international-research-guide",
     "name": "GIJN — International Research Guide",
     "kind": "guia metodológico de pesquisa internacional, documentos ocultos e OSINT",

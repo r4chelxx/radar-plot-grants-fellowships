@@ -1,6 +1,27 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.datasets=[
   {
+    "id": "un-mandate-registry",
+    "name": "United Nations Mandate Registry",
+    "org": "Nações Unidas — UN80 Initiative",
+    "territoryTier": "Outros",
+    "kind": "portal",
+    "themes": ["Transparência", "Organizações internacionais", "Políticas públicas", "Direitos humanos", "Orçamento público"],
+    "coverage": "Mandatos da ONU, documentos que os estabelecem, entidades responsáveis, versões, relatórios e vínculos com o ciclo orçamentário; o portal informava 43.050 documentos de 23 órgãos mandatários na verificação",
+    "frequency": "Atualização contínua ligada a novos documentos, programas e ciclos orçamentários da ONU; o portal não declara periodicidade fixa",
+    "format": "Portal web pesquisável com tabelas, fichas de documentos e ligações para resoluções, relatórios e entidades",
+    "period": "Documentos históricos e vigentes; a página consultada inclui vínculos com o ciclo orçamentário de 2027",
+    "granularity": "Documento ou resolução, versão, órgão mandatário, entidade executora, programa e relatório associado",
+    "geoUnit": "Sistema das Nações Unidas e países abrangidos pelos mandatos; não é uma base geográfica padronizada",
+    "api": "Não foi documentada API pública nem exportação estruturada integral nesta verificação",
+    "docs": "https://mandates.un.org/secretariat",
+    "limitations": "O produto está marcado como beta. A contagem e os vínculos refletem o universo incorporado pelo registro e não substituem a leitura dos documentos oficiais, anexos orçamentários ou páginas das entidades; ausência no portal não prova inexistência de mandato. Não há API pública documentada.",
+    "lastChecked": "2026-10-16",
+    "story": [],
+    "url": "https://mandates.un.org/secretariat",
+    "discoveredVia": ["United Nations — Mandate Registry"]
+  },
+  {
     "id": "midr-recuperacao-pos-desastres-2023-2026",
     "name": "Gastos federais com recuperação de infraestrutura pós-desastres (2023–2026)",
     "org": "Secretaria Nacional de Proteção e Defesa Civil / MIDR, obtido e publicado pela Fiquem Sabendo",

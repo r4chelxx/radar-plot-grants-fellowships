@@ -1,6 +1,34 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
   {
+    "date": "2026-10-16",
+    "type": "nova-oportunidade",
+    "title": "National Geographic financia narrativas sobre culturas e religiões",
+    "items": [{"id":"national-geographic-human-thread-2026","title":"National Geographic — The Human Thread"}],
+    "detail": "Chamada global para pessoas com 18 anos ou mais, candidatura em inglês e prazo em 01/12/2026. Os dois níveis oferecem até US$ 20 mil ou US$ 100 mil; relação com as comunidades retratadas e portfólio são requisitos centrais."
+  },
+  {
+    "date": "2026-10-16",
+    "type": "dados",
+    "title": "Mandatos e responsabilidades da ONU ganham registro pesquisável",
+    "items": [{"id":"un-mandate-registry","title":"United Nations Mandate Registry"}],
+    "detail": "Portal beta oficial permite pesquisar documentos que estabelecem mandatos, versões, entidades executoras, relatórios e vínculos com o ciclo orçamentário. A ausência de API pública e a necessidade de conferir os documentos originais foram registradas."
+  },
+  {
+    "date": "2026-10-16",
+    "type": "ferramentas",
+    "title": "GIJN reúne métodos e casos para planejar impacto investigativo",
+    "items": [{"id":"gijn-investigative-impact","title":"GIJN — Investigative Impact"}],
+    "detail": "Acervo gratuito combina dez estudos de caso, entrevistas em 20 países, relatório, infográfico e referências para estruturar teoria de mudança e avaliação de impacto sem confundir exemplos históricos com causalidade comprovada."
+  },
+  {
+    "date": "2026-10-16",
+    "type": "fontes",
+    "title": "Registro de mandatos da ONU entra no monitoramento",
+    "items": [{"id":"un-mandate-registry-source","title":"United Nations — Mandate Registry"}],
+    "detail": "A fonte oficial passa a ser acompanhada mensalmente para novos documentos, entidades, programas e vínculos orçamentários."
+  },
+  {
     "date": "2026-10-15",
     "type": "nova-oportunidade",
     "title": "True Story Award 2027 aceita reportagens em português",
