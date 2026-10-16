@@ -1,6 +1,18 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.sources=[
   {
+    "name": "United Nations — Mandate Registry",
+    "role": "fonte oficial",
+    "type": "Registro de mandatos, resoluções, programas, entidades executoras e vínculos orçamentários do sistema ONU",
+    "scope": "Global",
+    "priority": "Alta",
+    "url": "https://mandates.un.org/secretariat",
+    "cadence": "mensal",
+    "category": "dados/visual",
+    "lastChecked": "2026-10-16",
+    "checkStatus": "verificada"
+  },
+  {
     "name": "True Story Award",
     "role": "fonte oficial",
     "type": "Prêmio internacional de jornalismo escrito nas categorias pesquisa, narrativa e impacto",
@@ -153,7 +165,7 @@ window.RADAR_PARTS.sources=[
     "priority": "Alta",
     "cadence": "diária",
     "category": "oportunidades",
-    "lastChecked": "2026-10-15",
+    "lastChecked": "2026-10-16",
     "checkStatus": "verificada"
   },
   {
@@ -929,7 +941,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://ijnet.org/en/opportunities",
     "cadence": "diária",
     "category": "oportunidades",
-    "lastChecked": "2026-10-15",
+    "lastChecked": "2026-10-16",
     "checkStatus": "verificada"
   },
   {
@@ -1183,7 +1195,7 @@ window.RADAR_PARTS.sources=[
     "url": null,
     "cadence": "diária",
     "category": "ecossistema/formação",
-    "lastChecked": "2026-10-15",
+    "lastChecked": "2026-10-16",
     "checkStatus": "verificada"
   },
   {
@@ -1271,7 +1283,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://fapesp.br/oportunidades/",
     "cadence": "diária",
     "category": "oportunidades",
-    "lastChecked": "2026-10-15",
+    "lastChecked": "2026-10-16",
     "checkStatus": "verificada"
   },
   {
@@ -1447,7 +1459,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://gijn.org/jobs",
     "cadence": "diária",
     "category": "dados/visual",
-    "lastChecked": "2026-10-15",
+    "lastChecked": "2026-10-16",
     "checkStatus": "verificada"
   },
   {
@@ -1458,7 +1470,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://gijn.org/rounduplink/",
     "cadence": "diária",
     "category": "oportunidades",
-    "lastChecked": "2026-10-15",
+    "lastChecked": "2026-10-16",
     "checkStatus": "verificada"
   },
   {
