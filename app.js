@@ -33,7 +33,7 @@ async function loadPrivateStories(userId,seq){
   EDITORIAL.privateStoriesError=false;
   // The private table is authoritative only once migration has been explicitly completed.
   // Never replace legacy records with an empty/partial import.
-  if(!data?.length)return;
+  if(!data?.length)return; if(data.length!==6||data.some(x=>!x.story||!x.investigation||x.story.id!==x.id)){EDITORIAL.privateStoriesError=true;console.error("Incomplete private story migration");return;}
   EDITORIAL.privateStoriesLoaded=true;D.stories=data.map(x=>x.story);
   D.investigations=Object.fromEntries(data.filter(x=>x.investigation).map(x=>[x.id,x.investigation]));
 }
